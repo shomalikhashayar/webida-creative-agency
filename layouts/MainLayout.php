@@ -1,0 +1,156 @@
+    <q-header unelevated reveal>
+            <q-toolbar v-if="ad" class="q-py-xs webida-primary">
+              <div class="col-1"></div>
+              <div class="col row justify-center items-center q-gutter-md">
+              <span class="text-body2 webiba-text">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان می‌آوریم.</span>
+              <q-btn
+              unelevated
+              rounded
+              label="مشاوره رایگان"
+              class="webida-primary-lighten text-weight-regular"
+              padding="6px 12px"
+            />
+              </div>
+              <div class="col-1 row justify-end">
+                <q-btn @click="hideAd" unelevated round dense icon="o_close" />
+              </div>
+            </q-toolbar>
+      <q-toolbar class="q-py-md webida-accent">
+        <q-btn
+          flat
+          @click="toggleDrawer"
+          round
+          dense
+          icon="o_lunch_dining"
+          color="secondary"
+        ></q-btn>
+        <q-toolbar-title class="text-secondary text-bold">آژانس خلاقیت وبیدا</q-toolbar-title>
+        <q-space></q-space>
+        <q-btn color="secondary" stretch flat label="پشتیبانی" icon="o_support_agent">
+        <q-menu
+              fit
+              transition-show="jump-down"
+              transition-hide="jump-up"
+              style="width:240px"
+              :offset="[0, 10]"
+            >
+              <q-list
+                dense
+                class="q-py-lg q-pl-sm"
+              >
+                </q-item-label>
+                <q-item
+                >
+                  <div class="column">
+                    <q-item-section avatar>
+                      <q-avatar
+                        icon="o_person"
+                        size="md"
+                        text-color="brand"
+                      />
+                    </q-item-section>
+                  </div>
+                 <div class="column">
+                 <q-item-label caption>خشایار شمالی</q-item-label>
+                  <q-item-section class="text-brand">09338603196</q-item-section>
+                 </div>
+                </q-item>
+                <q-item
+                  class="q-mt-md"
+                >
+                  <div class="column">
+                    <q-item-section avatar>
+                      <q-avatar
+                        icon="o_person"
+                        size="md"
+                        text-color="brand"
+                      />
+                    </q-item-section>
+                  </div>
+                  <div class="column">
+                 <q-item-label caption>محمدحسین خان‌محمدی</q-item-label>
+                  <q-item-section class="text-brand">09215848587</q-item-section>
+                 </div>
+                </q-item>
+                <q-item
+                  class="q-mt-md"
+                >
+                  <div class="column">
+                    <q-item-section avatar>
+                      <q-avatar
+                        icon="o_person"
+                        size="md"
+                        text-color="brand"
+                      />
+                    </q-item-section>
+                  </div>
+                  <div class="column">
+                 <q-item-label caption>فاطمه نیلچی</q-item-label>
+                  <q-item-section class="text-brand">09100854885</q-item-section>
+                 </div>
+                </q-item>
+                
+              </q-list>
+            </q-menu>
+        </q-btn>
+      </q-toolbar>
+    </q-header>
+
+    <q-drawer
+      v-model="drawer"
+      :width="260"
+      :breakpoint="500"
+      bordered
+      overlay
+      show-if-above
+      :mini="miniState"
+      @mouseover="miniState = false"
+      @mouseout="miniState = true"
+    >
+      <q-scroll-area class="fit">
+        <q-list>
+          <q-expansion-item
+            expand-separatort
+            class="text-subtitle2 text-bold"
+            icon="o_handyman"
+            label="خدمات ما"
+          >
+            <q-item
+              :to="services.route"
+              clickable
+              v-ripple
+              v-for="services in serviceList"
+              :key="services"
+            >
+              <q-item-section avatar>
+                <q-icon :name="services.icon" />
+              </q-item-section>
+              <q-item-section class="text-subtitle2 text-bold">
+                {{ services.label }}
+              </q-item-section>
+            </q-item>
+          </q-expansion-item>
+
+          <div
+            v-for="menuItems in menuList"
+            :key="menuItems"
+          >
+            <q-item
+              :to="menuItems.route"
+              clickable
+              v-ripple
+            >
+              <q-item-section avatar>
+                <q-icon :name="menuItems.icon" />
+              </q-item-section>
+              <q-item-section class="text-subtitle2 text-bold">
+                {{ menuItems.label }}
+              </q-item-section>
+            </q-item>
+          </div>
+
+        </q-list>
+      </q-scroll-area>
+    </q-drawer>
+
+        

@@ -1,0 +1,54 @@
+.webida-primary {
+    background-color: var(--q-webida-primary)!important;
+}
+
+.webida-primary-lighten {
+  background-color: var(--q-webida-primary-lighten)!important;
+}
+.webida-secondary {
+  background-color: var(--q-webida-secondary)!important;
+  color: var(--q-webida-secondary)!important;
+}
+
+.webida-accent {
+  background-color: var(--q-webida-accent)!important;
+}
+  .webida-page {
+    background-color: var(--q-webida-page)!important;
+}
+
+.webida-text-primary {
+  color: var(--q-webida-primary)!important;
+}
+
+.webida-text-secondary {
+  color: var(--q-webida-secondary)!important;
+}
+
+.webida-text-accent {
+  color: var(--q-webida-dark)!important;
+}
+
+.text-primary {
+  color: #ce1340 !important;
+}
+
+.text-secondary {
+  color: #053751 !important;
+}
+
+.text-accent {
+  color: #F9F6E1 !important;
+}
+
+.bg-primary {
+  color: #ce1340 !important;
+}
+
+.bg-secondary {
+  color: #053751 !important;
+}
+
+.bg-accent {
+  color: #F9F6E1 !important;
+}

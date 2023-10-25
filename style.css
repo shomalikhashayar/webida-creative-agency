@@ -1,0 +1,120 @@
+/*
+Theme Name: Webida
+Author: Khashayar Shomali
+Author URI: https://github.com/shomalikhashayar
+Description: Webida Creative Agency theme powered by Wordpress
+Version: 1.0
+Requires PHP: 7.0
+License: 2023 webida.ir All rights reserved.
+License URI: https://webida.ir
+*/
+
+@import url('assets/css/colors/index.css');
+
+@font-face {
+    font-family: yekan;
+     src: url('assets/fonts/IRANYekanXFaNum-Regular.woff');
+     /* url('assets/fonts/IRANYekanXFaNum-thin.woff'),
+     url('assets/fonts/IRANYekanXFaNum-Regular.woff'), 
+     url('assets/fonts/IRANYekanXFaNum-Medium.woff'),
+     url('assets/fonts/IRANYekanXFaNum-Heavy.woff'),
+     url('assets/fonts/IRANYekanXFaNum-ExtraBold.woff'),
+     url('assets/fonts/IRANYekanXFaNum-ExtraBlack.woff'),
+     url('assets/fonts/IRANYekanXFaNum-DemiBold.woff'),
+     url('assets/fonts/IRANYekanXFaNum-Bold.woff'),
+     url('assets/fonts/IRANYekanXFaNum-Black.woff'); */
+     font-weight: 400;
+     
+}
+
+* {
+    font-family: yekan;
+}
+
+body {
+
+  .q-radius-xs {
+    border-radius: 4px;
+  }
+
+  .q-radius-sm {
+    border-radius: 8px;
+  }
+
+  .q-radius-md {
+    border-radius: 16px;
+  }
+
+  .q-radius-lg {
+    border-radius: 24px;
+  }
+
+  .q-radius-xl {
+    border-radius: 32px;
+  }
+
+}
+
+/* header .container {
+    height: 100%;
+  }
+  
+  header .top-bar {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+  
+  header .top-bar li {
+    position: relative;
+    padding: 4px 0;
+  }
+  
+  header .top-bar li a {
+    color: var(--q-dark);
+    padding: 16px 0;
+    text-decoration: none;
+  }
+  
+  header .top-bar li a:hover {
+    transition: color 0.4s ease;
+    color: var(--q-dark);
+  }
+  
+  header .top-bar li .sub-menu a:hover {
+    transition: color 0.4s ease;
+    color: var(--q-dark);
+  }
+  
+  header .top-bar li .sub-menu {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #2d2d2d2d;
+    margin-top: 8px;
+    padding: 16px 42px;
+    list-style: disc;
+    color: var(--q-dark);
+    top: 50%;
+    right: 70%;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  header .top-bar > li > .sub-menu {
+    top: 100%;
+    right: -10%;
+  }
+  
+  header .top-bar li .sub-menu a {
+    color: var(--q-dark);
+  }
+  
+  header .menu-item-has-children:hover > .sub-menu {
+    display: block;
+  } */
+  
+  
+
+
