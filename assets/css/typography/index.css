@@ -1,0 +1,44 @@
+.font-weight-100 {
+    font-family: "yekan-light";
+    font-weight: 100;
+  }
+
+  .font-weight-200 {
+    font-family: "yekan-thin";
+    font-weight: 200;
+  }
+
+  .font-weight-300 {
+    font-family: "yekan-regular";
+    font-weight: 300;
+  }
+
+  .font-weight-400 {
+    font-family: "yekan-medium";
+    font-weight: 400;
+  }
+
+  .font-weight-500 {
+    font-family: "yekan-bold";
+    font-weight: 500;
+  }
+
+  .font-weight-600 {
+    font-family: "yekan-bolder";
+    font-weight: 600;
+  }
+
+  .font-weight-700 {
+    font-family: "yekan-boldest";
+    font-weight: 700;
+  }
+
+  .font-weight-800 {
+    font-family: "yekan-heavy";
+    font-weight: 800;
+  }
+
+  .font-weight-900 {
+    font-family: "yekan-black";
+    font-weight: 900;
+  }

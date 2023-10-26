@@ -9,20 +9,20 @@ get_header();
     <q-page class="webida-accent">
     <q-carousel
       v-model="slide"
-      swipeable
-      animated
-      :padding="padding"
-      :vertical="vertical"
-      :arrows="arrows"
-      :navigation="navigation"
-      :navigation-position="navPos"
-      height="300px"
+      transition-prev="scale"
+        transition-next="scale"
+        swipeable
+        animated
+        control-color="white"
+        navigation
+        padding
+        arrows
+        height="500px"
       class="bg-purple text-white"
     >
       <q-carousel-slide name="style" class="column no-wrap flex-center bg-brand">
-        <q-icon name="style" size="56px" />
         <div class="row q-mt-md justify-center">
-          <h1 class="text-h6 text-bold">
+          <h1 class="font-weight-900 text-h6">
           خدمات طراحی وب‌سایت حرفه‌ای برای تحول حضور آنلاین شما - امروز کسب‌وکارتان را رشد دهید!
           </h1>
         </div>
