@@ -13,6 +13,7 @@ const app = Vue.createApp({
     const rightLayout = 'hHh LpR fFf'
     const loading = ref(false)
     const drawer = ref(true)
+    console.log(drawer.value)
     const hideAd = () => {
       ad.value = false
     }
@@ -34,7 +35,7 @@ const app = Vue.createApp({
   {
     icon: 'o_support_agent',
     label: 'ارتباط با ما',
-    route: 'contact-us'
+    route: '/contact-us'
   },
 ]
 

@@ -101,22 +101,21 @@
       :width="260"
       :breakpoint="500"
       bordered
-      overlay
       show-if-above
       :mini="miniState"
       @mouseover="miniState = false"
       @mouseout="miniState = true"
+      side="left"
     >
-      <q-scroll-area class="fit">
+      <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
         <q-list>
           <q-expansion-item
-            expand-separatort
-            class="text-subtitle2 text-bold"
+            expand-separator
+            class="text-subtitle2 text-bold text-secondary"
             icon="o_handyman"
             label="خدمات ما"
           >
             <q-item
-              :to="services.route"
               clickable
               v-ripple
               v-for="services in serviceList"
@@ -125,8 +124,8 @@
               <q-item-section avatar>
                 <q-icon :name="services.icon" />
               </q-item-section>
-              <q-item-section class="text-subtitle2 text-bold">
-                {{ services.label }}
+              <q-item-section class="text-subtitle2 text-secondary text-bold">
+              <a class="text-secondary" :href="'<?php echo esc_html(get_site_url()) ?>' + services.route">{{ services.label }}</a>
               </q-item-section>
             </q-item>
           </q-expansion-item>
@@ -136,15 +135,14 @@
             :key="menuItems"
           >
             <q-item
-              :to="menuItems.route"
               clickable
               v-ripple
             >
               <q-item-section avatar>
-                <q-icon :name="menuItems.icon" />
+                <q-icon class="text-secondary" :name="menuItems.icon" />
               </q-item-section>
-              <q-item-section class="text-subtitle2 text-bold">
-                {{ menuItems.label }}
+              <q-item-section class="text-subtitle2 text-secondary text-bold">
+              <a class="text-secondary" :href="'<?php echo esc_html(get_site_url()) ?>' + menuItems.route">{{ menuItems.label }}</a>
               </q-item-section>
             </q-item>
           </div>

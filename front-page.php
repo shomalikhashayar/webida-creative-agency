@@ -46,6 +46,21 @@ get_header();
         </div>
       </q-carousel-slide>
     </q-carousel>
+
+    <?php
+
+$menu_items = wp_get_nav_menu_items('main menu');
+
+foreach ($menu_items as $menu_item) {
+  $menu_item_id = $menu_item->ID;
+  $menu_item_title = $menu_item->title;
+  $menu_item_url = $menu_item->url;
+
+  echo "<a href='$menu_item_url'>$menu_item_title</a><br>";
+}
+    
+    ?>
+    
     </q-page>
     <?php get_template_part('components/backToTop'); ?>
 </q-page-container>
