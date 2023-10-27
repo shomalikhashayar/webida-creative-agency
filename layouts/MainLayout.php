@@ -1,4 +1,4 @@
-    <q-header unelevated bordered reveal class="bg-white">
+    <q-header unelevated bordered class="bg-white">
             <q-toolbar v-if="ad" class="q-py-xs webida-primary">
               <div class="col-1"></div>
               <div class="col row justify-center items-center q-gutter-md">

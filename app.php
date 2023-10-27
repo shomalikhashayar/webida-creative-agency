@@ -1,13 +1,15 @@
 
-<script>
+<script type="module">
 const { createApp, ref, onBeforeMount, onMounted } = Vue
 const { useQuasar, setCssVar, getCssVar, colors} = Quasar
 const { lighten } = colors
-const { home } = '/front-page.php'
-const { contact } = '/template-contactus.php'
+
+const MyComponent = './MyComponent.vue'
 
 const app = Vue.createApp({
+
   setup() {
+
     const ad = ref(true)
     const $q = useQuasar()
     const rightLayout = 'hHh LpR fFf'
@@ -148,6 +150,24 @@ const router = VueRouter.createRouter({
   routes, 
 })
 app.use(router)
+app.component('service-card', {
+  props: {
+    title: String,
+    description: String,
+    img: String,
+  },
+  template: `
+  <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+  <q-card-section>
+    <div class="row">
+      <h2 class="text-h3 text-secondary text-weight-900 no-margin">{{title}}</h2>
+      <p class="text-body1 no-letter-spacing text-secondary text-weight-300">{{description}}</p>
+      <q-img class="q-my-md" :src="img" alt="" />
+    </div>
+  </q-card-section>
+</q-card>
+  `,
+});
 app.mount('#q-app')
 
 Quasar.lang.set(Quasar.lang.fa)

@@ -2,64 +2,58 @@
 get_header();
 ?>
 
+<script>
+
+  const description = 'مقالات تخصصی و آموزشی، محتوای وبسایت، بلاگ پست، ویدئو و سوشال مدیا'
+</script>
+
 <body <?php body_class(); ?>>
 <q-layout :view="rightLayout" class="main-layout">
 <?php get_template_part('layouts/MainLayout'); ?>
 <q-page-container>
     <q-page>
-    <q-carousel
-      v-model="slide"
-      transition-prev="slide"
-        transition-next="slide"
-        swipeable
-        animated
-        control-color="primary"
-        navigation
-        padding
-        transition-duration="600"
-        arrows
-        height="600px"
-      class="text-white"
-    >
-      <q-carousel-slide name="style" class="flex q-pt-md justify-center items-center webida-accent">
-        <div class="row q-gutter-xl">
-          <div class="col row">
-          <div class="row q-gutter-x-md">
-          <img src="http://localhost/webida/wp-content/uploads/2023/10/R.I.P.svg" alt=""
-            style="width:250px">
-            <h1 style="width:300px" class="text-weight-900 text-size-42 text-secondary">آژانس خلاقیت وبیدا</h1>
-          </div>
-          </div>
-          <div class="col row items-center">
-            <div class="row" style="width:700px">
-            <h2 class="text-h1 text-secondary">خدمات طراحی وب‌سایت حرفه‌ای برای تحول حضور آنلاین شما - امروز کسب‌وکارتان را رشد دهید!</h2>
-            <p class="text-h3 text-weight-900 text-primary">در وبیدا به شما خلاقیت هدیه می‌دهیم.</p>
-            </div>
-          </div>
-          </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="tv" class="column no-wrap flex-center">
-        <q-icon name="live_tv" size="56px" />
-        <div class="q-mt-md text-center">
-        first slidegggggggggggggggggggg
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="layers" class="column no-wrap flex-center">
-        <q-icon name="layers" size="56px" />
-        <div class="q-mt-md text-center">
-        first slide
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="map" class="column no-wrap flex-center">
-        <q-icon name="terrain" size="56px" />
-        <div class="q-mt-md text-center">
-        first slide
-        </div>
-      </q-carousel-slide>
-    </q-carousel>
-    <q-card>
-      <h1>hello from quasar</h1>
-    </q-card>
+    <?php get_template_part('components/Carousel')?>
+
+    <div class="text-center q-py-lg">
+    <h2 class="text-h2 text-secondary text-weight-900">خدمات <span class="text-primary text-weight-900">وبیدا</span></h2>
+    </div>
+
+    <div class="bg-white items-center">
+      <div class="flex justify-center q-gutter-xl">
+        <service-card
+        title="طراحی سایت"
+        description="هویت برندتان را در دنیای دیجیتال به نمایش بگذارید"
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-website-design.svg"
+        ></service-card>
+        <service-card
+        title="سئو سایت"
+        description="سئو = بازدید کننده بیشتر = رتبه بندی بهتر = فروش بیشتر"
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-seo.svg"
+        ></service-card>
+        <service-card
+        title="خدمات تولید محتوا"
+        description="مقالات تخصصی و آموزشی، محتوای وبسایت، بلاگ پست، ویدئو و سوشال مدیا"
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-content-produce.svg"
+        ></service-card>
+      </div>
+      <div class="flex justify-center q-gutter-xl q-mt-xs">
+      <service-card
+        title="لینک‌سازی و خرید بک لینک"
+        description="جذب ترافیک هدفمند، بهبود دیده شدن در نتایج جستجو و افزایش اعتبار وبسایت"
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-link-building.svg"
+        ></service-card>
+        <service-card
+        title="طراحی رابط و تجربه کاربری"
+        description="سفری به دنیای رابط کاربری: جاذبه‌ای نوآورانه برای همهٔ تجربه‌ها"
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-user-interface-design.svg"
+        ></service-card>
+        <service-card
+        title="تبلیغات بنری"
+        description="بنرهای خلاقانه‌تر برای تبلیغاتتان افزایش فروش شما را در بر خواهد داشت."
+        img="http://localhost/webida/wp-content/uploads/2023/10/webida-banner-advertising.svg"
+        ></service-card>  
+      </div>
+    </div>
 
     <?php
 
@@ -79,6 +73,14 @@ foreach ($menu_items as $menu_item) {
     <?php get_template_part('components/backToTop'); ?>
 </q-page-container>
 </q-layout>
+
+<style>
+  .service-card {
+
+    width:300px;
+
+  }
+</style>
 
 <?php get_footer(); ?>
     

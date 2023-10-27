@@ -14,9 +14,16 @@ License URI: https://webida.ir
 @import url("./assets/css/typography/index.css");
 @import url("./assets/css/quasar/q-item.css");
 @import url("./assets/css/quasar/q-drawer.css");
-@import url("./assets/css/custom/border-radius.css");
+@import url("./assets/css/quasar/q-card.css");
+@import url("./assets/css/custom/border.css");
 
 
 * {
   font-family: "yekan-regular";
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
