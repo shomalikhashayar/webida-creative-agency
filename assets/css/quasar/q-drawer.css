@@ -1,0 +1,4 @@
+.q-drawer {
+  backdrop-filter: blur(80px);
+  -webkit-backdrop-filter: blur(80px);
+}

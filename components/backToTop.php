@@ -6,7 +6,9 @@
         >
           <q-btn
             dense
-            icon="keyboard_arrow_up"
-            color="accent"
-          />
+            unelevated
+            class="webida-primary"
+          >
+          <q-icon name="keyboard_arrow_up" size="md" color="white" />
+</q-btn>
         </q-page-scroller>

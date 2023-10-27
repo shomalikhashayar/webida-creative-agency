@@ -1,4 +1,4 @@
-    <q-header unelevated reveal>
+    <q-header unelevated bordered reveal class="bg-white">
             <q-toolbar v-if="ad" class="q-py-xs webida-primary">
               <div class="col-1"></div>
               <div class="col row justify-center items-center q-gutter-md">
@@ -15,7 +15,7 @@
                 <q-btn @click="hideAd" unelevated round dense icon="o_close" />
               </div>
             </q-toolbar>
-      <q-toolbar class="q-py-md webida-accent">
+      <q-toolbar class="q-py-md bg-white">
         <q-btn
           flat
           @click="toggleDrawer"
@@ -23,8 +23,14 @@
           dense
           icon="o_lunch_dining"
           color="secondary"
+          class="q-mr-md"
         ></q-btn>
-        <q-toolbar-title class="text-secondary text-bold">آژانس خلاقیت وبیدا</q-toolbar-title>
+        <q-avatar>
+        <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
+      </q-avatar>
+        <q-toolbar-title>
+        <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900" href="<?php get_site_url() . '/webida'; ?>">آژانس خلاقیت وبیدا</a>
+        </q-toolbar-title>
         <q-space></q-space>
         <q-btn color="secondary" stretch flat label="پشتیبانی" icon="o_support_agent">
         <q-menu
@@ -101,14 +107,13 @@
       :width="260"
       :breakpoint="500"
       bordered
+      unelevated
       show-if-above
-      :mini="miniState"
-      @mouseover="miniState = false"
-      @mouseout="miniState = true"
       side="left"
+      overlay
     >
       <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
-        <q-list>
+        <q-list padding>
           <q-expansion-item
             expand-separator
             class="text-subtitle2 text-bold text-secondary"
@@ -125,7 +130,7 @@
                 <q-icon :name="services.icon" />
               </q-item-section>
               <q-item-section class="text-subtitle2 text-secondary text-bold">
-              <a class="text-secondary" :href="'<?php echo esc_html(get_site_url()) ?>' + services.route">{{ services.label }}</a>
+              <a class="text-secondary" :href="'<?php get_site_url() ?>' + services.route">{{ services.label }}</a>
               </q-item-section>
             </q-item>
           </q-expansion-item>
@@ -142,7 +147,7 @@
                 <q-icon class="text-secondary" :name="menuItems.icon" />
               </q-item-section>
               <q-item-section class="text-subtitle2 text-secondary text-bold">
-              <a class="text-secondary" :href="'<?php echo esc_html(get_site_url()) ?>' + menuItems.route">{{ menuItems.label }}</a>
+              <a class="text-secondary" :href="'<?php echo get_site_url() ?>' + menuItems.route">{{ menuItems.label }}</a>
               </q-item-section>
             </q-item>
           </div>

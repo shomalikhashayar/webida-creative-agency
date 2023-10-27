@@ -13,7 +13,6 @@ const app = Vue.createApp({
     const rightLayout = 'hHh LpR fFf'
     const loading = ref(false)
     const drawer = ref(true)
-    console.log(drawer.value)
     const hideAd = () => {
       ad.value = false
     }

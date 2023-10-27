@@ -2,11 +2,9 @@
 <html>
   <head>
     <?php wp_head(); ?>
-
     <meta charset="UTF-8">
     <meta
       name="description"
-      content="<?php echo esc_html(get_bloginfo('description')); ?>"
     />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />

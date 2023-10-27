@@ -13,70 +13,10 @@ License URI: https://webida.ir
 @import url("assets/css/colors/index.css");
 @import url("./assets/css/typography/index.css");
 @import url("./assets/css/quasar/q-item.css");
+@import url("./assets/css/quasar/q-drawer.css");
 @import url("./assets/css/custom/border-radius.css");
 
 
 * {
   font-family: "yekan-regular";
 }
-
-
-/* header .container {
-    height: 100%;
-  }
-  
-  header .top-bar {
-    list-style: none;
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-  }
-  
-  header .top-bar li {
-    position: relative;
-    padding: 4px 0;
-  }
-  
-  header .top-bar li a {
-    color: var(--q-dark);
-    padding: 16px 0;
-    text-decoration: none;
-  }
-  
-  header .top-bar li a:hover {
-    transition: color 0.4s ease;
-    color: var(--q-dark);
-  }
-  
-  header .top-bar li .sub-menu a:hover {
-    transition: color 0.4s ease;
-    color: var(--q-dark);
-  }
-  
-  header .top-bar li .sub-menu {
-    display: none;
-    position: absolute;
-    background: #ffffff;
-    border: 1px solid #2d2d2d2d;
-    margin-top: 8px;
-    padding: 16px 42px;
-    list-style: disc;
-    color: var(--q-dark);
-    top: 50%;
-    right: 70%;
-    border-radius: 8px;
-    width: 400px;
-  }
-  
-  header .top-bar > li > .sub-menu {
-    top: 100%;
-    right: -10%;
-  }
-  
-  header .top-bar li .sub-menu a {
-    color: var(--q-dark);
-  }
-  
-  header .menu-item-has-children:hover > .sub-menu {
-    display: block;
-  } */
