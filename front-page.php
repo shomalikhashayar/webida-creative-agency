@@ -18,6 +18,7 @@ get_header();
     <h2 class="text-h2 text-secondary text-weight-900">خدمات <span class="text-primary text-weight-900">وبیدا</span></h2>
     </div>
 
+    <div class="bg-white q-px-xl">
     <div class="bg-white items-center">
       <div class="flex justify-center q-gutter-xl">
         <service-card
@@ -54,33 +55,54 @@ get_header();
         ></service-card>  
       </div>
     </div>
+    </div>
 
-    <?php
+    <div class="text-center q-py-lg q-mt-md">
+    <h2 class="text-h2 text-secondary text-weight-900">چرا مسئولیت طراحی سایت خود را به <span class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
+    </div>
 
-$menu_items = wp_get_nav_menu_items('main menu');
+    <div class="bg-white q-px-xl">
+    <div class="bg-white items-center">
+      <div class="flex justify-center q-gutter-xl">
+        <self-praise-card title="سال‌ها تجربه در اختیار شماست" icon="o_pattern"></self-praise-card>
+        <self-praise-card title="در وردپرس متخصص هستیم" icon="o_kid_star"></self-praise-card>
+        <self-praise-card title="اختصاصی طراحی می‌کنیم" icon="o_format_paint"></self-praise-card>
+      </div>
+      <div class="flex justify-center q-gutter-xl q-mt-xs">
+        <self-praise-card title="واکنشگرا طراحی می‌کنیم" icon="o_phone_android"></self-praise-card>
+        <self-praise-card title="به موقع تحویل می‌دهیم" icon="o_work_history"></self-praise-card>
+        <self-praise-card title="تا پایان پروژه مشاورتان هستیم" icon="o_supervised_user_circle"></self-praise-card>
+      </div>
+    </div>
+    </div>
 
-foreach ($menu_items as $menu_item) {
-  $menu_item_id = $menu_item->ID;
-  $menu_item_title = $menu_item->title;
-  $menu_item_url = $menu_item->url;
-
-  echo "<a href='$menu_item_url'>$menu_item_title</a><br>";
-}
-    
-    ?>
-    
+    <div class="bg-secondary">
+      <div class="row">
+        <div class="col-2">
+          <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
+          <div class="column q-gutter-xs">
+            <div class="row items-center q-gutter-xs">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+            <div class="row items-center q-gutter-xs">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+            <div class="row items-center q-gutter-xs">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+            <div class="row items-center q-gutter-xs">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-3"></div>
+        <div class="col-2"></div>
+      </div>
+    </div>
     </q-page>
     <?php get_template_part('components/backToTop'); ?>
 </q-page-container>
 </q-layout>
-
-<style>
-  .service-card {
-
-    width:300px;
-
-  }
-</style>
-
 <?php get_footer(); ?>
     

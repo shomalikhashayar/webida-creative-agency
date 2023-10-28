@@ -155,6 +155,7 @@ app.component('service-card', {
     title: String,
     description: String,
     img: String,
+    width: String
   },
   template: `
   <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
@@ -166,6 +167,21 @@ app.component('service-card', {
     </div>
   </q-card-section>
 </q-card>
+  `,
+});
+
+app.component('self-praise-card', {
+  props: {
+    title: String,
+    icon: String
+  },
+  template: `
+  <q-card class="no-shadow q-radius-md" style="width:350px">
+          <q-card-section class="row items-center q-gutter-x-md">
+            <q-icon :name="icon" size="40px" color="primary"/>
+          <h3 class="text-h6 text-weight-900 text-secondary">{{ title }}</h3>
+          </q-card-section>
+        </q-card>
   `,
 });
 app.mount('#q-app')
