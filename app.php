@@ -12,7 +12,7 @@ const app = Vue.createApp({
 
     const ad = ref(true)
     const $q = useQuasar()
-    const rightLayout = 'hHh LpR fFf'
+    const rightLayout = 'hHh lpR fff'
     const loading = ref(false)
     const drawer = ref(true)
     const hideAd = () => {

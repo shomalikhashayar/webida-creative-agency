@@ -15,7 +15,7 @@
       <q-carousel-slide name="style" class="flex justify-center items-center webida-accent">
         <div class="row q-gutter-xl">
           <div class="col row">
-          <div class="row q-gutter-x-md q-ml-xs">
+          <div class="row q-gutter-x-md q-mr-sm">
           <img src="http://localhost/webida/wp-content/uploads/2023/10/R.I.P.svg" alt=""
             style="width:200px">
             <h1 style="width:300px" class="text-weight-900 text-secondary">آژانس خلاقیت وبیدا</h1>

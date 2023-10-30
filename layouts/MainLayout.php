@@ -29,7 +29,7 @@
         <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
       </q-avatar>
         <q-toolbar-title>
-        <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900" href="<?php get_site_url() . '/webida'; ?>">آژانس خلاقیت وبیدا</a>
+        <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900" href="<?php echo esc_url(home_url()); ?>">آژانس خلاقیت وبیدا</a>
         </q-toolbar-title>
         <q-space></q-space>
         <q-btn color="secondary" stretch flat label="پشتیبانی" icon="o_support_agent">
@@ -155,5 +155,120 @@
         </q-list>
       </q-scroll-area>
     </q-drawer>
+
+    <q-footer class="row justify-center q-gutter-md q-py-xl bg-secondary">
+        <div class="col-2">
+          <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
+          <div class="column q-gutter-sm">
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/seo'; ?>">سئو سایت</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/content-produce'; ?>">خدمات تولید محتوا</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/link-building'; ?>">لینک‌سازی و خرید بک لینک</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه کاربری</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/banner-advertising'; ?>">تبلیغات بنری</a>
+            </div>
+
+<q-separator inset color="blue-grey-13" class="q-mt-lg q-mb-sm"></q-separator>
+
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>">بلاگ</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/about-us'; ?>">درباره ما</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/contact-us'; ?>">ارتباط با ما</a>
+            </div>
+          </div>
+        </div>
+        <q-separator vertical inset color="blue-grey-13"></q-separator>
+        <div class="col-3">
+          <p class="text-h6 text-weight-900 text-white">آخرین مقالات منتشر شده</p>
+          <div class="column q-gutter-lg" style="margin-top: -12px">
+          <?php
+            $args = array(
+                'numberposts' => 8,
+                'order' => 'DESC',
+            );
+            
+            $latest_posts = get_posts($args);
+            
+            foreach ($latest_posts as $post) {
+                setup_postdata($post);
+                echo '<a class="text-white no-decoration" href="' . get_permalink() . '">' . get_the_title() . '</a>';
+            }
+            
+?>
+          </div>
+        </div>
+        <q-separator vertical inset color="blue-grey-13"></q-separator>
+            <div class="col-3">
+          <p class="text-h6 text-weight-900 text-white">آخرین مقالات منتشر شده</p>
+          <div class="column q-gutter-lg" style="margin-top: -12px">
+          <?php
+            $args = array(
+                'numberposts' => 8,
+                'order' => 'DESC',
+            );
+            
+            $latest_posts = get_posts($args);
+            
+            foreach ($latest_posts as $post) {
+                setup_postdata($post);
+                echo '<a class="text-white no-decoration" href="' . get_permalink() . '">' . get_the_title() . '</a>';
+            }
+            
+?>
+          </div>
+        </div>
+        <q-separator vertical inset color="blue-grey-13"></q-separator>
+
+        <div class="col-2">
+          <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
+          <div class="column q-gutter-sm">
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/seo'; ?>">سئو سایت</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/content-produce'; ?>">خدمات تولید محتوا</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/link-building'; ?>">لینک‌سازی و خرید بک لینک</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه کاربری</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/banner-advertising'; ?>">تبلیغات بنری</a>
+            </div>
+
+<q-separator inset color="blue-grey-13" class="q-mt-lg q-mb-sm"></q-separator>
+
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>">بلاگ</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/about-us'; ?>">درباره ما</a>
+            </div>
+            <div class="row items-center q-gutter-sm">
+            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/contact-us'; ?>">ارتباط با ما</a>
+            </div>
+          </div>
+        </div>
+      </q-footer>
 
         

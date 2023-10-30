@@ -2,11 +2,6 @@
 get_header();
 ?>
 
-<script>
-
-  const description = 'مقالات تخصصی و آموزشی، محتوای وبسایت، بلاگ پست، ویدئو و سوشال مدیا'
-</script>
-
 <body <?php body_class(); ?>>
 <q-layout :view="rightLayout" class="main-layout">
 <?php get_template_part('layouts/MainLayout'); ?>
@@ -61,8 +56,8 @@ get_header();
     <h2 class="text-h2 text-secondary text-weight-900">چرا مسئولیت طراحی سایت خود را به <span class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
     </div>
 
-    <div class="bg-white q-px-xl">
-    <div class="bg-white items-center">
+    <div class="bg-white q-px-xl q-mb-xl">
+    <div class="bg-white items-center q-pb-xl">
       <div class="flex justify-center q-gutter-xl">
         <self-praise-card title="سال‌ها تجربه در اختیار شماست" icon="o_pattern"></self-praise-card>
         <self-praise-card title="در وردپرس متخصص هستیم" icon="o_kid_star"></self-praise-card>
@@ -75,33 +70,7 @@ get_header();
       </div>
     </div>
     </div>
-
-    <div class="bg-secondary">
-      <div class="row">
-        <div class="col-2">
-          <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
-          <div class="column q-gutter-xs">
-            <div class="row items-center q-gutter-xs">
-            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
-            </div>
-            <div class="row items-center q-gutter-xs">
-            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
-            </div>
-            <div class="row items-center q-gutter-xs">
-            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
-            </div>
-            <div class="row items-center q-gutter-xs">
-            <q-icon name="circle" size="8px" class="text-primary"></q-icon><a class="text-white no-decoration" href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-4"></div>
-        <div class="col-3"></div>
-        <div class="col-2"></div>
-      </div>
-    </div>
-    </q-page>
-    <?php get_template_part('components/backToTop'); ?>
+    <?php get_template_part('components/BackToTop')?>
 </q-page-container>
 </q-layout>
 <?php get_footer(); ?>
