@@ -10,7 +10,7 @@ get_header();
     <q-page-container>
       <q-page>
         <?php get_template_part('components/Carousel') ?>
-
+<h1 v-for="n in 25" :key="n">hello from nili</h1>
         <div class="container">
 
           <div class="text-center q-py-lg">
