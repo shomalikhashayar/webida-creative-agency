@@ -11,7 +11,7 @@
 
       const ad = ref(true)
       const $q = useQuasar()
-      const rightLayout = 'hHh lpR lfr'
+      const rightLayout = 'hhh lpR lfr'
       const loading = ref(false)
       const drawer = ref(true)
       const hideAd = () => {
@@ -117,13 +117,7 @@
         miniState: ref(true),
         slide: ref('style'),
         autoplay: ref(true),
-        model: ref('one'),
-
-        options: [
-          { label: 'One', value: 'one' },
-          { label: 'Two', value: 'two' },
-          { label: 'Three', value: 'three' }
-        ]
+  
       }
     }
   })
@@ -147,49 +141,6 @@
     }
   })
 
-  const routes = [
-    { path: '/' },
-  ]
-
-  const router = VueRouter.createRouter({
-    history: VueRouter.createWebHistory(),
-    routes,
-  })
-  app.use(router)
-  app.component('service-card', {
-    props: {
-      title: String,
-      description: String,
-      img: String,
-      width: String
-    },
-    template: `
-  <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section>
-    <div class="row">
-      <h2 class="text-h3 text-secondary text-weight-900 no-margin">{{title}}</h2>
-      <p class="text-body1 no-letter-spacing text-secondary text-weight-300">{{description}}</p>
-      <q-img class="q-my-md" :src="img" alt="" />
-    </div>
-  </q-card-section>
-</q-card>
-  `,
-  });
-
-  app.component('self-praise-card', {
-    props: {
-      title: String,
-      icon: String
-    },
-    template: `
-  <q-card class="no-shadow q-radius-md" style="width:350px">
-          <q-card-section class="row items-center q-gutter-x-md">
-            <q-icon :name="icon" size="40px" color="primary"/>
-          <h3 class="text-h6 text-weight-900 text-secondary">{{ title }}</h3>
-          </q-card-section>
-        </q-card>
-  `,
-  });
   app.mount('#q-app')
 
   Quasar.lang.set(Quasar.lang.fa)
