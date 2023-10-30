@@ -27,6 +27,7 @@ License URI: https://webida.ir
 body {
   padding: 0;
   margin: 0;
+  border-color: var(--q-webida-accent);
 }
 
 .container {
@@ -35,6 +36,10 @@ body {
   margin-left: auto;
   /* padding-left: 120px;
   padding-right: 120px; */
+}
+
+.q-card h2 {
+  font-size: 0;
 }
 
 .services-dropdown .q-focus-helper {
