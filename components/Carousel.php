@@ -13,16 +13,16 @@
       class="text-white"
     >
       <q-carousel-slide name="style" class="flex justify-center items-center webida-accent">
-        <div class="row q-gutter-xl">
-          <div class="col row">
-          <div class="row q-gutter-x-md q-mr-sm">
+        <div class="container row">
+          <div class="col row justify-between">
+          <div class="row">
           <img src="http://localhost/webida/wp-content/uploads/2023/10/R.I.P.svg" alt=""
             style="width:200px">
-            <h1 style="width:300px" class="text-weight-900 text-secondary">آژانس خلاقیت وبیدا</h1>
+            <h1 style="width:300px" class="q-pl-md text-weight-900 text-secondary">آژانس خلاقیت وبیدا</h1>
           </div>
           </div>
           <div class="col row items-center">
-            <div class="row q-pr-xl" style="width:580px">
+            <div class="row">
             <h2 class="text-h3 text-secondary">خدمات طراحی وب‌سایت حرفه‌ای برای تحول حضور آنلاین شما - امروز کسب‌وکارتان را رشد دهید!</h2>
             <p class="text-h4 text-weight-900 text-primary">در وبیدا به شما خلاقیت هدیه می‌دهیم.</p>
             </div>

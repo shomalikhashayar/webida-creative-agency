@@ -1,163 +1,169 @@
-
 <script type="module">
-const { createApp, ref, onBeforeMount, onMounted } = Vue
-const { useQuasar, setCssVar, getCssVar, colors} = Quasar
-const { lighten } = colors
+  const { createApp, ref, onBeforeMount, onMounted } = Vue
+  const { useQuasar, setCssVar, getCssVar, colors } = Quasar
+  const { lighten } = colors
 
-const MyComponent = './MyComponent.vue'
+  const MyComponent = './MyComponent.vue'
 
-const app = Vue.createApp({
+  const app = Vue.createApp({
 
-  setup() {
+    setup() {
 
-    const ad = ref(true)
-    const $q = useQuasar()
-    const rightLayout = 'hHh lpR fff'
-    const loading = ref(false)
-    const drawer = ref(true)
-    const hideAd = () => {
-      ad.value = false
-    }
-    const toggleDrawer = () => {
-      drawer.value = !drawer.value
-    }
-
-    const menuList = [
-  {
-    icon: 'o_emoji_objects',
-    label: 'بلاگ',
-    route: '/blog'
-  },
-  {
-    icon: 'o_diversity_3',
-    label: 'درباره ما',
-    route: '/about-us'
-  },
-  {
-    icon: 'o_support_agent',
-    label: 'ارتباط با ما',
-    route: '/contact-us'
-  },
-]
-
-const serviceList = [
-  {
-    icon: 'o_public',
-    label: 'طراحی سایت',
-    route: '/website-design'
-  },
-  {
-    icon: 'o_speed',
-    label: 'سئو سایت',
-    route: '/seo'
-  },
-  {
-    icon: 'o_draw',
-    label: 'خدمات تولید محتوا',
-    route: '/content-produce'
-  },
-  {
-    icon: 'o_link',
-    label: 'لینک‌سازی و خرید بک لینک',
-    route: '/link-building'
-  },
-  {
-    icon: 'o_view_quilt',
-    label: 'طراحی رابط و تجربه کاربری',
-    route: '/user-interface-design'
-  },
-  {
-    icon: 'o_campaign',
-    label: 'تبلیغات بنری',
-    route: '/banner-advertising'
-  },
-]
-
-onBeforeMount(()=> {
-
-  if (loading) {
-        $q.loading.show()
-        document.getElementById('q-app').style.visibility = 'hidden'
+      const ad = ref(true)
+      const $q = useQuasar()
+      const rightLayout = 'hHh lpR lfr'
+      const loading = ref(false)
+      const drawer = ref(true)
+      const hideAd = () => {
+        ad.value = false
+      }
+      const toggleDrawer = () => {
+        drawer.value = !drawer.value
       }
 
-})
-    onMounted(()=> {
+      const menuList = [
+        {
+          icon: 'o_emoji_objects',
+          label: 'بلاگ',
+          route: '/blog'
+        },
+        {
+          icon: 'o_diversity_3',
+          label: 'درباره ما',
+          route: '/about-us'
+        },
+        {
+          icon: 'o_support_agent',
+          label: 'ارتباط با ما',
+          route: '/contact-us'
+        },
+      ]
 
-      // $q.onSSRHydrated()
+      const serviceList = [
+        {
+          icon: 'o_public',
+          label: 'طراحی سایت',
+          route: '/website-design'
+        },
+        {
+          icon: 'o_speed',
+          label: 'سئو سایت',
+          route: '/seo'
+        },
+        {
+          icon: 'o_draw',
+          label: 'خدمات تولید محتوا',
+          route: '/content-produce'
+        },
+        {
+          icon: 'o_link',
+          label: 'لینک‌سازی و خرید بک لینک',
+          route: '/link-building'
+        },
+        {
+          icon: 'o_view_quilt',
+          label: 'طراحی رابط و تجربه کاربری',
+          route: '/user-interface-design'
+        },
+        {
+          icon: 'o_campaign',
+          label: 'تبلیغات بنری',
+          route: '/banner-advertising'
+        },
+      ]
 
-      if (loading) {
+      onBeforeMount(() => {
+
+        if (loading) {
+          $q.loading.show()
+          document.getElementById('q-app').style.visibility = 'hidden'
+        }
+
+      })
+      onMounted(() => {
+
+        // $q.onSSRHydrated()
+
+        if (loading) {
           setTimeout(() => {
             $q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
           }, 700)
+        }
+
+      })
+
+      setCssVar('webida-primary', '#ce1340')
+      const webidaPrimary = '#ce1340'
+      setCssVar('webida-primary', webidaPrimary)
+      setCssVar('webida-primary-lighten', lighten(webidaPrimary, 20))
+      setCssVar('webida-secondary', '#053751')
+      setCssVar('webida-accent', '#F9F6E1')
+      setCssVar('webida-page', '#ed2555')
+      setCssVar('webida-dark', '#2d2d2d')
+
+
+
+      return {
+        ad,
+        hideAd,
+        drawer,
+        toggleDrawer,
+        menuList,
+        serviceList,
+        rightLayout,
+        $q,
+        loading,
+        miniState: ref(true),
+        slide: ref('style'),
+        autoplay: ref(true),
+        model: ref('one'),
+
+        options: [
+          { label: 'One', value: 'one' },
+          { label: 'Two', value: 'two' },
+          { label: 'Three', value: 'three' }
+        ]
       }
-
-    })
-
-    setCssVar('webida-primary', '#ce1340')
-    const webidaPrimary = '#ce1340'
-    setCssVar('webida-primary', webidaPrimary)
-    setCssVar('webida-primary-lighten', lighten(webidaPrimary, 20))
-    setCssVar('webida-secondary', '#053751')
-    setCssVar('webida-accent', '#F9F6E1')
-    setCssVar('webida-page', '#ed2555')
-    setCssVar('webida-dark', '#2d2d2d')
-
-  
-
-    return {
-      ad,
-      hideAd,
-      drawer,
-      toggleDrawer,
-      menuList,
-      serviceList,
-      rightLayout,
-      $q,
-      loading,
-      miniState: ref(true),
-      slide: ref('style'),
-      autoplay: ref(true),
     }
-  }
-})
+  })
 
-app.use(Quasar, {
+  app.use(Quasar, {
 
-  config: {
+    config: {
 
-    framework: {
-    plugins: [
-      'Loading'
-    ],
+      framework: {
+        plugins: [
+          'Loading'
+        ],
+      },
+      brand: {
+
+      },
+
+      loading: {
+        /* look at QuasarConfOptions from the API card */
+      },
+    }
+  })
+
+  const routes = [
+    { path: '/' },
+  ]
+
+  const router = VueRouter.createRouter({
+    history: VueRouter.createWebHistory(),
+    routes,
+  })
+  app.use(router)
+  app.component('service-card', {
+    props: {
+      title: String,
+      description: String,
+      img: String,
+      width: String
     },
-    brand: {
-     
-    },
-
-    loading: {
-          /* look at QuasarConfOptions from the API card */
-        },
-  }
-})
-
-const routes = [
-  { path: '/' },
-]
-
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHistory(),
-  routes, 
-})
-app.use(router)
-app.component('service-card', {
-  props: {
-    title: String,
-    description: String,
-    img: String,
-    width: String
-  },
-  template: `
+    template: `
   <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
@@ -168,14 +174,14 @@ app.component('service-card', {
   </q-card-section>
 </q-card>
   `,
-});
+  });
 
-app.component('self-praise-card', {
-  props: {
-    title: String,
-    icon: String
-  },
-  template: `
+  app.component('self-praise-card', {
+    props: {
+      title: String,
+      icon: String
+    },
+    template: `
   <q-card class="no-shadow q-radius-md" style="width:350px">
           <q-card-section class="row items-center q-gutter-x-md">
             <q-icon :name="icon" size="40px" color="primary"/>
@@ -183,11 +189,11 @@ app.component('self-praise-card', {
           </q-card-section>
         </q-card>
   `,
-});
-app.mount('#q-app')
+  });
+  app.mount('#q-app')
 
-Quasar.lang.set(Quasar.lang.fa)
-Quasar.iconSet.set(Quasar.iconSet.material_ui)
+  Quasar.lang.set(Quasar.lang.fa)
+  Quasar.iconSet.set(Quasar.iconSet.material_ui)
 
 </script>
 
@@ -199,7 +205,7 @@ Quasar.iconSet.set(Quasar.iconSet.material_ui)
     z-index: 12;
     overflow: visible;
   }
-  
+
   ::-webkit-scrollbar-thumb {
     width: 10px;
     background-color: var(--q-webida-primary);
