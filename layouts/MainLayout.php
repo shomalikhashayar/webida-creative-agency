@@ -39,9 +39,9 @@
         </q-btn-dropdown>
         <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>" unelevated label="بلاگ"
           icon="o_article"></q-btn>
-        <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>" unelevated
+        <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/about-us'; ?>" unelevated
           label="درباره ما" icon="o_diversity_3"></q-btn>
-        <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>" unelevated
+        <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/contact-us'; ?>" unelevated
           label="ارتباط با ما" icon="o_support_agent"></q-btn>
       </div>
       <div class="row">
