@@ -43,6 +43,10 @@
     font-weight: 900;
   }
 
+  .text-caption-sm {
+    font-size: 10px;
+  }
+
   .text-body3 {
     font-size: 13px;
   }

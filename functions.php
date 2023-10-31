@@ -43,10 +43,10 @@ function load_js()
 
     wp_enqueue_script('vue', get_template_directory_uri() . '/js/vue.global.js', array(), null, true);
     wp_enqueue_script('vue-router', get_template_directory_uri() . '/js/vue-router.global.js', array(), null, true);
-   // wp_enqueue_script('vue-browser', get_template_directory_uri() . '/js/vue.esm-browser.js', array(), null, true);
+    // wp_enqueue_script('vue-browser', get_template_directory_uri() . '/js/vue.esm-browser.js', array(), null, true);
     wp_enqueue_script('quasar', get_template_directory_uri() . '/js/quasar.umd.prod.js', array(), null, true);
     wp_enqueue_script('fa-quasar', get_template_directory_uri() . '/js/fa.umd.prod.js', array(), null, true);
-    
+
 }
 
 add_action('wp_enqueue_scripts', 'load_js');
@@ -63,11 +63,20 @@ register_nav_menus(
 );
 
 // Access upload SVG files
-function add_file_types_to_uploads($file_types){
+function add_file_types_to_uploads($file_types)
+{
     $new_filetypes = array();
     $new_filetypes['svg'] = 'image/svg+xml';
-    $file_types = array_merge($file_types, $new_filetypes );
+    $file_types = array_merge($file_types, $new_filetypes);
     return $file_types;
-    }
-    add_filter('upload_mimes', 'add_file_types_to_uploads');
+}
+add_filter('upload_mimes', 'add_file_types_to_uploads');
+
+//Jalali Calendar
+require_once(get_template_directory() . '/assets/jalali-date/jdatetime.class.php');
+
+function convert_to_persian_date($gregorian_date) {
+    $dateObj = new jDateTime(true, true, 'Asia/Tehran'); 
+    return $dateObj->date("d F Y", strtotime($gregorian_date));
+}
 

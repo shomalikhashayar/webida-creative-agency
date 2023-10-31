@@ -22,8 +22,6 @@ License URI: https://webida.ir
   box-sizing: border-box;
 }
 
-/* Hello, this is main styles  */
-
 body {
   padding: 0;
   margin: 0;
@@ -34,12 +32,6 @@ body {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
-  /* padding-left: 120px;
-  padding-right: 120px; */
-}
-
-.q-card h2 {
-  font-size: 0;
 }
 
 .services-dropdown .q-focus-helper {
@@ -49,7 +41,6 @@ body {
 /* @media (min-width: 1200px) {
 
   .container {
-    background-color: black;
     max-width: 1140px;
   }
 

@@ -10,6 +10,8 @@
     setup() {
 
       const ad = ref(true)
+      const like = ref(0)
+      const comment = ref(0)
       const $q = useQuasar()
       const rightLayout = 'hhh lpR lfr'
       const loading = ref(false)
@@ -106,6 +108,8 @@
 
       return {
         ad,
+        like,
+        comment,
         hideAd,
         drawer,
         toggleDrawer,

@@ -1,6 +1,4 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
 <body <?php body_class(); ?>>
   <q-layout :view="rightLayout">
@@ -10,7 +8,6 @@ get_header();
     <q-page-container>
       <q-page>
         <?php get_template_part('components/Carousel') ?>
-<h1 v-for="n in 25" :key="n">hello from nili</h1>
         <div class="container">
           <div class="text-center q-py-lg">
             <h2 class="text-h2 text-secondary text-weight-900">خدمات <span
@@ -28,9 +25,10 @@ get_header();
               <?php get_template_part('components/SelfPraiseCard') ?>
             </div>
           </div>
-
-          <?php get_template_part('components/BackToTop') ?>
-
+        </div>
+        <?php get_template_part('components/BackToTop') ?>
+      </q-page>
     </q-page-container>
   </q-layout>
+
   <?php get_footer(); ?>
