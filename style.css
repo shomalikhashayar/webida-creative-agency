@@ -38,6 +38,10 @@ body {
   display: none;
 }
 
+a:hover {
+  text-decoration: underline !important
+}
+
 /* @media (min-width: 1200px) {
 
   .container {

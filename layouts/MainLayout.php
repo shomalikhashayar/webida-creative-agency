@@ -271,7 +271,13 @@
   </div>
 
   <div class="row container justify-between q-py-lg">
-    <p>پاییز 1402. تمامی حقوق مادی و معنوی این وبسایت متعلق به آژانس خلاقیت وبیدا است.</p>
+    <p><span class="text-weight-600 text-body1">
+        <?php
+        $jDateTime = new jDateTime();
+        $current_year = $jDateTime->date('Y');
+        echo $current_year;
+        ?> - 
+      </span>تمامی حقوق مادی و معنوی این وبسایت متعلق به آژانس خلاقیت وبیدا می‌باشد.</p>
     <div class="row">
       <a class="text-body1 no-letter-spacing text-white no-decoration text-weight-900"
         href="<?php echo esc_url(home_url()); ?>">
