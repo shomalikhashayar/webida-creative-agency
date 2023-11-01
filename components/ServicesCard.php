@@ -1,5 +1,5 @@
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin no-padding"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/website-design'; ?>">طراحی سایت</a></h2>
@@ -12,7 +12,7 @@
 </q-card>
 
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/seo'; ?>">سئو سایت</a></h2>
@@ -24,7 +24,7 @@
 </q-card>
 
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/content-produce'; ?>">خدمات تولید محتوا</a></h2>
@@ -37,7 +37,7 @@
 </q-card>
 
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/link-building'; ?>">لینک‌سازی و خرید بک لینک</a></h2>
@@ -49,7 +49,7 @@
 </q-card>
 
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/user-interfce-design'; ?>">طراحی رابط و تجربه کاربری</a></h2>
@@ -62,7 +62,7 @@
 </q-card>
 
 <q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
-  <q-card-section class="q-pt-none">
+  <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
           href="<?php echo esc_html(get_site_url()) . '/banner-advertising'; ?>">تبلیغات بنری</a></h2>

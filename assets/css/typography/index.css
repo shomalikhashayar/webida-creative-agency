@@ -115,3 +115,7 @@
   .no-letter-spacing {
     letter-spacing: 0 !important;
   }
+
+  .no-line-height {
+    line-height: 0 !important;
+  }

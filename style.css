@@ -28,18 +28,51 @@ body {
   border-color: var(--q-webida-accent);
 }
 
+h1 {
+  line-height: 48px;
+  letter-spacing: 0;
+}
+
+h2 {
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+h3 {
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
 .container {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
 }
 
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: end;
+  row-gap: 36px;
+  column-gap: 30px;
+}
+
+.post-card:hover {
+  border: 1px solid var(--q-webida-primary) !important;
+  box-shadow: 0 0 8px 0 #ce134024 !important;
+  transition: 0.3s;
+}
+
 .services-dropdown .q-focus-helper {
   display: none;
 }
 
-a:hover {
-  text-decoration: underline !important
+.link-on-hover a:hover {
+  text-decoration: underline !important;
+}
+
+.no-link-on-hover a:hover {
+  text-decoration: none !important;
 }
 
 /* @media (min-width: 1200px) {
