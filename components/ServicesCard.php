@@ -1,4 +1,4 @@
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin no-padding"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
@@ -11,7 +11,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
@@ -23,7 +23,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
@@ -36,7 +36,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
@@ -48,7 +48,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"
@@ -61,7 +61,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="service-card no-shadow q-px-md q-radius-md" style="width:350px">
+<q-card class="service-card on-hover no-shadow q-px-md q-radius-md" style="width:350px">
   <q-card-section>
     <div class="row">
       <h2 class="no-margin"><a class="text-h3 text-secondary text-weight-900 text-secondary no-decoration"

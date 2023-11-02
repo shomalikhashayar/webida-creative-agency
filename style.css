@@ -51,13 +51,13 @@ h3 {
 
 .post-container {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: end;
   row-gap: 36px;
   column-gap: 30px;
 }
 
-.post-card:hover {
+.on-hover:hover {
   border: 1px solid var(--q-webida-primary) !important;
   box-shadow: 0 0 8px 0 #ce134024 !important;
   transition: 0.3s;

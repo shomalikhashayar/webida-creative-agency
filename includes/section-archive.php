@@ -5,7 +5,7 @@
 
       <a class="no-decoration" href="<?php the_permalink(); ?>">
         <q-card bordered style="width:260px;"
-          class="full-height column justify-between post-card q-radius-md no-shadow q-pa-md">
+          class="on-hover full-height column justify-between post-card q-radius-md no-shadow q-pa-md">
 
           <q-card-section class="q-pa-none">
             <?php if (has_post_thumbnail()): ?>
