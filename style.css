@@ -75,6 +75,22 @@ h3 {
   text-decoration: none !important;
 }
 
+.page-numbers {
+  text-decoration: none;
+  color: var(--q-webida-secondary);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.page-numbers.current {
+  color: white;
+}
+
+.pagination .q-btn a {
+  text-decoration: none;
+  color: var(--q-webida-secondary);
+}
+
 /* @media (min-width: 1200px) {
 
   .container {

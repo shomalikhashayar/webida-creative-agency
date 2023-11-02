@@ -1,14 +1,17 @@
-<div class="post-container q-py-xl q-mb-xl">
+<div class="post-container q-pb-xl q-mb-md">
   <?php if (have_posts()):
     while (have_posts()):
       the_post(); ?>
 
       <a class="no-decoration" href="<?php the_permalink(); ?>">
-        <q-card bordered style="width:260px; height:303px;" class="post-card no-shadow q-radius-md q-pa-md">
-          <?php if (has_post_thumbnail()): ?>
-            <q-img src="<?php the_post_thumbnail_url('smallest'); ?>" :ratio="4/3" alt="" height="135px"></q-img>
-          <?php endif ?>
-          <q-card-section class="q-px-none q-pb-none">
+        <q-card bordered style="width:260px;"
+          class="full-height column justify-between post-card q-radius-md no-shadow q-pa-md">
+
+          <q-card-section class="q-pa-none">
+            <?php if (has_post_thumbnail()): ?>
+              <q-img style="border-radius:6px" class="q-mb-sm" src="<?php the_post_thumbnail_url('smallest'); ?>" :ratio="4/3"
+                alt="" height="130px"></q-img>
+            <?php endif ?>
             <div class="row justify-between">
               <div style="margin-top:5px;" class="col text-weight-600 text-dark no-letter-spacing text-caption">
                 <?php
@@ -33,15 +36,11 @@
                 </div>
               </div>
             </div>
-          </q-card-section>
-          <q-card-section class="q-px-none">
-            <h3 class="no-margin text-body3 no-decoration text-weight-700 text-dark">
-              <span class="no-decoration no-letter-spacing">
-                <?php the_title(); ?>
-              </span>
+            <h3 class="text-body3 no-decoration text-weight-700 text-dark">
+              <?php the_title(); ?>
             </h3>
           </q-card-section>
-          <q-card-section class="q-px-none q-pb-none">
+          <q-card-section class="q-pa-none">
             <div class="row items-center justify-between">
               <div class="text-weight-600 text-dark no-letter-spacing text-caption">
                 <?php the_author(); ?>
