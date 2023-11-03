@@ -42,8 +42,6 @@ function load_js()
 {
 
     wp_enqueue_script('vue', get_template_directory_uri() . '/js/vue.global.js', array(), null, true);
-    wp_enqueue_script('vue-router', get_template_directory_uri() . '/js/vue-router.global.js', array(), null, true);
-    // wp_enqueue_script('vue-browser', get_template_directory_uri() . '/js/vue.esm-browser.js', array(), null, true);
     wp_enqueue_script('quasar', get_template_directory_uri() . '/js/quasar.umd.prod.js', array(), null, true);
     wp_enqueue_script('fa-quasar', get_template_directory_uri() . '/js/fa.umd.prod.js', array(), null, true);
 

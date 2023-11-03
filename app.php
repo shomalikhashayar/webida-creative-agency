@@ -1,4 +1,4 @@
-<script type="module">
+<script type="module" defer>
   const { createApp, ref, onBeforeMount, onMounted } = Vue
   const { useQuasar, setCssVar, getCssVar, colors } = Quasar
   const { lighten } = colors
