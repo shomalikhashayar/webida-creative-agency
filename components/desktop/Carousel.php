@@ -18,7 +18,7 @@
           <div class="row">
           <img src="http://localhost/webida/wp-content/uploads/2023/10/R.I.P.svg" alt=""
             style="width:200px">
-            <h1 style="width:300px; line-height: 99px;" class="q-pl-md text-weight-900 text-secondary">آژانس خلاقیت وبیدا</h1>
+            <h1 style="width:350px; line-height: 99px;" class="animate-characters q-pl-md text-weight-900 text-secondary">آژانس خلاقیت وبیدا</h1>
           </div>
           </div>
           <div class="col row items-center">

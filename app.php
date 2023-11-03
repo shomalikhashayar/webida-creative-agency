@@ -3,8 +3,6 @@
   const { useQuasar, setCssVar, getCssVar, colors } = Quasar
   const { lighten } = colors
 
-  const MyComponent = './MyComponent.vue'
-
   const app = Vue.createApp({
 
     setup() {
@@ -15,7 +13,7 @@
       const $q = useQuasar()
       const rightLayout = 'hhh lpR lfr'
       const loading = ref(false)
-      const drawer = ref(true)
+      const drawer = ref(false)
       const hideAd = () => {
         ad.value = false
       }

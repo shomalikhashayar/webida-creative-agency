@@ -3,7 +3,7 @@
 <body <?php body_class(); ?>>
   <q-layout :view="rightLayout">
     <div class="container">
-      <?php get_template_part('layouts/MainLayout'); ?>
+      <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
     <q-page-container>
       <q-page>
