@@ -73,8 +73,65 @@ add_filter('upload_mimes', 'add_file_types_to_uploads');
 //Jalali Calendar
 require_once(get_template_directory() . '/assets/jalali-date/jdatetime.class.php');
 
-function convert_to_persian_date($gregorian_date) {
-    $dateObj = new jDateTime(true, true, 'Asia/Tehran'); 
+function convert_to_persian_date($gregorian_date)
+{
+    $dateObj = new jDateTime(true, true, 'Asia/Tehran');
     return $dateObj->date("d F Y", strtotime($gregorian_date));
 }
 
+
+/*=============================================
+=            BREADCRUMBS			            =
+=============================================*/
+
+function the_breadcrumb()
+{
+    $delimiter = '<q-icon name="arrow_left" class="q-mx-xs" size="md" color="primary"></q-icon>'; // Delimiter between breadcrumbs
+    $home = 'وبیدا'; // Text for the 'Home' link
+    $show_current = true; // Display the current page title in breadcrumbs
+    $before = '<span class="current">'; // Tag before the current page
+    $after = '</span>'; // Tag after the current page
+
+    echo '<div class="row items-center">';
+
+    global $post;
+
+    $homeLink = get_bloginfo('url');
+    echo '<a href="' . $homeLink . '"class="text-primary text-weight-500 no-decoration">' . '<q-icon name="o_home" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $home . '</a>' . $delimiter;
+
+    if (is_category() || is_single()) {
+        $category = get_the_category();
+        if ($category) {
+            $cat_id = $category[0]->cat_ID;
+            echo $before . '<a href="' . get_category_link($cat_id) . '" class="text-primary no-decoration">' . '<q-icon name="o_category" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $category[0]->name . '</a>';
+        }
+        echo $after . $delimiter;
+
+        if (is_single()) {
+            echo $before . '<div class="text-secondary text-weight-500">' . '<q-icon name="o_article" class="q-mr-xs" size="sm" color="secondary"></q-icon>' . get_the_title() . '</div>' . $after;
+        }
+    } elseif (is_page() && !$post->post_parent) {
+        echo $before . get_the_title() . $after;
+    } elseif (is_page() && $post->post_parent) {
+        $parent_id = $post->post_parent;
+        $breadcrumbs = array();
+        while ($parent_id) {
+            $page = get_page($parent_id);
+            $breadcrumbs[] = '<a href="' . get_permalink($page->ID) . '" class="text-primary no-decoration">' . get_the_title($page->ID) . '</a>';
+            $parent_id = $page->post_parent;
+        }
+        $breadcrumbs = array_reverse($breadcrumbs);
+        foreach ($breadcrumbs as $crumb) {
+            echo $crumb . $delimiter;
+        }
+        echo $before . get_the_title() . $after;
+    } elseif (is_404()) {
+        echo $before . 'Error 404' . $after;
+    }
+
+    if (get_query_var('paged')) {
+        echo ' (' . __('Page', 'text_domain') . ' ' . get_query_var('paged') . ')';
+    }
+
+    echo '</div>';
+}

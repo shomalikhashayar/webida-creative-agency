@@ -3,7 +3,7 @@
     <q-toolbar v-if="ad" class="q-py-sm webida-primary">
       <div class="row">
         <div class="col-7 flex items-center">
-          <span class="text-caption-sm">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
+          <span class="text-caption-sm no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
             می‌آوریم.</span>
         </div>
 

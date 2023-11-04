@@ -3,7 +3,7 @@
     <q-toolbar v-if="ad" class="q-py-xs webida-primary">
       <div class="col-1"></div>
       <div class="col row justify-center items-center q-gutter-md">
-        <span class="text-body2 webiba-text">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
+        <span class="text-body2 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
           می‌آوریم.</span>
         <q-btn unelevated rounded label="مشاوره رایگان" class="webida-primary-lighten text-weight-regular"
           padding="6px 12px" />
