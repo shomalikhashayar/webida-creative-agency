@@ -135,3 +135,78 @@ function the_breadcrumb()
 
     echo '</div>';
 }
+
+
+//TOC
+function custom_table_of_contents()
+{
+    $content = get_the_content();
+    $pattern = '/<h2(.*?)>(.*?)<\/h2>/';
+    preg_match_all($pattern, $content, $matches);
+
+    $headings = array();
+
+    if (!empty($matches[0])) {
+        foreach ($matches[2] as $index => $heading) {
+            $id = sanitize_title($heading); // Generate an ID from the heading text
+            $headings[] = array(
+                'id' => $id,
+                'text' => $heading,
+            );
+            $content = str_replace($matches[0][$index], '<h2 id="' . $id . '">' . $matches[2][$index] . '</h2>', $content);
+        }
+    }
+
+    // Convert $headings to JSON
+    $headings_json = json_encode($headings);
+
+    // Output the JSON for Vue to use
+    echo '<div id="headings-json" style="display: none;">' . $headings_json . '</div>';
+    echo '<div class="table-of-contents">';
+    echo '<h3>Table of Contents</h3>';
+    echo '<ul>';
+
+    foreach ($headings as $heading) {
+        echo '<li><a href="#' . $heading['id'] . '">' . $heading['text'] . '</a></li>';
+    }
+
+    echo '</ul>';
+    echo '</div>';
+    echo $content;
+
+    // Add JavaScript and CSS for smooth scrolling and offset
+    echo '
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var headings = JSON.parse(document.getElementById("headings-json").textContent);
+        var offset = -70; // Adjust the offset as needed
+
+        headings.forEach(function(heading) {
+            var link = document.querySelector("a[href=\'#" + heading.id + "\']");
+            if (link) {
+                link.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    var target = document.getElementById(heading.id);
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - offset,
+                            behavior: "smooth"
+                        });
+
+                        // Update the URL with the heading title
+                        history.pushState({}, "", "#"+heading.id);
+                    }
+                });
+            }
+        });
+    });
+</script>
+';
+}
+
+
+
+
+
+
+

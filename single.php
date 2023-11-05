@@ -32,11 +32,6 @@
                 <div class="text-weight-400">
                   آخرین بروزرسانی:
                   <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
-                </div>
-              </div>
-
-              <div class="row items-center text-body2 text-weight-400 no-letter-spacing text-secondary q-gutter-xs">
-                <div class="text-weight-400">
                   <?php
                   $last_modified_date = get_the_modified_date('Y-m-d');
                   $jDate = new jDateTime(true, true, 'Asia/Tehran');
@@ -60,6 +55,7 @@
               <?php the_title() ?>
             </h1>
 
+            <?php custom_table_of_contents(); ?>
 
             <div>
               <?php get_template_part('includes/section', 'content'); ?>

@@ -1,4 +1,4 @@
-<script type="module" defer>
+<script type="module">
   const { createApp, ref, onBeforeMount, onMounted } = Vue
   const { useQuasar, setCssVar, getCssVar, colors } = Quasar
   const { lighten } = colors
@@ -91,7 +91,7 @@
           }, 700)
         }
 
-      })
+      });
 
       setCssVar('webida-primary', '#ce1340')
       const webidaPrimary = '#ce1340'
@@ -119,7 +119,7 @@
         miniState: ref(true),
         slide: ref('style'),
         autoplay: ref(true),
-  
+
       }
     }
   })
