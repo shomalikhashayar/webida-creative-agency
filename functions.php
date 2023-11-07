@@ -1,12 +1,13 @@
 <?php
 function add_loading_script() {
     echo '<script>
-        document.documentElement.style.backgroundColor = "#ce1340";
-        document.documentElement.style.display = "none";
-        window.addEventListener("load", function() {
-            document.documentElement.style.display = "block";
-        });
-    </script>';
+    document.documentElement.style.backgroundColor = "#ce1340";
+    document.documentElement.style.display = "none";
+    document.addEventListener("DOMContentLoaded", function() {
+        document.documentElement.style.display = "block";
+    });
+</script>';
+
 }
 
 add_action('wp_head', 'add_loading_script');
@@ -60,7 +61,7 @@ function load_js()
     wp_enqueue_script(
         "quasar",
         get_template_directory_uri() . "/js/quasar.umd.prod.js",
-        [],
+        ["vue"],
         null,
         true
     );
