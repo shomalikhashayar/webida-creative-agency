@@ -138,7 +138,7 @@ function the_breadcrumb()
 
 
 //TOC
-function custom_table_of_contents()
+function webida_TOC()
 {
     $content = get_the_content();
     $pattern = '/<h2(.*?)>(.*?)<\/h2>/';
@@ -161,17 +161,33 @@ function custom_table_of_contents()
     $headings_json = json_encode($headings);
 
     // Output the JSON for Vue to use
+    //Desktop screen
     echo '<div id="headings-json" style="display: none;">' . $headings_json . '</div>';
     echo '<div class="table-of-contents">';
-    echo '<h3>Table of Contents</h3>';
-    echo '<ul>';
+    echo get_template_part('components/TableOfContents');
 
     foreach ($headings as $heading) {
-        echo '<li><a href="#' . $heading['id'] . '">' . $heading['text'] . '</a></li>';
+        echo '
+            <div class="column">
+                <div class="row items-center link-on-hover q-mb-sm q-mx-sm">
+                    <q-icon name="circle" size="8px" class="q-mr-sm text-secondary"></q-icon>
+                    <a class="no-decoration text-secondary text-body2 no-letter-spacing" href="#' . $heading['id'] . '">' . $heading['text'] . '
+                        <q-tooltip :delay="700" class="text-white bg-secondary q-py-sm q-px-md text-body2">
+                                ' . $heading['text'] . '
+                        </q-tooltip>
+                    </a>
+                </div>
+            </div>
+        ';
     }
 
-    echo '</ul>';
     echo '</div>';
+    echo '</div>';
+    echo '</q-slide-transition>
+    </q-card-section>
+</q-card>';
+    echo '</div>';
+
     echo $content;
 
     // Add JavaScript and CSS for smooth scrolling and offset

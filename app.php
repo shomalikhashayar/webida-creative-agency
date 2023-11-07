@@ -91,6 +91,7 @@
           }, 700)
         }
 
+
       });
 
       setCssVar('webida-primary', '#ce1340')
@@ -119,6 +120,8 @@
         miniState: ref(true),
         slide: ref('style'),
         autoplay: ref(true),
+        toggleTOC: ref(false),
+        
 
       }
     }

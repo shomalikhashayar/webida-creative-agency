@@ -55,11 +55,7 @@
               <?php the_title() ?>
             </h1>
 
-            <?php custom_table_of_contents(); ?>
-
-            <div>
-              <?php get_template_part('includes/section', 'content'); ?>
-            </div>
+            <?php webida_TOC(); ?>
 
           </div>
 
@@ -108,5 +104,23 @@
     </q-page>
   </q-page-container>
 </q-layout>
+
+
+<q-layout :view="rightLayout" class="xs">
+  <div class="container">
+    <?php get_template_part('/layouts/desktop/SingleLayout'); ?>
+  </div>
+
+  <q-page-container>
+    <q-page>
+      <div class="container q-my-xl bg-red">
+
+<h2>Signle page on mobile screen</h2>
+<?php webida_TOC(); ?>
+      </div>
+    </q-page>
+  </q-page-container>
+</q-layout>
+
 
 <?php get_footer(); ?>
