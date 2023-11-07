@@ -179,9 +179,9 @@
           </q-card-section>
 
           <q-card-section class="row justify-center items-center q-gutter-lg">
-            <q-btn round color="white">
+          <q-btn round color="white">
               <q-avatar size="40px">
-                <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
+              <q-icon class="fa-solid fa-user"></q-icon>
               </q-avatar>
             </q-btn>
 

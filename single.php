@@ -89,13 +89,13 @@
                   class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
                   محتوا</q-item-section>
               </q-item>
-              <q-separator /></q-separator>
+              <q-separator></q-separator>
               <q-item>
                 <q-item-section
                   class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
                   وردپرس</q-item-section>
               </q-item>
-              <q-separator /></q-separator>
+              <q-separator></q-separator>
             </q-list>
           </div>
         </div>

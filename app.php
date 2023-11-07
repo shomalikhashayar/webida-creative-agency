@@ -6,11 +6,24 @@
   const app = Vue.createApp({
 
     setup() {
+      const message = "در وبیدا به شما خلاقیت هدیه می‌دهیم";
+      const styles =
+        `
+      font-size: 32px;
+      font-weight: 900;
+      color: #white;
+      background-color: #ce1340;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-family: 'Tahoma', Arial, sans-serif;
+      `;
+
+      console.log(`%c${message}`, styles);
 
       const ad = ref(true)
       const like = ref(0)
       const comment = ref(0)
-      const $q = useQuasar()
+      const q = useQuasar()
       const rightLayout = 'hhh lpR lfr'
       const loading = ref(false)
       const drawer = ref(false)
@@ -75,7 +88,7 @@
       onBeforeMount(() => {
 
         if (loading) {
-          $q.loading.show()
+          q.loading.show()
           document.getElementById('q-app').style.visibility = 'hidden'
         }
 
@@ -86,7 +99,7 @@
 
         if (loading) {
           setTimeout(() => {
-            $q.loading.hide()
+            q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
           }, 700)
         }
@@ -115,13 +128,15 @@
         menuList,
         serviceList,
         rightLayout,
-        $q,
+        q,
         loading,
+        styles,
+        message,
         miniState: ref(true),
         slide: ref('style'),
         autoplay: ref(true),
         toggleTOC: ref(false),
-        
+
 
       }
     }
@@ -132,6 +147,7 @@
     config: {
 
       framework: {
+
         plugins: [
           'Loading'
         ],
@@ -143,13 +159,14 @@
       loading: {
         /* look at QuasarConfOptions from the API card */
       },
+      
     }
   })
-
+  app.config.warnHandler = (msg, instance, trace) => { }
   app.mount('#q-app')
 
   Quasar.lang.set(Quasar.lang.fa)
-  Quasar.iconSet.set(Quasar.iconSet.material_ui)
+  // Quasar.iconSet.set(Quasar.iconSet.material_ui)
 
 </script>
 
