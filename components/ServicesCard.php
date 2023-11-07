@@ -1,4 +1,4 @@
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a
@@ -12,7 +12,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a
@@ -25,7 +25,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a
@@ -39,7 +39,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a
@@ -52,7 +52,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a
@@ -66,7 +66,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="services-card on-hover no-shadow q-px-md q-radius-md">
+<q-card class="services-card on-hover-primary-1 no-shadow q-px-md q-radius-md">
   <q-card-section>
     <div class="row">
       <h2 class="text-h3 line-height-md no-margin link-on-hover"><a

@@ -73,17 +73,17 @@
     </div>
   </q-header>
 
-  <q-drawer v-model="drawer" :width="260" :breakpoint="500" bordered side="left" overlay>
+  <q-drawer v-model="drawer" :width="260" :breakpoint="500" bordered side="left" overlay class="bg-primary">
     <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
       <q-list padding>
-        <q-expansion-item expand-separator class="text-subtitle2 text-bold text-secondary" icon="o_handyman"
+        <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle2 text-bold text-white" icon="o_handyman"
           label="خدمات ما">
           <q-item clickable v-ripple v-for="services in serviceList" :key="services">
             <q-item-section avatar>
-              <q-icon :name="services.icon" />
+              <q-icon :name="services.icon" color="white" />
             </q-item-section>
-            <q-item-section class="text-subtitle2 text-secondary text-bold">
-              <a class="text-secondary" :href="'<?php get_site_url() ?>' + services.route">{{
+            <q-item-section class="text-subtitle2 text-white text-bold">
+              <a class="text-white" :href="'<?php get_site_url() ?>' + services.route">{{
                 services.label }}</a>
             </q-item-section>
           </q-item>
@@ -92,10 +92,10 @@
         <div v-for="menuItems in menuList" :key="menuItems">
           <q-item clickable v-ripple>
             <q-item-section avatar>
-              <q-icon class="text-secondary" :name="menuItems.icon" />
+              <q-icon class="text-white" :name="menuItems.icon" />
             </q-item-section>
-            <q-item-section class="text-subtitle2 text-secondary text-bold">
-              <a class="text-secondary" :href="'<?php echo get_site_url() ?>' + menuItems.route">{{
+            <q-item-section class="text-subtitle2 text-white text-bold">
+              <a class="text-white" :href="'<?php echo get_site_url() ?>' + menuItems.route">{{
                 menuItems.label }}</a>
             </q-item-section>
           </q-item>

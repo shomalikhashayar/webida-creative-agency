@@ -48,7 +48,7 @@
       const scrollToTop = () => {
         const currentY = window.scrollY;
         const targetY = 0;
-        const duration = 1000;
+        const duration = 700;
 
         const startTime = performance.now();
 
@@ -171,7 +171,7 @@
         showPageScroller,
         scrollY,
         miniState: ref(true),
-        slide: ref('style'),
+        slide: ref(1),
         autoplay: ref(true),
         toggleTOC: ref(false),
 
