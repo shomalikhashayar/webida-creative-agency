@@ -61,7 +61,7 @@ function load_js()
     wp_enqueue_script(
         "quasar",
         get_template_directory_uri() . "/js/quasar.umd.prod.js",
-        ["vue"],
+        [],
         null,
         true
     );
