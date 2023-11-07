@@ -5,7 +5,7 @@
     <div class="container">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
-    <q-page-container>
+    <q-page-container class="bg-white">
       <q-page>
         <?php get_template_part('/components/desktop/Carousel') ?>
         <div class="container">
@@ -35,7 +35,7 @@
     <div class="container">
       <?php get_template_part('/layouts/mobile/MainLayout'); ?>
     </div>
-    <q-page-container>
+    <q-page-container class="bg-white">
       <q-page>
         <?php get_template_part('/components/mobile/Carousel') ?>
         <div class="container">

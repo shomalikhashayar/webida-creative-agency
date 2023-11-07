@@ -1,4 +1,15 @@
 <?php
+function add_loading_script() {
+    echo '<script>
+        document.documentElement.style.backgroundColor = "#ce1340";
+        document.documentElement.style.display = "none";
+        window.addEventListener("load", function() {
+            document.documentElement.style.display = "block";
+        });
+    </script>';
+}
+
+add_action('wp_head', 'add_loading_script');
 
 // Add styles
 function load_css()
@@ -279,3 +290,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ';
 }
+
+
+

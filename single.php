@@ -4,7 +4,7 @@
     <?php get_template_part('/layouts/desktop/SingleLayout'); ?>
   </div>
 
-  <q-page-container>
+  <q-page-container class="bg-white">
     <q-page>
       <div class="container q-my-xl">
 
@@ -111,12 +111,12 @@
     <?php get_template_part('/layouts/desktop/SingleLayout'); ?>
   </div>
 
-  <q-page-container>
+  <q-page-container class="bg-white">
     <q-page>
       <div class="container q-my-xl bg-red">
 
-<h2>Signle page on mobile screen</h2>
-<?php webida_TOC(); ?>
+        <h2>Signle page on mobile screen</h2>
+        <?php webida_TOC(); ?>
       </div>
     </q-page>
   </q-page-container>

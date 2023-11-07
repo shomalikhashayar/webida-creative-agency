@@ -101,7 +101,7 @@
           setTimeout(() => {
             q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
-          }, 700)
+          }, 1500)
         }
 
 
@@ -166,7 +166,6 @@
   app.mount('#q-app')
 
   Quasar.lang.set(Quasar.lang.fa)
-  // Quasar.iconSet.set(Quasar.iconSet.material_ui)
 
 </script>
 
@@ -174,7 +173,7 @@
   ::-webkit-scrollbar {
     height: 12px;
     width: 14px;
-    background: #00000009;
+    background: #ffffff;
     z-index: 12;
     overflow: visible;
   }
