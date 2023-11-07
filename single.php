@@ -55,7 +55,9 @@
               <?php the_title() ?>
             </h1>
 
-            <?php webida_TOC(); ?>
+            <div style="margin-bottom:90px">
+              <?php webida_TOC(); ?>
+            </div>
 
           </div>
 

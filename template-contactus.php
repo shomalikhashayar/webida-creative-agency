@@ -14,7 +14,6 @@ get_header();
   <q-page>
   <?php get_template_part('components/Carousel')?>
   <?php get_template_part('components/Carousel')?>
-  <?php get_template_part('components/BackToTop')?>
     </q-page>
  </q-page-container>
  </q-layout>

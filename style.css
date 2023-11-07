@@ -134,3 +134,29 @@ h3 {
     width: 100%;
   }
 }
+
+.glass {
+  background: #05365155;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 18px;
+  z-index: 2001;
+  cursor: pointer;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+

@@ -26,7 +26,6 @@
             </div>
           </div>
         </div>
-        <?php get_template_part('components/BackToTop') ?>
       </q-page>
     </q-page-container>
   </q-layout>
@@ -56,7 +55,6 @@
             </div>
           </div>
         </div>
-        <?php get_template_part('components/BackToTop') ?>
       </q-page>
     </q-page-container>
   </q-layout>

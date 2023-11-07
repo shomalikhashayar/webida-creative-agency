@@ -256,7 +256,7 @@
 
       </div>
     </div>
-
-
   </q-footer>
 </div>
+
+<?php get_template_part('components/BackToTop') ?>

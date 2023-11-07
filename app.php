@@ -1,5 +1,5 @@
 <script type="module">
-  const { createApp, ref, onBeforeMount, onMounted } = Vue
+  const { createApp, ref, onBeforeMount, onMounted, h, Transition } = Vue
   const { useQuasar, setCssVar, getCssVar, colors } = Quasar
   const { lighten } = colors
 
@@ -24,15 +24,47 @@
       const like = ref(0)
       const comment = ref(0)
       const q = useQuasar()
-      const rightLayout = 'hhh lpR lfr'
+      const rightLayout = 'lhr lpR lfr"'
       const loading = ref(false)
       const drawer = ref(false)
+      const showPageScroller = ref(false)
+      const scrollY = ref(false)
+
       const hideAd = () => {
         ad.value = false
       }
       const toggleDrawer = () => {
         drawer.value = !drawer.value
       }
+
+      const onScroll = () => {
+        if (window.scrollY > 900) {
+          showPageScroller.value = true;
+        } else {
+          showPageScroller.value = false;
+        }
+      }
+
+      const scrollToTop = () => {
+        const currentY = window.scrollY;
+        const targetY = 0;
+        const duration = 1000;
+
+        const startTime = performance.now();
+
+        function step() {
+          const currentTime = performance.now();
+          const progress = Math.min((currentTime - startTime) / duration, 1);
+          window.scrollTo(0, currentY + (targetY - currentY) * progress);
+
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          }
+        }
+
+        requestAnimationFrame(step);
+      }
+
 
       const menuList = [
         {
@@ -92,8 +124,11 @@
           document.getElementById('q-app').style.visibility = 'hidden'
         }
 
+        window.removeEventListener('scroll', onScroll);
+
       })
       onMounted(() => {
+        window.addEventListener('scroll', onScroll);
 
         // $q.onSSRHydrated()
 
@@ -132,6 +167,9 @@
         loading,
         styles,
         message,
+        scrollToTop,
+        showPageScroller,
+        scrollY,
         miniState: ref(true),
         slide: ref('style'),
         autoplay: ref(true),
@@ -159,7 +197,7 @@
       loading: {
         /* look at QuasarConfOptions from the API card */
       },
-      
+
     }
   })
   app.config.warnHandler = (msg, instance, trace) => { }

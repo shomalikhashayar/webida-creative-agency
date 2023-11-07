@@ -5,7 +5,7 @@
     <div class="container">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
-    <q-page-container>
+    <q-page-container class="bg-white">
       <q-page>
         <div class="container">
           <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
@@ -15,7 +15,6 @@
           <?php get_template_part('components/Pagination'); ?>
 
         </div>
-        <?php get_template_part('components/BackToTop') ?>
       </q-page>
     </q-page-container>
   </q-layout>
