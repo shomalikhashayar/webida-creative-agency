@@ -23,7 +23,7 @@
           آژانس خلاقیت وبیدا</a>
         </div>
         <div class="row">
-          <q-btn-dropdown class="text-secondary" unelevated label="خدمات وبیدا" dropdown-icon="change_history">
+          <q-btn-dropdown class="text-secondary" unelevated label="خدمات وبیدا" dropdown-icon="expand_more">
             <q-list padding>
               <q-item v-for="services in serviceList" :key="services" clickable v-close-popup>
                 <q-item-section>

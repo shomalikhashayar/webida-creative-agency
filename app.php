@@ -136,7 +136,7 @@
           setTimeout(() => {
             q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
-          }, 1500)
+          }, 1400)
         }
 
 
