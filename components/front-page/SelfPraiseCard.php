@@ -1,4 +1,4 @@
-<q-card class="self-praises-card" v-for="n in 6" :key="n">
+<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow" v-for="n in 6" :key="n">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_work_history" size="40px" color="primary" /></q-icon>

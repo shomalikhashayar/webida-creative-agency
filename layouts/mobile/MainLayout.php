@@ -1,9 +1,8 @@
 <div class="xs">
   <q-header unelevated bordered class="bg-accent">
     <q-toolbar v-if="ad" class="q-py-sm webida-primary">
-      <div class="row">
         <div class="col-7 flex items-center">
-          <span class="text-caption-sm no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به
+          <span class="text-caption-sm no-letter-spacing" style="line-height: 16px;">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به
             ارمغان
             می‌آوریم.</span>
         </div>
@@ -13,7 +12,6 @@
             padding="6px 12px" /></q-btn>
           <q-btn size="sm" @click="hideAd" unelevated round dense icon="o_close"></q-btn>
         </div>
-      </div>
 
     </q-toolbar>
     <div class="container">

@@ -1,4 +1,4 @@
-<q-card class="services-card q-pa-md on-hover-primary-1" v-for="n in 6" :key="n">
+<q-card class="services-card q-pa-md no-shadow q-radius-sm on-hover-primary-1" v-for="n in 6" :key="n">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h3 line-height-md no-margin link-on-hover"><a

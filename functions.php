@@ -2,7 +2,6 @@
 function add_loading_script()
 {
     echo '<script>
-    document.documentElement.style.backgroundColor = "#ce1340";
     document.documentElement.style.display = "none";
     document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.style.display = "block";

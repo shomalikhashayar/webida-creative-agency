@@ -124,7 +124,7 @@
             html: true,
             spinnerColor: 'primary',
             spinnerSize: 105,
-            backgroundColor: 'primary-lighten',
+            backgroundColor: 'webida-page',
             message: '<div class="text-body1 text-weight-600">یه کوچولو صبر کنید...</div>',
             messageColor: 'white'
           })
