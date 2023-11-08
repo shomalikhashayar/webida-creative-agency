@@ -26,6 +26,7 @@
             </div>
           </div>
         </div>
+        
       </q-page>
     </q-page-container>
   </q-layout>
@@ -42,7 +43,7 @@
             <h2 class="line-height-lg text-h2 text-secondary text-weight-900">خدمات <span
                 class="text-primary text-weight-900">وبیدا</span></h2>
           </div>
-          <div class="row items-center justify-between q-gutter-y-lg">
+          <div class="column q-gutter-y-lg">
             <?php get_template_part('components/ServicesCard') ?>
           </div>
 
@@ -50,11 +51,12 @@
             <h2 class=" line-height-lg text-h2 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت
               خود را به <span class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
 
-            <div class="flex justify-between items-center q-gutter-y-lg q-mb-xl q-pb-xl">
+            <div class="column q-gutter-y-lg q-mb-xl">
               <?php get_template_part('components/SelfPraiseCard') ?>
             </div>
           </div>
         </div>
+        
       </q-page>
     </q-page-container>
   </q-layout>

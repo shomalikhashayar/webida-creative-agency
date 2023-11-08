@@ -3,7 +3,8 @@
     <q-toolbar v-if="ad" class="q-py-sm webida-primary">
       <div class="row">
         <div class="col-7 flex items-center">
-          <span class="text-caption-sm no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
+          <span class="text-caption-sm no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به
+            ارمغان
             می‌آوریم.</span>
         </div>
 
@@ -76,8 +77,8 @@
   <q-drawer v-model="drawer" :width="260" :breakpoint="500" bordered side="left" overlay class="bg-primary">
     <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
       <q-list padding>
-        <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle2 text-bold text-white" icon="o_handyman"
-          label="خدمات ما">
+        <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle2 text-bold text-white"
+          icon="o_handyman" label="خدمات ما">
           <q-item clickable v-ripple v-for="services in serviceList" :key="services">
             <q-item-section avatar>
               <q-icon :name="services.icon" color="white" />
@@ -138,7 +139,7 @@
               href="<?php echo esc_html(get_site_url()) . '/banner-advertising'; ?>">تبلیغات بنری</a>
           </div>
 
-          <q-separator inset color="blue-grey-13" class="q-mt-lg q-mb-sm"></q-separator>
+          <q-separator color="blue-grey-13" class="q-mt-lg q-mb-sm"></q-separator>
 
           <div class="row items-center link-on-hover">
             <q-icon name="circle" size="8px" class="q-mr-sm text-primary"></q-icon><a class="text-white no-decoration"
@@ -153,7 +154,7 @@
               href="<?php echo esc_html(get_site_url()) . '/contact-us'; ?>">ارتباط با ما</a>
           </div>
 
-          <q-separator inset color="blue-grey-13" class="q-mt-lg q-mb-md"></q-separator>
+          <q-separator color="blue-grey-13" class="q-mt-lg q-mb-md"></q-separator>
 
         </div>
       </div>
@@ -259,4 +260,7 @@
   </q-footer>
 </div>
 
-<?php get_template_part('components/BackToTop') ?>
+<Transition name="fade" mode="out-in" appear>
+  <q-btn @click="scrollToTop" v-show="showPageScroller" round unelevated id="scroll-to-top" color="primary"
+    text-color="white" icon="arrow_upward"></q-btn>
+</Transition>

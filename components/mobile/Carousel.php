@@ -1,6 +1,6 @@
-<q-carousel v-model="slide" transition-prev="jump-right" infinite @mouseenter="autoplay = false"
+<q-carousel ref="carousel" v-model="slide" transition-prev="jump-right" infinite @mouseenter="autoplay = false"
   @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated
-  control-color="primary" navigation transition-duration="1000" arrows height="1050px">
+  transition-duration="1000" height="1050px">
   <q-carousel-slide :name="1" class="no-padding text-center flex webida-accent">
     <div class="container column items-center">
       <h1 style="line-height: 99px;" class="animate-characters q-my-xl text-center text-weight-900 text-secondary">آژانس
@@ -43,4 +43,14 @@
 
     </div>
   </q-carousel-slide>
+
+  <template v-slot:control>
+
+    <q-carousel-control position="bottom-left" :offset="[18, 18]" class="q-gutter-sm">
+      <q-btn push round unelevated dense color="primary" text-color="white" icon="arrow_right"
+        @click="$refs.carousel.previous()"></q-btn>
+      <q-btn push round unelevated dense color="primary" text-color="white" icon="arrow_left"
+        @click="$refs.carousel.next()"></q-btn>
+    </q-carousel-control>
+  </template>
 </q-carousel>
