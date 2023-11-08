@@ -26,12 +26,12 @@ License URI: https://webida.ir
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--q-webida-primary);
-  background-image: url("http://localhost/webida/wp-content/uploads/2023/11/webida-load-screen.svg");
+  background-color: var(--q-webida-primary-lighten);
+  /* background-image: url("http://localhost/webida/wp-content/uploads/2023/11/webida-load-screen.svg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; */
 }
 
 h1 {

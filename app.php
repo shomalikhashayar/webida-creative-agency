@@ -120,7 +120,14 @@
       onBeforeMount(() => {
 
         if (loading) {
-          q.loading.show()
+          q.loading.show({
+            html: true,
+            spinnerColor: 'primary',
+            spinnerSize: 105,
+            backgroundColor: 'primary-lighten',
+            message: '<div class="text-body1 text-weight-600">یه کوچولو صبر کنید...</div>',
+            messageColor: 'white'
+          })
           document.getElementById('q-app').style.visibility = 'hidden'
         }
 
@@ -136,7 +143,7 @@
           setTimeout(() => {
             q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
-          }, 1400)
+          }, 2000)
         }
 
 
@@ -211,7 +218,7 @@
   ::-webkit-scrollbar {
     height: 12px;
     width: 14px;
-    background: #ffffff;
+    background: var(--q-webida-accent);
     z-index: 12;
     overflow: visible;
   }
