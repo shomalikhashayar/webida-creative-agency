@@ -3,7 +3,8 @@
     <q-toolbar v-if="ad" class="q-py-xs webida-primary">
       <div class="col-1"></div>
       <div class="col row justify-center items-center q-gutter-md">
-        <span class="text-body2 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به ارمغان
+        <span class="text-body2 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان
+          به ارمغان
           می‌آوریم.</span>
         <q-btn unelevated rounded label="مشاوره رایگان" class="webida-primary-lighten text-weight-regular"
           padding="6px 12px" />
@@ -15,12 +16,12 @@
     <div class="container">
       <q-toolbar class="row justify-between items-center q-px-none q-py-md bg-accent">
         <div class="flex link-on-hover">
-        <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900"
-          href="<?php echo esc_url(home_url()); ?>">
-          <q-avatar class="q-mr-sm">
-            <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
-          </q-avatar>
-          آژانس خلاقیت وبیدا</a>
+          <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900"
+            href="<?php echo esc_url(home_url()); ?>">
+            <q-avatar class="q-mr-sm">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
+            </q-avatar>
+            آژانس خلاقیت وبیدا</a>
         </div>
         <div class="row">
           <q-btn-dropdown class="text-secondary" unelevated label="خدمات وبیدا" dropdown-icon="expand_more">
@@ -179,9 +180,9 @@
           </q-card-section>
 
           <q-card-section class="row justify-center items-center q-gutter-lg">
-          <q-btn round color="white">
+            <q-btn round color="white">
               <q-avatar size="40px">
-              <q-icon class="fa-solid fa-user"></q-icon>
+                <q-icon class="fa-solid fa-user"></q-icon>
               </q-avatar>
             </q-btn>
 
@@ -231,7 +232,7 @@
         <a class="text-body1 no-letter-spacing text-white no-decoration text-weight-900"
           href="<?php echo esc_url(home_url()); ?>">
           <q-avatar class="q-mr-sm" size="32px">
-            <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
           </q-avatar>
           آژانس خلاقیت وبیدا</a>
       </div>
@@ -240,6 +241,6 @@
 </div>
 
 <Transition name="fade" mode="out-in" appear>
-          <q-btn @click="scrollToTop" v-show="showPageScroller" round unelevated id="scroll-to-top" color="primary"
-            text-color="white" icon="arrow_upward"></q-btn>
-        </Transition>
+  <q-btn @click="scrollToTop" v-show="showPageScroller" round unelevated id="scroll-to-top" color="primary"
+    text-color="white" icon="arrow_upward"></q-btn>
+</Transition>

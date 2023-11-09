@@ -1,0 +1,36 @@
+<svg width="328" height="291" viewBox="0 0 328 291" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="328" height="291" rx="8" fill="#FAFAFA"/>
+<rect x="20" y="16" width="135" height="100" rx="4" fill="#F2F2F2"/>
+<path d="M75.5359 38C77.0755 35.3333 80.9245 35.3333 82.4641 38L110.177 86C111.717 88.6667 109.792 92 106.713 92H51.2872C48.208 92 46.2835 88.6667 47.8231 86L75.5359 38Z" fill="#D9D9D9"/>
+<path d="M102.536 53C104.076 50.3333 107.925 50.3333 109.464 53L128.517 86C130.056 88.6667 128.132 92 125.053 92H86.9474C83.8682 92 81.9437 88.6667 83.4833 86L102.536 53Z" fill="#D9D9D9"/>
+<line x1="164" y1="23" x2="309" y2="23" stroke="#F2F2F2" stroke-width="4"/>
+<line x1="20" y1="168" x2="309" y2="168" stroke="#F2F2F2" stroke-width="4"/>
+<line x1="164" y1="38" x2="309" y2="38" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="48" x2="302" y2="48" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="58" x2="309" y2="58" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="88" x2="309" y2="88" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="98" x2="302" y2="98" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="108" x2="309" y2="108" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="131" x2="309" y2="131" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="141" x2="309" y2="141" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="151" x2="227" y2="151" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="181" x2="309" y2="181" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="191" x2="309" y2="191" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="201" x2="309" y2="201" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="211" x2="309" y2="211" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="221" x2="309" y2="221" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="231" x2="309" y2="231" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="241" x2="309" y2="241" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="251" x2="309" y2="251" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="261" x2="309" y2="261" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="20" y1="271" x2="47" y2="271" stroke="#F2F2F2" stroke-width="2"/>
+<line x1="164" y1="78" x2="309" y2="78" stroke="#F2F2F2" stroke-width="2"/>
+<circle cx="163.5" cy="145.5" r="49.5" fill="#D9D9D9"/>
+<rect x="141" y="123" width="45" height="45" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_134_827" transform="scale(0.0111111)"/>
+</pattern>
+<image id="image0_134_827" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABy0lEQVR4nO3cTU7CQBjG8YkLE+AGXIFLcQrxBuLWj9Adp+IGojt1oSasHlMzC2OmlU7LOy/w/yXdkDcT+mQyTcoTQgAAAAAAADhjki4l3Up6VndbSct6jdL34V4Mqq9l6ftwL3Mn//VS+j7c00ACCNoFdnT5oHeSriRN47WInyW1rD+W9CjpXf68SXqQNCoZ9CIxW4ed1LJ+Jf+qkkFPE7P1zk5qWPtC0pf8+6y/K0GfeNCpo+O6aTgc99GxOmjI/wS9i2dy34fhSNJ9fPB48yrprvTDsJMAgnaBHW0kvurs68nq+577a9Kb0vdxLC/+l5k7e8uLfwAAAFfodRih12GEXocRDSSAoF1gR/sJeh2vrKND9Dr2CnojaRKvTWbQlfwr2uv4kDT7NTeLnyU1rE2vY4+g54ng5k3DgaCzdvS6ZX69b9BHdHQU6XX8nMst85PUed0yT6+jIegsAZ13NEEfAkEboddhhF6HEXodAAAAJ4VehxF6HUbodRjhpZIRgjZC0Ea6/mKSMT/m/zpsgq7kX7lexxDzotdB0G7+r+PMjo7VwQLuEVzXeXodbcF1FZC3owl6YARthF6HEXodRuh1AAAAAAAAhLP3DXqnrz0p3EMhAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

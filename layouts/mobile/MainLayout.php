@@ -20,7 +20,7 @@
           <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900"
             href="<?php echo esc_url(home_url()); ?>">
             <q-avatar class="q-mr-sm">
-              <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
             </q-avatar>
             آژانس خلاقیت وبیدا</a>
         </div>
@@ -238,7 +238,7 @@
             <a class="text-body1 no-letter-spacing text-white no-decoration text-weight-900"
               href="<?php echo esc_url(home_url()); ?>">
               <q-avatar class="q-mr-sm" size="32px">
-                <img src="http://localhost/webida/wp-content/uploads/2023/10/webida-logo.svg">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
               </q-avatar>
               آژانس خلاقیت وبیدا</a>
           </div>
