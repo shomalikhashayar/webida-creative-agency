@@ -113,82 +113,37 @@ function convert_to_persian_date($gregorian_date)
 
 function the_breadcrumb()
 {
-    $delimiter =
-        '<q-icon name="arrow_left" class="q-mx-xs" size="md" color="primary"></q-icon>'; // Delimiter between breadcrumbs
+    $delimiter = '<q-icon name="arrow_left" size="md" color="primary"></q-icon>'; // Delimiter between breadcrumbs
     $home = "وبیدا"; // Text for the 'Home' link
     $show_current = true; // Display the current page title in breadcrumbs
     $before = '<span class="current">'; // Tag before the current page
     $after = "</span>"; // Tag after the current page
 
-    echo '<div class="row items-center">';
+    echo '<div class="items-center">'; // Removed the "row" class
 
     global $post;
 
     $homeLink = get_bloginfo("url");
-    echo '<a href="' .
-        $homeLink .
-        '"class="text-primary text-weight-500 no-decoration">' .
-        '<q-icon name="o_home" class="q-mr-xs" size="sm" color="primary"></q-icon>' .
-        $home .
-        "</a>" .
-        $delimiter;
+    echo '<a href="' . $homeLink . '" class="text-primary text-weight-500 no-decoration items-center">' . '<q-icon name="o_home" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $home . "</a>" . $delimiter;
 
     if (is_category() || is_single()) {
         $category = get_the_category();
         if ($category) {
             $cat_id = $category[0]->cat_ID;
-            echo $before .
-                '<a href="' .
-                get_category_link($cat_id) .
-                '" class="text-primary no-decoration">' .
-                '<q-icon name="o_category" class="q-mr-xs" size="sm" color="primary"></q-icon>' .
-                $category[0]->name .
-                "</a>";
+            echo $before . '<a href="' . get_category_link($cat_id) . '" class="text-primary no-decoration items-center">' . '<q-icon name="o_category" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $category[0]->name . "</a>";
         }
         echo $after . $delimiter;
 
         if (is_single()) {
-            echo $before .
-                '<div class="text-secondary text-weight-500">' .
-                '<q-icon name="o_article" class="q-mr-xs" size="sm" color="secondary"></q-icon>' .
-                get_the_title() .
-                "</div>" .
-                $after;
+            // Display an icon and wrap the post title in a <span> with items-center class
+            echo $before . '<q-icon name="o_article" class="q-mr-xs" size="sm" color="secondary"></q-icon><span class="text-secondary text-weight-500 items-center">' . get_the_title() . '</span>' . $after;
         }
-    } elseif (is_page() && !$post->post_parent) {
-        echo $before . get_the_title() . $after;
-    } elseif (is_page() && $post->post_parent) {
-        $parent_id = $post->post_parent;
-        $breadcrumbs = [];
-        while ($parent_id) {
-            $page = get_page($parent_id);
-            $breadcrumbs[] =
-                '<a href="' .
-                get_permalink($page->ID) .
-                '" class="text-primary no-decoration">' .
-                get_the_title($page->ID) .
-                "</a>";
-            $parent_id = $page->post_parent;
-        }
-        $breadcrumbs = array_reverse($breadcrumbs);
-        foreach ($breadcrumbs as $crumb) {
-            echo $crumb . $delimiter;
-        }
-        echo $before . get_the_title() . $after;
-    } elseif (is_404()) {
-        echo $before . "Error 404" . $after;
-    }
-
-    if (get_query_var("paged")) {
-        echo " (" .
-            __("Page", "text_domain") .
-            " " .
-            get_query_var("paged") .
-            ")";
     }
 
     echo "</div>";
 }
+
+
 
 //TOC
 function webida_TOC()
@@ -228,7 +183,7 @@ function webida_TOC()
     foreach ($headings as $heading) {
         echo '
             <div class="column">
-                <div class="row items-center link-on-hover q-mb-sm q-mx-sm">
+                <div class="link-on-hover q-mb-sm q-mx-sm">
                     <q-icon name="circle" size="8px" class="q-mr-sm text-secondary"></q-icon>
                     <a class="no-decoration text-secondary text-body2 no-letter-spacing" href="#' .
             $heading["id"] .
