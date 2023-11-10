@@ -1,16 +1,16 @@
-<div class="post-container q-pb-xl q-mb-md">
+<div class="column q-gutter-y-lg q-pb-xl q-mb-md ">
   <?php if (have_posts()):
     while (have_posts()):
       the_post(); ?>
 
       <a class="no-decoration" href="<?php the_permalink(); ?>">
-        <q-card bordered style="width:260px;"
+        <q-card bordered
           class="on-hover full-height column justify-between post-card q-radius-md no-shadow q-pa-md">
 
           <q-card-section class="q-pa-none">
             <?php if (has_post_thumbnail()): ?>
-              <q-img style="border-radius:6px" class="q-mb-sm" src="<?php the_post_thumbnail_url('smallest'); ?>" :ratio="4/3"
-                alt="" height="130px"></q-img>
+              <q-img sizes="max-height" style="border-radius:6px" class="q-mb-sm" src="<?php the_post_thumbnail_url(); ?>" :ratio="4/3"
+                alt="" ></q-img>
             <?php endif ?>
             <div class="row justify-between">
               <div style="margin-top:5px;" class="col text-weight-600 text-dark no-letter-spacing text-caption">
