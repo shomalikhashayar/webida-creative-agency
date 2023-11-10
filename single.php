@@ -110,15 +110,58 @@
 
 <q-layout :view="rightLayout" class="xs">
   <div class="container">
-    <?php get_template_part('/layouts/desktop/SingleLayout'); ?>
+    <?php get_template_part('/layouts/mobile/SingleLayout'); ?>
   </div>
 
   <q-page-container class="bg-white">
     <q-page>
-      <div class="container q-my-xl bg-red">
-
-        <h2>Signle page on mobile screen</h2>
+      <div class="container q-mb-xl ">
         <?php webida_TOC(); ?>
+
+
+
+        <div class="col q-mt-lg">
+            <q-list>
+              <q-item class="q-pa-none">
+                <q-item-section class="text-center">
+
+                  <div class="row items-center">
+                    <div class="col"><q-separator size="2px"></q-separator></div>
+                    <div class="col text-weight-700 no-letter-spacing text-body1 text-secondary">دسته‌بندی‌ها</div>
+                    <div class="col"><q-separator size="2px"></q-separator></div>
+                  </div>
+
+                </q-item-section>
+              </q-item>
+              <q-item>
+                <q-item-section
+                  class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
+                  سئو</q-item-section>
+              </q-item>
+              <q-separator></q-separator>
+              <q-item>
+                <q-item-section
+                  class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
+                  المنتور</q-item-section>
+              </q-item>
+              <q-separator></q-separator>
+              <q-item>
+                <q-item-section
+                  class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
+                  محتوا</q-item-section>
+              </q-item>
+              <q-separator></q-separator>
+              <q-item>
+                <q-item-section
+                  class="q-my-md text-center text-weight-600 no-letter-spacing text-body2 text-secondary">آموزش
+                  وردپرس</q-item-section>
+              </q-item>
+              <q-separator></q-separator>
+            </q-list>
+          </div>
+
+
+
       </div>
     </q-page>
   </q-page-container>
