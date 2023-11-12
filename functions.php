@@ -138,8 +138,7 @@ function custom_admin_css()
         #titlediv #title {
             background-color: #FFFFCC;
             border: 1px solid #E6DB55;
-            font-family: "yekan-heavy";
-            font-weight: 800;
+            font-family: "yekan-black";
             padding: 42px 16px;
             margin-top: 24px;
         }
