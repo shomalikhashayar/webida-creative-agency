@@ -143,7 +143,7 @@
           setTimeout(() => {
             q.loading.hide()
             document.getElementById('q-app').style.visibility = 'visible'
-          }, 2000)
+          }, 2550)
         }
 
 
