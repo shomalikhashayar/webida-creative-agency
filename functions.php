@@ -73,6 +73,15 @@ function load_js()
     );
 }
 
+// Function to load your custom stylesheet
+function enqueue_custom_fonts() {
+    wp_enqueue_style('yekan-fonts', get_template_directory_uri() . './assets/css/typography/index.css');
+}
+
+// Hook to enqueue the custom stylesheet
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
+
+
 add_action("wp_enqueue_scripts", "load_js");
 
 // Theme options
@@ -80,6 +89,45 @@ add_theme_support("menus");
 add_theme_support("post-thumbnails");
 add_image_size("smallest", 300, 300, true);
 add_image_size("largest", 800, 800, true);
+add_theme_support( 'appearance-tools' );
+add_theme_support( 'custom-spacing' );
+
+// WordPress Custom Font @ Admin
+// Enqueue custom font styles in the admin area
+function custom_admin_fonts() {
+    if (current_user_can('administrator')) {
+        wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
+        echo '<style>
+            body, #wpadminbar *:not([class="ab-icon"]), .wp-core-ui, .media-menu, .media-frame *, .media-modal * {
+                font-family: "yekan-regular" !important;
+            }
+        </style>';
+    }
+}
+add_action('admin_enqueue_scripts', 'custom_admin_fonts');
+
+// Enqueue custom font styles for the admin toolbar in the frontend
+function custom_admin_toolbar_fonts() {
+    if (current_user_can('administrator')) {
+        wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
+        echo '<style>#wpadminbar *:not([class="ab-icon"]) {
+            font-family: "yekan-regular" !important;
+        }
+        </style>';
+    }
+}
+add_action('wp_before_admin_bar_render', 'custom_admin_toolbar_fonts');
+
+// Enqueue custom font styles for the login page
+function custom_login_page_fonts() {
+    wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
+    echo '<style>body {
+        font-family: "yekan-regular" !important;
+    }
+    </style>';
+}
+add_action('login_enqueue_scripts', 'custom_login_page_fonts');
+
 
 // Register menus location
 register_nav_menus([
@@ -142,7 +190,6 @@ function the_breadcrumb()
 
     echo "</div>";
 }
-
 
 
 //TOC

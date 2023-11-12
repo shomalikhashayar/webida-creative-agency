@@ -5,7 +5,7 @@
     <div class="container row">
       <div class="col row justify-between">
         <div class="row">
-          <img src="http://localhost/webida/wp-content/uploads/2023/10/R.I.P.svg" alt="" style="width:200px">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="" style="width:200px">
           <h1 style="width:350px; line-height: 99px;" class="animate-characters q-pl-md text-weight-900 text-secondary">
             آژانس خلاقیت وبیدا</h1>
         </div>

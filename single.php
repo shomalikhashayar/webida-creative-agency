@@ -51,11 +51,11 @@
 
             </div>
 
-            <h1 class="text-h3 text-center text-weight-900 text-secondary">
+            <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
               <?php the_title() ?>
             </h1>
 
-            <div style="margin-bottom:90px">
+            <div class="post-content" style="margin-bottom:90px">
               <?php webida_TOC(); ?>
             </div>
 
@@ -132,30 +132,30 @@
 
         <div class="row justify-center items-center q-gutter-xs q-pt-lg">
           <div class="row text-body3 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
-              <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
-              <div class="text-weight-400">
-                آخرین بروزرسانی:
-                <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
-                <?php
-                $last_modified_date = get_the_modified_date('Y-m-d');
-                $jDate = new jDateTime(true, true, 'Asia/Tehran');
-                $last_modified_jalali = $jDate->date('d F Y', strtotime($last_modified_date));
-                echo 'در ' . $last_modified_jalali;
-                ?>
-              </div>
+            <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
+            <div class="text-weight-400">
+              آخرین بروزرسانی:
+              <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
+              <?php
+              $last_modified_date = get_the_modified_date('Y-m-d');
+              $jDate = new jDateTime(true, true, 'Asia/Tehran');
+              $last_modified_jalali = $jDate->date('d F Y', strtotime($last_modified_date));
+              echo 'در ' . $last_modified_jalali;
+              ?>
+            </div>
           </div>
 
           <div class="row q-gutter-xs items-center no-decoration">
             <a class="no-decoration text-weight-400 text-body3 no-letter-spacing text-secondary"
               href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
-                <q-icon name="o_account_circle" size="xs" class="q-mr-xs" color="primary"></q-icon>
-                <?php the_author(); ?>
+              <q-icon name="o_account_circle" size="xs" class="q-mr-xs" color="primary"></q-icon>
+              <?php the_author(); ?>
             </a>
           </div>
         </div>
 
 
-        <h1 class="text-h3 text-center text-weight-900 text-secondary">
+        <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
           <?php the_title() ?>
         </h1>
 
