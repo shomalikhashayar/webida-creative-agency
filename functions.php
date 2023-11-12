@@ -73,15 +73,6 @@ function load_js()
     );
 }
 
-// Function to load your custom stylesheet
-function enqueue_custom_fonts() {
-    wp_enqueue_style('yekan-fonts', get_template_directory_uri() . './assets/css/typography/index.css');
-}
-
-// Hook to enqueue the custom stylesheet
-add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
-
-
 add_action("wp_enqueue_scripts", "load_js");
 
 // Theme options
@@ -89,44 +80,142 @@ add_theme_support("menus");
 add_theme_support("post-thumbnails");
 add_image_size("smallest", 300, 300, true);
 add_image_size("largest", 800, 800, true);
-add_theme_support( 'appearance-tools' );
-add_theme_support( 'custom-spacing' );
+add_theme_support('appearance-tools');
+add_theme_support('custom-spacing');
 
-// WordPress Custom Font @ Admin
-// Enqueue custom font styles in the admin area
-function custom_admin_fonts() {
+//Webida schema color
+function wpacg_webida_admin_color_scheme()
+{
+    // Get the theme directory
+    $theme_dir = get_stylesheet_directory_uri();
+
+    // آژانس خلاقیت وبیدا
+    wp_admin_css_color(
+        'webida',
+        __('آژانس خلاقیت وبیدا'),
+        $theme_dir . '/assets/css/colors/webida-theme-color.css',
+        array('#ce1340', '#ffffff', '#ce1340', '#d84266')
+    );
+}
+add_action('admin_init', 'wpacg_webida_admin_color_scheme');
+
+
+//Change WordPress admin dashboard font
+function custom_admin_custom_font()
+{
+    wp_enqueue_style('custom-fonts', get_template_directory_uri() . '/assets/fonts/index.css');
+
+    echo '<style>body, #wpadminbar *:not([class="ab-icon"]), .wp-core-ui, .media-menu, .media-frame *, .media-modal *{font-family:"yekan-regular",sans-serif!important;}</style>';
+}
+add_action('admin_head', 'custom_admin_custom_font');
+
+function custom_admin_custom_font_frontend_toolbar()
+{
     if (current_user_can('administrator')) {
-        wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
-        echo '<style>
-            body, #wpadminbar *:not([class="ab-icon"]), .wp-core-ui, .media-menu, .media-frame *, .media-modal * {
-                font-family: "yekan-regular" !important;
-            }
-        </style>';
+        wp_enqueue_style('custom-fonts', get_template_directory_uri() . '/assets/fonts/index.css');
+
+        echo '<style>#wpadminbar *:not([class="ab-icon"]){font-family:"yekan-regular",sans-serif!important;}</style>';
     }
 }
-add_action('admin_enqueue_scripts', 'custom_admin_fonts');
+add_action('wp_head', 'custom_admin_custom_font_frontend_toolbar');
 
-// Enqueue custom font styles for the admin toolbar in the frontend
-function custom_admin_toolbar_fonts() {
-    if (current_user_can('administrator')) {
-        wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
-        echo '<style>#wpadminbar *:not([class="ab-icon"]) {
-            font-family: "yekan-regular" !important;
+function custom_admin_custom_font_login_page()
+{
+    if (stripos($_SERVER["SCRIPT_NAME"], strrchr(wp_login_url(), '/')) !== false) {
+        wp_enqueue_style('custom-fonts', get_template_directory_uri() . '/assets/fonts/index.css');
+
+        echo '<style>body{font-family:"yekan-regular",sans-serif!important;}</style>';
+    }
+}
+add_action('login_head', 'custom_admin_custom_font_login_page');
+
+function custom_admin_css()
+{
+    echo '<style>
+        #titlediv #title-prompt-text {
+            display: none;
         }
-        </style>';
-    }
-}
-add_action('wp_before_admin_bar_render', 'custom_admin_toolbar_fonts');
+        #titlediv #title {
+            background-color: #FFFFCC;
+            border: 1px solid #E6DB55;
+            font-family: "yekan-heavy";
+            font-weight: 800;
+            padding: 42px 16px;
+            margin-top: 24px;
+        }
 
-// Enqueue custom font styles for the login page
-function custom_login_page_fonts() {
-    wp_enqueue_style('yekan-font', 'webida/wp-content-themes/webida-creative-agency/assets/fonts/index.css');
-    echo '<style>body {
-        font-family: "yekan-regular" !important;
-    }
+        #edit-slug-box {
+
+            margin-bottom: 16px;
+
+        }
+
+        .metabox-holder .postbox>h3, .metabox-holder .stuffbox>h3, .metabox-holder h2.hndle, .metabox-holder h3.hndle {
+        
+        font-family: "yekan-regular";
+        }
+
+        .wrap {
+            margin: 24px 2px 0 24px;
+        }
+
+        .wrap .wp-heading-inline+.page-title-action {
+            background-color:  #ce1340;
+            border-radius: 4px;
+            padding: 8px 16px;
+            border: none;
+            color: white;
+        }
+
+        .wrap .wp-heading-inline+.page-title-action:hover {
+            background-color:  #eb2958;
+            
+        }
+
+        .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+            font-family: "yekan-boldest";
+            color: #2d2d2d;
+            fotnt-weight: 700
+        }
+
+        .wp-core-ui .button-link {
+            color: #ce1340!important;
+        }
+
+        .wp-core-ui .button-link:hover {
+            color: #eb2958!important;
+        }
+
+        .wp-core-ui .button-link:active {
+            color: #eb2958!important;
+        }
+
+        #adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu .wp-has-current-submenu .wp-submenu a:focus, #adminmenu .wp-has-current-submenu .wp-submenu a:hover, .folded #adminmenu .wp-has-current-submenu .wp-submenu a:focus, .folded #adminmenu .wp-has-current-submenu .wp-submenu a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:focus, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a:hover, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:focus, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a:hover {
+            color: yellow;
+        }
+
+        #adminmenu .wp-submenu li.current a:hover, #adminmenu .wp-submenu li.current a:focus, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a:hover, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a:focus, #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a:hover, #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a:focus {
+            color: yellow;
+        }
+
+        #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after, #adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
+            border-left-color: yellow;
+        }
     </style>';
 }
-add_action('login_enqueue_scripts', 'custom_login_page_fonts');
+
+function custom_admin_js()
+{
+    echo '<script>
+        jQuery(document).ready(function($) {
+            $("#title").attr("placeholder", "عنوان مطلب رو بنویس جیگر");
+        });
+    </script>';
+}
+
+add_action('admin_head', 'custom_admin_css');
+add_action('admin_head', 'custom_admin_js');
+
 
 
 // Register menus location
