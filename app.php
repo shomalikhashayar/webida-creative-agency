@@ -215,6 +215,11 @@
 </script>
 
 <style>
+  ::selection {
+    background-color: var(--q-webida-primary);
+    color: white;
+  }
+
   ::-webkit-scrollbar {
     height: 12px;
     width: 14px;
