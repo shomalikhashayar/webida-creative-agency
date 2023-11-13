@@ -181,7 +181,8 @@
         slide: ref(1),
         autoplay: ref(true),
         toggleTOC: ref(false),
-
+        relatedPostsMobile: ref(1),
+        relatedPostsDesktop: ref(1),
 
       }
     }

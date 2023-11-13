@@ -74,6 +74,14 @@ h3 {
   column-gap: 24px;
 }
 
+.carousel-related-post-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
 .on-hover-primary-1:hover {
   border: 1px solid var(--q-webida-primary) !important;
   box-shadow: 0 0 8px 0 #ce134024 !important;

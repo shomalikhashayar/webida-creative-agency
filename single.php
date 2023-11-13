@@ -59,6 +59,16 @@
               <?php webida_TOC(); ?>
             </div>
 
+            <div class="text-h4 text-secondary text-weight-700 q-mb-md">مطالب مرتبط</div>
+
+            <div class="q-mb-md">
+
+              <?php get_template_part("components/RelatedPosts") ?>
+
+            </div>
+
+
+
           </div>
 
           <div class="col">
@@ -161,6 +171,14 @@
 
         <div class="post-content" style="margin-bottom:45px">
           <?php webida_TOC(); ?>
+        </div>
+
+        <div class="text-h4 text-secondary text-weight-700 q-mb-md">مطالب مرتبط</div>
+
+        <div class="q-mb-md">
+
+          <?php get_template_part("components/RelatedPosts") ?>
+
         </div>
 
         <q-list>
