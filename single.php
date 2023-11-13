@@ -130,7 +130,7 @@
 
           <?php endwhile; endif; ?>
 
-        <div class="row justify-center items-center q-gutter-xs q-pt-lg">
+        <div class="row justify-center items-center q-gutter-xs q-pt-sm">
           <div class="row text-body3 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
             <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
             <div class="text-weight-400">
@@ -159,7 +159,7 @@
           <?php the_title() ?>
         </h1>
 
-        <div>
+        <div class="post-content" style="margin-bottom:45px">
           <?php webida_TOC(); ?>
         </div>
 

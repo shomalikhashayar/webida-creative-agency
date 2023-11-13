@@ -16,7 +16,7 @@ function load_css()
 {
     wp_register_style(
         "quasar-style",
-        get_template_directory_uri() . "/css/quasar.rtl.prod.css",
+        get_template_directory_uri() . "/assets/css/quasar.rtl.prod.css",
         [],
         false,
         "all"
@@ -26,7 +26,7 @@ function load_css()
 
     wp_register_style(
         "material_ui",
-        get_template_directory_uri() . "/css/css.css",
+        get_template_directory_uri() . "/assets/css/css.css",
         [],
         false,
         "all"
@@ -52,21 +52,21 @@ function load_js()
 {
     wp_enqueue_script(
         "vue",
-        get_template_directory_uri() . "/js/vue.global.js",
+        get_template_directory_uri() . "/assets/js/vue.global.js",
         [],
         null,
         true
     );
     wp_enqueue_script(
         "quasar",
-        get_template_directory_uri() . "/js/quasar.umd.prod.js",
+        get_template_directory_uri() . "/assets/js/quasar.umd.prod.js",
         ["vue"],
         null,
         true
     );
     wp_enqueue_script(
         "fa-quasar",
-        get_template_directory_uri() . "/js/fa.umd.prod.js",
+        get_template_directory_uri() . "/assets/js/fa.umd.prod.js",
         [],
         null,
         true
