@@ -9,11 +9,10 @@ get_header();
 ?>
 
   <q-layout :view="rightLayout">
-   <?php get_template_part('layouts/MainLayout'); ?>
+  <?php get_template_part('/layouts/desktop/MainLayout'); ?>
  <q-page-container>
   <q-page>
-  <?php get_template_part('components/Carousel')?>
-  <?php get_template_part('components/Carousel')?>
+  <pre>Template Name: Contact Us Template</pre>
     </q-page>
  </q-page-container>
  </q-layout>
