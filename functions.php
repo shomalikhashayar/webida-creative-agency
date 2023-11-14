@@ -243,43 +243,6 @@ function convert_to_persian_date($gregorian_date)
     return $dateObj->date("d F Y", strtotime($gregorian_date));
 }
 
-/*=============================================
-=            BREADCRUMBS			            =
-=============================================*/
-
-function the_breadcrumb()
-{
-    $delimiter = '<q-icon name="arrow_left" size="md" color="primary"></q-icon>'; // Delimiter between breadcrumbs
-    $home = "وبیدا"; // Text for the 'Home' link
-    $show_current = true; // Display the current page title in breadcrumbs
-    $before = '<span class="current">'; // Tag before the current page
-    $after = "</span>"; // Tag after the current page
-
-    echo '<div class="items-center">'; // Removed the "row" class
-
-    global $post;
-
-    $homeLink = get_bloginfo("url");
-    echo '<a href="' . $homeLink . '" class="text-primary text-weight-500 no-decoration items-center">' . '<q-icon name="o_home" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $home . "</a>" . $delimiter;
-
-    if (is_category() || is_single()) {
-        $category = get_the_category();
-        if ($category) {
-            $cat_id = $category[0]->cat_ID;
-            echo $before . '<a href="' . get_category_link($cat_id) . '" class="text-primary no-decoration items-center">' . '<q-icon name="o_category" class="q-mr-xs" size="sm" color="primary"></q-icon>' . $category[0]->name . "</a>";
-        }
-        echo $after . $delimiter;
-
-        if (is_single()) {
-            // Display an icon and wrap the post title in a <span> with items-center class
-            echo $before . '<q-icon name="o_article" class="q-mr-xs" size="sm" color="secondary"></q-icon><span class="text-secondary text-weight-500 items-center">' . get_the_title() . '</span>' . $after;
-        }
-    }
-
-    echo "</div>";
-}
-
-
 //TOC
 function webida_TOC()
 {
@@ -313,7 +276,7 @@ function webida_TOC()
         $headings_json .
         "</div>";
     echo '<div class="table-of-contents">';
-    echo get_template_part("components/TableOfContents");
+    echo get_template_part("components/single-page/TableOfContents");
 
     foreach ($headings as $heading) {
         echo '

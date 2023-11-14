@@ -144,6 +144,15 @@ h3 {
   color: var(--q-webida-primary);
 }
 
+.post-content a {
+  color: var(--q-webida-primary);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration:underline;
+}
+
 /* @media (min-width: 1200px) {
 
   .container {
@@ -169,6 +178,13 @@ h3 {
 
   .self-praises-card {
     width: 100%;
+  }
+
+  .breadcrumb a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--q-webida-primary);
   }
 }
 

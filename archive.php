@@ -11,8 +11,8 @@
           <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
             <?php single_cat_title('آموزش ') ?>
           </h1>
-          <?php get_template_part('includes/desktop/section', 'archive'); ?>
-          <?php get_template_part('components/Pagination'); ?>
+          <?php get_template_part('components/shared/PostCard'); ?>
+          <?php get_template_part('components/shared/Pagination'); ?>
 
         </div>
       </q-page>
@@ -29,8 +29,8 @@
           <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
             <?php single_cat_title('آموزش ') ?>
           </h1>
-          <?php get_template_part('includes/mobile/section', 'archive'); ?>
-          <?php get_template_part('components/Pagination'); ?>
+          <?php get_template_part('components/shared/PostCard'); ?>
+          <?php get_template_part('components/shared/Pagination'); ?>
 
         </div>
       </q-page>
