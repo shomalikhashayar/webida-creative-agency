@@ -44,7 +44,7 @@
                         <q-card bordered class="on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md" style="width: 220px;">
                             <q-card-section class="q-pa-none">';
                 if (!empty($thumbnail_url)) {
-                    echo '<q-img style="border-radius:6px" class="q-mb-sm" src="' . $thumbnail_url . '" :ratio="4/3" alt="" height="130px"></q-img>';
+                    echo '<q-img fit="fill" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" alt="" height="125px"></q-img>';
                 }
                 echo '<div class="row justify-between">
                                     <div class="row q-gutter-xs items-center justify-end">';
