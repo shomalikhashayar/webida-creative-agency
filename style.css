@@ -139,8 +139,7 @@ h3 {
 
 .breadcrumb a {
   text-decoration: none;
-  font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   color: var(--q-webida-primary);
 }
 
@@ -182,7 +181,6 @@ h3 {
 
   .breadcrumb a {
     text-decoration: none;
-    font-weight: 600;
     font-size: 14px;
     color: var(--q-webida-primary);
   }

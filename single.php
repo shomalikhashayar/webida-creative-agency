@@ -7,20 +7,18 @@
   <q-page-container class="bg-white">
     <q-page>
 
-      <div class="container row">
         <?php if (have_posts()):
           while (have_posts()):
             the_post(); ?>
 
-            <div class="breadcrumb q-mt-xl">
-              <?php get_template_part('components/single-page/desktop/Breadcrumb') ?>
-            </div>
-          </div>
-          <div class="container q-mt-sm q-mb-xl">
+          <div class="container q-my-xl">
 
             <div class="row q-gutter-xl">
               <div class="col-7">
 
+              <div class="breadcrumb q-mb-lg">
+              <?php get_template_part('components/single-page/desktop/Breadcrumb') ?>
+            </div>
 
                 <?php if (has_post_thumbnail()): ?>
                   <q-img class="q-mx-none q-radius-xs" src="<?php the_post_thumbnail_url() ?>"
@@ -144,7 +142,7 @@
           while (have_posts()):
             the_post(); ?>
 
-            <div class="breadcrumb q-my-md">
+            <div class="breadcrumb q-my-lg">
               <?php get_template_part('components/single-page/mobile/Breadcrumb') ?>
             </div>
 
