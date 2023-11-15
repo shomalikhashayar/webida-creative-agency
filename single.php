@@ -30,7 +30,7 @@
             <div class="row justify-center items-center q-gutter-x-sm q-py-lg">
 
               <div class="row text-body2 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
-                <q-icon name="o_calendar_month" size="sm" color="primary"></q-icon>
+                <q-icon name="o_calendar_month" size="20px" color="primary"></q-icon>
                 <div class="text-weight-400">
                   آخرین بروزرسانی:
                   <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
@@ -46,7 +46,7 @@
               <div class="row inline q-gutter-xs items-center no-decoration">
                 <a class="no-decoration text-weight-400 text-body2 no-letter-spacing text-secondary"
                   href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
-                  <q-icon name="o_account_circle" size="sm" color="primary"></q-icon>
+                  <q-icon name="o_account_circle" size="20px" color="primary"></q-icon>
                   <?php the_author(); ?>
                 </a>
               </div>
@@ -58,7 +58,7 @@
             </h1>
 
             <div class="post-content">
-              <?php get_template_part('components/single-page/TableOfContents'); ?>
+              <?php get_template_part('components/single-page/TableOfContents2'); ?>
             </div>
 
             <div class="q-py-lg">
@@ -149,7 +149,7 @@
         </h1>
 
         <div class="post-content">
-          <?php get_template_part('components/single-page/TableOfContents'); ?>
+          <?php get_template_part('components/single-page/TableOfContents2'); ?>
         </div>
 
         <div class="q-py-md">
