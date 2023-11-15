@@ -4,15 +4,15 @@
     $delimiter = '<q-icon name="arrow_left" size="20px" color="primary"></q-icon>'; // Delimiter between breadcrumbs
     $home = "وبیدا"; // Text for the 'Home' link
     $show_current = true; // Display the current page title in breadcrumbs
-    $before = '<span style="font-size:14px;" class="line-height-sm current">'; // Tag before the current page
+    $before = '<span style="font-size:14px;" class="line-height-xs current">'; // Tag before the current page
     $after = "</span>"; // Tag after the current page
     
-    echo '<div class="items-center">'; // Removed the "row" class
+    echo '<div class="items-center link-on-hover">'; // Removed the "row" class
     
     global $post;
 
     $homeLink = get_bloginfo("url");
-    echo '<a href="' . $homeLink . '" class="text-primary no-decoration items-center">' . '<q-icon name="o_home" class="q-mr-xs" size="20px" color="primary"></q-icon>' . $home . "</a>" . $delimiter;
+    echo '<a href="' . $homeLink . '" class="text-primary no-decoration link-on-hover items-center">' . '<q-icon name="o_home" class="q-mr-xs" size="20px" color="primary"></q-icon>' . $home . "</a>" . $delimiter;
 
     echo $before . '<a href="' . $homeLink . '/blog/" class="text-primary no-decoration items-center">' . '<q-icon name="o_local_library" class="q-mr-xs" size="20px" color="primary"></q-icon>' . 'بلاگ' . "</a>" . $after . $delimiter;
 

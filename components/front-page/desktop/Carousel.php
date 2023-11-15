@@ -25,7 +25,7 @@
       <div class="row carousel-post-container">
         <?php
         $args = array(
-          'numberposts' => 12,
+          'numberposts' => 9,
           'order' => 'DESC',
         );
 
