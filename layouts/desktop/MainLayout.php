@@ -1,4 +1,4 @@
-<div class="gt-sm">
+<div class="gt-sm" v-if="$q.screen.gt.sm">
   <q-header unelevated bordered class="bg-accent">
     <q-toolbar v-if="ad" class="q-py-xs webida-primary">
       <div class="col-1"></div>

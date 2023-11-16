@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Check if the screen width is less than or equal to a certain value (e.g., 768px) for mobile screens
     if (window.innerWidth <= 768) {
-        offset = -105; // Adjust the offset for mobile screens
+        offset = -120; // Adjust the offset for mobile screens
     }
 
     headings.forEach(function(heading) {

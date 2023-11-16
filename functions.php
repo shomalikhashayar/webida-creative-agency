@@ -66,7 +66,7 @@ function load_js()
     );
     wp_enqueue_script(
         "fa-quasar",
-        get_template_directory_uri() . "/assets/js/fa.umd.prod.js",
+        get_template_directory_uri() . "/assets/js/fa-IR.umd.prod.js",
         [],
         null,
         true
