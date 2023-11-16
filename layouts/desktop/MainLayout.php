@@ -45,6 +45,7 @@
             label="ارتباط با ما" icon="o_support_agent"></q-btn>
         </div>
         <div class="row items-center">
+          <?php get_search_form(); ?>
           <q-btn unelevated flat dense color="primary" round icon="o_search"></q-btn>
           <q-btn color="secondary" stretch flat label="پشتیبانی" icon="o_support_agent">
             <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
