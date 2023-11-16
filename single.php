@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<q-layout :view="rightLayout" class="gt-sm">
+<q-layout :view="rightLayout" class="gt-sm" v-if="$q.screen.gt.sm">
   <div class="container">
     <?php get_template_part('/layouts/desktop/SingleLayout'); ?>
   </div>
@@ -58,7 +58,7 @@
             </h1>
 
             <div class="post-content">
-              <?php get_template_part('components/single-page/TableOfContents2'); ?>
+              <?php get_template_part('components/single-page/TableOfContents'); ?>
             </div>
 
             <div class="q-py-lg">
@@ -97,7 +97,7 @@
 </q-layout>
 
 
-<q-layout :view="rightLayout" class="xs">
+<q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
   <div class="container">
     <?php get_template_part('/layouts/mobile/SingleLayout'); ?>
   </div>
@@ -149,7 +149,7 @@
         </h1>
 
         <div class="post-content">
-          <?php get_template_part('components/single-page/TableOfContents2'); ?>
+          <?php get_template_part('components/single-page/TableOfContents'); ?>
         </div>
 
         <div class="q-py-md">

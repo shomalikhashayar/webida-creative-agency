@@ -76,11 +76,11 @@ echo '
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var headings = JSON.parse(document.getElementById("headings-json").textContent);
-    var offset = -70; // Default offset for desktop screens
+    var offset = -95; // Default offset for desktop screens
 
     // Check if the screen width is less than or equal to a certain value (e.g., 768px) for mobile screens
     if (window.innerWidth <= 768) {
-        offset = -2; // Adjust the offset for mobile screens
+        offset = -105; // Adjust the offset for mobile screens
     }
 
     headings.forEach(function(heading) {
