@@ -24,6 +24,10 @@ License URI: https://webida.ir
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;

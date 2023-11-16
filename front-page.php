@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <body>
-  <q-layout :view="rightLayout" class="gt-sm">
+  <q-layout :view="rightLayout" class="gt-sm" v-if="$q.screen.gt.sm">
     <div class="container">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
@@ -31,7 +31,7 @@
     </q-page-container>
   </q-layout>
 
-  <q-layout :view="rightLayout" class="xs">
+  <q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
     <div class="container">
       <?php get_template_part('/layouts/mobile/MainLayout'); ?>
     </div>

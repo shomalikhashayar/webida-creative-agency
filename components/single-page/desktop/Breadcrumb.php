@@ -7,7 +7,7 @@
     $before = '<span style="font-size:14px;" class="current line-height-sm">'; // Tag before the current page
     $after = "</span>"; // Tag after the current page
     
-    echo '<div class="items-center">'; // Removed the "row" class
+    echo '<div class="items-center link-on-hover">'; // Removed the "row" class
     
     global $post;
 

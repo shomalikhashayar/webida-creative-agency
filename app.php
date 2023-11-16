@@ -211,7 +211,7 @@
   app.config.warnHandler = (msg, instance, trace) => { }
   app.mount('#q-app')
 
-  Quasar.lang.set(Quasar.lang.fa)
+  Quasar.lang.set(Quasar.lang.faIR)
 
 </script>
 
