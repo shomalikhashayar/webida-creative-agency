@@ -200,6 +200,10 @@ function custom_admin_css()
         #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after, #adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
             border-left-color: yellow;
         }
+
+        #__wp-uploader-id-1:active {
+            color: #fff;
+        }
     </style>';
 }
 
