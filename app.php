@@ -29,6 +29,7 @@
       const drawer = ref(false)
       const showPageScroller = ref(false)
       const scrollY = ref(false)
+      const searchBox = ref('')
 
       const hideAd = () => {
         ad.value = false
@@ -177,6 +178,7 @@
         scrollToTop,
         showPageScroller,
         scrollY,
+        searchBox,
         miniState: ref(true),
         slide: ref(1),
         autoplay: ref(true),
