@@ -1,17 +1,18 @@
 <div class="xs" v-if="$q.screen.xs">
   <q-header unelevated bordered class="bg-accent">
     <q-toolbar v-if="ad" class="q-py-sm webida-primary">
-        <div class="col-7 flex items-center">
-          <span class="text-caption-sm no-letter-spacing" style="line-height: 16px;">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان به
-            ارمغان
-            می‌آوریم.</span>
-        </div>
+      <div class="col-7 flex items-center">
+        <span class="text-caption-sm no-letter-spacing" style="line-height: 16px;">با استفاده از تکنولوژی و خلاقیت
+          بهترین نتیجه را برایتان به
+          ارمغان
+          می‌آوریم.</span>
+      </div>
 
-        <div class="col row items-center justify-end q-gutter-sm">
-          <q-btn size="12px" unelevated rounded label="مشاوره رایگان" class="webida-primary-lighten text-weight-regular"
-            padding="6px 12px" /></q-btn>
-          <q-btn size="sm" @click="hideAd" unelevated round dense icon="o_close"></q-btn>
-        </div>
+      <div class="col row items-center justify-end q-gutter-sm">
+        <q-btn size="12px" unelevated rounded label="مشاوره رایگان" class="webida-primary-lighten text-weight-regular"
+          padding="6px 12px" /></q-btn>
+        <q-btn size="sm" @click="hideAd" unelevated round dense icon="o_close"></q-btn>
+      </div>
 
     </q-toolbar>
     <div class="container">
@@ -73,7 +74,10 @@
   </q-header>
 
   <q-drawer v-model="drawer" :width="260" :breakpoint="500" bordered side="left" overlay class="bg-primary">
-    <q-scroll-area class="fit" :horizontal-thumb-style="{ opacity: 0 }">
+    <div class="search-box q-pa-md q-mt-lg">
+      <?php get_search_form(); ?>
+    </div>
+    <q-scroll-area style="height: calc(100% - 100px);" :horizontal-thumb-style="{ opacity: 0 }">
       <q-list padding>
         <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle2 text-bold text-white"
           icon="o_handyman" label="خدمات ما">
@@ -238,7 +242,7 @@
             <a class="text-body1 no-letter-spacing text-white no-decoration text-weight-900"
               href="<?php echo esc_url(home_url()); ?>">
               <q-avatar class="q-mr-sm" size="32px">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
               </q-avatar>
               آژانس خلاقیت وبیدا</a>
           </div>

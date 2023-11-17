@@ -66,7 +66,6 @@
         requestAnimationFrame(step);
       }
 
-
       const menuList = [
         {
           icon: 'o_emoji_objects',
