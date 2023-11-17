@@ -46,7 +46,7 @@
         </div>
         <div class="row items-center">
           <?php get_search_form(); ?>
-          <q-btn color="secondary" class="q-ml-sm" flat label="پشتیبانی" icon="o_support_agent">
+          <q-btn color="secondary" class="q-ml-sm" flat label="پشتیبانی" icon="o_perm_phone_msg">
             <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
               <q-list padding>
                 <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">

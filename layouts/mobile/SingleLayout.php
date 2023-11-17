@@ -29,7 +29,7 @@
           <q-btn @click="toggleDrawer" unelevated round dense size="16px" color="primary" text-color="white"><q-icon
               size="xs" name="o_lunch_dining"></q-icon></q-btn>
           <q-btn unelevated dense size="16px" color="primary" text-color="white" round>
-            <q-icon name="o_support_agent" size="xs"></q-icon>
+            <q-icon name="o_perm_phone_msg" size="xs"></q-icon>
             <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
               <q-list padding>
                 <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">

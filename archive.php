@@ -11,7 +11,14 @@
           <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
             <?php single_cat_title('آموزش ') ?>
           </h1>
-          <?php get_template_part('components/shared/PostCard'); ?>
+          <div class="post-container q-pb-xl q-mb-md">
+            <?php if (have_posts()):
+              while (have_posts()):
+                the_post(); ?>
+                <?php get_template_part('components/shared/desktop/PostCard'); ?>
+              <?php endwhile; endif; ?>
+          </div>
+
           <?php get_template_part('components/shared/Pagination'); ?>
 
         </div>
@@ -19,7 +26,7 @@
     </q-page-container>
   </q-layout>
 
-  <q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">>
+  <q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
     <div class="container">
       <?php get_template_part('/layouts/mobile/MainLayout'); ?>
     </div>
@@ -29,7 +36,14 @@
           <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
             <?php single_cat_title('آموزش ') ?>
           </h1>
-          <?php get_template_part('components/shared/PostCard'); ?>
+          <div class="column q-gutter-y-lg q-pb-xl q-mb-md">
+            <?php if (have_posts()):
+              while (have_posts()):
+                the_post(); ?>
+                <?php get_template_part('components/shared/mobile/PostCard'); ?>
+              <?php endwhile; endif; ?>
+          </div>
+
           <?php get_template_part('components/shared/Pagination'); ?>
 
         </div>
