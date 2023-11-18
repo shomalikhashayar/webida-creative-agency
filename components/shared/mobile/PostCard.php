@@ -42,8 +42,16 @@
         </div>
         <div class="row q-gutter-x-sm items-center">
           <div class="row q-gutter-x-xs items-center">
-            <span class="text-dark">{{ like }}</span>
-            <q-icon name="o_favorite" class="text-primary" size="xs"></q-icon>
+            <span class="text-dark">
+              <?php $like_count = get_post_meta(get_the_ID(), 'like_count', true);
+              ?>
+              <span class="like-count" data-post-id="<?php the_ID(); ?>">
+                <?php
+                $like_count = get_post_meta(get_the_ID(), 'like_count', true);
+                echo esc_html($like_count !== '' ? $like_count : '0'); // Display 0 if no likes
+                ?>
+              </span>
+              <q-icon name="o_favorite" class="text-primary" size="xs"></q-icon>
           </div>
           <div class="row q-gutter-x-xs items-center">
             <span class="text-dark">{{ comment }}</span>

@@ -6,7 +6,6 @@
 
   <q-page-container class="bg-white">
     <q-page>
-
       <?php if (have_posts()):
         while (have_posts()):
           the_post(); ?>
@@ -61,7 +60,19 @@
               <?php get_template_part('components/single-page/TableOfContents'); ?>
             </div>
 
-            <div class="q-py-lg">
+            <div class="row items-center q-mt-md">
+              <!-- Like button -->
+              <q-btn round dense flat color="primary" icon="o_favorite" class="like-btn"
+                data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
+
+              <!-- Like counter -->
+              <span class="q-ml-xs text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
+                <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+              </span>
+            </div>
+
+
+            <div class="q-pt-sm q-pb-lg">
               <q-separator></q-separator>
 
               <div class="q-mt-lg q-mb-md">
@@ -85,9 +96,9 @@
           </div>
 
           <div class="col">
-          <aside class="q-mt-xl">
-            <?php get_template_part("components/single-page/CategoriesBar") ?>
-          </aside>
+            <aside class="q-mt-xl">
+              <?php get_template_part("components/single-page/CategoriesBar") ?>
+            </aside>
           </div>
         </div>
 
@@ -175,12 +186,11 @@
           <aside class="q-mt-lg q-mb-xl">
             <?php get_template_part("components/single-page/CategoriesBar") ?>
           </aside>
-          </div>
+        </div>
       </div>
 
     </q-page>
   </q-page-container>
 </q-layout>
-
 
 <?php get_footer(); ?>

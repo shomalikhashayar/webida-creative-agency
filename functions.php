@@ -248,4 +248,80 @@ function convert_to_persian_date($gregorian_date)
 }
 
 
+function enqueue_custom_scripts() {
+    // Enqueue your custom JavaScript file
+    wp_enqueue_script(
+        "custom-like-button-script",
+        get_template_directory_uri() . "/assets/js/like-post.js",
+        [],
+        null,
+        true
+    );
+
+    // Localize the AJAX URL for use in JavaScript
+    wp_localize_script('custom-like-button-script', 'ajax_object', array('ajax_url' => admin_url('admin-ajax.php')));
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
+
+
+// AJAX handler for 'handle_toggle_like' action
+add_action('wp_ajax_handle_toggle_like', 'handle_toggle_like');
+add_action('wp_ajax_nopriv_handle_toggle_like', 'handle_toggle_like');
+
+function handle_toggle_like()
+{
+    if (isset($_POST['post_id']) && isset($_POST['action_type'])) {
+        $post_id = intval($_POST['post_id']);
+        $action = intval($_POST['action_type']); // 1 for like, -1 for unlike
+
+        // Check if the user has already liked this post
+        $user_id = get_current_user_id();
+        $user_liked_posts = get_user_meta($user_id, 'liked_posts', true);
+
+        if (!$user_liked_posts) {
+            $user_liked_posts = array();
+        }
+
+        $current_like_count = get_post_meta($post_id, 'like_count', true);
+
+        // If the user hasn't liked the post yet, set default like count to 0
+        if (!in_array($post_id, $user_liked_posts, true)) {
+            $current_like_count = 0;
+        }
+
+        if ($action === 1 && !in_array($post_id, $user_liked_posts, true)) {
+            // Like the post and update the count
+            $updated_like_count = $current_like_count + $action;
+
+            update_post_meta($post_id, 'like_count', $updated_like_count);
+
+            // Add post ID to user's liked posts
+            $user_liked_posts[] = $post_id;
+            update_user_meta($user_id, 'liked_posts', $user_liked_posts);
+
+            // Return the updated like count as a response to the AJAX request
+            echo $updated_like_count;
+        } elseif ($action === -1 && in_array($post_id, $user_liked_posts, true)) {
+            // Unlike the post and update the count
+            $updated_like_count = $current_like_count + $action;
+
+            update_post_meta($post_id, 'like_count', $updated_like_count);
+
+            // Remove post ID from user's liked posts
+            $key = array_search($post_id, $user_liked_posts, true);
+            unset($user_liked_posts[$key]);
+            update_user_meta($user_id, 'liked_posts', $user_liked_posts);
+
+            // Return the updated like count as a response to the AJAX request
+            echo $updated_like_count;
+        } else {
+            // Return the current like count as a response to the AJAX request
+            echo $current_like_count;
+        }
+    }
+    // It's good to have wp_die() here to terminate the script
+    wp_die();
+}
+
 
