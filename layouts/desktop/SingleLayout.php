@@ -26,12 +26,13 @@
         <div class="row">
           <q-btn-dropdown class="text-secondary" unelevated label="خدمات وبیدا" dropdown-icon="expand_more">
             <q-list padding>
-              <q-item v-for="services in serviceList" :key="services" clickable v-close-popup>
+              <q-item v-for="services in serviceList" :key="services"
+                :href="'<?php echo get_site_url() ?>' + services.route" clickable v-close-popup>
                 <q-item-section>
                   <div class="row items-center q-gutter-sm">
-                    <q-icon :name="services.icon" size="xs" class="text-secondary"></q-icon><a
-                      class="text-secondary no-decoration" :href="'<?php echo get_site_url() ?>' + services.route">{{
-                      services.label}}</a>
+                    <q-icon :name="services.icon" size="xs" class="text-secondary"></q-icon>
+                    <div class="text-secondary no-decoration" :href="'<?php echo get_site_url() ?>' + services.route">{{
+                      services.label}}</div>
                   </div>
                 </q-item-section>
               </q-item>

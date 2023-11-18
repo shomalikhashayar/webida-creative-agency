@@ -5,7 +5,8 @@ get_header();
 <body>
 
 
-  <div class="text-h6"><?php the_title(); ?></div>
-  <?php get_template_part('includes/section','archive'); ?>
-
+  <div class="text-h6">
+    <?php the_title(); ?>
+  </div>
+  This is page.php
   <?php get_footer(); ?>
