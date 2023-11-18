@@ -60,23 +60,23 @@
               <?php get_template_part('components/single-page/TableOfContents'); ?>
             </div>
 
-            <div class="row items-center q-mt-md">
-              <!-- Like button -->
-              <q-btn round dense flat color="primary" icon="o_favorite" class="like-btn"
-                data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
-
-              <!-- Like counter -->
-              <span class="q-ml-xs text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
-                <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
-              </span>
+            <div class="row items-center justify-center q-gutter-sm q-mt-md">
+              <q-btn dense round flat color="primary" icon="o_send" @click="sharePostURL">
+              </q-btn>
+              <div class="row items-center">
+                <q-btn round dense flat color="primary" icon="o_thumb_up" class="like-btn"
+                  data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
+                <span class="q-ml-sm text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
+                  <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+                </span>
+              </div>
             </div>
 
 
             <div class="q-pt-sm q-pb-lg">
               <q-separator></q-separator>
 
-              <div class="q-mt-lg q-mb-md">
-                <?php get_template_part("components/single-page/desktop/ShareSection") ?>
+              <div class="q-my-md">
                 <?php get_template_part("components/single-page/PostNavigation") ?>
               </div>
 
@@ -163,22 +163,22 @@
           <?php get_template_part('components/single-page/TableOfContents'); ?>
         </div>
 
-        <div class="row items-center q-mt-md">
-              <!-- Like button -->
-              <q-btn round dense flat color="primary" icon="o_favorite" class="like-btn"
-                data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
-
-              <!-- Like counter -->
-              <span class="q-ml-xs text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
-                <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
-              </span>
-            </div>
+        <div class="row items-center justify-center q-gutter-sm q-my-md">
+          <q-btn dense round flat color="primary" icon="o_send" @click="sharePostURL">
+          </q-btn>
+          <div class="row items-center">
+            <q-btn round dense flat color="primary" icon="o_thumb_up" class="like-btn" data-post-id="<?php the_ID(); ?>"
+              data-state="like"></q-btn>
+            <span class="q-ml-sm text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
+              <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+            </span>
+          </div>
+        </div>
 
         <div class="q-pt-xs q-pb-md">
           <q-separator></q-separator>
 
-          <div class="q-mt-lg q-mb-md">
-            <?php get_template_part("components/single-page/mobile/ShareSection") ?>
+          <div class="q-my-md">
             <?php get_template_part("components/single-page/PostNavigation") ?>
           </div>
 
