@@ -6,52 +6,28 @@
             <?php get_template_part('/layouts/desktop/MainLayout'); ?>
         </div>
         <q-page-container class="bg-white">
-            <q-page>
-                <?php
-                // Check if there are search results
-                $query = new WP_Query(
-                    array(
-                        's' => get_search_query(), // Get the search query
-                        'post_type' => 'post', // Limit search to posts only
-                        'posts_per_page' => -1, // Retrieve all matching posts
-                        'post_status' => 'publish', // Retrieve only published posts
-                        'orderby' => 'title', // Order results by title
-                        'order' => 'ASC', // Order results in ascending order
-                        'fields' => 'ids', // Retrieve only post IDs for performance
-                        'sentence' => true, // Enable sentence-like searching
-                        'search_title_only' => true, // Search only in post titles
-                    )
-                );
+            <q-page class="container">
+                <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
+                    <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
+                </h1>
 
+                <div class="post-container q-pb-xl">
+                    <?php if (have_posts()):
+                        while (have_posts()):
+                            the_post(); ?>
+                            <?php get_template_part('components/shared/desktop/PostCard'); ?>
+                        <?php endwhile; else: ?>
 
-                if ($query->have_posts()):
-                    ?>
-                    <div class="container">
-                        <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
-                            <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
-                        </h1>
-
-                        <div class="post-container q-pb-xl">
-                            <?php
-                            while ($query->have_posts()):
-                                $query->the_post();
-                                get_template_part('components/shared/desktop/PostCard');
-                            endwhile;
-                            ?>
+                        <div class="q-my-xl">
+                            <?php get_template_part('components/search/desktop/NothingFound'); ?>
                         </div>
 
-                        <?php get_template_part('components/shared/Pagination'); ?>
+                    <?php endif; ?>
+                </div>
 
-                    </div>
-                    <?php
-                else:
-                    // If no results found, display a message
-                    get_template_part('components/search/desktop/NothingFound');
-                endif;
-                wp_reset_postdata(); // Reset the query
-                ?>
+                <?php get_template_part('components/shared/pagination'); ?>
+
             </q-page>
-
         </q-page-container>
     </q-layout>
 
@@ -60,50 +36,27 @@
             <?php get_template_part('/layouts/mobile/MainLayout'); ?>
         </div>
         <q-page-container class="bg-white">
-            <q-page>
-                <?php
-                // Check if there are search results
-                $query = new WP_Query(
-                    array(
-                        's' => get_search_query(), // Get the search query
-                        'post_type' => 'post', // Limit search to posts only
-                        'posts_per_page' => -1, // Retrieve all matching posts
-                        'post_status' => 'publish', // Retrieve only published posts
-                        'orderby' => 'title', // Order results by title
-                        'order' => 'ASC', // Order results in ascending order
-                        'fields' => 'ids', // Retrieve only post IDs for performance
-                        'sentence' => true, // Enable sentence-like searching
-                        'search_title_only' => true, // Search only in post titles
-                    )
-                );
+        <q-page class="container">
+                <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
+                    <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
+                </h1>
 
+                <div class="column q-gutter-y-lg q-pb-xl">
+                    <?php if (have_posts()):
+                        while (have_posts()):
+                            the_post(); ?>
+                            <?php get_template_part('components/shared/mobile/PostCard'); ?>
+                        <?php endwhile; else: ?>
 
-                if ($query->have_posts()):
-                    ?>
-                    <div class="container">
-                        <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
-                            <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
-                        </h1>
-
-                        <div class="column q-gutter-y-lg q-pb-xl">
-                            <?php
-                            while ($query->have_posts()):
-                                $query->the_post();
-                                get_template_part('components/shared/mobile/PostCard');
-                            endwhile;
-                            ?>
+                        <div class="q-my-xl">
+                            <?php get_template_part('components/search/mobile/NothingFound'); ?>
                         </div>
 
-                        <?php get_template_part('components/shared/Pagination'); ?>
+                    <?php endif; ?>
+                </div>
 
-                    </div>
-                    <?php
-                else:
-                    // If no results found, display a message
-                    get_template_part('components/search/mobile/NothingFound');
-                endif;
-                wp_reset_postdata(); // Reset the query
-                ?>
+                <?php get_template_part('components/shared/pagination'); ?>
+
             </q-page>
         </q-page-container>
     </q-layout>
