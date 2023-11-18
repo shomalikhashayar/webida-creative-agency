@@ -163,7 +163,18 @@
           <?php get_template_part('components/single-page/TableOfContents'); ?>
         </div>
 
-        <div class="q-py-md">
+        <div class="row items-center q-mt-md">
+              <!-- Like button -->
+              <q-btn round dense flat color="primary" icon="o_favorite" class="like-btn"
+                data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
+
+              <!-- Like counter -->
+              <span class="q-ml-xs text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
+                <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+              </span>
+            </div>
+
+        <div class="q-pt-xs q-pb-md">
           <q-separator></q-separator>
 
           <div class="q-mt-lg q-mb-md">
