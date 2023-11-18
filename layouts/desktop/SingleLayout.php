@@ -61,7 +61,7 @@
                     <q-item-section class="text-brand">09338603196</q-item-section>
                   </div>
                 </q-item>
-                <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
+                <q-item class="row items-center q-py-sm" clickable href="tel:09215848587">
                   <div>
                     <q-item-section avatar>
                       <q-avatar icon="o_person" size="md" text-color="white" color="primary" />
@@ -72,7 +72,7 @@
                     <q-item-section class="text-brand">09215848587</q-item-section>
                   </div>
                 </q-item>
-                <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
+                <q-item class="row items-center q-py-sm" clickable href="tel:09100854885">
                   <div>
                     <q-item-section avatar>
                       <q-avatar icon="o_person" size="md" text-color="white" color="primary" />
