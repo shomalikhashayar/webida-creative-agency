@@ -31,25 +31,16 @@
                             <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                         </h1>
 
-                        <?php
-                        // Loop through the search results
-                        while ($query->have_posts()):
-                            $query->the_post();
-                            // Display the post content or use template parts
-                            // Example: the_title(), the_content(), or using template parts
-                            // Example with template part:
-                            // get_template_part('components/shared/PostCard');
-                        endwhile;
-                        ?>
+                        <div class="post-container q-pb-xl">
+                            <?php
+                            while ($query->have_posts()):
+                                $query->the_post();
+                                get_template_part('components/shared/desktop/PostCard');
+                            endwhile;
+                            ?>
+                        </div>
 
-                        <?php
-                        // Include the template parts for post cards and pagination here, within the container
-                        // Displaying post cards
-                        get_template_part('components/shared/PostCard');
-
-                        // Displaying pagination
-                        get_template_part('components/shared/Pagination');
-                        ?>
+                        <?php get_template_part('components/shared/Pagination'); ?>
 
                     </div>
                     <?php
@@ -94,25 +85,16 @@
                             <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                         </h1>
 
-                        <?php
-                        // Loop through the search results
-                        while ($query->have_posts()):
-                            $query->the_post();
-                            // Display the post content or use template parts
-                            // Example: the_title(), the_content(), or using template parts
-                            // Example with template part:
-                            // get_template_part('components/shared/PostCard');
-                        endwhile;
-                        ?>
+                        <div class="column q-gutter-y-lg q-pb-xl">
+                            <?php
+                            while ($query->have_posts()):
+                                $query->the_post();
+                                get_template_part('components/shared/mobile/PostCard');
+                            endwhile;
+                            ?>
+                        </div>
 
-                        <?php
-                        // Include the template parts for post cards and pagination here, within the container
-                        // Displaying post cards
-                        get_template_part('components/shared/PostCard');
-
-                        // Displaying pagination
-                        get_template_part('components/shared/Pagination');
-                        ?>
+                        <?php get_template_part('components/shared/Pagination'); ?>
 
                     </div>
                     <?php

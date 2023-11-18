@@ -44,6 +44,8 @@ h6 {
 
 .post-content ul li {
   margin-right: -24px;
+  display: flex;
+  align-items: baseline;
 }
 
 .post-content ul li:before {

@@ -1,35 +1,44 @@
 @import url("./assets/fonts/index.css");
 
 :root {
-
-    --q-webida-primary: #ce1340;
+  --q-webida-primary: #ce1340;
 }
 
 #tinymce {
-    padding: 1px 24px !important;
-    font-family: "yekan-regular";
+  padding: 1px 24px !important;
+  font-family: "yekan-regular";
 }
 
 p {
-    line-height: 32px !important;
-    font-size: 16px !important;
+  line-height: 32px !important;
+  font-size: 16px !important;
 }
 
 img {
-    margin: 42px 0 32px 0;
+  margin: 42px 0 32px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "yekan-black";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "yekan-black";
 }
 
 ul {
   list-style: none;
 }
 
+ul li {
+  display: flex;
+  align-items: baseline;
+}
+
 ul li:before {
   content: "•";
-  font-size: 32px; 
+  font-size: 32px;
   color: var(--q-webida-primary);
   padding-left: 6px;
   margin-right: -16px;
@@ -47,12 +56,11 @@ ol {
   margin: 24px 0;
 }
 
-ol li:last-child{
+ol li:last-child {
   margin-bottom: 32px;
 }
 
 ol li::marker {
-
   font-size: 24px;
   color: var(--q-webida-primary);
   font-weight: 700;
