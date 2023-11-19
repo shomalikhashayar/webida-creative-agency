@@ -17,7 +17,7 @@
                             <?php get_template_part('components/shared/desktop/PostCard'); ?>
                         <?php endwhile; else: ?>
                     </div>
-                    <div class="q-mb-xl">
+                    <div style="margin-bottom:72px">
                         <?php get_template_part('components/search/desktop/NothingFound'); ?>
                     <?php endif; ?>
                 </div>
@@ -37,7 +37,7 @@
                 <h1 class="text-center text-secondary q-py-md text-weight-900 text-h3">
                     <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                 </h1>
-                <div class="column q-gutter-lg">
+                <div class="column q-gutter-y-lg q-mt-xl">
                     <?php if (have_posts()):
                         while (have_posts()):
                             the_post(); ?>
