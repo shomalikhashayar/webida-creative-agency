@@ -1,4 +1,4 @@
-<div class="pagination flex justify-center items-center q-gutter-sm q-mb-xl">
+<div class="pagination flex justify-center items-center q-gutter-sm">
 
     <?php
     global $wp_query;

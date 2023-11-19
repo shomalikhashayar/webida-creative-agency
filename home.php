@@ -12,7 +12,7 @@ get_header();
     </div>
     <q-page-container class="bg-white">
       <q-page class="container">
-        <div class="post-container q-py-xl">
+        <div class="post-container q-mt-xl">
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
@@ -20,7 +20,9 @@ get_header();
             <?php endwhile; endif; ?>
         </div>
 
-        <?php get_template_part('components/shared/Pagination'); ?>
+        <div class="q-my-xl">
+            <?php get_template_part('components/shared/Pagination'); ?>
+          </div>
 
 
       </q-page>
@@ -33,7 +35,7 @@ get_header();
     </div>
     <q-page-container class="bg-white">
       <q-page class="container">
-        <div class="column q-gutter-y-lg q-pb-xl">
+        <div class="column q-gutter-y-lg">
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
@@ -41,8 +43,9 @@ get_header();
             <?php endwhile; endif; ?>
         </div>
 
-        <?php get_template_part('components/shared/Pagination'); ?>
-
+        <div class="q-my-xl">
+            <?php get_template_part('components/shared/Pagination'); ?>
+          </div>
 
       </q-page>
     </q-page-container>

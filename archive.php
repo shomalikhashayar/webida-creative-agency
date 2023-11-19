@@ -18,9 +18,9 @@
                 <?php get_template_part('components/shared/desktop/PostCard'); ?>
               <?php endwhile; endif; ?>
           </div>
-
-          <?php get_template_part('components/shared/Pagination'); ?>
-
+          <div class="q-my-xl">
+            <?php get_template_part('components/shared/Pagination'); ?>
+          </div>
         </div>
       </q-page>
     </q-page-container>
@@ -44,7 +44,9 @@
               <?php endwhile; endif; ?>
           </div>
 
-          <?php get_template_part('components/shared/Pagination'); ?>
+          <div class="q-my-xl">
+            <?php get_template_part('components/shared/Pagination'); ?>
+          </div>
 
         </div>
       </q-page>
