@@ -42,7 +42,7 @@
                     foreach ($post_categories as $category) {
                         $category_link = get_category_link($category->term_id);
                         $category_name = esc_html($category->name);
-                        echo '<q-badge class="text-weight-600 text-caption-sm q-pa-sm q-radius-md" label="' . $category_name . '" color="primary" text-color="white"></q-badge>';
+                        echo '<q-badge class="q-mt-sm text-weight-600 text-caption-sm q-pa-sm q-radius-md" label="' . $category_name . '" color="primary" text-color="white"></q-badge>';
                     }
                 }
                 echo '</div></div>';

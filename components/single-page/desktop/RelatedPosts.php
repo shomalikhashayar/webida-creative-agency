@@ -23,7 +23,7 @@
 
         $posts_per_slide = 3; // Number of posts to display in each slide
         $post_count = 0; // Counter to keep track of posts
-
+    
         foreach ($latest_related_posts as $post) {
             if ($post->ID != $current_post_id) { // Skip the current post
                 if ($post_count % $posts_per_slide == 0) {
@@ -53,7 +53,7 @@
                     foreach ($post_categories as $category) {
                         $category_link = get_category_link($category->term_id);
                         $category_name = esc_html($category->name);
-                        echo '<q-badge class="text-weight-600 text-caption-sm q-pa-sm q-radius-md" label="' . $category_name . '" color="primary" text-color="white"></q-badge>';
+                        echo '<q-badge class="q-mt-sm text-weight-600 text-caption-sm q-pa-sm q-radius-md" label="' . $category_name . '" color="primary" text-color="white"></q-badge>';
                     }
                 }
                 echo '</div></div>';

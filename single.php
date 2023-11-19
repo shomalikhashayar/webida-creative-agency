@@ -60,14 +60,17 @@
               <?php get_template_part('components/single-page/TableOfContents'); ?>
             </div>
 
-            <div class="row items-center justify-center q-gutter-sm q-mt-md">
+            <div class="row items-center justify-center q-gutter-sm q-mt-xl">
               <q-btn dense round flat color="primary" icon="o_send" @click="sharePostURL">
               </q-btn>
               <div class="row items-center">
-                <q-btn round dense flat color="primary" icon="o_thumb_up" class="like-btn"
-                  data-post-id="<?php the_ID(); ?>" data-state="like"></q-btn>
-                <span class="q-ml-sm text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
-                  <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+                <!-- Like button -->
+                <q-btn round dense flat icon="o_thumb_up" color="primary" class="like"
+                  rel="<?php echo $post->ID; ?>"></q-btn>
+
+                <!-- Span to display like count -->
+                <span class="like-count text-body1 text-dark text-bold q-ml-sm">
+                  <?php echo likeCount($post->ID); ?>
                 </span>
               </div>
             </div>
@@ -163,14 +166,17 @@
           <?php get_template_part('components/single-page/TableOfContents'); ?>
         </div>
 
-        <div class="row items-center justify-center q-gutter-sm q-my-md">
+        <div class="row items-center justify-center q-gutter-sm q-mt-xl q-mb-md">
           <q-btn dense round flat color="primary" icon="o_send" @click="sharePostURL">
           </q-btn>
           <div class="row items-center">
-            <q-btn round dense flat color="primary" icon="o_thumb_up" class="like-btn" data-post-id="<?php the_ID(); ?>"
-              data-state="like"></q-btn>
-            <span class="q-ml-sm text-body1 text-bold text-dark like-count" data-post-id="<?php the_ID(); ?>">
-              <?php echo esc_html(get_post_meta(get_the_ID(), 'like_count', true)); ?>
+            <!-- Like button -->
+            <q-btn round dense flat icon="o_thumb_up" color="primary" class="like"
+              rel="<?php echo $post->ID; ?>"></q-btn>
+
+            <!-- Span to display like count -->
+            <span class="like-count text-body1 text-dark text-bold q-ml-sm">
+              <?php echo likeCount($post->ID); ?>
             </span>
           </div>
         </div>

@@ -45,11 +45,8 @@
             <span class="text-dark">
               <?php $like_count = get_post_meta(get_the_ID(), 'like_count', true);
               ?>
-              <span class="like-count" data-post-id="<?php the_ID(); ?>">
-                <?php
-                $like_count = get_post_meta(get_the_ID(), 'like_count', true);
-                echo esc_html($like_count !== '' ? $like_count : '0'); // Display 0 if no likes
-                ?>
+              <span class="like-count">
+                <?php echo likeCount($post->ID); ?>
               </span>
               <q-icon name="o_favorite" class="text-primary" size="xs"></q-icon>
           </div>
