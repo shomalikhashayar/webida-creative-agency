@@ -1,6 +1,6 @@
 <q-carousel v-model="slide" transition-prev="jump-right" infinite @mouseenter="autoplay = false"
-  @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary"
-  navigation transition-duration="1000" arrows height="600px">
+  @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated
+  control-color="primary" navigation transition-duration="1000" arrows height="600px">
   <q-carousel-slide :name="1" class="flex justify-center items-center webida-accent">
     <div class="container row">
       <div class="col row justify-between">
@@ -19,13 +19,13 @@
       </div>
     </div>
   </q-carousel-slide>
-  <q-carousel-slide :name="2" class="row items-center bg-circle">
-    <div class="container row">
-
-      <div class="row carousel-post-container">
+  <q-carousel-slide :name="2" class="row items-center bg-accent">
+    <div class="container column items-center" style="margin-bottom:54px">
+      <div class="text-h3 text-secondary text-weight-900 no-letter-spacing q-mb-lg">تازه از تنور دراومده</div>
+      <div class="carousel-post-container">
         <?php
         $args = array(
-          'numberposts' => 9,
+          'numberposts' => 3,
           'order' => 'DESC',
         );
 
@@ -33,17 +33,7 @@
 
         foreach ($latest_posts as $post) {
           setup_postdata($post);
-          echo '
-        <a class="row no-link-on-hover no-decoration "href="' . get_permalink() . '">
-            <q-card style="width: 350px; height: 80px; border: 2px solid var(--q-webida-secondary)" class="row on-hover-primary-1 items-center justify-center q-radius-sm no-shadow">
-                <q-card-section>
-                    <div class="row line-height-xs no-letter-spacing text-primary-hover text-secondary text-weight-700 text-body2">
-                        ' . get_the_title() . '
-                    </div>
-                </q-card-section>
-            </q-card>
-        </a>
-    ';
+          echo get_template_part('components/front-page/desktop/PostCard');
         }
         ?>
 
