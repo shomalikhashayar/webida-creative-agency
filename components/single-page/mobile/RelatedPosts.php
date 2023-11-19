@@ -24,7 +24,7 @@
             if ($post->ID != $current_post_id) { // Skip the current post
                 setup_postdata($post);
                 $permalink = get_the_permalink($post->ID);
-                $thumbnail_url = (has_post_thumbnail($post->ID)) ? get_the_post_thumbnail_url($post->ID, 'smallest') : '';
+                $thumbnail_url = (has_post_thumbnail($post->ID)) ? get_the_post_thumbnail_url($post->ID) : '';
 
                 echo '<q-carousel-slide class="row justify-center no-padding" :name="' . $slide_count . '">';
 

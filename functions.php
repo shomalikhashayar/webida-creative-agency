@@ -78,8 +78,9 @@ add_action("wp_enqueue_scripts", "load_js");
 // Theme options
 add_theme_support("menus");
 add_theme_support("post-thumbnails");
-add_image_size("smallest", 300, 300, true);
-add_image_size("largest", 800, 800, true);
+// Crop images before render
+// add_image_size("smallest", 300, 300, true);
+// add_image_size("largest", 800, 800, true);
 add_theme_support('appearance-tools');
 add_theme_support('custom-spacing');
 

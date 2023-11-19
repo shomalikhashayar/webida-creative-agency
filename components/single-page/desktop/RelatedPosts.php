@@ -37,7 +37,7 @@
 
                 setup_postdata($post);
                 $permalink = get_the_permalink();
-                $thumbnail_url = (has_post_thumbnail($post->ID)) ? get_the_post_thumbnail_url($post->ID, 'smallest') : '';
+                $thumbnail_url = (has_post_thumbnail($post->ID)) ? get_the_post_thumbnail_url($post->ID) : '';
 
                 echo '
                     <a class="no-decoration" href="' . $permalink . '">
