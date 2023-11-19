@@ -10,8 +10,13 @@ get_header();
     <div class="container">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
-    <q-page-container class="bg-white">
+    <q-page-container class="bg-accent">
       <q-page class="container">
+
+        <div class="row justify-between q-gutter-x-lg q-mt-xl">
+          <?php get_template_part('components/blog/desktop/CategoriesBar'); ?>
+        </div>
+
         <div class="post-container q-mt-xl">
           <?php if (have_posts()):
             while (have_posts()):
@@ -21,8 +26,8 @@ get_header();
         </div>
 
         <div class="q-my-xl">
-            <?php get_template_part('components/shared/Pagination'); ?>
-          </div>
+          <?php get_template_part('components/shared/Pagination'); ?>
+        </div>
 
 
       </q-page>
@@ -31,10 +36,20 @@ get_header();
 
   <q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
     <div class="container">
-      <?php get_template_part('/layouts/desktop/MainLayout'); ?>
+      <?php get_template_part('/layouts/mobile/MainLayout'); ?>
     </div>
-    <q-page-container class="bg-white">
+    <q-page-container class="bg-accent">
       <q-page class="container">
+
+        <div class="q-my-lg">
+          <q-scroll-area :thumb-style="thumbStyle" :bar-style="barStyle" style="height: 80px;"
+            class="full-width">
+            <div class="row justify-between no-wrap q-gutter-x-lg">
+              <?php get_template_part('components/blog/mobile/CategoriesBar'); ?>
+            </div>
+          </q-scroll-area>
+        </div>
+
         <div class="column q-gutter-y-lg">
           <?php if (have_posts()):
             while (have_posts()):
@@ -44,8 +59,8 @@ get_header();
         </div>
 
         <div class="q-my-xl">
-            <?php get_template_part('components/shared/Pagination'); ?>
-          </div>
+          <?php get_template_part('components/shared/Pagination'); ?>
+        </div>
 
       </q-page>
     </q-page-container>
