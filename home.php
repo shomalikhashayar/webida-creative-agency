@@ -17,6 +17,10 @@ get_header();
           <?php get_template_part('components/blog/desktop/CategoriesBar'); ?>
         </div>
 
+        <div class="q-mt-xl">
+          <?php get_template_part('components/blog/desktop/HeroSection'); ?>
+        </div>
+
         <div class="post-container q-mt-xl">
           <?php if (have_posts()):
             while (have_posts()):
@@ -42,8 +46,7 @@ get_header();
       <q-page class="container">
 
         <div class="q-my-lg">
-          <q-scroll-area :thumb-style="thumbStyle" :bar-style="barStyle" style="height: 80px;"
-            class="full-width">
+          <q-scroll-area :thumb-style="thumbStyle" :bar-style="barStyle" style="height: 80px;" class="full-width">
             <div class="row justify-between no-wrap q-gutter-x-lg">
               <?php get_template_part('components/blog/mobile/CategoriesBar'); ?>
             </div>
