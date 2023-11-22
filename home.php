@@ -53,6 +53,10 @@ get_header();
           </q-scroll-area>
         </div>
 
+        <div class="q-mt-md q-mb-xl">
+          <?php get_template_part('components/blog/mobile/HeroSection'); ?>
+        </div>
+
         <div class="column q-gutter-y-lg">
           <?php if (have_posts()):
             while (have_posts()):

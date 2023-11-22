@@ -6,9 +6,9 @@
             <q-img class="border-radius-inherit fit" fit="cover"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png" alt="">
                 <div
-                    class="absolute-top q-my-md text-center transparent text-h4 text-secondary text-weight-700 no-letter-spacing">
+                    class="absolute-top q-my-md text-center transparent text-secondary no-letter-spacing">
                     اینجا <span class="text-h5 text-primary text-weight-700 no-letter-spacing">رایگان</span> کلی چیز یاد
-                    بگیر<span class="text-secondary text-weight-700 text-h4">!</span>
+                    بگیر!
                 </div>
             </q-img>
         </div>
