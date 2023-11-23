@@ -1,9 +1,11 @@
 <div class="pagination flex justify-center items-center q-gutter-sm">
 
     <?php
-    global $wp_query;
+    global $wp_query, $custom_query;
 
-    $total_pages = $wp_query->max_num_pages;
+    $query = isset($custom_query) ? $custom_query : $wp_query;
+
+    $total_pages = $query->max_num_pages;
     $current_page = max(1, get_query_var('paged'));
 
     $paginate_links = paginate_links(

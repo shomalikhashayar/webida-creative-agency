@@ -10,6 +10,7 @@
                 <h1 class="text-center text-secondary q-py-xl text-weight-900 text-h3">
                     <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                 </h1>
+
                 <?php
                 global $wpdb;
                 $search_query = get_search_query();
@@ -24,8 +25,9 @@
                     $args = array(
                         'post_type' => 'post',
                         'post__in' => $post_ids,
-                        'posts_per_page' => -1,
-                        'orderby' => 'post__in' // Order the results by the order of IDs in $post_ids
+                        'posts_per_page' => 12, // Adjust the number of posts per page here
+                        'orderby' => 'post__in',
+                        'paged' => max(1, get_query_var('paged')) // Get the current page number
                     );
 
                     $custom_query = new WP_Query($args);
@@ -44,9 +46,9 @@
                         <div style="margin-bottom: 72px;">
                             <?php get_template_part('components/search/desktop/NothingFound'); ?>
                         </div>
-                    <?php endif; ?>
+                    <?php endif;
 
-                    <?php wp_reset_postdata();
+                    wp_reset_postdata();
                 } else {
                     ?>
                     <div style="margin-bottom: 72px;">
@@ -68,7 +70,7 @@
                 <h1 class="text-center text-secondary q-py-md text-weight-900 text-h3">
                     <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                 </h1>
-                
+
                 <?php
                 global $wpdb;
                 $search_query = get_search_query();
@@ -83,8 +85,9 @@
                     $args = array(
                         'post_type' => 'post',
                         'post__in' => $post_ids,
-                        'posts_per_page' => -1,
-                        'orderby' => 'post__in' // Order the results by the order of IDs in $post_ids
+                        'posts_per_page' => 12, // Adjust the number of posts per page here
+                        'orderby' => 'post__in',
+                        'paged' => max(1, get_query_var('paged')) // Get the current page number
                     );
 
                     $custom_query = new WP_Query($args);
@@ -101,11 +104,11 @@
                         </div>
                     <?php else: ?>
                         <div class="q-mb-xl">
-                            <?php get_template_part('components/search/mobile/NothingFound'); ?>
+                            <?php get_template_part('components/mobile/desktop/NothingFound'); ?>
                         </div>
-                    <?php endif; ?>
+                    <?php endif;
 
-                    <?php wp_reset_postdata();
+                    wp_reset_postdata();
                 } else {
                     ?>
                     <div class="q-mb-xl">
