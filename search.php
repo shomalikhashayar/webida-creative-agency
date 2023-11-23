@@ -68,14 +68,34 @@
                 <h1 class="text-center text-secondary q-py-md text-weight-900 text-h3">
                     <?php echo "نتایج جستجو برای: " . get_search_query(); ?>
                 </h1>
-                <div class="column q-gutter-y-lg">
-                    <?php if (have_posts()): ?>
-                        <?php
-                        while (have_posts()):
-                            the_post();
-                            get_template_part('components/shared/mobile/PostCard');
-                        endwhile;
-                        ?>
+                
+                <?php
+                global $wpdb;
+                $search_query = get_search_query();
+                $post_ids = $wpdb->get_col(
+                    $wpdb->prepare(
+                        "SELECT DISTINCT ID FROM {$wpdb->posts} WHERE post_title LIKE '%%%s%%'",
+                        $wpdb->esc_like($search_query)
+                    )
+                );
+
+                if (!empty($post_ids)) {
+                    $args = array(
+                        'post_type' => 'post',
+                        'post__in' => $post_ids,
+                        'posts_per_page' => -1,
+                        'orderby' => 'post__in' // Order the results by the order of IDs in $post_ids
+                    );
+
+                    $custom_query = new WP_Query($args);
+
+                    if ($custom_query->have_posts()): ?>
+                        <div class="column q-gutter-y-lg">
+                            <?php while ($custom_query->have_posts()):
+                                $custom_query->the_post(); ?>
+                                <?php get_template_part('components/shared/mobile/PostCard'); ?>
+                            <?php endwhile; ?>
+                        </div>
                         <div class="q-my-xl">
                             <?php get_template_part('components/shared/Pagination'); ?>
                         </div>
@@ -84,7 +104,16 @@
                             <?php get_template_part('components/search/mobile/NothingFound'); ?>
                         </div>
                     <?php endif; ?>
-                </div>
+
+                    <?php wp_reset_postdata();
+                } else {
+                    ?>
+                    <div class="q-mb-xl">
+                        <?php get_template_part('components/search/mobile/NothingFound'); ?>
+                    </div>
+                    <?php
+                }
+                ?>
             </q-page>
         </q-page-container>
     </q-layout>
