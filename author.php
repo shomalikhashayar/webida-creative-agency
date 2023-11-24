@@ -51,7 +51,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 <?php else: ?>
                     <div class="q-my-xl">
-                        <?php get_template_part('components/search/desktop/NothingFound'); ?>
+                        <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
 
@@ -90,7 +90,8 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="q-pa-lg text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین نوشته‌های
+                <h2 class="q-pa-lg text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین
+                    نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
 
@@ -106,7 +107,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 <?php else: ?>
                     <div class="q-my-xl">
-                        <?php get_template_part('components/search/mobile/NothingFound'); ?>
+                        <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
 

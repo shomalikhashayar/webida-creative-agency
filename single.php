@@ -52,13 +52,15 @@
 
             </div>
 
-            <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
-              <?php the_title() ?>
-            </h1>
+            <article>
+              <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
+                <?php the_title() ?>
+              </h1>
 
-            <div class="post-content">
-              <?php get_template_part('components/single-page/TableOfContents'); ?>
-            </div>
+              <div class="post-content">
+                <?php get_template_part('components/single-page/TableOfContents'); ?>
+              </div>
+            </article>
 
             <div class="row items-center justify-center q-gutter-sm q-mt-xl">
               <q-btn dense round flat color="primary" icon="o_send" @click="sharePostURL">
