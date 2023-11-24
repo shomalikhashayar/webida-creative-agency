@@ -83,6 +83,8 @@ add_theme_support("post-thumbnails");
 // add_image_size("largest", 800, 800, true);
 add_theme_support('appearance-tools');
 add_theme_support('custom-spacing');
+// add_theme_support('title-tag');
+
 
 //Webida schema color
 function wpacg_webida_admin_color_scheme()
