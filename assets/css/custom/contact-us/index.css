@@ -1,0 +1,25 @@
+
+@media (min-width: 1024px) {
+
+  .contact-us-hero {
+    background-image: url("../../../images/message.svg") !important;
+    background-size: 350px !important;
+    height: 500px !important;
+    background-position: right 60px top 100px !important;
+    background-repeat: no-repeat !important;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .contact-us-hero {
+    background-image: url("../../../images/message.svg") !important;
+    background-size: 50px !important;
+    background-position: right 40px top 100px !important;
+    background-repeat: no-repeat !important;
+    padding: 48px 32px !important;
+  }
+
+}
