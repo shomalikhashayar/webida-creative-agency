@@ -18,9 +18,16 @@
                 <?php get_template_part('components/shared/desktop/PostCard'); ?>
               <?php endwhile; endif; ?>
           </div>
-          <div class="q-my-xl">
-            <?php get_template_part('components/shared/Pagination'); ?>
-          </div>
+          <?php
+          global $wp_query;
+          $total_pages = $wp_query->max_num_pages;
+
+          if ($total_pages > 1):
+            ?>
+            <div class="q-mb-xl">
+              <?php get_template_part('components/shared/Pagination'); ?>
+            </div>
+          <?php endif; ?>
         </div>
       </q-page>
     </q-page-container>
@@ -44,10 +51,16 @@
               <?php endwhile; endif; ?>
           </div>
 
-          <div class="q-my-xl">
-            <?php get_template_part('components/shared/Pagination'); ?>
-          </div>
+          <?php
+          global $wp_query;
+          $total_pages = $wp_query->max_num_pages;
 
+          if ($total_pages > 1):
+            ?>
+            <div class="q-mb-xl">
+              <?php get_template_part('components/shared/Pagination'); ?>
+            </div>
+          <?php endif; ?>
         </div>
       </q-page>
     </q-page-container>

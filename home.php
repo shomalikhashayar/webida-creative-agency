@@ -21,7 +21,7 @@ get_header();
           <?php get_template_part('components/blog/desktop/HeroSection'); ?>
         </div>
 
-        <div class="post-container q-mt-xl">
+        <div class="post-container q-my-xl">
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
@@ -29,9 +29,16 @@ get_header();
             <?php endwhile; endif; ?>
         </div>
 
-        <div class="q-my-xl">
-          <?php get_template_part('components/shared/Pagination'); ?>
-        </div>
+        <?php
+          global $wp_query;
+          $total_pages = $wp_query->max_num_pages;
+
+          if ($total_pages > 1):
+            ?>
+            <div class="q-mb-xl">
+              <?php get_template_part('components/shared/Pagination'); ?>
+            </div>
+          <?php endif; ?>
 
 
       </q-page>
@@ -57,7 +64,7 @@ get_header();
           <?php get_template_part('components/blog/mobile/HeroSection'); ?>
         </div>
 
-        <div class="column q-gutter-y-lg">
+        <div class="column q-gutter-y-lg q-pb-xl">
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
@@ -65,10 +72,16 @@ get_header();
             <?php endwhile; endif; ?>
         </div>
 
-        <div class="q-my-xl">
-          <?php get_template_part('components/shared/Pagination'); ?>
-        </div>
+        <?php
+          global $wp_query;
+          $total_pages = $wp_query->max_num_pages;
 
+          if ($total_pages > 1):
+            ?>
+            <div class="q-mb-xl">
+              <?php get_template_part('components/shared/Pagination'); ?>
+            </div>
+          <?php endif; ?>
       </q-page>
     </q-page-container>
   </q-layout>

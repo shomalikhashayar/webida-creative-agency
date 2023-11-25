@@ -25,23 +25,29 @@
                     $args = array(
                         'post_type' => 'post',
                         'post__in' => $post_ids,
-                        'posts_per_page' => 12, // Adjust the number of posts per page here
+                        'posts_per_page' => 12,
                         'orderby' => 'post__in',
-                        'paged' => max(1, get_query_var('paged')) // Get the current page number
+                        'paged' => max(1, get_query_var('paged'))
                     );
 
                     $custom_query = new WP_Query($args);
 
                     if ($custom_query->have_posts()): ?>
-                        <div class="post-container">
+                        <div class="post-container q-mb-xl">
                             <?php while ($custom_query->have_posts()):
                                 $custom_query->the_post(); ?>
                                 <?php get_template_part('components/shared/desktop/PostCard'); ?>
                             <?php endwhile; ?>
                         </div>
-                        <div class="q-my-xl">
-                            <?php get_template_part('components/shared/Pagination'); ?>
-                        </div>
+
+                        <?php
+                        $total_pages = $custom_query->max_num_pages;
+                        if ($total_pages > 1): ?>
+                            <div class="q-mb-xl">
+                                <?php get_template_part('components/shared/Pagination'); ?>
+                            </div>
+                        <?php endif; ?>
+
                     <?php else: ?>
                         <div style="margin-bottom: 72px;">
                             <?php get_template_part('components/search/desktop/NothingFound'); ?>
@@ -85,29 +91,35 @@
                     $args = array(
                         'post_type' => 'post',
                         'post__in' => $post_ids,
-                        'posts_per_page' => 12, // Adjust the number of posts per page here
+                        'posts_per_page' => 12,
                         'orderby' => 'post__in',
-                        'paged' => max(1, get_query_var('paged')) // Get the current page number
+                        'paged' => max(1, get_query_var('paged'))
                     );
-
+                
                     $custom_query = new WP_Query($args);
-
+                
                     if ($custom_query->have_posts()): ?>
-                        <div class="column q-gutter-y-lg">
+                        <div class="column q-gutter-y-lg q-mb-xl">
                             <?php while ($custom_query->have_posts()):
                                 $custom_query->the_post(); ?>
                                 <?php get_template_part('components/shared/mobile/PostCard'); ?>
                             <?php endwhile; ?>
                         </div>
-                        <div class="q-my-xl">
-                            <?php get_template_part('components/shared/Pagination'); ?>
-                        </div>
+                
+                        <?php
+                        $total_pages = $custom_query->max_num_pages;
+                        if ($total_pages > 1): ?>
+                            <div class="q-mb-xl">
+                                <?php get_template_part('components/shared/Pagination'); ?>
+                            </div>
+                        <?php endif; ?>
+                        
                     <?php else: ?>
                         <div class="q-mb-xl">
                             <?php get_template_part('components/mobile/desktop/NothingFound'); ?>
                         </div>
                     <?php endif;
-
+                
                     wp_reset_postdata();
                 } else {
                     ?>
