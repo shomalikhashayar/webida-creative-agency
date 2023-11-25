@@ -42,18 +42,58 @@ get_header();
 
 
 
-            
-            <div class="flex justify-between  items-center webida-primary" >
+
+            <div class="flex justify-between  items-center webida-primary">
                 <div class="container" style="width:1140px;">
 
-                    <h2 class="text-white text-weight-900 text-h1 text-center q-pt-lg">اعضای تیم ما</h2>
+                    <h2 class="text-white text-weight-900 text-h4 text-center q-pt-lg">اعضای تیم ما</h2>
+
+                    <div class="row q-gutter-x-xl justify-center">
+
+                        <div style="width:178px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png"
+                                alt="" style="width:178px;">
+                            <h2 class="text-white text-weight-500 text-body3 text-center ">فاطمه نیلچی</h2>
+                        </div>
+
+                        
+                        <div style="width:178px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png"
+                                alt="" style="width:178px;">
+                            <h2 class="text-white text-weight-500 text-body3 text-center ">خشایار شمالی</h2>
+                        </div>
+
+                        
+                        <div style="width:178px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
+                                alt="" style="width:178px;">
+                            <h2 class="text-white text-weight-500 text-body3 text-center ">محمد حسین خان‌محمدی</h2>
+                        </div>
+
+
+                        
+
 
 
                 </div>
-            </div>
+                <div class="row q-gutter-x-xl">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
+                                alt="" style="width:250px;">
 
+                                <div class="row" style="width:480px;">
+                            <h4 class="text-h4 text-weight-900 text-white">صرفا فقط خدمات نیست!
+                            </h4>
+                            <p class="text-h6 text-weight-400 text-white">  از همان روزهای نخست دغدغه این را داشتیم تا به ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت رایگان لذت ببرید.
+                        </div>
 
+                        </div>
+                    </div>
 
+                </div>
+                                    </div>
+                        
+
+                    
 
         </q-page>
     </q-page-container>
