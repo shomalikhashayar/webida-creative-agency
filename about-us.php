@@ -16,7 +16,7 @@ get_header();
 
 
 
-            <div class="flex justify-between  items-center webida-accent" style=" height:500px;">
+            <div class="flex justify-between items-center webida-accent" style=" height:500px;">
                 <div class="container row" style="width:1140px;">
 
                     <div class="col row items-center">

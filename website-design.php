@@ -20,11 +20,8 @@ get_header();
 <q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
     <?php get_template_part('/layouts/mobile/MainLayout'); ?>
     <q-page-container>
-        <q-page>
-            <div class="bg-grey-7">
-                <div class="container row items-center">
-
-                </div>
+    <q-page>
+            <?php get_template_part('/components/website-design/mobile/FAQ'); ?>
         </q-page>
     </q-page-container>
 </q-layout>

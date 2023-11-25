@@ -1,0 +1,4 @@
+.q-expansion-item--expanded h3 {
+    border: none;
+    color: var(--q-webida-primary)!important;
+  }
