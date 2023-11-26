@@ -8,37 +8,40 @@
 get_header();
 ?>
 
-<q-layout :view="rightLayout">
+<q-layout :view="rightLayout" class="gt-sm" v-if="$q.screen.gt.sm">
     <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     <q-page-container>
         <q-page>
 
 
+            <div class="bg-accent">
+                <div class="container about-us-hero row items-center">
+                    <div class="row q-gutter-x-xl items-center">
+                        <div class="col">
 
-
-            <div class="flex justify-between items-center webida-accent" style=" height:500px;">
-                <div class="container row" style="width:1140px;">
-
-                    <div class="col row items-center">
-                        <div class="row" style="width:480px;">
-                            <h2 class="text-h2 text-weight-900 text-secondary">وبیدا را بهتر بشناسید
+                            <h2 class="text-h2 no-margin text-weight-900 text-secondary">وبیدا را بهتر بشناسید
                             </h2>
-                            <p class=" text-weight-400 line-height-sm q-webida-dark">ما در وبیدا، تضمین می‌کنیم که با
+                            <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">ما در
+                                وبیدا، تضمین می‌کنیم که
+                                با
                                 ایمان به توانایی‌ها و همت افراد تیم، با انگیزه‌ای بی‌پایان برای بهبود و رشد، مبارزه
                                 خواهیم کرد. در این سفر پراز انگیزه، هیچ تلاشی فرو نمی‌گیرد. تعهد به بهترین بودن، خلق
                                 خدمات بهتر و تکمیلی‌تر برای کاربران، و طراحی راهبردهای نوآورانه، وظیفه ماست.
                             </p>
-                        </div>
-                    </div>
 
-                    <div class="col row items-center">
-                        <div class="row" style="width:480px;">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-aboutus-hero.svg"
-                                alt="" style="width:550px;">
+                        </div>
+                        <div class="col">
+
+                            <img class="fit"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg"
+                                alt="">
+
                         </div>
                     </div>
                 </div>
             </div>
+
+
 
 
 
@@ -56,14 +59,14 @@ get_header();
                             <h2 class="text-white text-weight-500 text-body3 text-center ">فاطمه نیلچی</h2>
                         </div>
 
-                        
+
                         <div style="width:178px;">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png"
                                 alt="" style="width:178px;">
                             <h2 class="text-white text-weight-500 text-body3 text-center ">خشایار شمالی</h2>
                         </div>
 
-                        
+
                         <div style="width:178px;">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
                                 alt="" style="width:178px;">
@@ -71,29 +74,31 @@ get_header();
                         </div>
 
 
-                        
 
 
 
-                </div>
-                <div class="row q-gutter-x-xl">
+
+                    </div>
+                    <div class="row q-gutter-x-xl">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
-                                alt="" style="width:250px;">
+                            alt="" style="width:250px;">
 
-                                <div class="row" style="width:480px;">
+                        <div class="row" style="width:480px;">
                             <h4 class="text-h4 text-weight-900 text-white">صرفا فقط خدمات نیست!
                             </h4>
-                            <p class="text-h6 text-weight-400 text-white">  از همان روزهای نخست دغدغه این را داشتیم تا به ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت رایگان لذت ببرید.
+                            <p class="text-h6 text-weight-400 text-white"> از همان روزهای نخست دغدغه این را داشتیم تا به
+                                ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت
+                                رایگان لذت ببرید.
                         </div>
 
-                        </div>
                     </div>
-
                 </div>
-                                    </div>
-                        
 
-                    
+            </div>
+            </div>
+
+
+
 
         </q-page>
     </q-page-container>

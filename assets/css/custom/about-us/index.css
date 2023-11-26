@@ -1,0 +1,19 @@
+@media (min-width: 1024px) {
+  .about-us-hero {
+    background-image: url("../../../images/about-us-background.png") !important;
+    height: 500px !important;
+    background-size: 800px !important;
+    background-position: left bottom !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-hero {
+    background-image: url("../../../images/about-us-background.png") !important;
+    background-size: 50px !important;
+    background-position: right 40px top 100px !important;
+    background-repeat: no-repeat !important;
+    padding: 48px 32px !important;
+  }
+}
