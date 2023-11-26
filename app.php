@@ -6,6 +6,10 @@
   const app = Vue.createApp({
 
     setup() {
+
+      const fullName = ref('')
+      const phoneNumber = ref('')
+      const contactMessage = ref('')
       const message = "در وبیدا به شما خلاقیت هدیه می‌دهیم";
       const styles =
         `
@@ -202,6 +206,9 @@
         scrollY,
         searchBox,
         sharePostURL,
+        fullName,
+        phoneNumber,
+        contactMessage,
         thumbStyle: {
           left: '4px',
           borderRadius: '5px',
