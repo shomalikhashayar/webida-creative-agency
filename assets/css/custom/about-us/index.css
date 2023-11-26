@@ -10,9 +10,9 @@
 
 @media (max-width: 768px) {
   .about-us-hero {
-    background-image: url("../../../images/about-us-background.png") !important;
-    background-size: 50px !important;
-    background-position: right 40px top 100px !important;
+    background-image: url("../../../images/about-us-hero-background.png") !important;
+    background-size: 100% !important;
+    background-position: bottom !important;
     background-repeat: no-repeat !important;
     padding: 48px 32px !important;
   }
