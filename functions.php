@@ -261,3 +261,31 @@ function enqueue_js_files()
 
 }
 add_action('wp_enqueue_scripts', 'enqueue_js_files');
+
+add_action('wp_ajax_process_contact_form', 'handle_contact_form');
+add_action('wp_ajax_nopriv_process_contact_form', 'handle_contact_form');
+
+function handle_contact_form()
+{
+    // Retrieve form data
+    $name = sanitize_text_field($_POST['name']);
+    $phone = sanitize_text_field($_POST['phone']);
+    $message = sanitize_textarea_field($_POST['message']);
+
+    // Compose email message
+    $to = 'khashi792017@gmail.com';
+    $subject = 'Contact Form Submission';
+    $body = "Name: $name\nPhone: $phone\nMessage: $message";
+
+    // Send email
+    $mailed = wp_mail($to, $subject, $body);
+
+    if ($mailed) {
+        // Send success response
+        wp_send_json_success('Form submitted successfully!');
+    } else {
+        // Send error response with the error message
+        $error_message = error_get_last()['message'];
+        wp_send_json_error('Error sending form data! Error: ' . $error_message);
+    }
+}
