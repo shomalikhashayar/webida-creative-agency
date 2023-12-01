@@ -272,13 +272,16 @@ function handle_contact_form()
     $phone = sanitize_text_field($_POST['phone']);
     $message = sanitize_textarea_field($_POST['message']);
 
-    // Compose email message
-    $to = 'khashi792017@gmail.com';
-    $subject = 'Contact Form Submission';
-    $body = "Name: $name\nPhone: $phone\nMessage: $message";
+    // Compose email message with HTML formatting
+    $to = 'shomalikhashayar@gmail.com';
+    $subject = 'پیام از طرف فرم ارتباط با ما';
+    $body = "<p style='font-size: 16px;'>نام و نام خانوادگی: $name</p><p style='font-size: 16px;'>شماره تماس: $phone</p><p style='font-size: 16px;'>متن پیام: $message</p>";
+
+    // Set email content type to HTML
+    $headers[] = 'Content-Type: text/html; charset=UTF-8';
 
     // Send email
-    $mailed = wp_mail($to, $subject, $body);
+    $mailed = wp_mail($to, $subject, $body, $headers);
 
     if ($mailed) {
         // Send success response
