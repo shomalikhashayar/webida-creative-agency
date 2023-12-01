@@ -14,7 +14,7 @@ get_header();
     <q-page>
       <?php get_template_part('/components/contact-us/desktop/HeroSection'); ?>
       <?php get_template_part('/components/contact-us/desktop/ContactSection'); ?>
-    
+
     </q-page>
   </q-page-container>
 </q-layout>
@@ -24,6 +24,7 @@ get_header();
   <q-page-container>
     <q-page>
       <?php get_template_part('/components/contact-us/mobile/HeroSection'); ?>
+      <?php get_template_part('/components/contact-us/mobile/ContactSection'); ?>
     </q-page>
   </q-page-container>
 </q-layout>

@@ -24,8 +24,8 @@
                 <div class="q-gutter-y-sm">
                   <q-item-label required class="no-letter-spacing text-grey-7 text-body1">شماره تماس <span
                       class="text-primary">(ضروری)</span></q-item-label>
-                  <q-input color="primary" name="phone" hide-bottom-space v-model="phoneNumber" dense required lazy-rules outlined
-                    :rules="[(val) => val !== null && val !== '']"></q-input>
+                  <q-input color="primary" name="phone" hide-bottom-space v-model="phoneNumber" dense required
+                    lazy-rules outlined :rules="[(val) => val !== null && val !== '']"></q-input>
                 </div>
               </div>
             </div>
@@ -138,42 +138,6 @@
           </q-item-section>
         </div>
       </q-item>
-
-
-
     </div>
   </div>
 </div>
-<script>
-  jQuery(document).ready(function ($) {
-    $('#contactForm').submit(function (e) {
-      e.preventDefault(); // Prevent default form submission
-
-      // Get form data
-      var formData = $(this).serialize();
-
-      // Log form data in the console
-      var formValues = $(this).serializeArray();
-      console.log('Form Data:', formValues);
-
-      // Additional logging for phone number specifically
-      var phoneNumber = $('input[name="phone"]').val();
-      console.log('Phone Number:', phoneNumber);
-
-      // AJAX request to handle form submission
-      $.ajax({
-        type: 'POST',
-        url: '<?php echo esc_url(admin_url('admin-ajax.php')); ?>',
-        data: formData,
-        success: function (response) {
-          // Handle success response (if needed)
-          console.log('Form submitted successfully!');
-        },
-        error: function (error) {
-          // Handle error (if needed)
-          console.error('Error:', error);
-        }
-      });
-    });
-  });
-</script>

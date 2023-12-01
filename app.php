@@ -185,7 +185,37 @@
       setCssVar('webida-page', '#ed2555')
       setCssVar('webida-dark', '#2d2d2d')
 
+      jQuery(document).ready(function () {
+        jQuery('#contactForm').submit(function (e) {
+          e.preventDefault(); // Prevent default form submission
 
+          // Get form data
+          var formData = jQuery(this).serialize();
+
+          // AJAX request to handle form submission
+          jQuery.ajax({
+            type: 'POST',
+            url: '<?php echo esc_url(admin_url('admin-ajax.php')); ?>',
+            data: formData,
+            success: function (response) {
+
+              Notify.create({
+                message: 'پیغام شما با موفقیت ارسال و بزودی بررسی خواهد شد.',
+                color: 'primary',
+                icon: 'o_mail'
+              })
+            },
+            error: function (error) {
+
+              Notify.create({
+                message: 'مشکلی پیش آمده، پیغام ارسال نشد!',
+                color: 'negative',
+                icon: 'o_close'
+              })
+            }
+          });
+        });
+      });
 
       return {
         ad,
