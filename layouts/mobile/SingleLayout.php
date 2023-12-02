@@ -9,8 +9,11 @@
       </div>
 
       <div class="col row items-center justify-end q-gutter-sm">
-        <q-btn size="12px" unelevated rounded label="مشاوره رایگان" class="webida-primary-lighten text-weight-regular"
-          padding="6px 12px" /></q-btn>
+      <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
+          class="webida-primary-lighten text-weight-regular" padding="6px 12px" />
+
+       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
+       
         <q-btn size="sm" @click="hideAd" unelevated round dense icon="o_close"></q-btn>
       </div>
 
