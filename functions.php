@@ -292,3 +292,21 @@ function handle_contact_form()
         wp_send_json_error('Error sending form data! Error: ' . $error_message);
     }
 }
+
+
+add_action('wp_head', function () {
+
+    $Regular = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Regular.woff';
+    $DemiBold = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-DemiBold.woff';
+    $ExtraBold = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-ExtraBold.woff';
+    $Black = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Black.woff';
+
+    echo '
+    <link rel="preload" href="' . $Regular . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $DemiBold . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $ExtraBold . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Black . '" as="font" type="font/woff" crossorigin>
+    
+    ';
+});
+
