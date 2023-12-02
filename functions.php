@@ -306,7 +306,33 @@ add_action('wp_head', function () {
     <link rel="preload" href="' . $DemiBold . '" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="' . $ExtraBold . '" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="' . $Black . '" as="font" type="font/woff" crossorigin>
-    
+    <style>
+        @font-face {
+            font-family: "IRANYekanXFaNum";
+            src: url("' . $Regular . '") format("woff");
+            font-weight: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: "IRANYekanXFaNum";
+            src: url("' . $DemiBold . '") format("woff");
+            font-weight: 600; /* Change to the appropriate font weight */
+            font-display: swap;
+        }
+        @font-face {
+            font-family: "IRANYekanXFaNum";
+            src: url("' . $ExtraBold . '") format("woff");
+            font-weight: 800; /* Change to the appropriate font weight */
+            font-display: swap;
+        }
+        @font-face {
+            font-family: "IRANYekanXFaNum";
+            src: url("' . $Black . '") format("woff");
+            font-weight: 900; /* Change to the appropriate font weight */
+            font-display: swap;
+        }
+    </style>
     ';
 });
+
 
