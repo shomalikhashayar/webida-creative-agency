@@ -37,8 +37,8 @@ get_header();
             </div>
             <div class="flex justify-between  items-center webida-primary">
                 <div class="container" style="width:1140px;">
-                    <h2 class="text-white text-weight-900 text-h4 text-center q-pt-lg">اعضای تیم ما</h2>
-                    <div class="row q-gutter-x-xl justify-center">
+                    <h2 class="text-white text-weight-900 text-h4 text-center q-pt-lg q-pb-lg">اعضای تیم ما</h2>
+                    <div class="row q-gutter-x-xl justify-center q-mb-xl">
                         <div style="width:178px;">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png"
                                 alt="" style="width:178px;">
@@ -55,17 +55,47 @@ get_header();
                             <h2 class="text-white text-weight-500 text-body3 text-center ">محمد حسین خان‌محمدی</h2>
                         </div>
                     </div>
-                    <div class="row q-gutter-x-xl">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
-                            alt="" style="width:250px;">
-                        <div class="row" style="width:480px;">
-                            <h4 class="text-h4 text-weight-900 text-white">صرفا فقط خدمات نیست!
-                            </h4>
-                            <p class="text-h6 text-weight-400 text-white"> از همان روزهای نخست دغدغه این را داشتیم تا به
-                                ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت
-                                رایگان لذت ببرید.
+                    <div class="row q-gutter-y-xl q-mb-xl">
+                        <div class="row q-gutter-x-xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png"
+                                alt="" style="width:250px;">
+                            <div class="row content-center q-gutter-md" style="width:650px;">
+                                <h4 class="text-h4 q-ma-none text-weight-900 text-white"> وبیدا، جایی است که ایده‌های
+                                    خلاقانه به واقعیت می‌پیوندند
+                                </h4>
+                                <p class="text-h6 text-weight-400 text-white">مهمترین اصل ما، مشتریانمان هستند. ما به
+                                    تنهایی موفق نیستیم، بلکه با تیمی از مشتریان، همراهان و همکارانی که به ما اعتماد
+                                    کرده‌اند، اینجا هستیم.
+                            </div>
+                        </div>
+                        <div class="row q-gutter-x-xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png"
+                                alt="" style="width:250px;">
+                            <div class="row content-center q-gutter-md" style="width:650px;">
+                                <h4 class="text-h4 q-ma-none text-weight-900 text-white"> با ما تماس بگیرید، مشتاق شنیدن
+                                    صدایتان هستیم
+
+                                </h4>
+                                <p class="text-h6 text-weight-400 text-white"> در هر زمان که تمایل داشتید می‌توانید با
+                                    ما تماس بگیرید و در هر زمینه که سوال داشتید از ما کمک بخواهید. مسیر ارتباطی با ما
+                                    همواره باز است.
+
+                            </div>
+                        </div>
+                        <div class="row q-gutter-x-xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
+                                alt="" style="width:250px;">
+                            <div class="row content-center q-gutter-md" style="width:650px;">
+                                <h4 class="text-h4 q-ma-none text-weight-900 text-white">صرفا فقط خدمات نیست!
+                                </h4>
+                                <p class="text-h6 text-weight-400 text-white"> از همان روزهای نخست دغدغه این را داشتیم
+                                    تا به
+                                    ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت
+                                    رایگان لذت ببرید.
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </q-page>
@@ -83,7 +113,7 @@ get_header();
                     <img class="fit"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg"
                         alt="">
-                    <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">ما در
+                    <p class="no-letter-spacing text-body1 text-center text-weight-400 line-height-sm text-dark">ما در
                         وبیدا، تضمین می‌کنیم که
                         با
                         ایمان به توانایی‌ها و همت افراد تیم، با انگیزه‌ای بی‌پایان برای بهبود و رشد، مبارزه
@@ -92,6 +122,70 @@ get_header();
                     </p>
                 </div>
             </div>
+
+            <div class="flex justify-between  items-center webida-primary">
+                <div class="container">
+                    <h2 class="text-white text-weight-900 text-h4 text-center q-pt-sm q-pb-lg">اعضای تیم ما</h2>
+                    <div class="row q-gutter-x-xs  align-center justify-center q-mb-xl">
+                        <div class="row justify-center" style="width:100px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png"
+                                alt="" style="width:72px;">
+                            <h2 class="text-white text-weight-500 text-caption-sm text-center ">فاطمه نیلچی</h2>
+                        </div>
+                        <div class="row justify-center" style="width:100px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png"
+                                alt="" style="width:72px;">
+                            <h2 class="text-white text-weight-500 text-caption-sm text-center ">خشایار شمالی</h2>
+                        </div>
+                        <div class="row justify-center" style="width:100px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
+                                alt="" style="width:72px;">
+                            <h2 class="text-white text-weight-500 text-caption-sm text-center ">محمد خان‌محمدی</h2>
+                        </div>
+                    </div>
+                    <div class="row q-gutter-y-xl q-mb-xl">
+                        <div class="row justify-center q-gutter-md">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png"
+                                alt="" style="width:150px;">
+                            <h4 class="text-h4 q-ma-none text-weight-900 text-center text-white q-mt-xl">
+                                وبیدا، جایی
+                                است که ایده‌های
+                                خلاقانه به واقعیت می‌پیوندند
+                            </h4>
+                            <p class="text-h6 text-weight-400 text-center text-white">
+                                مهمترین اصل ما، مشتریانمان هستند.
+                                ما به
+                                تنهایی موفق نیستیم، بلکه با تیمی از مشتریان، همراهان و همکارانی که به ما اعتماد
+                                کرده‌اند، اینجا هستیم.
+                        </div>
+                        <div class="row justify-center q-gutter-md">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png"
+                                alt="" style="width:150px;">
+                            <h4 class="text-h4 q-ma-none text-weight-900 text-center text-white q-mt-xl">
+                                با ما تماس بگیرید، مشتاق شنیدن صدایتان هستیم
+
+                            </h4>
+                            <p class="text-h6 text-weight-400 text-center text-white">
+                                در هر زمان که تمایل داشتید می‌توانید با ما تماس بگیرید و در هر زمینه که سوال داشتید از
+                                ما کمک بخواهید. مسیر ارتباطی با ما همواره باز است.
+                        </div>
+                        <div class="row justify-center q-gutter-md">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
+                                alt="" style="width:150px;">
+                            <h4 class="text-h4 q-ma-none text-weight-900 text-center text-white q-mt-xl">
+                                صرفا فقط خدمات نیست!
+
+                            </h4>
+                            <p class="text-h6 text-weight-400 text-center text-white">
+                                از همان روزهای نخست دغدغه این را داشتیم
+                                تا به
+                                ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت
+                                رایگان لذت ببرید.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </q-page>
     </q-page-container>
 </q-layout>
