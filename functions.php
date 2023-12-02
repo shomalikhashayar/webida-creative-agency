@@ -292,3 +292,30 @@ function handle_contact_form()
         wp_send_json_error('Error sending form data! Error: ' . $error_message);
     }
 }
+
+
+add_action('wp_head', function () {
+
+    $Light = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Light.woff';
+    $Regular = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Regular.woff';
+    $Thin = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Thin.woff';
+    $Medium = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Medium.woff';
+    $Bold = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Bold.woff';
+    $DemiBold = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-DemiBold.woff';
+    $ExtraBold = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-ExtraBold.woff';
+    $Heavy = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Heavy.woff';
+    $Black = get_template_directory_uri() . '/assets/fonts/IRANYekanXFaNum-Black.woff';
+
+    echo '
+    <link rel="preload" href="' . $Light . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Regular . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Medium . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Bold . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $DemiBold . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $ExtraBold . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Heavy . '" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="' . $Black . '" as="font" type="font/woff" crossorigin>
+    
+    ';
+});
+

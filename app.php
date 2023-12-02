@@ -10,6 +10,7 @@
       const fullName = ref('')
       const phoneNumber = ref('')
       const contactMessage = ref('')
+      const ConsultantModal = ref(false)
       const message = "در وبیدا به شما خلاقیت هدیه می‌دهیم";
       const styles =
         `
@@ -239,6 +240,7 @@
         fullName,
         phoneNumber,
         contactMessage,
+        ConsultantModal,
         thumbStyle: {
           left: '4px',
           borderRadius: '5px',
