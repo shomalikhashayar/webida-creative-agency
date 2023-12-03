@@ -8,6 +8,17 @@
   }
 }
 
+@media (max-width: 1023px) and (min-width: 769px) {
+  .about-us-hero {
+    background-image: url("../../../images/about-us-hero-background.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 48px 32px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .about-us-hero {
     background-image: url("../../../images/about-us-hero-background.png") !important;

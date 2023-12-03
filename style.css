@@ -193,6 +193,27 @@ h3 {
   }
 }
 
+
+@media (max-width: 1023px) and (min-width: 769px) {
+  .container {
+    padding: 0 75px;
+  }
+  .services-card {
+    width: 100%;
+  }
+
+  .self-praises-card {
+    width: 100%;
+  }
+
+  .breadcrumb a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--q-webida-primary);
+  }
+}
+
+
 .glass {
   background: #05365155;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
