@@ -160,18 +160,15 @@ h3 {
 }
 
 /* @media (min-width: 1200px) {
-
   .container {
-    max-width: 1140px;
+    padding: 0 42px;
   }
-
 }
 
 @media (min-width: 992px) {
-.container {
-    width: 970px;
-}
-
+  .container {
+    padding: 0 42px;
+  }
 } */
 
 @media (max-width: 768px) {
@@ -191,6 +188,14 @@ h3 {
     font-size: 14px;
     color: var(--q-webida-primary);
   }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    padding: 0 42px;
+  }
+
 }
 
 .glass {
@@ -234,14 +239,13 @@ h3 {
 }
 
 .author-avatar-shadow {
-  box-shadow: 0px 0px 25px 0px rgba(206,18.999999999999993,64.00000000000009,.2) !important;
+  box-shadow: 0px 0px 25px 0px
+    rgba(206, 18.999999999999993, 64.00000000000009, 0.2) !important;
 }
 
 ul li {
   margin-right: -24px;
-  
 }
 ol li {
   margin-right: -24px;
-  
 }
