@@ -62,7 +62,39 @@
     </q-page-container>
   </q-layout>
 
-  <q-layout :view="rightLayout" class="gt-sm" v-if="$q.screen.gt.sm">
+  <q-layout :view="rightLayout" class="md" v-if="$q.screen.md">
+    <div class="container">
+      <?php get_template_part('/layouts/laptop/MainLayout'); ?>
+    </div>
+    <q-page-container class="bg-white">
+      <q-page>
+        <div class="bg-accent">
+        <?php get_template_part('/components/front-page/tablet/HeroSection') ?>
+        </div>
+        <div class="container">
+          <div class="text-center q-py-lg">
+            <h2 class="text-h2 text-secondary text-weight-900">خدمات <span
+                class="text-primary text-weight-900">وبیدا</span></h2>
+          </div>
+          <div class="row items-center justify-between q-gutter-y-xl">
+            <?php get_template_part('/components/front-page/desktop/ServicesCard') ?>
+          </div>
+
+          <div class="text-center q-mt-md">
+            <h2 class="text-h2 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
+                class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
+
+            <div class="flex justify-between items-center q-gutter-y-xl q-mb-xl q-pb-xl">
+              <?php get_template_part('/components/front-page/desktop/SelfPraiseCard') ?>
+            </div>
+          </div>
+        </div>
+
+      </q-page>
+    </q-page-container>
+  </q-layout>
+
+  <q-layout :view="rightLayout" class="gt-md" v-if="$q.screen.gt.md">
     <div class="container">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>
@@ -78,7 +110,7 @@
             <?php get_template_part('/components/front-page/desktop/ServicesCard') ?>
           </div>
 
-          <div class="container text-center q-mt-md">
+          <div class="text-center q-mt-md">
             <h2 class="text-h2 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
                 class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
 
@@ -91,5 +123,6 @@
       </q-page>
     </q-page-container>
   </q-layout>
+
 
   <?php get_footer(); ?>
