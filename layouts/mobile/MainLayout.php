@@ -111,8 +111,8 @@
     </q-scroll-area>
   </q-drawer>
 
-  <q-footer class="q-py-lg bg-secondary">
-    <div class="column q-py-xl container bg-secondary">
+  <q-footer class="bg-secondary">
+    <div class="column q-py-lg container bg-secondary">
       <div class="col-2">
         <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
         <div class="column q-gutter-md">

@@ -1,88 +1,68 @@
-<div class="gt-md" v-if="$q.screen.gt.md">
-  <q-header unelevated bordered class="bg-accent">
-    <q-toolbar v-if="ad" class="q-py-xs webida-primary">
+<div class="md" v-if="$q.screen.md">
+  <q-header unelevated bordered class="bg-white">
+    <q-toolbar v-if="ad" class="q-py-md webida-primary">
       <div class="col-1"></div>
       <div class="col row justify-center items-center q-gutter-md">
-        <span class="text-body2 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان
+        <span class="text-body1 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان
           به ارمغان
           می‌آوریم.</span>
         <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
-          class="webida-primary-lighten text-weight-regular" padding="6px 12px" />
+          class="webida-primary-lighten text-weight-regular text-body1" padding="6px 12px" />
 
-       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
+        <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
       </div>
       <div class="col-1 row justify-end">
         <q-btn @click="hideAd" unelevated round dense icon="o_close" />
       </div>
     </q-toolbar>
     <div class="container">
-      <q-toolbar class="row justify-between items-center q-px-none q-py-md bg-accent">
-        <div class="flex link-on-hover">
-          <a class="text-body1 no-letter-spacing text-secondary no-decoration text-weight-900"
+      <q-toolbar class="row justify-between items-center q-px-none q-py-lg bg-white">
+      <div class="flex link-on-hover">
+          <a class="text-h3 no-letter-spacing text-secondary no-decoration text-weight-900"
             href="<?php echo esc_url(home_url()); ?>">
-            <q-avatar class="q-mr-sm">
+            <q-avatar class="q-mr-sm" size="57px">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
             </q-avatar>
             آژانس خلاقیت وبیدا</a>
         </div>
-        <div class="row">
-          <q-btn-dropdown class="text-secondary" unelevated label="خدمات وبیدا" dropdown-icon="expand_more">
-            <q-list padding>
-              <q-item v-for="services in serviceList" :key="services"
-                :href="'<?php echo get_site_url() ?>' + services.route" clickable v-close-popup>
-                <q-item-section>
-                  <div class="row items-center q-gutter-sm">
-                    <q-icon :name="services.icon" size="xs" class="text-secondary"></q-icon>
-                    <div class="text-secondary no-decoration" :href="'<?php echo get_site_url() ?>' + services.route">{{
-                      services.label}}</div>
-                  </div>
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </q-btn-dropdown>
-          <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/blog'; ?>" unelevated label="بلاگ"
-            icon="o_article"></q-btn>
-          <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/about-us'; ?>" unelevated
-            label="درباره ما" icon="o_diversity_3"></q-btn>
-          <q-btn class="text-secondary" href="<?php echo esc_html(get_site_url()) . '/contact-us'; ?>" unelevated
-            label="ارتباط با ما" icon="o_support_agent"></q-btn>
-        </div>
-        <div class="row items-center">
-          <?php get_search_form(); ?>
-          <q-btn color="secondary" class="q-ml-sm" flat label="پشتیبانی" icon="o_perm_phone_msg">
-            <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
+        <div class="row items-center q-gutter-sm">
+          <q-btn @click="toggleDrawer" unelevated round dense size="24px" color="primary" text-color="white"><q-icon
+              size="sm" name="o_lunch_dining"></q-icon></q-btn>
+          <q-btn unelevated dense size="24px" color="primary" text-color="white" round>
+            <q-icon name="o_perm_phone_msg" size="sm"></q-icon>
+            <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:280px" :offset="[0, 10]">
               <q-list padding>
                 <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
                   <div>
                     <q-item-section avatar>
-                      <q-avatar icon="o_person" size="md" text-color="white" color="primary" />
+                      <q-avatar icon="o_person" size="xl" text-color="white" color="primary" />
                     </q-item-section>
                   </div>
                   <div class="column q-gutter-y-xs">
-                    <q-item-label caption>خشایار شمالی</q-item-label>
-                    <q-item-section class="text-brand">09338603196</q-item-section>
+                    <q-item-label class="text-body1 text-grey-6">خشایار شمالی</q-item-label>
+                    <q-item-section class="text-h6">09338603196</q-item-section>
                   </div>
                 </q-item>
-                <q-item class="row items-center q-py-sm" clickable href="tel:09215848587">
+                <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
                   <div>
                     <q-item-section avatar>
-                      <q-avatar icon="o_person" size="md" text-color="white" color="primary" />
+                      <q-avatar icon="o_person" size="xl" text-color="white" color="primary" />
                     </q-item-section>
                   </div>
                   <div class="column q-gutter-y-xs">
-                    <q-item-label caption>محمدحسین خان‌محمدی</q-item-label>
-                    <q-item-section class="text-brand">09215848587</q-item-section>
+                    <q-item-label class="text-body1 text-grey-6">محمدحسین خان‌محمدی</q-item-label>
+                    <q-item-section class="text-h6">09215848587</q-item-section>
                   </div>
                 </q-item>
-                <q-item class="row items-center q-py-sm" clickable href="tel:09100854885">
+                <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
                   <div>
                     <q-item-section avatar>
-                      <q-avatar icon="o_person" size="md" text-color="white" color="primary" />
+                      <q-avatar icon="o_person" size="xl" text-color="white" color="primary" />
                     </q-item-section>
                   </div>
                   <div class="column q-gutter-y-xs">
-                    <q-item-label caption>فاطمه نیلچی</q-item-label>
-                    <q-item-section class="text-brand">09100854885</q-item-section>
+                    <q-item-label class="text-body1 text-grey-6">فاطمه نیلچی</q-item-label>
+                    <q-item-section class="text-h6">09100854885</q-item-section>
                   </div>
                 </q-item>
               </q-list>
@@ -93,9 +73,44 @@
     </div>
   </q-header>
 
+  <q-drawer v-model="drawer" :width="290" :breakpoint="500" bordered side="left" overlay class="bg-primary">
+    <div class="search-box q-pa-md q-mt-lg">
+      <?php get_search_form(); ?>
+    </div>
+    <q-scroll-area style="height: calc(100% - 100px);" :horizontal-thumb-style="{ opacity: 0 }">
+      <q-list padding>
+        <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle1 text-bold text-white"
+          icon="o_handyman" label="خدمات ما">
+          <q-item clickable v-ripple v-for="services in serviceList" :key="services">
+            <q-item-section avatar>
+              <q-icon :name="services.icon" color="white" />
+            </q-item-section>
+            <q-item-section class="text-body1 text-white text-bold">
+              <a class="text-white" :href="'<?php get_site_url() ?>' + services.route">{{
+                services.label }}</a>
+            </q-item-section>
+          </q-item>
+        </q-expansion-item>
+
+        <div v-for="menuItems in menuList" :key="menuItems">
+          <q-item clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon class="text-white" :name="menuItems.icon" />
+            </q-item-section>
+            <q-item-section class="text-body1 text-white text-bold">
+              <a class="text-white" :href="'<?php echo get_site_url() ?>' + menuItems.route">{{
+                menuItems.label }}</a>
+            </q-item-section>
+          </q-item>
+        </div>
+
+      </q-list>
+    </q-scroll-area>
+  </q-drawer>
+
   <q-footer class="bg-secondary">
     <div class="row justify-between q-py-xl container bg-secondary">
-      <div class="col-2">
+      <div class="col-3">
         <p class="text-h6 text-weight-900 text-white">دسترسی سریع</p>
         <div class="column q-gutter-md">
           <div class="row items-center link-on-hover">

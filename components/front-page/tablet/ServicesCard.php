@@ -1,4 +1,4 @@
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a
@@ -14,7 +14,7 @@
 
 </q-card>
 
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a
@@ -30,7 +30,7 @@
 
 </q-card>
 
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a
@@ -46,7 +46,7 @@
 
 </q-card>
 
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a
@@ -62,13 +62,13 @@
 
 </q-card>
 
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a
         class="text-h1 line-height-sm text-secondary text-weight-900 text-secondary no-decoration"
         href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه‌ کاربری</a></h2>
-    <p class="text-h3 line-height-md no-letter-spacing text-secondary text-weight-300">سفری به دنیای رابط کاربری: جاذبه‌ای نوآورانه
+    <p class="text-h3 line-height-md no-letter-spacing text-secondary text-weight-300">سفری به دنیای جذاب رابط کاربری: جاذبه‌ای نوآورانه
       برای همهٔ تجربه‌ها</p>
   </q-card-section>
 
@@ -78,7 +78,7 @@
 
 </q-card>
 
-<q-card class="full-width services-card q-pa-lg no-shadow q-radius-sm on-hover-primary-1">
+<q-card class="full-width services-card q-pa-xl no-shadow q-radius-sm on-hover-primary-1">
 
   <q-card-section class="q-pt-none">
     <h2 class="text-h1 line-height-sm q-py-sm no-margin link-on-hover"><a

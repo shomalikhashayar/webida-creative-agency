@@ -108,7 +108,7 @@
     </q-scroll-area>
   </q-drawer>
 
-  <q-footer class="q-py-xl bg-secondary">
+  <q-footer class="bg-secondary">
     <div class="column q-py-xl container bg-secondary">
       <div class="col-2">
         <p class="text-h1 text-weight-900 text-white q-mb-lg">دسترسی سریع</p>
