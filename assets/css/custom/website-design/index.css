@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+  .website-design-hero {
+    background-image: url("../../../images/web-design-hero.png") !important;
+    height: 500px !important;
+    background-size: 500px !important;
+    background-position: left bottom !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 769px) {
+  .website-design-hero {
+    background-image: url("../../../images/web-design-hero.png") !important;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 48px 32px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .website-design-hero {
+    background-image: url("../../../images/web-design-hero.png") !important;
+    background-size: 100% !important;
+    background-position: bottom !important;
+    background-repeat: no-repeat !important;
+    padding: 48px 32px !important;
+  }
+}
