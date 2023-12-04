@@ -1,11 +1,11 @@
 <a class="no-decoration" href="<?php the_permalink(); ?>">
   <q-card bordered style="min-height:280px"
-    class="on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md">
+    class="full-width on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md">
 
     <q-card-section class="q-pa-none">
       <?php if (has_post_thumbnail()): ?>
         <q-img fit="cover" class="q-mb-sm q-radius-xs" src="<?php the_post_thumbnail_url(); ?>" :ratio="1" alt=""
-          height="130px"></q-img>
+          height="150px"></q-img>
       <?php endif ?>
       <div class="row justify-between">
         <div style="margin-top:5px;" class="col text-weight-600 text-dark no-letter-spacing text-caption">

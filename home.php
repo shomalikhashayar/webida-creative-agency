@@ -55,8 +55,12 @@ get_header();
     <q-page-container class="bg-accent">
       <q-page class="container">
 
-        <div class="row justify-between q-gutter-x-lg q-mt-xl">
-          <?php get_template_part('components/blog/desktop/CategoriesBar'); ?>
+      <div class="q-mt-xl">
+          <q-scroll-area :thumb-style="thumbStyle" :bar-style="barStyle" style="height: 80px;" class="full-width">
+            <div class="row justify-between no-wrap q-gutter-x-lg">
+              <?php get_template_part('components/blog/tablet/CategoriesBar'); ?>
+            </div>
+          </q-scroll-area>
         </div>
 
         <div class="q-mt-xl">
@@ -67,7 +71,7 @@ get_header();
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
-              <?php get_template_part('components/shared/desktop/PostCard'); ?>
+              <?php get_template_part('components/shared/tablet/PostCard'); ?>
             <?php endwhile; endif; ?>
         </div>
 
@@ -106,7 +110,7 @@ get_header();
           <?php if (have_posts()):
             while (have_posts()):
               the_post(); ?>
-              <?php get_template_part('components/shared/desktop/PostCard'); ?>
+              <?php get_template_part('components/shared/laptop/PostCard'); ?>
             <?php endwhile; endif; ?>
         </div>
 

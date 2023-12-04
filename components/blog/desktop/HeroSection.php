@@ -3,7 +3,7 @@
     <div class="row">
 
         <div class="col-4 border-radius-inherit">
-            <q-img class="border-radius-inherit fit" fit="cover"
+            <q-img class="border-radius-inherit fit"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png" alt="">
                 <div
                     class="absolute-top q-my-md text-center transparent text-secondary no-letter-spacing">

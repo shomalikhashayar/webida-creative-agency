@@ -4,7 +4,7 @@
 
     <q-card-section class="q-pa-none">
       <?php if (has_post_thumbnail()): ?>
-        <q-img fit="fill" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>" :ratio="4/3"
+        <q-img fit="cover" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>" :ratio="1"
           alt="" height="150px"></q-img>
       <?php endif ?>
       <div class="row justify-between">
