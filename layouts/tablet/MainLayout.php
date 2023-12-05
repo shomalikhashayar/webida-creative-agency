@@ -1,4 +1,4 @@
-<div class="sm" v-if="$q.screen.sm">
+<div>
   <q-header unelevated bordered class="bg-accent">
     <q-toolbar v-if="ad" class="q-py-md webida-primary">
       <div class="col-1"></div>

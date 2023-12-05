@@ -23,7 +23,6 @@ License URI: https://webida.ir
 @import url("./assets/css/custom/about-us/index.css");
 @import url("./assets/css/custom/website-design/index.css");
 
-
 * {
   font-family: "yekan-regular";
   box-sizing: border-box;
@@ -51,6 +50,11 @@ h2 {
 h3 {
   line-height: 24px;
   letter-spacing: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-card {
@@ -167,10 +171,18 @@ h3 {
   }
 } */
 
-@media (max-width: 768px) {
+
+@media (min-width: 320px) {
   .container {
     padding-left: 24px;
     padding-right: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 42px;
+    padding-right: 42px;
   }
   .services-card {
     width: 100%;
@@ -187,28 +199,14 @@ h3 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-
+@media (min-width: 1024px) {
   .container {
-    padding-left: 42px;
-    padding-right: 42px;
+    width: 970px;
   }
 
   .post-container {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 34px !important;
-    column-gap: 30px !important;
-  }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-
-  .post-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
     justify-content: end !important;
     row-gap: 34px !important;
     column-gap: 30px !important;
@@ -228,15 +226,38 @@ h3 {
     row-gap: 36px !important;
     column-gap: 30px !important;
   }
-
-  .container {
-    padding-left: 42px;
-    padding-right: 42px;
-  }
-
 }
 
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (min-width: 1200px) {
+  .post-container {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    justify-content: end !important;
+    row-gap: 34px !important;
+    column-gap: 30px !important;
+  }
+
+  .services-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    row-gap: 36px !important;
+    column-gap: 30px !important;
+  }
+  .self-praises-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    row-gap: 36px !important;
+    column-gap: 30px !important;
+  }
+
+  .container {
+    width: 1170px;
+  }
+}
+
+/* @media (min-width: 1400px) {
 
   .post-container {
     display: grid !important;
@@ -283,7 +304,7 @@ h3 {
     row-gap: 36px !important;
     column-gap: 30px !important;
   }
-}
+} */
 
 .glass {
   background: #05365155;
