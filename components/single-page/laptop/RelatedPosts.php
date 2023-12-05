@@ -19,7 +19,7 @@
     $slide_count = 1;
 
     if ($latest_related_posts) {
-        echo '<q-carousel v-model="relatedPostsDesktop" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="305px" class="q-mb-lg">';
+        echo '<q-carousel v-model="relatedPostsDesktop" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="280px" class="q-mb-lg">';
 
         $posts_per_slide = 3; // Number of posts to display in each slide
         $post_count = 0; // Counter to keep track of posts
@@ -31,7 +31,7 @@
                     if ($post_count > 0) {
                         echo '</q-carousel-slide>';
                     }
-                    echo '<q-carousel-slide class="row justify-between no-padding" :name="' . $slide_count . '">';
+                    echo '<q-carousel-slide class="post-container no-padding" :name="' . $slide_count . '">';
                     $slide_count++;
                 }
 
@@ -41,7 +41,7 @@
 
                 echo '
                     <a class="no-decoration" href="' . $permalink . '">
-                        <q-card bordered class="on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md" style="width: 220px;">
+                        <q-card bordered class="full-width on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md" style="width: 220px;">
                             <q-card-section class="q-pa-none">';
                 if (!empty($thumbnail_url)) {
                     echo '<q-img fit="cover" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" alt="" height="125px"></q-img>';

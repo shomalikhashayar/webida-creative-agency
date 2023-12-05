@@ -19,7 +19,7 @@
     $slide_count = 1;
 
     if ($latest_related_posts) {
-        echo '<q-carousel v-model="relatedPostsDesktop" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="305px" class="q-mb-lg">';
+        echo '<q-carousel v-model="relatedPostsDesktop" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="280px" class="q-mb-lg">';
 
         $posts_per_slide = 3; // Number of posts to display in each slide
         $post_count = 0; // Counter to keep track of posts

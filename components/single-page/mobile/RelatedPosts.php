@@ -1,4 +1,4 @@
-<div class="xs">
+<div>
     <?php
     $categories = get_the_category();
     $category_ids = array();
