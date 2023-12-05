@@ -76,16 +76,16 @@
             <h2 class="text-h2 text-secondary text-weight-900">خدمات <span
                 class="text-primary text-weight-900">وبیدا</span></h2>
           </div>
-          <div class="row items-center justify-between q-gutter-y-xl">
-            <?php get_template_part('/components/front-page/desktop/ServicesCard') ?>
+          <div class="services-card-container">
+            <?php get_template_part('/components/front-page/laptop/ServicesCard') ?>
           </div>
 
           <div class="text-center q-mt-md">
             <h2 class="text-h2 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
                 class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
 
-            <div class="flex justify-between items-center q-gutter-y-xl q-mb-xl q-pb-xl">
-              <?php get_template_part('/components/front-page/desktop/SelfPraiseCard') ?>
+            <div class="self-praises-card-container q-mb-xl q-pb-xl">
+              <?php get_template_part('/components/front-page/laptop/SelfPraiseCard') ?>
             </div>
           </div>
         </div>

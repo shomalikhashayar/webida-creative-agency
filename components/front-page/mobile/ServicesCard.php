@@ -68,7 +68,7 @@
     <h2 class="text-h3 line-height-sm q-py-sm no-margin link-on-hover"><a
         class="text-h3 line-height-sm text-secondary text-weight-900 text-secondary no-decoration"
         href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه‌ کاربری</a></h2>
-    <p class="text-body1 no-letter-spacing text-secondary text-weight-300">سفری به دنیای جذاب رابط کاربری: جاذبه‌ای نوآورانه
+    <p class="text-body1 no-letter-spacing text-secondary text-weight-300">سفری به دنیای جذاب رابط و تجربه کاربری: جاذبه‌ای نوآورانه
       برای همهٔ تجربه‌ها</p>
   </q-card-section>
 
