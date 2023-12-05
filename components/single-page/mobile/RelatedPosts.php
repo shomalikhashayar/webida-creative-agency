@@ -7,7 +7,7 @@
     }
 
     $args = array(
-        'numberposts' => 13, // Fetch one more to ensure you have enough to exclude the current post
+        'numberposts' => 12, // Fetch one more to ensure you have enough to exclude the current post
         'order' => 'DESC',
         'category__in' => $category_ids,
     );

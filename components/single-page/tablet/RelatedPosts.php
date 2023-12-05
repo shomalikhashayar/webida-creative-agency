@@ -9,7 +9,7 @@
     $current_post_id = get_the_ID();
 
     $args = array(
-        'numberposts' => 13, // Fetch one more to exclude the current post
+        'numberposts' => 12, // Fetch one more to exclude the current post
         'order' => 'DESC',
         'exclude' => $current_post_id, // Exclude current post
         'category__in' => $category_ids,
