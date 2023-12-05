@@ -112,7 +112,7 @@
             the_post(); ?>
 
             <div class="breadcrumb q-my-lg">
-              <?php get_template_part('components/single-page/mobile/Breadcrumb') ?>
+              <?php get_template_part('components/single-page/desktop/Breadcrumb') ?>
             </div>
 
             <?php if (has_post_thumbnail()): ?>
@@ -211,7 +211,7 @@
             the_post(); ?>
 
             <div class="breadcrumb q-my-lg">
-              <?php get_template_part('components/single-page/mobile/Breadcrumb') ?>
+              <?php get_template_part('components/single-page/desktop/Breadcrumb') ?>
             </div>
 
             <?php if (has_post_thumbnail()): ?>
@@ -389,12 +389,8 @@
             <div class="text-h4 text-secondary no-letter-spacing text-weight-700 q-mb-md">مطالب مرتبط</div>
 
             <div class="q-mb-md">
-
               <?php get_template_part("components/single-page/desktop/RelatedPosts") ?>
-
             </div>
-
-
 
           </div>
 

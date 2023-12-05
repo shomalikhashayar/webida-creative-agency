@@ -1,4 +1,4 @@
-<div class="gt-sm">
+<div>
     <?php
 
     $delimiter = '<q-icon name="arrow_left" size="sm" color="primary"></q-icon>'; // Delimiter between breadcrumbs

@@ -1,4 +1,4 @@
-<div class="xs">
+<div>
     <?php
 
     $delimiter = '<q-icon name="arrow_left" size="20px" color="primary"></q-icon>'; // Delimiter between breadcrumbs
