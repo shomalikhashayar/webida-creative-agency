@@ -20,7 +20,7 @@
       <div class="flex link-on-hover">
           <a class="text-h3 no-letter-spacing text-secondary no-decoration text-weight-900"
             href="<?php echo esc_url(home_url()); ?>">
-            <q-avatar class="q-mr-sm" size="57px">
+            <q-avatar class="q-mr-sm" size="56px">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
             </q-avatar>
             آژانس خلاقیت وبیدا</a>

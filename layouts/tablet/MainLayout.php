@@ -18,17 +18,17 @@
     <div class="container">
       <q-toolbar class="row justify-between items-center q-px-none q-py-lg bg-accent">
         <div class="flex link-on-hover">
-          <a class="text-h2 no-letter-spacing text-secondary no-decoration text-weight-900"
+          <a class="text-h3 no-letter-spacing text-secondary no-decoration text-weight-900"
             href="<?php echo esc_url(home_url()); ?>">
-            <q-avatar class="q-mr-sm" size="72px">
+            <q-avatar class="q-mr-sm" size="56px">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
             </q-avatar>
             آژانس خلاقیت وبیدا</a>
         </div>
         <div class="row items-center q-gutter-sm">
-          <q-btn @click="toggleDrawer" unelevated round dense size="30px" color="primary" text-color="white"><q-icon
+          <q-btn @click="toggleDrawer" unelevated round dense size="24px" color="primary" text-color="white"><q-icon
               size="md" name="o_lunch_dining"></q-icon></q-btn>
-          <q-btn unelevated dense size="30px" color="primary" text-color="white" round>
+          <q-btn unelevated dense size="24px" color="primary" text-color="white" round>
             <q-icon name="o_perm_phone_msg" size="md"></q-icon>
             <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:280px" :offset="[0, 10]">
               <q-list padding>
@@ -111,7 +111,7 @@
   <q-footer class="bg-secondary">
     <div class="column q-py-xl container bg-secondary">
       <div class="col-2">
-        <p class="text-h1 text-weight-900 text-white q-mb-lg">دسترسی سریع</p>
+        <p class="text-h2 text-weight-900 text-white q-mb-lg">دسترسی سریع</p>
         <div class="column q-gutter-md">
           <div class="row items-center link-on-hover">
             <q-icon name="circle" size="12px" class="q-mr-md text-primary"></q-icon><a
@@ -170,7 +170,7 @@
         </div>
       </div>
       <div class="col-4">
-        <p class="text-h1 text-weight-900 text-white q-mb-lg">آخرین مقالات منتشر شده</p>
+        <p class="text-h2 text-weight-900 text-white q-mb-lg">آخرین مقالات منتشر شده</p>
         <div class="column q-gutter-lg link-on-hover">
           <?php
           $args = array(
@@ -190,7 +190,7 @@
       </div>
       <q-separator color="blue-grey-13" class="q-my-xl"></q-separator>
       <div class="col-4">
-        <p class="text-h1 text-weight-900 text-white q-mb-lg">راه های ارتباطی شما با ما</p>
+        <p class="text-h2 text-weight-900 text-white q-mb-lg">راه های ارتباطی شما با ما</p>
         <p class="text-h3 text-weight-300 line-height-md">تهـران، فلکه دوم صادقیه، خیابان آیت الله کاشانی، خیابان بهنام،
           خیابان مقداد،
           برج ترنج
@@ -221,25 +221,25 @@
             </q-btn>
 
             <q-btn round color="white">
-              <q-avatar size="72px">
+              <q-avatar size="56px">
                 <q-icon class="fa-solid fa-user"></q-icon>
               </q-avatar>
             </q-btn>
 
             <q-btn round color="white">
-              <q-avatar size="72px">
+              <q-avatar size="56px">
                 <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
               </q-avatar>
             </q-btn>
 
             <q-btn round color="white">
-              <q-avatar size="72px">
+              <q-avatar size="56px">
                 <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
               </q-avatar>
             </q-btn>
 
             <q-btn round color="white">
-              <q-avatar size="72px">
+              <q-avatar size="56px">
                 <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
               </q-avatar>
             </q-btn>
@@ -251,7 +251,7 @@
           <div class="row q-mt-xl q-mb-md justify-center link-on-hover">
             <a class="text-h1 no-letter-spacing text-white no-decoration text-weight-900"
               href="<?php echo esc_url(home_url()); ?>">
-              <q-avatar class="q-mr-md" size="72px">
+              <q-avatar class="q-mr-md" size="56px">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
               </q-avatar>
               آژانس خلاقیت وبیدا</a>
@@ -275,6 +275,6 @@
 </div>
 
 <Transition name="fade" mode="out-in" appear>
-  <q-btn @click="scrollToTop" v-show="showPageScroller" round size="24px" unelevated id="scroll-to-top" color="primary"
+  <q-btn @click="scrollToTop" v-show="showPageScroller" round size="20px" unelevated id="scroll-to-top" color="primary"
     text-color="white" icon="arrow_upward"></q-btn>
 </Transition>
