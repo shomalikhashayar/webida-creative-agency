@@ -206,7 +206,15 @@ h3 {
 
   .post-container {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    row-gap: 34px !important;
+    column-gap: 30px !important;
+  }
+
+  .related-post-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     justify-content: end !important;
     row-gap: 34px !important;
     column-gap: 30px !important;
@@ -253,7 +261,7 @@ h3 {
   }
 
   .container {
-    width: 1170px;
+    width: 1250px;
   }
 }
 

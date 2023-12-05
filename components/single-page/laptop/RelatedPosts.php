@@ -31,7 +31,7 @@
                     if ($post_count > 0) {
                         echo '</q-carousel-slide>';
                     }
-                    echo '<q-carousel-slide class="no-scroll post-container no-padding" :name="' . $slide_count . '">';
+                    echo '<q-carousel-slide class="no-scroll related-post-container no-padding" :name="' . $slide_count . '">';
                     $slide_count++;
                 }
 
@@ -41,7 +41,7 @@
 
                 echo '
                     <a class="no-decoration" href="' . $permalink . '">
-                        <q-card bordered class="full-width on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md" style="width: 220px;">
+                        <q-card bordered class="fit on-hover-primary-1 column justify-between post-card q-radius-sm no-shadow q-pa-md">
                             <q-card-section class="q-pa-none">';
                 if (!empty($thumbnail_url)) {
                     echo '<q-img fit="cover" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" alt="" height="125px"></q-img>';
