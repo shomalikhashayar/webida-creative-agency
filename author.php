@@ -52,7 +52,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                     </div>
 
                 <?php else: ?>
-                    <div class="q-my-xl">
+                    <div class="q-mb-xl">
                         <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
@@ -109,7 +109,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                     </div>
 
                 <?php else: ?>
-                    <div class="q-my-xl">
+                    <div class="q-mb-xl">
                         <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
@@ -166,7 +166,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                     </div>
 
                 <?php else: ?>
-                    <div class="q-my-xl">
+                    <div class="q-px-xl q-pb-xl">
                         <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
@@ -222,7 +222,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                     </div>
 
                 <?php else: ?>
-                    <div class="q-my-xl">
+                    <div class="q-px-xl q-pb-xl">
                         <?php get_template_part('components/shared/NoData'); ?>
                     </div>
                 <?php endif; ?>
