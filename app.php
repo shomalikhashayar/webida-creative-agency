@@ -1,6 +1,6 @@
 <script type="module">
   const { createApp, ref, onBeforeMount, onMounted, h, Transition } = Vue
-  const { useQuasar, setCssVar, getCssVar, colors, Notify } = Quasar
+  const { useQuasar, setCssVar, getCssVar, colors, Notify, Screen } = Quasar
   const { lighten } = colors
 
   const app = Vue.createApp({
@@ -185,6 +185,8 @@
       setCssVar('webida-accent', '#F9F6E1')
       setCssVar('webida-page', '#ed2555')
       setCssVar('webida-dark', '#2d2d2d')
+
+      Screen.setSizes({ md:960, lg:1280 })
 
       jQuery(document).ready(function () {
         jQuery('#contactForm').submit(function (e) {

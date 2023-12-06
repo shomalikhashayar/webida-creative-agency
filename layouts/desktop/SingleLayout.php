@@ -1,4 +1,3 @@
-<div class="gt-md" v-if="$q.screen.gt.md">
   <q-header unelevated bordered class="bg-white">
     <q-toolbar v-if="ad" class="q-py-xs webida-primary">
       <div class="col-1"></div>
@@ -242,7 +241,6 @@
       </div>
     </div>
   </q-footer>
-</div>
 
 <Transition name="fade" mode="out-in" appear>
   <q-btn @click="scrollToTop" v-show="showPageScroller" round unelevated id="scroll-to-top" color="primary"

@@ -12,6 +12,7 @@ License URI: https://webida.ir
 @import url("./assets/fonts/index.css");
 @import url("assets/css/colors/index.css");
 @import url("./assets/css/typography/index.css");
+@import url("./assets/css/breakpoints/index.css");
 @import url("./assets/css/quasar/q-item.css");
 @import url("./assets/css/quasar/q-drawer.css");
 @import url("./assets/css/quasar/q-card.css");
@@ -22,7 +23,6 @@ License URI: https://webida.ir
 @import url("./assets/css/custom/contact-us/index.css");
 @import url("./assets/css/custom/about-us/index.css");
 @import url("./assets/css/custom/website-design/index.css");
-
 
 * {
   font-family: "yekan-regular";
@@ -51,6 +51,11 @@ h2 {
 h3 {
   line-height: 24px;
   letter-spacing: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-card {
@@ -153,136 +158,6 @@ h3 {
 
 .post-content a:hover {
   text-decoration: underline;
-}
-
-/* @media (min-width: 1200px) {
-  .container {
-    padding: 0 42px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    padding: 0 42px;
-  }
-} */
-
-@media (max-width: 768px) {
-  .container {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-  .services-card {
-    width: 100%;
-  }
-
-  .self-praises-card {
-    width: 100%;
-  }
-
-  .breadcrumb a {
-    text-decoration: none;
-    font-size: 14px;
-    color: var(--q-webida-primary);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
-  .container {
-    padding-left: 42px;
-    padding-right: 42px;
-  }
-
-  .post-container {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 34px !important;
-    column-gap: 30px !important;
-  }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-
-  .post-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 34px !important;
-    column-gap: 30px !important;
-  }
-
-  .services-card-container {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
-  .self-praises-card-container {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
-
-  .container {
-    padding-left: 42px;
-    padding-right: 42px;
-  }
-
-}
-
-@media (min-width: 1200px) and (max-width: 1440px) {
-
-  .post-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
-
-  .services-card-container {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
-  .self-praises-card-container {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
-
-  .container {
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
-
-@media (min-width: 1440px) {
-  .container {
-    width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-container {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    justify-content: end !important;
-    row-gap: 36px !important;
-    column-gap: 30px !important;
-  }
 }
 
 .glass {

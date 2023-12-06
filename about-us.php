@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<q-layout :view="rightLayout" class="xs" v-if="$q.screen.xs">
+<q-layout :view="rightLayout" v-if="$q.screen.xs">
    <?php get_template_part('/layouts/mobile/MainLayout'); ?>
    <q-page-container>
       <q-page>
@@ -30,7 +30,7 @@ get_header();
 </q-layout>
 
 
-<q-layout :view="rightLayout" class="md" v-if="$q.screen.md">
+<q-layout :view="rightLayout" v-if="$q.screen.md">
    <?php get_template_part('/layouts/laptop/MainLayout'); ?>
    <q-page-container>
       <q-page>

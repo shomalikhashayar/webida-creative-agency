@@ -23,7 +23,7 @@
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 960px) {
 
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
@@ -35,7 +35,7 @@
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
