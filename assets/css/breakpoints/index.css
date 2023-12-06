@@ -36,6 +36,14 @@
       justify-content: end !important;
       column-gap: 36px !important;
     }
+
+    .related-post-container {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      justify-content: end !important;
+      row-gap: 34px !important;
+      column-gap: 30px !important;
+    }
   }
   
   @media (min-width: 960px) {
