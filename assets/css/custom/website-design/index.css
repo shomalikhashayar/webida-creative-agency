@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .website-design-hero {
     background-image: url("../../../images/web-design-hero.png") !important;
     height: 500px !important;
@@ -8,21 +8,31 @@
   }
 }
 
-@media (max-width: 1023px) and (min-width: 769px) {
+@media (max-width: 1199px) and (min-width: 1024px) {
   .website-design-hero {
     background-image: url("../../../images/web-design-hero.png") !important;
-    background-size: cover;
-    background-position: bottom;
+    height: 500px !important;
+    background-size: 450px;
+    background-position: left 42px bottom;
+    background-repeat: no-repeat;
+    padding: 48px 32px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .website-design-hero {
+    background-image: url("../../../images/web-design-hero.png") !important;
+    height: 400px !important;
+    background-size: 300px;
+    background-position: left 42px bottom;
     background-repeat: no-repeat;
     padding: 48px 32px;
   }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .website-design-hero {
     background-image: url("../../../images/web-design-hero.png") !important;
-    background-size: 100% !important;
+    background-size: 100%;
     background-position: bottom !important;
     background-repeat: no-repeat !important;
     padding: 48px 32px !important;
