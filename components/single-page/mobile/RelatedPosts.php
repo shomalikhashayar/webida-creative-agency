@@ -18,7 +18,7 @@
     $slide_count = 1;
 
     if ($latest_related_posts) {
-        echo '<q-carousel v-model="relatedPostsMobile" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="305px" class="q-mb-lg">';
+        echo '<q-carousel v-model="relatedPostsMobile" transition-prev="jump-right" infinite @mouseenter="autoplay = false" @mouseleave="autoplay = true" transition-next="jump-left" swipeable :autoplay="autoplay" animated control-color="primary" transition-duration="1000" height="280px" class="q-mb-lg">';
 
         foreach ($latest_related_posts as $post) {
             if ($post->ID != $current_post_id) { // Skip the current post
@@ -29,11 +29,11 @@
                 echo '<q-carousel-slide class="row justify-center no-padding" :name="' . $slide_count . '">';
 
                 echo '
-                <a class=" fit no-decoration" href="' . $permalink . '">
-                    <q-card bordered class="on-hover-primary-1 fit post-card q-radius-sm no-shadow q-pa-md">
+                <a class="fit no-decoration" href="' . $permalink . '">
+                    <q-card bordered class="on-hover-primary-1 fit q-radius-sm no-shadow q-pa-md">
                         <q-card-section class="q-pa-none">';
                 if (!empty($thumbnail_url)) {
-                    echo '<q-img fit="cover" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" :ratio="1" alt="" height="150px"></q-img>';
+                    echo '<q-img fit="fill" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" :ratio="1" alt="" height="150px"></q-img>';
                 }
                 echo '<div class="row justify-between">
                             <div class="row q-gutter-xs items-center justify-end">';
@@ -46,7 +46,7 @@
                     }
                 }
                 echo '</div></div>';
-                echo '<p class="text-body2 no-decoration text-weight-400 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
+                echo '<p style="font-size:14px" class="no-decoration text-weight-400 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
                 echo '</q-card-section></q-card></a>';
                 echo '</q-carousel-slide>';
                 $slide_count++;

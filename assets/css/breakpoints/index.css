@@ -23,11 +23,25 @@
       font-size: 14px;
       color: var(--q-webida-primary);
     }
+
+    .services-card-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      justify-content: end !important;
+      column-gap: 36px !important;
+    }
+    .self-praises-card-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      justify-content: end !important;
+      column-gap: 36px !important;
+    }
   }
   
   @media (min-width: 960px) {
     .container {
-      width: 970px;
+      padding-left: 72px;
+      padding-right: 72px;
     }
   
     .post-container {
@@ -75,17 +89,25 @@
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 36px !important;
+      row-gap: 34px !important;
       column-gap: 30px !important;
     }
     .self-praises-card-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 36px !important;
+      row-gap: 34px !important;
       column-gap: 30px !important;
     }
   
+    .related-post-container {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      justify-content: end !important;
+      row-gap: 34px !important;
+      column-gap: 16px !important;
+    }
+    
     .container {
       width: 1250px;
     }

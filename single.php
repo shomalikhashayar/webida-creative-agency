@@ -146,7 +146,7 @@
         </div>
 
 
-        <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
+        <h1 class="text-h3 q-py-md line-height-md text-center text-weight-900 text-secondary">
           <?php the_title() ?>
         </h1>
 
@@ -245,7 +245,7 @@
         </div>
 
 
-        <h1 class="text-h3 line-height-md text-center text-weight-900 text-secondary">
+        <h1 class="text-h3 q-py-lg line-height-md text-center text-weight-900 text-secondary">
           <?php the_title() ?>
         </h1>
 

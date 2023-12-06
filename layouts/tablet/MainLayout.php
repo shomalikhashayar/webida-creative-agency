@@ -1,4 +1,3 @@
-<div>
   <q-header unelevated bordered class="bg-accent">
     <q-toolbar v-if="ad" class="q-py-md webida-primary">
       <div class="col-1"></div>
@@ -111,7 +110,7 @@
   <q-footer class="bg-secondary">
     <div class="column q-py-xl container bg-secondary">
       <div class="col-2">
-        <p class="text-h2 text-weight-900 text-white q-mb-lg">دسترسی سریع</p>
+        <p class="text-h3 text-weight-900 text-white q-mb-lg">دسترسی سریع</p>
         <div class="column q-gutter-md">
           <div class="row items-center link-on-hover">
             <q-icon name="circle" size="12px" class="q-mr-md text-primary"></q-icon><a
@@ -170,7 +169,7 @@
         </div>
       </div>
       <div class="col-4">
-        <p class="text-h2 text-weight-900 text-white q-mb-lg">آخرین مقالات منتشر شده</p>
+        <p class="text-h3 text-weight-900 text-white q-mb-lg">آخرین مقالات منتشر شده</p>
         <div class="column q-gutter-lg link-on-hover">
           <?php
           $args = array(
@@ -190,7 +189,7 @@
       </div>
       <q-separator color="blue-grey-13" class="q-my-xl"></q-separator>
       <div class="col-4">
-        <p class="text-h2 text-weight-900 text-white q-mb-lg">راه های ارتباطی شما با ما</p>
+        <p class="text-h3 text-weight-900 text-white q-mb-lg">راه های ارتباطی شما با ما</p>
         <p class="text-h3 text-weight-300 line-height-md">تهـران، فلکه دوم صادقیه، خیابان آیت الله کاشانی، خیابان بهنام،
           خیابان مقداد،
           برج ترنج
@@ -272,7 +271,6 @@
       </div>
     </div>
   </q-footer>
-</div>
 
 <Transition name="fade" mode="out-in" appear>
   <q-btn @click="scrollToTop" v-show="showPageScroller" round size="20px" unelevated id="scroll-to-top" color="primary"

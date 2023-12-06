@@ -41,18 +41,18 @@
         <?php get_template_part('/components/front-page/tablet/HeroSection') ?>
         <div class="container">
           <div class="text-center q-py-lg">
-            <h2 class="text-h1 text-secondary text-weight-900">خدمات <span
+            <h2 class="text-h3 text-secondary text-weight-900">خدمات <span
                 class="text-primary text-weight-900">وبیدا</span></h2>
           </div>
-          <div class="row items-center justify-between q-gutter-y-xl">
+          <div class="services-card-container q-gutter-y-xl">
             <?php get_template_part('/components/front-page/tablet/ServicesCard') ?>
           </div>
 
           <div class="text-center q-mt-md">
-            <h2 class="text-h1 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
+            <h2 class="text-h3 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
                 class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
 
-            <div class="flex justify-between items-center q-gutter-y-xl q-mb-xl q-pb-xl">
+            <div class="self-praises-card-container q-gutter-y-xl q-mb-xl q-pb-xl">
               <?php get_template_part('/components/front-page/tablet/SelfPraiseCard') ?>
             </div>
           </div>

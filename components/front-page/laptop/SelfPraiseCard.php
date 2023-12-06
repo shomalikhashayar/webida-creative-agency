@@ -1,4 +1,4 @@
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_pattern" size="40px" color="primary"></q-icon>
@@ -8,7 +8,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="star" size="40px" color="primary"></q-icon>
@@ -17,7 +17,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_grid_view" size="40px" color="primary"></q-icon>
@@ -26,7 +26,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_phone_android" size="40px" color="primary"></q-icon>
@@ -35,7 +35,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_pending_actions" size="40px" color="primary"></q-icon>
@@ -44,7 +44,7 @@
   </q-card-section>
 </q-card>
 
-<q-card class="self-praises-card q-radius-sm q-py-sm no-shadow">
+<q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
       <q-icon name="o_diversity_1" size="40px" color="primary"></q-icon>

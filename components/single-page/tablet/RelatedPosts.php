@@ -41,10 +41,10 @@
 
                 echo '
                     <a class="no-decoration" href="' . $permalink . '">
-                        <q-card bordered class="on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md" style="width: 220px;">
+                        <q-card bordered class="on-hover-primary-1 fit justify-between q-radius-sm no-shadow q-pa-md">
                             <q-card-section class="q-pa-none">';
                 if (!empty($thumbnail_url)) {
-                    echo '<q-img fit="cover" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" alt="" height="125px"></q-img>';
+                    echo '<q-img fit="fill" class="q-radius-xs q-mb-sm" src="' . $thumbnail_url . '" alt="" height="100px"></q-img>';
                 }
                 echo '<div class="row justify-between">
                                     <div class="row q-gutter-xs items-center justify-end">';
@@ -57,7 +57,7 @@
                     }
                 }
                 echo '</div></div>';
-                echo '<p class="text-body2 no-decoration text-weight-400 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
+                echo '<p style="font-size:14px" class="no-decoration text-weight-400 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
                 echo '</q-card-section></q-card></a>';
 
                 $post_count++;
