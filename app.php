@@ -186,7 +186,7 @@
       setCssVar('webida-page', '#ed2555')
       setCssVar('webida-dark', '#2d2d2d')
 
-      Screen.setSizes({ md:960, lg:1280 })
+      Screen.setSizes({ lg:1280 })
 
       jQuery(document).ready(function () {
         jQuery('#contactForm').submit(function (e) {
