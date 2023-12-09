@@ -1,3 +1,4 @@
+<!-- استفاده نمیشود -->
 <q-card class="full-width self-praises-card q-radius-sm q-py-sm no-shadow">
   <q-card-section>
     <div class="column q-gutter-y-md items-center">
@@ -53,3 +54,4 @@
     </div>
   </q-card-section>
 </q-card>
+

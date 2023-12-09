@@ -48,6 +48,11 @@
   background: #053751 !important;
 }
 
+.bg-secondary-lighter {
+  background: #004060 !important;
+}
+
+
 .bg-accent {
   background: #f9f6e1 !important;
 }

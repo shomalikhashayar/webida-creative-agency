@@ -1,5 +1,5 @@
 <a class="no-decoration" href="<?php the_permalink(); ?>">
-  <q-card bordered style="width:300px; min-height:320px"
+  <q-card bordered style="width:280px; min-height:320px"
     class="on-hover-primary-1 full-height column justify-between post-card q-radius-sm no-shadow q-pa-md">
 
     <q-card-section class="q-pa-none">
