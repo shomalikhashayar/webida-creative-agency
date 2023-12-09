@@ -28,21 +28,19 @@
       display: grid !important;
       grid-template-columns: repeat(2, 1fr) !important;
       justify-content: end !important;
-      column-gap: 36px !important;
+      gap: 30px !important;
     }
     .self-praises-card-container {
       display: grid !important;
       grid-template-columns: repeat(2, 1fr) !important;
-      justify-content: end !important;
-      column-gap: 36px !important;
+      gap: 30px !important;
     }
 
     .related-post-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   }
   
@@ -56,31 +54,27 @@
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   
     .related-post-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   
     .services-card-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 36px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
     .self-praises-card-container {
       display: grid !important;
       grid-template-columns: repeat(2, 1fr) !important;
       justify-content: end !important;
-      row-gap: 36px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   }
   
@@ -89,31 +83,27 @@
       display: grid !important;
       grid-template-columns: repeat(4, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   
     .services-card-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
     .self-praises-card-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 30px !important;
+      gap: 30px !important;
     }
   
     .related-post-container {
       display: grid !important;
       grid-template-columns: repeat(3, 1fr) !important;
       justify-content: end !important;
-      row-gap: 34px !important;
-      column-gap: 16px !important;
+      gap: 16px !important;
     }
     
     .container {

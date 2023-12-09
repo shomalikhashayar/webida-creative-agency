@@ -23,7 +23,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
           </q-avatar>
           <!-- نمایش نام سایت فقط در دسکتاپ -->
-          <span v-if="$q.screen.gt.md">آژانس خلاقیت وبیدا</span>
+          <span v-if="$q.screen.gt.md" class="text-weight-700">آژانس خلاقیت وبیدا</span>
         </a>
       </div>
       <div class="row">
