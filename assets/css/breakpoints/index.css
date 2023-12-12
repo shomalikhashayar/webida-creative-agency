@@ -1,112 +1,112 @@
-@media (max-width: 600px){
-    .container {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
+@media (min-width: 1280px) {
+  .post-container {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
   }
-  
-  @media (min-width: 600px) and (max-width: 1024px){
-    .container {
-      padding-left: 42px;
-      padding-right: 42px;
-    }
-    .services-card {
-      width: 100%;
-    }
-  
-    .self-praises-card {
-      width: 100%;
-    }
-  
-    .breadcrumb a {
-      text-decoration: none;
-      font-size: 14px;
-      color: var(--q-webida-primary);
-    }
 
-    .services-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-    .self-praises-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      gap: 30px !important;
-    }
+  .services-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+  .self-praises-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
 
-    .related-post-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
+  .related-post-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 16px !important;
   }
-  
-  @media (min-width: 1024px) and (max-width: 1280px) {
-    .container {
-      padding-left: 72px;
-      padding-right: 72px;
-    }
-  
-    .post-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-  
-    .related-post-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-  
-    .services-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-    .self-praises-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
+
+  .container {
+    width: 1140px;
   }
-  
-  @media (min-width: 1280px) {
-    .post-container {
-      display: grid !important;
-      grid-template-columns: repeat(4, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-  
-    .services-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-    .self-praises-card-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 30px !important;
-    }
-  
-    .related-post-container {
-      display: grid !important;
-      grid-template-columns: repeat(3, 1fr) !important;
-      justify-content: end !important;
-      gap: 16px !important;
-    }
-    
-    .container {
-      width: 1140px;
-    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    padding-left: 72px;
+    padding-right: 72px;
   }
+
+  .post-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+
+  .related-post-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+
+  .services-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+  .self-praises-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+  .services-card {
+    width: 100%;
+  }
+
+  .self-praises-card {
+    width: 100%;
+  }
+
+  .breadcrumb a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--q-webida-primary);
+  }
+
+  .services-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: end !important;
+    gap: 24px !important;
+  }
+  .self-praises-card-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 24px !important;
+  }
+
+  .related-post-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-content: end !important;
+    gap: 30px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
