@@ -10,6 +10,14 @@
       padding-left: 42px;
       padding-right: 42px;
     }
+
+    .post-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      justify-content: end !important;
+      gap: 30px !important;
+    }
+
     .services-card {
       width: 100%;
     }
