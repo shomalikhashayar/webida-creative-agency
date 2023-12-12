@@ -167,7 +167,7 @@
         <div class="column q-gutter-lg link-on-hover">
           <?php
           $args = array(
-            'numberposts' => 8,
+            'numberposts' => 6,
             'order' => 'DESC',
           );
 
@@ -212,11 +212,6 @@
               </q-avatar>
             </q-btn>
 
-            <q-btn round color="white">
-              <q-avatar size="40px">
-                <q-icon class="fa-solid fa-user"></q-icon>
-              </q-avatar>
-            </q-btn>
 
             <q-btn round color="white">
               <q-avatar size="40px">

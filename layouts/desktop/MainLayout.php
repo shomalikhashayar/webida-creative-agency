@@ -274,12 +274,6 @@
             </q-avatar>
           </q-btn>
 
-          <!-- <q-btn round color="white">
-              <q-avatar size="40px">
-                <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
-              </q-avatar>
-            </q-btn> -->
-
           <q-btn round color="white">
             <q-avatar size="40px">
               <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
