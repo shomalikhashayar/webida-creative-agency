@@ -8,7 +8,7 @@
             </p>
             <div class="row justify-end">
                 <q-btn @click="ConsultantModal = true" unelevated rounded label="همین حالا سفارش دهید "
-                    class="webida-primary text-white text-weight-regular items-end" padding="10px 24px" />
+                    class="webida-primary text-white text-body2 text-weight-regular items-end" padding="10px 24px" ></q-btn>
             </div>
         </div>
         <div class="bg-amber " style="flex:1;">

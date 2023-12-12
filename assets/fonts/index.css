@@ -45,7 +45,7 @@
   src: url("./IRANYekanXFaNum-Heavy.woff") format("woff");
   font-display: swap;
 }
-
+/* سایز900 */
 @font-face {
   font-family: "yekan-black";
   src: url("./IRANYekanXFaNum-Black.woff") format("woff");

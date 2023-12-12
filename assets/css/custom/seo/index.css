@@ -1,0 +1,120 @@
+@media (min-width: 1280px) {
+  .seo-hero-section {
+    height: 500px !important;
+  }
+  .seo-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 36px;
+    padding-right: 46px;
+    column-gap: 94px;
+    border-radius: 16px;
+    margin-bottom: 62px;
+  }
+  .advantage-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 32px;
+    column-gap: 32px;
+    padding-top: 70px;
+    padding-bottom: 74px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .seo-hero-section {
+    height: 500px !important;
+    padding: 48px 32px;
+  }
+  .seo-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 36px;
+    padding-right: 46px;
+    column-gap: 94px;
+    border-radius: 16px;
+    margin-bottom: 62px;
+  }
+
+  .advantage-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    padding-top: 70px;
+    padding-bottom: 74px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .seo-hero-section {
+    padding-top: 50px;
+    padding-bottom: 44px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .seo-content {
+    padding-top: 20px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    row-gap: 8px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+  }
+
+  .advantage-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .consultationWhiteSec{
+    border-radius: 8px;
+    padding-top: 33px;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .seo-hero-section {
+    padding-top: 50px;
+    padding-bottom: 44px;
+  }
+  .seo-content {
+    padding-top: 20px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    row-gap: 8px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+  }
+  .advantage-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .consultationWhiteSec{
+    border-radius: 8px;
+    padding-top: 33px;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    padding-right: 18px;
+    width:100%
+  }
+}
+
+.white-btn {
+  border: 2px solid var(--q-webida-primary) !important;
+}
+
+.card-logo {
+  width: 75px;
+  margin-top: -50px;
+  align-self: flex-start;
+}
