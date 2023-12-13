@@ -11,7 +11,7 @@ if ($categories) {
   echo '<q-item-section class="text-center">';
   echo '<div class="row items-center">';
   echo '<div class="col"><q-separator size="2px"></q-separator></div>';
-  echo '<div class="col text-weight-700 no-letter-spacing text-body1 q-px-lg text-secondary">دسته‌بندی‌ها</div>';
+  echo '<div class="col text-weight-800 no-letter-spacing text-body1 q-px-lg text-secondary">دسته‌بندی‌ها</div>';
   echo '<div class="col"><q-separator size="2px"></q-separator></div>';
   echo '</div>';
   echo '</q-item-section>';

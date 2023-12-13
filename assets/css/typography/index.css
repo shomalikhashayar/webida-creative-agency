@@ -1,40 +1,40 @@
 .text-weight-100 {
-  font-family: "yekan-light";
+  font-family: "yekan-thin";
   font-weight: 100;
 }
 
 .text-weight-200 {
-  font-family: "yekan-thin";
+  font-family: "yekan-ultralight";
   font-weight: 200;
 }
 
 .text-weight-300 {
-  font-family: "yekan-regular";
+  font-family: "yekan-light";
   font-weight: 300;
 }
 
 .text-weight-400 {
-  font-family: "yekan-medium";
+  font-family: "yekan-regular";
   font-weight: 400;
 }
 
 .text-weight-500 {
-  font-family: "yekan-bold";
+  font-family: "yekan-medium";
   font-weight: 500;
 }
 
 .text-weight-600 {
-  font-family: "yekan-bolder";
+  font-family: "yekan-demibold";
   font-weight: 600;
 }
 
 .text-weight-700 {
-  font-family: "yekan-boldest";
+  font-family: "yekan-bold";
   font-weight: 700;
 }
 
 .text-weight-800 {
-  font-family: "yekan-heavy";
+  font-family: "yekan-extraBold";
   font-weight: 800;
 }
 

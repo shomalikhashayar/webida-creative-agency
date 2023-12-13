@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <h3 class="text-body1 no-decoration text-weight-700 text-grey-8">
+      <h3 class="text-body1 no-decoration text-weight-800 text-grey-8">
         <?php the_title(); ?>
       </h3>
     </q-card-section>

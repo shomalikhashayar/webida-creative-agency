@@ -5,7 +5,7 @@
                 <h2 class="text-h2 no-margin text-weight-900 text-secondary">
                     سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
                 </h2>
-                <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
+                <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
                     کسب‌وکارتان را در صدر نتایج گوگل ببینید.
                 </p>
                 <div class="row justify-start q-gutter-x-lg">

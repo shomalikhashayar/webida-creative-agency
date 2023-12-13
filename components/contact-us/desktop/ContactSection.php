@@ -1,7 +1,7 @@
 <div class="bg-white">
-  <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-700">دیگر راه‌های
+  <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-800">دیگر راه‌های
     ارتباطی با
-    <span class="text-weight-700 text-primary">وبیدا</span>
+    <span class="text-weight-800 text-primary">وبیدا</span>
   </h2>
 
   <div class="container row items-center justify-between q-pt-xl" style="padding-bottom:72px">
@@ -54,13 +54,13 @@
           </q-item-section>
 
           <q-item-section class="column justify-center q-gutter-y-sm q-ml-md">
-            <h3 class="no-margin text-secondary text-h5 text-weight-700 no-letter-spacing">ایمیل</h3>
-            <p class="no-margin text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
+            <h3 class="no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">ایمیل</h3>
+            <p class="no-margin text-dark text-body1 text-weight-500 no-letter-spacing">تیم پشتیبانی وبیدا
               برای
               هر گونه
               کمک به شما آماده است.</p>
             <q-btn style="width: 124px" href="mailto:info@webida.ir" unelevated no-caps color="primary"
-              class="text-weight-500">info@webida.ir</q-btn>
+              class="text-weight-700">info@webida.ir</q-btn>
           </q-item-section>
         </div>
       </q-item>
@@ -74,10 +74,10 @@
           </q-item-section>
 
           <q-item-section class="column q-gutter-y-sm q-ml-md">
-            <h3 class="no-margin text-secondary text-h5 text-weight-700 no-letter-spacing">نشانی</h3>
-            <p class="no-margin text-dark text-body1 text-weight-400 no-letter-spacing">
+            <h3 class="no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">نشانی</h3>
+            <p class="no-margin text-dark text-body1 text-weight-500 no-letter-spacing">
               به ما سر بزنید، خوشحال میشیم.</p>
-            <p class="no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
+            <p class="no-margin text-primary text-body1 text-weight-500 no-letter-spacing">تهـران، فلکه دوم
               صادقیه، خیابان آیت الله کاشانی، خیابان بهنام، خیابان مقداد، برج ترنج</p>
           </q-item-section>
         </div>
@@ -92,8 +92,8 @@
           </q-item-section>
 
           <q-item-section class="column justify-center q-gutter-y-sm q-ml-md">
-            <h3 class="no-margin text-secondary text-h5 text-weight-700 no-letter-spacing">تلفن</h3>
-            <p class="no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه از
+            <h3 class="no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">تلفن</h3>
+            <p class="no-margin text-dark text-body2 text-weight-500 no-letter-spacing">شنبه تا چهارشنبه از
               ساعت 9 الی 18
               پنجشنبه‌ها از ساعت 9 الی 13</p>
             <q-btn unelevated style="width:124px" color="primary" label="پشتیبانی" icon="o_perm_phone_msg">

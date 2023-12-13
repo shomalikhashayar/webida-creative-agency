@@ -1,6 +1,6 @@
 <div class="bg-grey-4 q-py-xl">
     <div class="container bg-primary q-pa-xl q-radius-md ">
-        <h2 class="text-white text-weight-700 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
+        <h2 class="text-white text-weight-800 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
             متداول</h2>
 
         <div class="column q-gutter-md">
@@ -9,7 +9,8 @@
                     <template v-slot:header>
 
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 سایت شرکتی چیست؟
                             </h3>
                         </q-item-section>
@@ -36,7 +37,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 سایت فروشگاهی چیست؟
                             </h3>
                         </q-item-section>
@@ -67,7 +69,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 وردپرس چیست؟ </h3>
                         </q-item-section>
                     </template>
@@ -91,7 +94,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 مزایای طراحی سایت با وردپرس </h3>
                         </q-item-section>
                     </template>
@@ -127,7 +131,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 تعرفه طراحی سایت در وبیدا چقدر است؟ </h3>
                         </q-item-section>
                     </template>
@@ -149,7 +154,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 ویژگی های یک سایت خوب در چیست؟ </h3>
                         </q-item-section>
                     </template>
@@ -181,7 +187,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 قیمت نهایی برای طراحی سایت چگونه مشخص می‌شود؟ </h3>
                         </q-item-section>
                     </template>
@@ -201,7 +208,8 @@
                 <q-expansion-item group="groupfaq">
                     <template v-slot:header>
                         <q-item-section>
-                            <h3 class="q-py-sm text-h6 text-weight-500 no-letter-spacing line-height-sm no-margin text-secondary">
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
                                 چگونه می‌توان برای سفارش طراحی سایت در وبیدا اقدام کرد؟ </h3>
                         </q-item-section>
                     </template>

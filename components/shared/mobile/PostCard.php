@@ -4,8 +4,8 @@
 
     <q-card-section class="q-pa-none">
       <?php if (has_post_thumbnail()): ?>
-        <q-img fit="cover" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>" :ratio="1"
-          alt="" height="150px"></q-img>
+        <q-img fit="cover" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>" :ratio="1" alt=""
+          height="150px"></q-img>
       <?php endif ?>
       <div class="row justify-between">
         <div style="margin-top:5px;" class="col text-weight-600 text-dark no-letter-spacing text-caption">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <h3 class="text-body1 no-decoration text-weight-700 text-grey-8">
+      <h3 class="text-body1 no-decoration text-weight-800 text-grey-8">
         <?php the_title(); ?>
       </h3>
     </q-card-section>

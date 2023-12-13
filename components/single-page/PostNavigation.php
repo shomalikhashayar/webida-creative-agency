@@ -9,7 +9,7 @@ $next_post = get_next_post();
                 href="<?php echo esc_url(get_permalink($next_post->ID)); ?>">
                 <div class="row items-center justify-center">
                     <q-icon name="o_arrow_forward" size="28px" class="q-mr-sm"></q-icon>
-                    <div class="text-weight-500 text-h6 no-letter-spacing">پست بعدی</div>
+                    <div class="text-weight-700 text-h6 no-letter-spacing">پست بعدی</div>
                 </div>
             </q-btn>
         <?php endif; ?>
@@ -20,7 +20,7 @@ $next_post = get_next_post();
             <q-btn padding="8px 16px" flat unelevated color="primary" class="q-radius-xs"
                 href="<?php echo esc_url(get_permalink($prev_post->ID)); ?>">
                 <div class="row items-center justify-center">
-                    <div class="text-weight-500 text-h6 no-letter-spacing">پست قبلی</div>
+                    <div class="text-weight-700 text-h6 no-letter-spacing">پست قبلی</div>
                     <q-icon name="o_arrow_back" size="28px" class="q-ml-sm"></q-icon>
                 </div>
             </q-btn>

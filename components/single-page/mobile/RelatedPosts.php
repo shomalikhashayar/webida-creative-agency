@@ -46,7 +46,7 @@
                     }
                 }
                 echo '</div></div>';
-                echo '<p style="font-size:14px" class="no-decoration text-weight-400 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
+                echo '<p style="font-size:14px" class="no-decoration text-weight-500 text-grey-8 line-height-xs q-mt-md">' . get_the_title($post->ID) . '</p>';
                 echo '</q-card-section></q-card></a>';
                 echo '</q-carousel-slide>';
                 $slide_count++;

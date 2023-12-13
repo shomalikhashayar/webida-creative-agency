@@ -36,21 +36,21 @@ get_header();
    <q-page-container>
       <q-page>
          <!-- صفحه لپتاپ و دسکتاپ -->
-         <div v-if="$q.screen.gt.sm">
+         <template v-if="$q.screen.gt.sm">
             <?php get_template_part('/components/seo/desktop/HeroSection'); ?>
             <?php get_template_part('/components/seo/desktop/contentSection'); ?>
             <?php get_template_part('/components/seo/desktop/advantagesSection'); ?>
             <?php get_template_part('/components/seo/desktop/consultationSection'); ?>
             <?php get_template_part('/components/seo/desktop/FAQ'); ?>
-         </div>
+         </template>
          <!-- صفحه تبلت -->
-         <div v-if="$q.screen.sm">
+         <template v-if="$q.screen.sm">
             <?php get_template_part('/components/seo/mobile/HeroSection'); ?>
             <?php get_template_part('/components/seo/mobile/contentSection'); ?>
             <?php get_template_part('/components/seo/desktop/advantagesSection'); ?>
             <?php get_template_part('/components/seo/mobile/consultationSection'); ?>
             <?php get_template_part('/components/seo/mobile/FAQ'); ?>
-         </div>
+         </template>
       </q-page>
    </q-page-container>
 </q-layout>

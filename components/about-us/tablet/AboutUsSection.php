@@ -7,7 +7,7 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
                   style="width:100px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-300 text-caption-sm text-center">فاطمه نیلچی
+            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">فاطمه نیلچی
             </h2>
          </div>
          <div class="col column item-center">
@@ -15,7 +15,7 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
                   style="width:100px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-300 text-caption-sm text-center">خشایار شمالی
+            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">خشایار شمالی
             </h2>
          </div>
          <div class="col column item-center">
@@ -23,7 +23,7 @@
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
                   alt="" style="width:100px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-300 text-caption-sm text-center">محمد خان محمدی
+            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">محمد خان محمدی
             </h2>
          </div>
       </div>
@@ -37,7 +37,7 @@
                است که ایده‌های
                خلاقانه به واقعیت می‌پیوندند
             </h4>
-            <p class="text-h3 text-weight-400 text-center text-white">
+            <p class="text-h3 text-weight-500 text-center text-white">
                مهمترین اصل ما، مشتریانمان هستند.
                ما به
                تنهایی موفق نیستیم، بلکه با تیمی از مشتریان، همراهان و همکارانی که به ما اعتماد
@@ -49,7 +49,7 @@
             <h4 class="text-h1 line-height-lg q-ma-none text-weight-900 text-center text-white q-mt-lg">
                با ما تماس بگیرید، مشتاق شنیدن صدایتان هستیم.
             </h4>
-            <p class="text-h3 text-weight-400 text-center text-white">
+            <p class="text-h3 text-weight-500 text-center text-white">
                در هر زمان که تمایل داشتید می‌توانید با ما تماس بگیرید و در هر زمینه که سوال داشتید از
                ما کمک بخواهید. مسیر ارتباطی با ما همواره باز است.
          </div>
@@ -60,7 +60,7 @@
                صرفا فقط خدمات نیست!
 
             </h4>
-            <p class="text-h3 text-weight-400 text-center text-white">
+            <p class="text-h3 text-weight-500 text-center text-white">
                از همان روزهای نخست دغدغه این را داشتیم
                تا به
                ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت

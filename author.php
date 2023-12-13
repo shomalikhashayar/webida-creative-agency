@@ -24,7 +24,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                             alt="<?php echo esc_attr($author->display_name); ?>">
                     </q-avatar>
 
-                    <h1 class="text-h3 text-weight-700 text-primary no-letter-spacing">
+                    <h1 class="text-h3 text-weight-800 text-primary no-letter-spacing">
                         <?php echo esc_html($author->display_name); ?>
                     </h1>
 
@@ -36,7 +36,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="q-pa-lg text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین
+                <h2 class="q-pa-lg text-secondary text-weight-800 text-h3 no-letter-spacing text-center q-pt-md">آخرین
                     نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
@@ -81,7 +81,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                             alt="<?php echo esc_attr($author->display_name); ?>">
                     </q-avatar>
 
-                    <h1 class="text-h3 text-weight-700 text-primary no-letter-spacing">
+                    <h1 class="text-h3 text-weight-800 text-primary no-letter-spacing">
                         <?php echo esc_html($author->display_name); ?>
                     </h1>
 
@@ -93,7 +93,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="q-pa-lg text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین
+                <h2 class="q-pa-lg text-secondary text-weight-800 text-h3 no-letter-spacing text-center q-pt-md">آخرین
                     نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
@@ -138,7 +138,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                             alt="<?php echo esc_attr($author->display_name); ?>">
                     </q-avatar>
 
-                    <h1 class="text-h3 text-weight-700 text-primary no-letter-spacing">
+                    <h1 class="text-h3 text-weight-800 text-primary no-letter-spacing">
                         <?php echo esc_html($author->display_name); ?>
                     </h1>
 
@@ -150,7 +150,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="q-pa-lg text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین
+                <h2 class="q-pa-lg text-secondary text-weight-800 text-h3 no-letter-spacing text-center q-pt-md">آخرین
                     نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
@@ -195,7 +195,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                             alt="<?php echo esc_attr($author->display_name); ?>">
                     </q-avatar>
 
-                    <h1 class="text-h3 text-weight-700 text-primary no-letter-spacing">
+                    <h1 class="text-h3 text-weight-800 text-primary no-letter-spacing">
                         <?php echo esc_html($author->display_name); ?>
                     </h1>
 
@@ -207,7 +207,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین نوشته‌های
+                <h2 class="text-secondary text-weight-800 text-h3 no-letter-spacing text-center q-pt-md">آخرین نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
 
@@ -250,7 +250,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
                             alt="<?php echo esc_attr($author->display_name); ?>">
                     </q-avatar>
 
-                    <h1 class="text-h3 text-weight-700 text-primary no-letter-spacing">
+                    <h1 class="text-h3 text-weight-800 text-primary no-letter-spacing">
                         <?php echo esc_html($author->display_name); ?>
                     </h1>
 
@@ -262,7 +262,7 @@ $user_website = get_the_author_meta('user_url', $author_id);
 
                 </div>
 
-                <h2 class="text-secondary text-weight-700 text-h3 no-letter-spacing text-center q-pt-md">آخرین نوشته‌های
+                <h2 class="text-secondary text-weight-800 text-h3 no-letter-spacing text-center q-pt-md">آخرین نوشته‌های
                     <?php echo esc_attr($author->display_name); ?>
                 </h2>
 

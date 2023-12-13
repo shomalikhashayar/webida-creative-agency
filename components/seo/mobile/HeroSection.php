@@ -9,7 +9,7 @@
             <h2 class="text-h4 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.xs">
                 سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
             </h2>
-            <p class="no-letter-spacing q-mt-md q-mb-lg text-body1 text-weight-400 line-height-sm text-dark">
+            <p class="no-letter-spacing q-mt-md q-mb-lg text-body1 text-weight-500 line-height-sm text-dark">
                 کسب‌وکارتان را در صدر نتایج گوگل ببینید.
             </p>
             <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-hero.png" alt=""

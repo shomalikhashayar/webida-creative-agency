@@ -4,7 +4,7 @@
             <div class="col">
                 <h2 class="text-h2 no-margin text-weight-900 text-secondary">وبیدا را بهتر بشناسید
                 </h2>
-                <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">ما در
+                <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">ما در
                     وبیدا، تضمین می‌کنیم که
                     با
                     ایمان به توانایی‌ها و همت افراد تیم، با انگیزه‌ای بی‌پایان برای بهبود و رشد، مبارزه
