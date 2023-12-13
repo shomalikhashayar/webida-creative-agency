@@ -1,0 +1,104 @@
+@media (min-width: 1280px) {
+  .whywebida-card-title-Section {
+    width: 280px;
+    border-radius: 16px;
+    column-gap: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+  .whywebida-card-content-Section {
+    flex: 1;
+    display: flex;
+    border: 1px solid var(--q-webida-primary) !important;
+    border-radius: 16px;
+    padding-right: 40px;
+    padding-left: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 28px;
+    align-items: center;
+  }
+  .whyWebida-container {
+    border: 2px solid var(--q-webida-primary) !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+    padding-right: 52px;
+    padding-left: 52px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    column-gap: 58px;
+    row-gap: 62px;
+    margin-bottom: 76px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .whywebida-card-title-Section {
+    width: 280px;
+    border-radius: 16px;
+    column-gap: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+  .whywebida-card-content-Section {
+    flex: 1;
+    display: flex;
+    border: 1px solid var(--q-webida-primary) !important;
+    border-radius: 16px;
+    padding-right: 40px;
+    padding-left: 38px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 28px;
+    align-items: center;
+  }
+
+  .whyWebida-container {
+    border: 2px solid var(--q-webida-primary) !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+    padding-right: 42px;
+    padding-left: 42px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    column-gap: 48px;
+    row-gap: 52px;
+    margin-bottom: 76px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .whywebida-card-title-Section {
+    width: 100%;
+    border-radius: 16px;
+    column-gap: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .whywebida-card-title-Section {
+    width: 100%;
+    border-radius: 16px;
+    column-gap: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin-bottom: 16px;
+  }
+}
+
+.whyWebida-card-logo {
+  width: 138px;
+  height: 138px;
+}
