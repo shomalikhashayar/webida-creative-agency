@@ -3,7 +3,7 @@
         <div class="column items-center">
             <!-- تایتل تبلت  -->
             <h2 class="text-h2 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
-                سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
+            محتوایی که همیشه در خانهٔ ذهن خوانندگان می‌ماند
             </h2>
             <!-- تایتل موبایل -->
             <h2 class="text-h4 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.xs">

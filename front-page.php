@@ -58,7 +58,7 @@
       <!-- کانتینر  دسکتاپ و لپتاپ-->
       <div class="container" v-if="$q.screen.gt.sm">
         <div class="text-center q-py-lg">
-          <h2 class="text-h2 text-secondary text-weight-900">خدمات <span
+          <h2 class="text-h3 text-secondary text-weight-900">خدمات <span
               class="text-primary text-weight-900">وبیدا</span></h2>
         </div>
         <!-- کارت های خدمات در حالت دسکتاپ -->
