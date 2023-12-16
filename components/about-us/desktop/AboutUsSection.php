@@ -32,7 +32,7 @@
           <h4 class="text-h4 q-ma-none text-weight-900 text-white"> وبیدا، جایی است که ایده‌های
             خلاقانه به واقعیت می‌پیوندند
           </h4>
-          <p class="text-h6 text-weight-500 text-white">مهمترین اصل ما، مشتریانمان هستند. ما به
+          <p class="text-h6 text-weight-400 text-white">مهمترین اصل ما، مشتریانمان هستند. ما به
             تنهایی موفق نیستیم، بلکه با تیمی از مشتریان، همراهان و همکارانی که به ما اعتماد
             کرده‌اند، اینجا هستیم.
         </div>
@@ -45,7 +45,7 @@
             صدایتان هستیم
 
           </h4>
-          <p class="text-h6 text-weight-500 text-white"> در هر زمان که تمایل داشتید می‌توانید با
+          <p class="text-h6 text-weight-400 text-white"> در هر زمان که تمایل داشتید می‌توانید با
             ما تماس بگیرید و در هر زمینه که سوال داشتید از ما کمک بخواهید. مسیر ارتباطی با ما
             همواره باز است.
 
@@ -57,7 +57,7 @@
         <div class="row content-center q-gutter-md" style="width:650px;">
           <h4 class="text-h4 q-ma-none text-weight-900 text-white">صرفا فقط خدمات نیست!
           </h4>
-          <p class="text-h6 text-weight-500 text-white"> از همان روزهای نخست دغدغه این را داشتیم
+          <p class="text-h6 text-weight-400 text-white"> از همان روزهای نخست دغدغه این را داشتیم
             تا به
             ارتقای دنیای وب و مارکتینگ ایران کمک کنیم، به بلاگ ما سر بزنید و از محتوای با کیفیت
             رایگان لذت ببرید.

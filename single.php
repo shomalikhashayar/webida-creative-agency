@@ -23,9 +23,9 @@
           <?php endwhile; endif; ?>
 
         <div class="row justify-center items-center q-gutter-xs q-pt-sm">
-          <div class="row text-body3 text-weight-500 no-letter-spacing text-secondary q-gutter-xs items-center">
+          <div class="row text-body3 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
             <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
-            <div class="text-weight-500">
+            <div class="text-weight-400">
               آخرین بروزرسانی:
               <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
               <?php
@@ -38,7 +38,7 @@
           </div>
 
           <div class="row q-gutter-xs items-center no-decoration">
-            <a class="no-decoration text-weight-500 text-body3 no-letter-spacing text-secondary"
+            <a class="no-decoration text-weight-400 text-body3 no-letter-spacing text-secondary"
               href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
               <q-icon name="o_account_circle" size="xs" class="q-mr-xs" color="primary"></q-icon>
               <?php the_author(); ?>
@@ -122,9 +122,9 @@
           <?php endwhile; endif; ?>
 
         <div class="row justify-center items-center q-gutter-xs q-pt-sm">
-          <div class="row text-body3 text-weight-500 no-letter-spacing text-secondary q-gutter-xs items-center">
+          <div class="row text-body3 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
             <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
-            <div class="text-weight-500">
+            <div class="text-weight-400">
               آخرین بروزرسانی:
               <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
               <?php
@@ -137,7 +137,7 @@
           </div>
 
           <div class="row q-gutter-xs items-center no-decoration">
-            <a class="no-decoration text-weight-500 text-body3 no-letter-spacing text-secondary"
+            <a class="no-decoration text-weight-400 text-body3 no-letter-spacing text-secondary"
               href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
               <q-icon name="o_account_circle" size="xs" class="q-mr-xs" color="primary"></q-icon>
               <?php the_author(); ?>
@@ -221,9 +221,9 @@
           <?php endwhile; endif; ?>
 
         <div class="row justify-center items-center q-gutter-xs q-pt-sm">
-          <div class="row text-body3 text-weight-500 no-letter-spacing text-secondary q-gutter-xs items-center">
+          <div class="row text-body3 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
             <q-icon name="o_calendar_month" size="xs" class="q-mr-xs" color="primary"></q-icon>
-            <div class="text-weight-500">
+            <div class="text-weight-400">
               آخرین بروزرسانی:
               <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
               <?php
@@ -236,7 +236,7 @@
           </div>
 
           <div class="row q-gutter-xs items-center no-decoration">
-            <a class="no-decoration text-weight-500 text-body3 no-letter-spacing text-secondary"
+            <a class="no-decoration text-weight-400 text-body3 no-letter-spacing text-secondary"
               href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
               <q-icon name="o_account_circle" size="xs" class="q-mr-xs" color="primary"></q-icon>
               <?php the_author(); ?>
@@ -326,9 +326,9 @@
 
             <div class="row justify-center items-center q-gutter-x-sm q-py-lg">
 
-              <div class="row text-body2 text-weight-500 no-letter-spacing text-secondary q-gutter-xs items-center">
+              <div class="row text-body2 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
                 <q-icon name="o_calendar_month" size="20px" color="primary"></q-icon>
-                <div class="text-weight-500">
+                <div class="text-weight-400">
                   آخرین بروزرسانی:
                   <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
                   <?php
@@ -341,7 +341,7 @@
               </div>
 
               <div class="row inline q-gutter-xs items-center no-decoration">
-                <a class="no-decoration text-weight-500 text-body2 no-letter-spacing text-secondary"
+                <a class="no-decoration text-weight-400 text-body2 no-letter-spacing text-secondary"
                   href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
                   <q-icon name="o_account_circle" size="20px" color="primary"></q-icon>
                   <?php the_author(); ?>
@@ -435,9 +435,9 @@
 
             <div class="row justify-center items-center q-gutter-x-sm q-py-lg">
 
-              <div class="row text-body2 text-weight-500 no-letter-spacing text-secondary q-gutter-xs items-center">
+              <div class="row text-body2 text-weight-400 no-letter-spacing text-secondary q-gutter-xs items-center">
                 <q-icon name="o_calendar_month" size="20px" color="primary"></q-icon>
-                <div class="text-weight-500">
+                <div class="text-weight-400">
                   آخرین بروزرسانی:
                   <?php echo human_time_diff(get_the_modified_time('U'), current_time('timestamp')) . ' پیش'; ?>
                   <?php
@@ -450,7 +450,7 @@
               </div>
 
               <div class="row inline q-gutter-xs items-center no-decoration">
-                <a class="no-decoration text-weight-500 text-body2 no-letter-spacing text-secondary"
+                <a class="no-decoration text-weight-400 text-body2 no-letter-spacing text-secondary"
                   href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
                   <q-icon name="o_account_circle" size="20px" color="primary"></q-icon>
                   <?php the_author(); ?>

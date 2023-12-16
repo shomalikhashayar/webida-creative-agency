@@ -16,7 +16,7 @@
             <h3 class="text-h4 no-margin text-weight-900 text-secondary">
                بهبود رتبه در نتایج جستجوی گوگل
             </h3>
-            <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                با خرید بک‌ لینک می‌توانید به سرعت در صفحه نتایج گوگل بهبود رتبه داشته باشید و خود را به نتایج برتر نزدیک
                کنید.
 
@@ -29,7 +29,7 @@
             <h3 class="text-h4 no-margin text-weight-900 text-secondary">
                افزایش ترافیک ورودی
             </h3>
-            <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                با وجود لینک‌های شما در سایت‌های پربازدید، کاربران زیادی لینک شما را می‌بینند و احتمال کلیک کردن روی
                لینک‌ها از سمت آنان زیاد است؛ بنابراین به همین نسبت افزایش ترافیک ورودی نیز خواهید داشت.
             </p>
@@ -50,7 +50,7 @@
             <h3 class="text-h4 no-margin text-weight-900 text-secondary">
                افزایش اعتبار سایت
             </h3>
-            <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                زمانی که از یک سایت معتبر به شما لینک داده می‌شود، گوگل به اعتبار آن به سایت شما هم نگاه ویژه‌تری خواهد
                داشت و اعتبار بیشتری برای سایت شما درنظر می‌گیرد.
 

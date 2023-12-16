@@ -11,10 +11,10 @@
             خرید بک لینک تضمینی
 
             </h2>
-            <p class="no-letter-spacing q-pt-lg no-margin text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing q-pt-sm text-center no-margin text-body1 text-weight-400 line-height-sm text-dark">
             با حداقل هزینه رتبه های برتر گوکل را از آن خود کنید.
             </p>
-            <img class=" q-py-xl"
+            <img class=" q-pt-xl q-pb-lg"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/link-building-hero-mobile.svg" alt=""
                 style="width:41%;">
            

@@ -71,7 +71,7 @@
         </div>
 
         <div class="text-center q-mt-md">
-          <h2 class="text-h2 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
+          <h2 class="text-h3 text-secondary text-weight-900 q-pt-xl q-pb-lg">چرا مسئولیت طراحی سایت خود را به <span
               class="text-primary text-weight-900">وبیدا</span> بسپاریم</h2>
 
           <div class="self-praises-card-container q-mb-xl q-pb-xl">

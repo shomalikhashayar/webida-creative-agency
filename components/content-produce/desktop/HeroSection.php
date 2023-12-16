@@ -6,7 +6,7 @@
                     محتوایی که همیشه در خانهٔ ذهن خوانندگان می‌ماند
                 </h2>
                 <p
-                    class="no-letter-spacing no-margin q-pt-lg q-pb-lg text-body1 text-weight-500 line-height-sm text-dark">
+                    class="no-letter-spacing no-margin q-pt-lg q-pb-lg text-body1 text-weight-400 line-height-sm text-dark">
                     خلق داستان‌های جاودانه با ما. سفری به دنیایی از واژه‌ها، احساسات و ایده‌ها‌! از آغاز تا انتها، هر
                     جمله، هر پاراگراف و هر صفحه، شما را در خود جذب خواهد کرد.
                 </p>

@@ -7,7 +7,7 @@
       <div class="bg-grey-4 fit column seo-content" style="max-width:550px;">
 
          <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-pic.svg" alt="">
-         <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark text-justify">
+         <p class="q-mt-sm no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark text-justify">
             سئو یعنی وسیله‌ای برای بهبود دیده شدن وب‌سایتتان در اینترنت. به طور ساده، وقتی مردم در موتورهای جستجو مثل
             گوگل کلماتی را تایپ می‌کنند، ما کمک می‌کنیم تا وب‌سایتتان در لیست نتایج بالاتر و معروف‌تر ظاهر شود. به
             زبان ساده‌تر، سئو به وب‌سایتتان کمک می‌کند تا در جستجوهای مرتبط با کسب‌وکارتان، درجه‌ی بالاتری از شناخته

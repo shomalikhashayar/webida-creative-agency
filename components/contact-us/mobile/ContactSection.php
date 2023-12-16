@@ -13,7 +13,7 @@
       </q-avatar>
 
       <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-800 no-letter-spacing">ایمیل</h3>
-      <p class="no-margin q-pt-sm text-center text-dark text-body1 text-weight-500 no-letter-spacing">تیم پشتیبانی وبیدا
+      <p class="no-margin q-pt-sm text-center text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
         برای
         هر گونه
         کمک به شما آماده است.</p>
@@ -27,9 +27,9 @@
       </q-avatar>
 
       <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">نشانی</h3>
-      <p class="no-margin q-py-sm text-dark text-body1 text-weight-500 no-letter-spacing">
+      <p class="no-margin q-py-sm text-dark text-body1 text-weight-400 no-letter-spacing">
         به ما سر بزنید، خوشحال میشیم.</p>
-      <p class="text-center no-margin text-primary text-body1 text-weight-500 no-letter-spacing">تهـران، فلکه دوم
+      <p class="text-center no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
         صادقیه، خیابان آیت الله کاشانی، خیابان بهنام، خیابان مقداد، برج ترنج</p>
     </div>
 
@@ -39,7 +39,7 @@
       </q-avatar>
 
       <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">تلفن</h3>
-      <p class="q-py-sm text-center no-margin text-dark text-body2 text-weight-500 no-letter-spacing">شنبه تا چهارشنبه
+      <p class="q-py-sm text-center no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه
         از
         ساعت 9 الی 18
         پنجشنبه‌ها از ساعت 9 الی 13</p>
