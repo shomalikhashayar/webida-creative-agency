@@ -4,7 +4,7 @@
             <h2 class="text-h2 no-margin text-weight-900 text-secondary">
             خرید بک لینک تضمینی
             </h2>
-            <p class="no-letter-spacing text-body1 q-mt-lg q-mb-xl text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing text-body1 q-mt-lg q-mb-xl text-weight-400 line-height-sm text-dark">
             با حداقل هزینه رتبه های برتر گوکل را از آن خود کنید.
             </p>
             <div class="row justify-start">

@@ -12,7 +12,7 @@
             <img class="fit q-pt-lg q-pb-md"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/content-produce-hero.png" alt=""
                 style="max-width:550px;">
-            <p class="no-letter-spacing no-margin q-pb-lg text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="text-center no-letter-spacing no-margin q-pb-lg text-body1 text-weight-400 line-height-sm text-dark">
                 خلق داستان‌های جاودانه با ما. سفری به دنیایی از واژه‌ها، احساسات و ایده‌ها‌! از آغاز تا انتها، هر جمله،
                 هر پاراگراف و هر صفحه، شما را در خود جذب خواهد کرد.
             </p>

@@ -88,8 +88,8 @@
               <q-icon :name="services.icon" color="white" />
             </q-item-section>
             <q-item-section class="text-subtitle2 text-white text-bold">
-              <a class="text-white" :href="'<?php get_site_url() ?>' + services.route">{{
-                services.label }}</a>
+            <a class="text-white no-decoration" :href="'<?php echo get_site_url() ?>' + services.route">{{
+                    services.label}}</a>
             </q-item-section>
           </q-item>
         </q-expansion-item>

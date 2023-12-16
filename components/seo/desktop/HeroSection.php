@@ -1,20 +1,20 @@
 <div class="bg-accent">
-    <div class="container seo-hero-section  row items-center">
-        <div class="row  items-center">
+    <div class="container seo-hero-section row items-center">
+        <div class="row items-center">
             <div class="col-5 q-gutter-y-lg">
                 <h2 class="text-h2 no-margin text-weight-900 text-secondary">
                     سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
                 </h2>
-                <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
+                <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                     کسب‌وکارتان را در صدر نتایج گوگل ببینید.
                 </p>
-                <div class="row justify-start q-gutter-x-lg">
+                <div class="row justify-start q-gutter-x-sm">
                     <q-btn @click="" unelevated rounded label="مشاوره سئو"
                         class="webida-primary text-white text-body2 text-weight-regular items-end" padding="10px 24px">
 
                     </q-btn>
-                    <q-btn @click="ConsultantModal = true" unelevated rounded label="خرید بک لینک"
-                        class="bg-white text-primary text-body2 text-weight-regular items-end white-btn"
+                    <q-btn @click="ConsultantModal = true" unelevated flat rounded label="خرید بک لینک"
+                        class="text-primary text-body2 text-weight-regular items-end"
                         padding="10px 24px">
                     </q-btn>
                 </div>

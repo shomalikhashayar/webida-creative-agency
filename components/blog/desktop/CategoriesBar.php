@@ -20,7 +20,7 @@ if ($categories) {
       echo '<div class="col">';
       echo '<q-btn class="full-width q-radius-md" padding="20px 24px" color="primary" unelevated href="' . esc_url($category_url) . '">';
       echo '<div class="full-width row justify-between items-center">';
-      echo '<h2 class="text-body1 text-weight-500 text-white no-line-height">آموزش ' . esc_html($category->name) . '</h2>';
+      echo '<h2 class="text-body1 text-weight-400 text-white no-line-height">آموزش ' . esc_html($category->name) . '</h2>';
       echo '<q-icon name="' . $icon_name . '"></q-icon>';
       echo '</div>';
       echo '</q-btn>';
