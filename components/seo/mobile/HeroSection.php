@@ -17,11 +17,11 @@
 
             <div class="row justify-center q-pt-lg q-gutter-sm ">
                 <q-btn @click="" unelevated rounded label="مشاوره سئو"
-                    class="webida-primary text-white text-body2 text-weight-regular items-end" padding="10px 24px">
+                    class="webida-primary text-white text-body2 text-weight-regular " padding="10px 24px">
 
                 </q-btn>
                 <q-btn flat @click="ConsultantModal = true" unelevated rounded label="خرید بک لینک"
-                    class="text-primary text-body2 text-weight-regular items-end"
+                    class="text-primary text-body2 text-weight-regular white-btn "
                     padding="10px 24px">
                 </q-btn>
             </div>

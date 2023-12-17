@@ -9,7 +9,7 @@
             <h2 class="text-h4 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.xs">
             طراحی رابط کاربری به گونه ای که همیشه خواسته اید!
             </h2>
-            <p class="no-letter-spacing no-margin q-py-xl text-body1 text-center text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing no-margin q-py-xl text-body1 text-center text-weight-400 line-height-sm text-dark">
             ما اینجا هستم تا طراحی رابط کاربری و تجربه کاربری سایت و اپلیکیشن شما رو به صورت حرفه ای طراحی کنیم.
 
             </p>

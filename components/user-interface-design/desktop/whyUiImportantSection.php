@@ -2,7 +2,7 @@
    <div class="container">
       <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-900">
          چرا رابط کاربری
-         <span class="text-weight-800 text-primary">مهم</span>
+         <span class="text-weight-900 text-primary">مهم</span>
          است
       </h2>
 
@@ -16,7 +16,7 @@
             <h3 class="text-h4 no-margin text-weight-900 text-secondary">
                انتقال حس بهتر به کاربر
             </h3>
-            <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
+            <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                یک رابط کاربری خوب باعث بهبود تجربه کاربری می‌شود. وقتی کاربران به سهولت و بدون مشکلات در یک نرم‌افزار یا
                وبسایت حرکت می‌کنند، احتمال استفاده مکرر و راضی‌تر از آن محصول بالا می‌رود.
 

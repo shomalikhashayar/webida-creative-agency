@@ -6,7 +6,7 @@
                 طراحی رابط کاربری به گونه ای که همیشه خواسته اید!
                 </h2>
                 <p
-                    class="no-letter-spacing no-margin q-pt-lg q-pb-lg text-body1 text-weight-500 line-height-sm text-dark">
+                    class="no-letter-spacing no-margin q-pt-lg q-pb-lg text-body1 text-weight-400 line-height-sm text-dark">
                     ما اینجا هستم تا طراحی رابط کاربری و تجربه کاربری سایت و اپلیکیشن شما رو به صورت حرفه ای طراحی کنیم.
                 </p>
                 <q-btn @click="" unelevated rounded label="به خلاقیت نیاز دارم"
