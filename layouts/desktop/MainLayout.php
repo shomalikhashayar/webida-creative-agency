@@ -227,27 +227,27 @@
         </q-card-section>
 
         <q-card-section class="row justify-center items-center q-gutter-lg">
-          <q-btn round color="white">
-            <q-avatar size="40px">
-              <q-icon class="fa-solid fa-user"></q-icon>
+        <q-btn round color="white">
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/youtube.svg" />
+            </q-avatar>
+          </q-btn>
+
+          <q-btn href="https://www.instagram.com/webidaofficial" target="blank" round color="white">
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram.svg" />
             </q-avatar>
           </q-btn>
 
           <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/telegram.svg" />
             </q-avatar>
           </q-btn>
 
-          <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
-            </q-avatar>
-          </q-btn>
-
-          <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
+          <q-btn href="https://www.linkedin.com/company/webida" target="blank" round color="white">
+            <q-avatar size="38px">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.svg" />
             </q-avatar>
           </q-btn>
         </q-card-section>
