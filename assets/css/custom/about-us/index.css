@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .about-us-hero {
     background-image: url("../../../images/about-us-hero-background.png") !important;
     background-size: 100% !important;
@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   .about-us-hero {
     background-image: url("../../../images/about-us-hero-background.png") !important;
     background-size: 100% !important;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .about-us-hero {
     background-image: url("../../../images/about-us-background.png") !important;
     height: 500px !important;

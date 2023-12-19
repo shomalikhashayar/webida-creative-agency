@@ -1,7 +1,4 @@
-
-@media (max-width: 767px){
-
-
+@media (max-width: 600px) {
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
     background-size: 50px !important;
@@ -9,12 +6,9 @@
     background-repeat: no-repeat !important;
     padding: 48px 42px !important;
   }
-
 }
 
-@media (min-width: 768px) and (max-width: 959px){
-
-
+@media (min-width: 600px) and (max-width: 1024px) {
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
     background-size: 80px !important;
@@ -22,12 +16,9 @@
     background-repeat: no-repeat !important;
     padding: 48px 42px !important;
   }
-
 }
 
-@media (min-width: 960px) and (max-width: 1179px) {
-
-
+@media (min-width: 1024px) and (max-width: 1280px) {
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
     background-size: 350px !important;
@@ -35,11 +26,9 @@
     background-position: right 60px top 100px !important;
     background-repeat: no-repeat !important;
   }
-
 }
 
 @media (min-width: 1280px) {
-
   .contact-us-hero {
     background-image: url("../../../images/message.svg") !important;
     background-size: 350px !important;
@@ -47,6 +36,4 @@
     background-position: right 60px top 100px !important;
     background-repeat: no-repeat !important;
   }
-
 }
-
