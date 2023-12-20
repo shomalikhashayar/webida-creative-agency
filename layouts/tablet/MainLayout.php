@@ -6,7 +6,7 @@
         به ارمغان
         می‌آوریم.</span>
       <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
-        class="webida-primary-lighten text-weight-regular text-body1" padding="6px 12px" />
+        class="webida-primary-lighten text-weight-regular text-body1" padding="6px 12px"></q-btn>
 
       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
     </div>
@@ -47,7 +47,7 @@
               <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
                 <div>
                   <q-item-section avatar>
-                  <q-avatar size="xl" text-color="white" color="primary">
+                    <q-avatar size="xl" text-color="white" color="primary">
                       <q-icon name="o_person" size="28px"></q-icon>
                     </q-avatar>
                   </q-item-section>
@@ -60,7 +60,7 @@
               <q-item class="row items-center q-py-sm" clickable href="tel:09338603196">
                 <div>
                   <q-item-section avatar>
-                  <q-avatar size="xl" text-color="white" color="primary">
+                    <q-avatar size="xl" text-color="white" color="primary">
                       <q-icon name="o_person" size="28px"></q-icon>
                     </q-avatar>
                   </q-item-section>

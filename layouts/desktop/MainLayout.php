@@ -6,7 +6,7 @@
         به ارمغان
         می‌آوریم.</span>
       <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
-        class="webida-primary-lighten text-weight-regular" padding="6px 12px" />
+        class="webida-primary-lighten text-weight-regular" padding="6px 12px"></q-btn>
 
       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
     </div>
@@ -159,8 +159,8 @@
         </div>
         <div class="link-on-hover">
           <q-icon name="circle" size="8px" class="q-mr-sm text-primary"></q-icon>
-            <a class="text-white no-decoration"
-              href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه کاربری</a>
+          <a class="text-white no-decoration"
+            href="<?php echo esc_html(get_site_url()) . '/user-interface-design'; ?>">طراحی رابط و تجربه کاربری</a>
         </div>
         <div class="link-on-hover">
           <q-icon name="circle" size="8px" class="q-mr-sm text-primary"></q-icon><a class="text-white no-decoration"
@@ -227,7 +227,7 @@
         </q-card-section>
 
         <q-card-section class="row justify-center items-center q-gutter-lg">
-        <q-btn round color="white">
+          <q-btn round color="white">
             <q-avatar size="38px">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/youtube.svg" />
             </q-avatar>
@@ -247,7 +247,7 @@
 
           <q-btn href="https://www.linkedin.com/company/webida" target="blank" round color="white">
             <q-avatar size="38px">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.svg" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.svg" />
             </q-avatar>
           </q-btn>
         </q-card-section>
