@@ -11,7 +11,7 @@
                         <q-item-section>
                             <h3
                                 class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                سایت شرکتی چیست؟
+                                رابط کاربری چیست و چرا مهم است؟
                             </h3>
                         </q-item-section>
 
@@ -20,18 +20,15 @@
                     <q-card>
                         <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
                             <p>
-
-                                سایت شرکتی، وب‌سایتی است که توسط یک شرکت یا کسب‌وکار ایجاد می‌شود تا اطلاعات مربوط
-                                به شرکت، محصولات و خدمات آن، تماس با شرکت، اخبار و مقالات مرتبط، و سایر اطلاعات مهم
-                                را به مخاطبان و مشتریان ارائه دهد. این نوع وب‌سایت معمولاً به عنوان یک وسیله ارتباطی
-                                اصلی بین شرکت و مشتریانش عمل می‌کند و به شرکت کمک می‌کند تا شناخته‌تر شود و اطلاعات
-                                بیشتری را در مورد فعالیت‌ها و محصولات خود به اشتراک بگذارد.
+                                رابط کاربری به عنوان یک واسط بین کاربر و یک سیستم یا برنامه نرم‌افزاری تعریف می‌شود. این
+                                واسط به کاربر امکان می‌دهد با سیستم یا برنامه ارتباط برقرار کند و عملکردهای مختلف را
+                                انجام دهد. رابط کاربری شامل عناصر مختلفی می‌شود که به کاربر این امکان را می‌دهد تا با
+                                سیستم تعامل کند، اطلاعات را وارد کند، دستورات را اجرا کند و نتایج را مشاهده کند.
                             </p>
                         </q-card-section>
                     </q-card>
                 </q-expansion-item>
             </q-list>
-
 
             <q-list class="bg-white rounded-borders">
                 <q-expansion-item group="groupfaq">
@@ -39,56 +36,44 @@
                         <q-item-section>
                             <h3
                                 class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                سایت فروشگاهی چیست؟
+                                چگونه می‌توان یک رابط کاربری خوب را از یک رابط کاربری ضعیف تشخیص داد؟
                             </h3>
                         </q-item-section>
                     </template>
                     <q-card>
                         <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
                             <p>
-
-                                وب‌سایت فروشگاهی
-                                یا
-                                فروشگاه آنلاین، یک وب‌سایت است که به کسب‌وکارها و فروشندگان امکان فروش محصولات و خدمات
-                                خود
-                                را به
-                                مشتریان از طریق اینترنت فراهم می‌کند. در واقع، این نوع وب‌سایت‌ها به فروشندگان امکان
-                                می‌دهند
-                                تا
-                                محصولات خود را در قالب یک فروشگاه مجازی به نمایش بگذارند و مشتریان می‌توانند از طریق
-                                وب‌سایت
-                                محصولات را مشاهده، انتخاب و خریداری کنند.
-                        </q-card-section>
-                        </p>
-                    </q-card>
-                </q-expansion-item>
-            </q-list>
-
-
-            <q-list class="bg-white rounded-borders">
-                <q-expansion-item group="groupfaq">
-                    <template v-slot:header>
-                        <q-item-section>
-                            <h3
-                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                وردپرس چیست؟ </h3>
-                        </q-item-section>
-                    </template>
-                    <q-card>
-                        <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
-                            <p>
-
-                                وردپرس یک سیستم مدیریت محتوا است که برای ایجاد و مدیریت وب‌سایت‌ها و وبلاگ‌ها استفاده
-                                می‌شود. با
-                                استفاده از وردپرس، افراد بدون نیاز به دانش برنامه‌نویسی می‌توانند وب‌سایت‌های پویا و
-                                محتواگرا را
-                                بسازند و مدیریت کنند.
+                                یک رابط کاربری خوب باید ساده، زیبا، قابل دسترسی، سریع و بهره‌ور، انعطاف‌پذیر، دارای
+                                بازخورد و راهنما باشد و با استانداردهای طراحی رابط کاربری سازگاری داشته باشد. تشخیص رابط
+                                کاربری خوب نیاز به ارزیابی و تحلیل دقیق دارد.
                             </p>
                         </q-card-section>
                     </q-card>
                 </q-expansion-item>
             </q-list>
 
+            <q-list class="bg-white rounded-borders">
+                <q-expansion-item group="groupfaq">
+                    <template v-slot:header>
+                        <q-item-section>
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
+                                آیا رابط کاربری می‌تواند تجربه من را از یک وبسایت یا اپلیکیشن بهبود دهد؟
+                            </h3>
+                        </q-item-section>
+                    </template>
+                    <q-card>
+                        <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
+                            <p>
+                                بله، رابط کاربری (UI) می‌تواند تاثیر بزرگی بر تجربه کاربری (UX) در یک وبسایت یا اپلیکیشن
+                                داشته باشد. رابط کاربری به عنوان واسط بین کاربر و سیستم، نقش مهمی در تعامل کاربر با
+                                وبسایت یا اپلیکیشن ایفا می‌کند و اگر به درستی طراحی و اجرا نشود، می‌تواند تجربه کاربری
+                                را به شدت تحت تاثیر قرار دهد.
+                            </p>
+                        </q-card-section>
+                    </q-card>
+                </q-expansion-item>
+            </q-list>
 
             <q-list class="bg-white rounded-borders">
                 <q-expansion-item group="groupfaq">
@@ -96,36 +81,53 @@
                         <q-item-section>
                             <h3
                                 class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                مزایای طراحی سایت با وردپرس </h3>
+                                آیا طراحی رابط کاربری می‌تواند تأثیری در سرعت و راحتی کار با یک نرم‌افزار یا وبسایت
+                                داشته باشد؟
+                            </h3>
                         </q-item-section>
                     </template>
                     <q-card>
                         <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
                             <p>
+                                بله، طراحی رابط کاربری می‌تواند تجربه کاربری را بهبود بخشد. اگر رابط کاربری به درستی
+                                طراحی شود و کاربران به راحتی و با سرعت بتوانند با نرم‌افزار یا وبسایت تعامل کنند، تجربه
+                                آنها بهبود می‌یابد. از جمله عوامل مهم در طراحی UI می‌توان به سادگی، قابلیت دسترسی،
+                                تصاویر جذاب، و ناوبری موثر اشاره کرد.
+                            </p>
+                        </q-card-section>
+                    </q-card>
+                </q-expansion-item>
+            </q-list>
+
+            <q-list class="bg-white rounded-borders">
+                <q-expansion-item group="groupfaq">
+                    <template v-slot:header>
+                        <q-item-section>
+                            <h3
+                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
+                                چگونه می‌توانم مطمئن شوم که رابط کاربری مناسبی دارم؟
+                            </h3>
+                        </q-item-section>
+                    </template>
+                    <q-card>
+                        <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
+                            <p>
+                                برای مطمئن شدن از رابط کاربری مناسب:
                             <ol>
-                                <li><span> سادگی استفاده: وردپرس بسیار کاربرپسند است و افراد
-                                        با سطوح مختلف تجربه می&zwnj;توانند از آن استفاده کنند.</span></li>
-                                <li><span> افزونه&zwnj;ها و پوسته&zwnj;ها: وردپرس امکان
-                                        استفاده از افزونه&zwnj;ها و پوسته&zwnj;های مختلف را فراهم می&zwnj;کند که به
-                                        کاربران امکان می&zwnj;دهد ویژگی&zwnj;ها و ظاهر وب&zwnj;سایت خود را به سادگی
-                                        تغییر دهند و افزایش دهند.</span></li>
-                                <li><span> انعطاف پذیری: از وردپرس می&zwnj;توان برای ایجاد
-                                        انواع وب&zwnj;سایت&zwnj;ها از وبلاگ&zwnj;ها و فروشگاه&zwnj;های آنلاین تا
-                                        سایت&zwnj;های خبری و سایر نوع وب&zwnj;سایت&zwnj;ها استفاده کرد.</span></li>
-                                <li><span> جامعه&zwnj;ی فعال: وردپرس دارای یک جامعه فعال از
-                                        توسعه&zwnj;دهندگان و کاربران است که افزونه&zwnj;ها و پوسته&zwnj;های متعددی را
-                                        ایجاد و به اشتراک می&zwnj;گذارند.</span></li>
+                                <li><span>تست کاربری انجام دهید.</span></li>
+                                <li><span>نظرات کاربران را جمع‌آوری کنید.</span></li>
+                                <li><span>رابط کاربری خود را با رقبا مقایسه کنید.</span></li>
+                                <li><span>معیارهای طراحی رابط کاربری را رعایت کنید.</span></li>
+                                <li><span>رفتار کاربران را مشاهده کنید.</span></li>
+                                <li><span>از متخصص‌های طراحی رابط کاربری مشاوره بگیرید.</span></li>
+                                <li><span>آزمون‌های A/B انجام دهید.</span></li>
                             </ol>
-
-                            به عنوان یکی از CMSهای معتبر و رایگان، وردپرس توسط میلیون&zwnj;ها وب&zwnj;سایت در سراسر جهان
-                            استفاده می&zwnj;شود و به عنوان یکی از ابزارهای محبوب برای ایجاد و مدیریت
-                            وب&zwnj;سایت&zwnj;ها شناخته می&zwnj;شود.
+                            این اقدامات به شما کمک می‌کنند تا رابط کاربری مناسبی داشته باشید.
                             </p>
                         </q-card-section>
                     </q-card>
                 </q-expansion-item>
             </q-list>
-
 
             <q-list class="bg-white rounded-borders">
                 <q-expansion-item group="groupfaq">
@@ -133,22 +135,20 @@
                         <q-item-section>
                             <h3
                                 class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                تعرفه طراحی سایت در وبیدا چقدر است؟ </h3>
+                                عوامل تاثیرگذار در قیمت طراحی رابط کاربری
+                            </h3>
                         </q-item-section>
                     </template>
                     <q-card>
                         <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
                             <p>
-
-                                تعرفه طراحی سایت در وبیدا از بیست میلیون تومان آغاز می‌شود و با توجه به نیاز مشتری
-                                تغییراتی
-                                خواهد داشت.
+                                عوامل تاثیرگذار در قیمت طراحی رابط کاربری شامل پیچیدگی پروژه، تعداد صفحات و سطح تجربه
+                                طراح هستند. تعیین قیمت مناسب نیاز به ارزیابی دقیق و تعامل با تیم طراحی دارد.
                             </p>
                         </q-card-section>
                     </q-card>
                 </q-expansion-item>
             </q-list>
-
 
             <q-list class="bg-white rounded-borders">
                 <q-expansion-item group="groupfaq">
@@ -156,69 +156,14 @@
                         <q-item-section>
                             <h3
                                 class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                ویژگی های یک سایت خوب در چیست؟ </h3>
+                                قیمت طراحی رابط کاربری در وبیدا چگونه تعیین می‌شود؟
+                            </h3>
                         </q-item-section>
                     </template>
                     <q-card>
                         <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
                             <p>
-
-                                ویژگی&zwnj;های یک سایت خوب به شدت به نیازها و اهداف خاص هر وب&zwnj;سایت بستگی دارد. با
-                                این حال، ویژگی&zwnj;هایی که بیشتر سایت&zwnj;های موفق دارند عبارتند از:
-                            <ol>
-                                <li><span> طراحی مناسب و کاربرپسند: طراحی سایت باید جذاب،
-                                        دیدنی و کاربرپسند باشد. رنگ&zwnj;ها، فونت&zwnj;ها، ترتیب محتوا و تصاویر باید با
-                                        هم هماهنگ باشند.</span></li>
-                                <li><span> کاربری آسان: سایت باید برای کاربران آسان و قابل فهم
-                                        باشد. منوها و ناوبری باید ساده و قابل دسترس باشند.</span></li>
-                                <li><span> سرعت بارگذاری: سایت باید به سرعت بارگذاری شود تا
-                                        کاربران انتظار نکشند و از آن خسته نشوند.</span></li>
-                                <li><span> واکنشگرایی (Responsive): سایت باید بر روی انواع
-                                        دستگاه&zwnj;ها (کامپیوتر، تبلت، موبایل) به درستی نمایش داده شود.</span></li>
-                            </ol>
-                            </p>
-                        </q-card-section>
-                    </q-card>
-                </q-expansion-item>
-            </q-list>
-
-
-            <q-list class="bg-white rounded-borders">
-                <q-expansion-item group="groupfaq">
-                    <template v-slot:header>
-                        <q-item-section>
-                            <h3
-                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                قیمت نهایی برای طراحی سایت چگونه مشخص می‌شود؟ </h3>
-                        </q-item-section>
-                    </template>
-                    <q-card>
-                        <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
-                            <p>
-                                قیمت نهایی طراحی سایت در وبیدا بسته به نیاز شما متفاوت خواهد بود برای اطلاعات بیشتر با
-                                شماره های 09338603196 – 09100854885 تماس حاصل فرمایید.
-                            </p>
-                        </q-card-section>
-                    </q-card>
-                </q-expansion-item>
-            </q-list>
-
-
-            <q-list class="bg-white rounded-borders">
-                <q-expansion-item group="groupfaq">
-                    <template v-slot:header>
-                        <q-item-section>
-                            <h3
-                                class="q-py-sm text-h6 text-weight-700 no-letter-spacing line-height-sm no-margin text-secondary">
-                                چگونه می‌توان برای سفارش طراحی سایت در وبیدا اقدام کرد؟ </h3>
-                        </q-item-section>
-                    </template>
-                    <q-card>
-                        <q-card-section class="text-dark text-body1 no-letter-spacing line-height-sm">
-                            <p>
-                                با کارشناسان ما تماس حاصل فرمایید و سفارش طراحی وبسایت خود را به ما واگذار کنید.
-
-                                تلفن تماس: 09338603196 – 09100854885
+                                همه چیز به تیم طراحی و پیچیدگی پروژه بستگی دارد.
                             </p>
                         </q-card-section>
                     </q-card>

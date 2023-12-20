@@ -5,25 +5,25 @@
          <div class="col column item-center">
             <div class="text-center">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
-                  style="width:100px;">
+                  style="width:120px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">فاطمه نیلچی
+            <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">فاطمه نیلچی
             </h2>
          </div>
          <div class="col column item-center">
             <div class="text-center">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
-                  style="width:100px;">
+                  style="width:120px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">خشایار شمالی
+            <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">خشایار شمالی
             </h2>
          </div>
          <div class="col column item-center">
             <div class="text-center">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
-                  alt="" style="width:100px;">
+                  alt="" style="width:120px;">
             </div>
-            <h2 class="text-h3 no-margin text-white text-weight-400 text-caption-sm text-center">محمد خان محمدی
+            <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">محمد خان محمدی
             </h2>
          </div>
       </div>

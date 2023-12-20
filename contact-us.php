@@ -7,7 +7,7 @@
 <?php
 get_header();
 ?>
-
+<!-- لایه موبایل -->
 <q-layout :view="rightLayout" v-if="$q.screen.xs">
   <?php get_template_part('/layouts/mobile/MainLayout'); ?>
   <q-page-container>
@@ -18,47 +18,33 @@ get_header();
   </q-page-container>
 </q-layout>
 
-<q-layout :view="rightLayout" v-if="$q.screen.sm">
-  <?php get_template_part('/layouts/tablet/MainLayout'); ?>
+
+<!-- لایه دسکتاپ و تبلت  -->
+<q-layout :view="rightLayout" v-if="$q.screen.gt.xs">
+  <!-- هدر و فوتر تبلت -->
+  <div v-if="$q.screen.sm">
+    <?php get_template_part('/layouts/tablet/MainLayout'); ?>
+  </div>
+  <!-- هدر و فوتر دسکتاپ -->
+  <div v-if="$q.screen.gt.sm">
+    <?php get_template_part('/layouts/desktop/MainLayout'); ?>
+  </div>
+
   <q-page-container>
     <q-page>
-      <?php get_template_part('/components/contact-us/tablet/HeroSection'); ?>
-      <?php get_template_part('/components/contact-us/mobile/ContactSection'); ?>
+      <!-- صفحه لپتاپ و دسکتاپ -->
+      <template v-if="$q.screen.gt.sm">
+        <?php get_template_part('/components/contact-us/desktop/HeroSection'); ?>
+        <?php get_template_part('/components/contact-us/desktop/ContactSection'); ?>
+      </template>
+      <!-- صفحه تبلت -->
+      <template v-if="$q.screen.sm">
+        <?php get_template_part('/components/contact-us/tablet/HeroSection'); ?>
+        <?php get_template_part('/components/contact-us/mobile/ContactSection'); ?>
+      </template>
     </q-page>
   </q-page-container>
 </q-layout>
 
-<q-layout :view="rightLayout" v-if="$q.screen.md">
-  <?php get_template_part('/layouts/laptop/MainLayout'); ?>
-  <q-page-container>
-    <q-page>
-      <?php get_template_part('/components/contact-us/desktop/HeroSection'); ?>
-      <?php get_template_part('/components/contact-us/desktop/ContactSection'); ?>
-
-    </q-page>
-  </q-page-container>
-</q-layout>
-
-<q-layout :view="rightLayout" v-if="$q.screen.lg">
-  <?php get_template_part('/layouts/desktop/MainLayout'); ?>
-  <q-page-container>
-    <q-page>
-      <?php get_template_part('/components/contact-us/desktop/HeroSection'); ?>
-      <?php get_template_part('/components/contact-us/desktop/ContactSection'); ?>
-
-    </q-page>
-  </q-page-container>
-</q-layout>
-
-<q-layout :view="rightLayout" v-if="$q.screen.gt.lg">
-  <?php get_template_part('/layouts/desktop/MainLayout'); ?>
-  <q-page-container>
-    <q-page>
-      <?php get_template_part('/components/contact-us/desktop/HeroSection'); ?>
-      <?php get_template_part('/components/contact-us/desktop/ContactSection'); ?>
-
-    </q-page>
-  </q-page-container>
-</q-layout>
 
 <?php get_footer(); ?>
