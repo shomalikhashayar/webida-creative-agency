@@ -1,11 +1,11 @@
 <div class="bg-white">
-  <h2 class="q-pt-lg q-pb-md no-margin text-center text-secondary text-h3 no-letter-spacing text-weight-800">دیگر
+  <h2 class="q-pt-lg q-pb-md no-margin text-center text-secondary text-h4 no-letter-spacing text-weight-900">دیگر
     راه‌های
     ارتباطی با
-    <span class="text-weight-800 text-primary">وبیدا</span>
+    <span class="text-weight-900 text-primary">وبیدا</span>
   </h2>
 
-  <div class="container items-center justify-between q-pt-xl q-gutter-y-lg" style="padding-bottom:72px">
+  <div class="container items-center justify-between q-pt-lg q-gutter-y-lg" style="padding-bottom:72px">
 
     <div class="column items-center q-gutter-y-md">
       <q-avatar size="120px" color="primary" round>
@@ -13,12 +13,12 @@
       </q-avatar>
 
       <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-800 no-letter-spacing">ایمیل</h3>
-      <p class="no-margin q-pt-sm text-center text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
+      <p class="no-margin q-pt-sm q-px-lg line-height-sm text-center text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
         برای
         هر گونه
         کمک به شما آماده است.</p>
       <q-btn style="width: 124px" href="mailto:info@webida.ir" unelevated no-caps color="primary"
-        class="text-weight-700">info@webida.ir</q-btn>
+        class="text-weight-400">info@webida.ir</q-btn>
     </div>
 
     <div class="column items-center q-gutter-y-md">
@@ -27,9 +27,9 @@
       </q-avatar>
 
       <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">نشانی</h3>
-      <p class="no-margin q-py-sm text-dark text-body1 text-weight-400 no-letter-spacing">
+      <p class="q-px-lg line-height-sm no-margin q-py-sm text-dark text-body1 text-weight-400 no-letter-spacing">
         به ما سر بزنید، خوشحال میشیم.</p>
-      <p class="text-center no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
+      <p class="q-px-lg line-height-sm text-center no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
         صادقیه، خیابان آیت الله کاشانی، خیابان بهنام، خیابان مقداد، برج ترنج</p>
     </div>
 
@@ -39,7 +39,7 @@
       </q-avatar>
 
       <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">تلفن</h3>
-      <p class="q-py-sm text-center no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه
+      <p class="q-px-lg line-height-sm q-py-sm text-center no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه
         از
         ساعت 9 الی 18
         پنجشنبه‌ها از ساعت 9 الی 13</p>

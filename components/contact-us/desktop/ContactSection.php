@@ -1,7 +1,7 @@
 <div class="bg-white">
   <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-800">دیگر راه‌های
     ارتباطی با
-    <span class="text-weight-800 text-primary">وبیدا</span>
+    <span class="text-weight-900 text-primary">وبیدا</span>
   </h2>
 
   <div class="container row items-center justify-between q-pt-xl" style="padding-bottom:72px">
@@ -9,19 +9,19 @@
 
       <form id="contactForm" action="" method="post">
         <input type="hidden" name="action" value="process_contact_form">
-        <q-card bordered class="no-shadow" style="height:500px">
+        <q-card bordered class="no-shadow">
           <q-card-section class="q-pa-xl">
-            <div class="row q-gutter-x-lg">
-              <div class="col">
-                <div class="q-gutter-y-sm">
+            <div class="row gap-24">
+              <div class="col col-lg col-sm-12">
+                <div class="column q-gutter-y-sm">
                   <q-item-label class="no-letter-spacing text-grey-7 text-body1">نام و نام خانوادگی
                     <span class="text-primary">(ضروری)</span></q-item-label>
                   <q-input name="name" required color="primary" hide-bottom-space v-model="fullName" dense required
                     lazy-rules outlined :rules="[(val) => val !== null && val !== '']"></q-input>
                 </div>
               </div>
-              <div class="col">
-                <div class="q-gutter-y-sm">
+              <div class="col col-lg col-sm-12">
+                <div class="column q-gutter-y-sm">
                   <q-item-label required class="no-letter-spacing text-grey-7 text-body1">شماره تماس <span
                       class="text-primary">(ضروری)</span></q-item-label>
                   <q-input color="primary" name="phone" hide-bottom-space v-model="phoneNumber" dense required
@@ -30,7 +30,7 @@
               </div>
             </div>
 
-            <div class="q-gutter-y-sm q-mt-lg">
+            <div class="q-gutter-y-sm q-my-lg">
               <q-item-label class="no-letter-spacing text-grey-7 text-body1">جا متنی <span
                   class="text-primary">(ضروری)</span></q-item-label>
               <q-input name="message" required color="primary" v-model="contactMessage" outlined clearable
@@ -60,7 +60,7 @@
               هر گونه
               کمک به شما آماده است.</p>
             <q-btn style="width: 124px" href="mailto:info@webida.ir" unelevated no-caps color="primary"
-              class="text-weight-700">info@webida.ir</q-btn>
+              class="text-weight-400">info@webida.ir</q-btn>
           </q-item-section>
         </div>
       </q-item>

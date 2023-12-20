@@ -217,3 +217,8 @@ ul li {
 ol li {
   margin-right: -24px;
 }
+
+.gap-24 {
+  display: flex;
+  gap: 24px;
+}

@@ -1,8 +1,8 @@
 <div class="bg-white">
-  <h2 class="q-pt-lg q-pb-md no-margin text-center text-secondary text-h3 no-letter-spacing text-weight-800">دیگر
+  <h2 class="q-pt-lg q-pb-md no-margin text-center text-secondary text-h4 no-letter-spacing text-weight-900">دیگر
     راه‌های
     ارتباطی با
-    <span class="text-weight-800 text-primary">وبیدا</span>
+    <span class="text-weight-900 text-primary">وبیدا</span>
   </h2>
 
   <div class="container items-center justify-between q-pt-xl q-gutter-y-lg" style="padding-bottom:72px">
@@ -12,7 +12,7 @@
         <q-icon color="white" name="o_mail" size="80px"></q-icon>
       </q-avatar>
 
-      <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-800 no-letter-spacing">ایمیل</h3>
+      <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-900 no-letter-spacing">ایمیل</h3>
       <p class="no-margin q-pt-sm text-center text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
         برای
         هر گونه
