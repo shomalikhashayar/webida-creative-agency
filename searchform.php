@@ -24,7 +24,7 @@
 </div>
 
 <div v-if="$q.screen.md">
-<q-form>
+<q-form action="/webida" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
@@ -35,7 +35,7 @@
 </div>
 
 <div v-if="$q.screen.lg">
-    <q-form>
+    <q-form action="/webida" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
@@ -46,7 +46,7 @@
 </div>
 
 <div v-if="$q.screen.gt.lg">
-    <q-form>
+    <q-form action="/webida" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
