@@ -4,13 +4,14 @@
          تبلیغات بنری چیست؟
       </h2>
       <div class=" column q-gutter-y-md items-center">
-         <img class="full-width" src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-pic.svg" alt=""
+         <img class="full-width"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-pic.svg" alt=""
             style="max-width:300px">
          <p class="no-letter-spacing q-mb-xl text-body1 text-weight-400 line-height-sm text-dark text-justify">
-            سئو یعنی وسیله‌ای برای بهبود دیده شدن وب‌سایتتان در اینترنت. به طور ساده، وقتی مردم در موتورهای جستجو مثل
-            گوگل کلماتی را تایپ می‌کنند، ما کمک می‌کنیم تا وب‌سایتتان در لیست نتایج بالاتر و معروف‌تر ظاهر شود. به
-            زبان ساده‌تر، سئو به وب‌سایتتان کمک می‌کند تا در جستجوهای مرتبط با کسب‌وکارتان، درجه‌ی بالاتری از شناخته
-            شدگی بدست آورد.
+            تبلیغات بنری یک روش تبلیغاتی آنلاین است که در آن از تصاویر یا بنرهای تبلیغاتی برای جلب توجه مخاطبان استفاده
+            می‌شود. این بنرها معمولاً شامل تصاویر گرافیکی، متن‌های تبلیغاتی، لوگوها و لینک‌هایی به وب‌سایت‌ها یا صفحات
+            مقصد هستند. تبلیغات بنری در وب‌سایت‌ها، بلاگ‌ها، شبکه‌های اجتماعی، ایمیل‌ها، اپلیکیشن‌های موبایل و سایر
+            مکان‌های آنلاین قرار می‌گیرند.
          </p>
       </div>
    </div>
