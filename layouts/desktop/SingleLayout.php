@@ -6,7 +6,7 @@
         به ارمغان
         می‌آوریم.</span>
       <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
-        class="webida-primary-lighten text-weight-regular" padding="6px 12px" />
+        class="webida-primary-lighten text-weight-regular" padding="6px 12px"></q-btn>
 
       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
     </div>
@@ -135,41 +135,6 @@
     </q-toolbar>
   </div>
 </q-header>
-<!-- 
-  <q-drawer v-model="drawer" :width="290" :breakpoint="500" bordered side="left" overlay class="bg-primary">
-    <div class="search-box q-pa-md q-mt-lg">
-      <?php get_search_form(); ?>
-    </div>
-    <q-scroll-area style="height: calc(100% - 100px);" :horizontal-thumb-style="{ opacity: 0 }">
-      <q-list padding>
-        <q-expansion-item expand-separator expand-icon-class="text-white" class="text-subtitle1 text-bold text-white"
-          icon="o_handyman" label="خدمات ما">
-          <q-item clickable v-ripple v-for="services in serviceList" :key="services">
-            <q-item-section avatar>
-              <q-icon :name="services.icon" color="white" />
-            </q-item-section>
-            <q-item-section class="text-body1 text-white text-bold">
-              <a class="text-white" :href="'<?php get_site_url() ?>' + services.route">{{
-                services.label }}</a>
-            </q-item-section>
-          </q-item>
-        </q-expansion-item>
-
-        <div v-for="menuItems in menuList" :key="menuItems">
-          <q-item clickable v-ripple>
-            <q-item-section avatar>
-              <q-icon class="text-white" :name="menuItems.icon" />
-            </q-item-section>
-            <q-item-section class="text-body1 text-white text-bold">
-              <a class="text-white" :href="'<?php echo get_site_url() ?>' + menuItems.route">{{
-                menuItems.label }}</a>
-            </q-item-section>
-          </q-item>
-        </div>
-
-      </q-list>
-    </q-scroll-area>
-  </q-drawer> -->
 
 <q-footer class="bg-secondary">
   <div class="row justify-between q-py-xl container bg-secondary">
@@ -263,26 +228,26 @@
 
         <q-card-section class="row justify-center items-center q-gutter-lg">
           <q-btn round color="white">
-            <q-avatar size="40px">
-              <q-icon class="fa-solid fa-user"></q-icon>
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/youtube.svg" />
+            </q-avatar>
+          </q-btn>
+
+          <q-btn href="https://www.instagram.com/webidaofficial" target="blank" round color="white">
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/instagram.svg" />
             </q-avatar>
           </q-btn>
 
           <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/telegram.svg" />
             </q-avatar>
           </q-btn>
 
-          <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
-            </q-avatar>
-          </q-btn>
-
-          <q-btn round color="white">
-            <q-avatar size="40px">
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg" />
+          <q-btn href="https://www.linkedin.com/company/webida" target="blank" round color="white">
+            <q-avatar size="38px">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.svg" />
             </q-avatar>
           </q-btn>
         </q-card-section>
