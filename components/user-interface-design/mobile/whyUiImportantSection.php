@@ -1,6 +1,6 @@
 <div class="bg-white ">
     <div class="container column">
-        <h2 class="q-mt-lg q-pb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-800">
+        <h2 class="q-mt-lg q-pb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-900">
          چرا رابط کاربری
             <span class="text-weight-900 text-primary">مهم</span>
          است

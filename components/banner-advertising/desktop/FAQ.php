@@ -1,6 +1,6 @@
 <div class="bg-grey-4 q-py-xl">
     <div class="container bg-primary q-pa-xl q-radius-md ">
-        <h2 class="text-white text-weight-800 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
+        <h2 class="text-white text-weight-900 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
             متداول</h2>
 
         <div class="column q-gutter-md">

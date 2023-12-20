@@ -17,7 +17,7 @@
                 <h3 class="q-my-md text-center text-primary text-h4 no-letter-spacing text-weight-900">
                     تیم سئو و بازاریابی دیجیتال
                 </h3>
-                <p class="no-letter-spacing text-h6 text-weight-800 line-height-sm text-center text-primary">
+                <p class="no-letter-spacing text-h6 text-weight-900 line-height-sm text-center text-primary">
                     از اولین تماس تا بیشترین فروش در کنار شما هستیم.
                 </p>
                 <div class="row q-gutter-x-sm justify-center">

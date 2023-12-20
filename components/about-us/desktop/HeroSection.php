@@ -2,7 +2,7 @@
     <div class="container about-us-hero row items-center">
         <div class="row q-gutter-x-xl items-center">
             <div class="col">
-                <h2 class="text-h2 no-margin text-weight-900 text-secondary">وبیدا را بهتر بشناسید
+                <h2 class="text-h3 no-margin text-weight-900 text-secondary">وبیدا را بهتر بشناسید
                 </h2>
                 <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">ما در
                     وبیدا، تضمین می‌کنیم که

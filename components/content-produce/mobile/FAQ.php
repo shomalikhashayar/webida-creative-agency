@@ -1,5 +1,5 @@
 <div class=" bg-primary q-pa-lg  ">
-    <h2 class="text-white text-weight-800 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
+    <h2 class="text-white text-weight-900 text-h3 no-letter-spacing no-line-height q-pb-md">سوالات
         متداول</h2>
 
     <div class="column q-gutter-md">

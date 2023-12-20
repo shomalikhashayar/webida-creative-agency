@@ -11,12 +11,12 @@
             و مشاوره‌های ما، مهارت‌های لازم برای موفقیت در دنیای دیجیتال را به دست آورند.
         </p>
 
-        <p class="no-letter-spacing text-weight-800 text-secondary text-body1 line-height-sm">
+        <p class="no-letter-spacing text-weight-900 text-secondary text-body1 line-height-sm">
             در وبیدا، تیمی از متخصصان با تجربه در زمینه‌های مختلف از جمله دیجیتال مارکتینگ به شما خدمت می‌دهند.
         </p>
 
         <div class="text-center">
-            اینجا <span class="text-h5 text-primary text-weight-800 no-letter-spacing">رایگان</span> کلی چیز یاد
+            اینجا <span class="text-h5 text-primary text-weight-900 no-letter-spacing">رایگان</span> کلی چیز یاد
             بگیر!
         </div>
     </q-card-section>

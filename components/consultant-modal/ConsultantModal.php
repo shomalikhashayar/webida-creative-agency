@@ -2,7 +2,7 @@
     <q-dialog v-model="ConsultantModal" position="bottom">
         <q-card class="q-radius-md bg-primary no-shadow no-border">
             <q-card-section class="q-pa-lg">
-                <div class="text-h3 text-weight-800 text-white no-letter-spacing no-margin line-height-sm">در زمان و
+                <div class="text-h3 text-weight-900 text-white no-letter-spacing no-margin line-height-sm">در زمان و
                     هزینه‌های خود صرفه‌جویی کنید</div>
                 <div
                     class="q-pa-sm q-my-md line-height-xs q-radius-sm text-body1 text-weight-400 webida-primary-lighten no-letter-spacing">
@@ -10,7 +10,7 @@
                     کمک خواهیم کرد تا بهترین تصمیمات را برای خلق یک تجربه آنلاین اختیار کنید</div>
 
                 <q-btn href="tel:09215848578" rounded unelevated class="bg-white text-primary">
-                    <span class="text-body1 text-weight-800 no-letter-spacing">شماره تماس مدیریت</span>
+                    <span class="text-body1 text-weight-900 no-letter-spacing">شماره تماس مدیریت</span>
                 </q-btn>
 
             </q-card-section>
@@ -27,7 +27,7 @@
     <q-dialog v-model="ConsultantModal" position="bottom">
         <q-card class="q-radius-md bg-primary no-shadow no-border">
             <q-card-section class="q-pa-xl">
-                <div class="text-h3 text-weight-800 text-white no-letter-spacing no-margin line-height-sm">در زمان و
+                <div class="text-h3 text-weight-900 text-white no-letter-spacing no-margin line-height-sm">در زمان و
                     هزینه‌های خود صرفه‌جویی کنید</div>
                 <div
                     class="q-pa-sm q-my-lg line-height-xs q-radius-sm text-body1 text-weight-400 webida-primary-lighten no-letter-spacing">
@@ -35,7 +35,7 @@
                     کمک خواهیم کرد تا بهترین تصمیمات را برای خلق یک تجربه آنلاین اختیار کنید</div>
 
                 <q-btn href="tel:09215848578" rounded unelevated class="bg-white text-primary">
-                    <span class="text-body1 text-weight-800 no-letter-spacing">شماره تماس مدیریت</span>
+                    <span class="text-body1 text-weight-900 no-letter-spacing">شماره تماس مدیریت</span>
                 </q-btn>
 
             </q-card-section>
@@ -53,7 +53,7 @@
         <q-card class="q-radius-md bg-primary no-shadow no-border">
             <q-card-section horizontal>
                 <q-card-section class="q-pa-lg">
-                    <div class="text-h3 text-weight-800 text-white no-letter-spacing no-margin line-height-sm">در زمان و
+                    <div class="text-h3 text-weight-900 text-white no-letter-spacing no-margin line-height-sm">در زمان و
                         هزینه‌های خود صرفه‌جویی کنید</div>
                     <div
                         class="q-pa-sm q-my-md line-height-xs q-radius-sm text-body1 text-weight-400 webida-primary-lighten no-letter-spacing">
@@ -61,7 +61,7 @@
                         کمک خواهیم کرد تا بهترین تصمیمات را برای خلق یک تجربه آنلاین اختیار کنید</div>
 
                     <q-btn href="tel:09215848578" rounded unelevated class="bg-white text-primary">
-                        <span class="text-body1 text-weight-800 no-letter-spacing">شماره تماس مدیریت</span>
+                        <span class="text-body1 text-weight-900 no-letter-spacing">شماره تماس مدیریت</span>
                     </q-btn>
 
                 </q-card-section>
@@ -78,7 +78,7 @@
         <q-card class="q-radius-md bg-primary no-shadow no-border">
             <q-card-section horizontal>
                 <q-card-section class="q-pa-lg">
-                    <div class="text-h3 text-weight-800 text-white no-letter-spacing no-margin line-height-sm">در زمان و
+                    <div class="text-h3 text-weight-900 text-white no-letter-spacing no-margin line-height-sm">در زمان و
                         هزینه‌های خود صرفه‌جویی کنید</div>
                     <div
                         class="q-pa-sm q-my-md line-height-xs q-radius-sm text-body1 text-weight-400 webida-primary-lighten no-letter-spacing">
@@ -86,7 +86,7 @@
                         کمک خواهیم کرد تا بهترین تصمیمات را برای خلق یک تجربه آنلاین اختیار کنید</div>
 
                     <q-btn href="tel:09215848578" rounded unelevated class="bg-white text-primary">
-                        <span class="text-body1 text-weight-800 no-letter-spacing">شماره تماس مدیریت</span>
+                        <span class="text-body1 text-weight-900 no-letter-spacing">شماره تماس مدیریت</span>
                     </q-btn>
 
                 </q-card-section>
@@ -103,7 +103,7 @@
         <q-card class="q-radius-md bg-primary no-shadow no-border">
             <q-card-section horizontal>
                 <q-card-section class="q-pa-lg">
-                    <div class="text-h3 text-weight-800 text-white no-letter-spacing no-margin line-height-sm">در زمان و
+                    <div class="text-h3 text-weight-900 text-white no-letter-spacing no-margin line-height-sm">در زمان و
                         هزینه‌های خود صرفه‌جویی کنید</div>
                     <div
                         class="q-pa-sm q-my-md line-height-xs q-radius-sm text-body1 text-weight-400 webida-primary-lighten no-letter-spacing">
@@ -111,7 +111,7 @@
                         کمک خواهیم کرد تا بهترین تصمیمات را برای خلق یک تجربه آنلاین اختیار کنید</div>
 
                     <q-btn href="tel:09215848578" rounded unelevated class="bg-white text-primary">
-                        <span class="text-body1 text-weight-800 no-letter-spacing">شماره تماس مدیریت</span>
+                        <span class="text-body1 text-weight-900 no-letter-spacing">شماره تماس مدیریت</span>
                     </q-btn>
 
                 </q-card-section>

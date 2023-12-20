@@ -2,7 +2,7 @@
     <div class="container q-py-xl items-center">
         <div class="column items-center">
             <!-- تایتل تبلت  -->
-            <h2 class="text-h2 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
+            <h2 class="text-h3 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
             طراحی رابط کاربری به گونه ای که همیشه خواسته اید!
             </h2>
             <!-- تایتل موبایل -->

@@ -1,8 +1,8 @@
 <div class="bg-white ">
     <div class="container column">
-        <h2 class="q-mt-lg q-pb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-800">
+        <h2 class="q-mt-lg q-pb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-900">
             مزایای خرید
-            <span class="text-weight-800 text-primary">بک لینک</span>
+            <span class="text-weight-900 text-primary">بک لینک</span>
             دائمی و قوی
         </h2>
         <div class="q-gutter-y-lg q-pb-xl self-center" style="max-width:650px ; width:100%;">

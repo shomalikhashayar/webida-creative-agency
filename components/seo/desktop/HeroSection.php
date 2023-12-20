@@ -2,7 +2,7 @@
     <div class="container seo-hero-section row items-center">
         <div class="row items-center">
             <div class="col-5 q-gutter-y-lg">
-                <h2 class="text-h2 no-margin text-weight-900 text-secondary">
+                <h2 class="text-h3 no-margin text-weight-900 text-secondary">
                     سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
                 </h2>
                 <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">

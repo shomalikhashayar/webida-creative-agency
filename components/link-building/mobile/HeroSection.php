@@ -2,7 +2,7 @@
     <div class="link-building-hero items-center">
         <div class="column items-center">
             <!-- تایتل تبلت  -->
-            <h2 class="text-h2 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
+            <h2 class="text-h3 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
             خرید بک لینک تضمینی
 
             </h2>

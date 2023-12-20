@@ -1,4 +1,4 @@
-<div class="text-h4 text-secondary text-weight-800 q-mb-md">مطالب مرتبط</div>
+<div class="text-h4 text-secondary text-weight-900 q-mb-md">مطالب مرتبط</div>
 <div class="q-mb-md">
     <div>
         <?php

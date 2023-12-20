@@ -2,7 +2,7 @@
     <div class="container row items-center q-py-lg" style="height:500px;">
         <div class="row items-center">
             <div class="col-5">
-                <h2 class="text-h2 q-pb-md no-margin text-weight-900 text-secondary">
+                <h2 class="text-h3 q-pb-md no-margin text-weight-900 text-secondary">
                     محتوایی که همیشه در خانهٔ ذهن خوانندگان می‌ماند
                 </h2>
                 <p

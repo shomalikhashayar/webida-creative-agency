@@ -1,8 +1,8 @@
 <div class="bg-white ">
    <div class="container">
-      <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-800">
+      <h2 class="q-mt-xl q-mb-lg text-center text-secondary text-h3 no-letter-spacing text-weight-900">
          مزایای منحصر به‌ فرد سفارش طراحی سایت از
-         <span class="text-weight-800 text-primary">وبیدا</span>
+         <span class="text-weight-900 text-primary">وبیدا</span>
       </h2>
 
       <div class="row items-center" style="column-gap: 90px; margin-top:100px;">

@@ -1,7 +1,7 @@
 <div class="bg-accent">
     <div class="container link-building-hero row items-center">
         <div style="flex:1">
-            <h2 class="text-h2 no-margin text-weight-900 text-secondary">
+            <h2 class="text-h3 no-margin text-weight-900 text-secondary">
             خرید بک لینک تضمینی
             </h2>
             <p class="no-letter-spacing text-body1 q-mt-lg q-mb-xl text-weight-400 line-height-sm text-dark">

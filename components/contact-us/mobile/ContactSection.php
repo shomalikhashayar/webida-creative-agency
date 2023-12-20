@@ -12,7 +12,7 @@
         <q-icon color="white" name="o_mail" size="80px"></q-icon>
       </q-avatar>
 
-      <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-800 no-letter-spacing">ایمیل</h3>
+      <h3 class="no-margin q-pt-md text-secondary text-h5 text-weight-900 no-letter-spacing">ایمیل</h3>
       <p class="no-margin q-pt-sm q-px-lg line-height-sm text-center text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
         برای
         هر گونه
@@ -26,7 +26,7 @@
         <q-icon color="white" name="o_location_on" size="80px"></q-icon>
       </q-avatar>
 
-      <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">نشانی</h3>
+      <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-900 no-letter-spacing">نشانی</h3>
       <p class="q-px-lg line-height-sm no-margin q-py-sm text-dark text-body1 text-weight-400 no-letter-spacing">
         به ما سر بزنید، خوشحال میشیم.</p>
       <p class="q-px-lg line-height-sm text-center no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
@@ -38,7 +38,7 @@
         <q-icon color="white" name="o_phone_in_talk" size="80px"></q-icon>
       </q-avatar>
 
-      <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-800 no-letter-spacing">تلفن</h3>
+      <h3 class="q-pt-md no-margin text-secondary text-h5 text-weight-900 no-letter-spacing">تلفن</h3>
       <p class="q-px-lg line-height-sm q-py-sm text-center no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه
         از
         ساعت 9 الی 18

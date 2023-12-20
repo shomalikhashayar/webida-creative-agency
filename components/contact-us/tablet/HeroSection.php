@@ -2,7 +2,7 @@
     <div style="width: 500px" class="container contact-us-hero column items-center q-gutter-y-lg">
         <h1 class="q-pb-lg no-line-height no-letter-spacing text-h4 text-weight-900 text-secondary">تماس با وبیدا</h1>
         <img style="width:200px" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio.png" alt="">
-        <h2 class="q-pt-md text-center line-height-sm no-letter-spacing text-body1 text-weight-800 text-dark">
+        <h2 class="q-pt-md text-center line-height-sm no-letter-spacing text-body1 text-weight-900 text-dark">
             تیم وبیدا، صمیمانه تمایل دارد انتقادات و پیشنهادات سازنده شما را دریافت کند.
         </h2>
         <p class="text-center line-height-sm no-letter-spacing text-body1 text-weight-700 text-primary">

@@ -1,8 +1,8 @@
 <div class="bg-grey-4">
    <div class="container">
-      <h2 class="q-pt-xl no-margin text-center text-secondary line-height-md text-h3 no-letter-spacing text-weight-800">
+      <h2 class="q-pt-xl no-margin text-center text-secondary line-height-md text-h3 no-letter-spacing text-weight-900">
          چرا
-         <span class="text-weight-800 text-primary q-pt-sm">سئو</span>
+         <span class="text-weight-900 text-primary q-pt-sm">سئو</span>
          انتخاب هوشمندانه ای است
       </h2>
 

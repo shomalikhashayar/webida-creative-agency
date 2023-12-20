@@ -1,6 +1,6 @@
 <div class="bg-accent">
     <div class="container about-us-hero q-gutter-y-xl  row justify-center">
-        <h2 class="text-h2 q-mb-none q-mt-xl text-weight-900  text-secondary">وبیدا را بهتر بشناسید
+        <h2 class="text-h3 q-mb-none q-mt-xl text-weight-900  text-secondary">وبیدا را بهتر بشناسید
         </h2>
         <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg"
             alt="">
