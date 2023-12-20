@@ -1,3 +1,4 @@
+<!-- استفاده نمیشود -->
 <q-card class="q-radius-sm" flat bordered>
     <q-card-section class="text-justify q-px-lg q-pt-lg q-pb-none">
         <p class="no-letter-spacing text-weight-400 text-grey-7 text-body1 line-height-sm">
