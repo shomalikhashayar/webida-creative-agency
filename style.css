@@ -218,7 +218,27 @@ ol li {
   margin-right: -24px;
 }
 
+.gap-8 {
+  display: flex;
+  gap: 8px;
+}
+
+.gap-16 {
+  display: flex;
+  gap: 16px;
+}
+
 .gap-24 {
   display: flex;
   gap: 24px;
+}
+
+.gap-32 {
+  display: flex;
+  gap: 32px;
+}
+
+.gap-48 {
+  display: flex;
+  gap: 48px;
 }

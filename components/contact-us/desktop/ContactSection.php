@@ -11,7 +11,7 @@
         <input type="hidden" name="action" value="process_contact_form">
         <q-card bordered class="no-shadow">
           <q-card-section class="q-pa-xl">
-            <div class="row gap-24">
+            <div class="row gap-32">
               <div class="col col-lg col-sm-12">
                 <div class="column q-gutter-y-sm">
                   <q-item-label class="no-letter-spacing text-grey-7 text-body1">نام و نام خانوادگی
@@ -55,7 +55,7 @@
 
           <q-item-section class="column justify-center q-gutter-y-sm q-ml-md">
             <h3 class="no-margin text-secondary text-h5 text-weight-900 no-letter-spacing">ایمیل</h3>
-            <p class="no-margin text-dark text-body1 text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
+            <p class="no-margin text-dark text-body1 line-height-xs text-weight-400 no-letter-spacing">تیم پشتیبانی وبیدا
               برای
               هر گونه
               کمک به شما آماده است.</p>
@@ -77,7 +77,7 @@
             <h3 class="no-margin text-secondary text-h5 text-weight-900 no-letter-spacing">نشانی</h3>
             <p class="no-margin text-dark text-body1 text-weight-400 no-letter-spacing">
               به ما سر بزنید، خوشحال میشیم.</p>
-            <p class="no-margin text-primary text-body1 text-weight-400 no-letter-spacing">تهـران، فلکه دوم
+            <p class="no-margin text-primary text-body1 q-pt-sm line-height-xs text-weight-400 no-letter-spacing">تهـران، فلکه دوم
               صادقیه، خیابان آیت الله کاشانی، خیابان بهنام، خیابان مقداد، برج ترنج</p>
           </q-item-section>
         </div>
@@ -93,7 +93,7 @@
 
           <q-item-section class="column justify-center q-gutter-y-sm q-ml-md">
             <h3 class="no-margin text-secondary text-h5 text-weight-900 no-letter-spacing">تلفن</h3>
-            <p class="no-margin text-dark text-body2 text-weight-400 no-letter-spacing">شنبه تا چهارشنبه از
+            <p class="no-margin text-dark text-body2 line-height-xs text-weight-400 no-letter-spacing">شنبه تا چهارشنبه از
               ساعت 9 الی 18
               پنجشنبه‌ها از ساعت 9 الی 13</p>
             <q-btn unelevated style="width:124px" color="primary" label="پشتیبانی" icon="o_perm_phone_msg">
