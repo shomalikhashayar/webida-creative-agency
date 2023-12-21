@@ -211,7 +211,7 @@
         <a class="text-h6 text-weight-400 text-white no-decoration" href="tel:09215848578">09215848578</a>
       </div>
 
-      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-blue-grey-8">
+      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-secondary-lighter">
 
         <q-card-section>
           <p class="text-center text-h6 text-weight-400">با ما در شبکه‌های اجتماعی در ارتباط باشید</p>

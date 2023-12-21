@@ -81,7 +81,14 @@
 .post-content ol li {
   margin-bottom: 16px;
 }
+.post-content a {
+  color: var(--q-webida-primary);
+  text-decoration: none;
+}
 
+.post-content a:hover {
+  text-decoration: underline;
+}
 @media only screen and (min-width: 1024px) {
   .post-content p img {
     padding: 18px 0 0 0 !important;

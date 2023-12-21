@@ -1,0 +1,28 @@
+* {
+  font-family: "yekan-regular";
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: -24px;
+}
+
+ol li {
+  margin-right: -24px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.services-dropdown .q-focus-helper {
+  display: none;
+}
