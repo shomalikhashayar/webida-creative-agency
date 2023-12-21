@@ -14,7 +14,7 @@
                         تصویرگرایی
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing text-justify text-weight-400">
                     تبلیغات بنری اغلب با استفاده از تصاویر گرافیکی جذاب و آیکونیک توجه مخاطبان را جلب می‌کنند.
                 </p>
             </div>
@@ -27,7 +27,7 @@
                         هدفمندسازی
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     تبلیغات بنری می‌توانند بر اساس مشخصات دقیق مخاطبان هدف تنظیم شوند تا به افرادی که احتمال تبدیل شدن
                     به مشتری را دارند نمایش داده شوند.
                 </p>
@@ -41,7 +41,7 @@
                         متن تبلیغاتی
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1  no-letter-spacing text-justify text-weight-400">
                     علاوه بر تصاویر، متن‌های تبلیغاتی نیز در بنرها معمولاً وجود دارند و اطلاعاتی درباره محصول یا خدمات
                     ارائه شده را منتقل می‌کنند.
                 </p>
@@ -56,7 +56,7 @@
                         کلیک‌پذیری
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1  no-letter-spacing text-justify text-weight-400">
                     بنرهای تبلیغاتی دارای لینک‌هایی هستند که کاربران می‌توانند بر روی آنها کلیک کرده و به صفحات مقصد
                     منتقل شوند.
                 </p>

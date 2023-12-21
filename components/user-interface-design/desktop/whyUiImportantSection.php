@@ -13,7 +13,7 @@
                alt="" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin no-letter-spacing  text-weight-900 text-secondary">
                انتقال حس بهتر به کاربر
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
@@ -27,7 +27,7 @@
 
       <div class="row items-center" style="column-gap: 90px; margin-top:48px;">
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin text-weight-900  no-letter-spacing text-secondary">
                اعتماد و اعتبار
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
@@ -49,7 +49,7 @@
                alt="" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">
                تمایز از رقبا
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">

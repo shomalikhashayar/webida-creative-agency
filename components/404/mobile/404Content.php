@@ -7,7 +7,7 @@
             ممکن است صفحه مورد نظر وجود شما وجود نداشته باشد، شاید به آدرس جدیدی منتقل شده است!
         </p>
         <q-btn @click="" href="<?php echo esc_url(home_url()); ?>" unelevated rounded label="بازگشت به صفحه اصلی"
-            class="webida-secondary text-white text-body1 text-weight-regular items-end" padding="10px 24px">
+            class="webida-secondary no-letter-spacing text-white text-body1 text-weight-regular items-end" padding="10px 24px">
         </q-btn>
     </div>
 </div>

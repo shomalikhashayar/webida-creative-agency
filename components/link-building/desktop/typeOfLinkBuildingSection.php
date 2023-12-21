@@ -26,7 +26,7 @@
             <h4 class="text-h6 no-margin q-pt-lg q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                بک لینک‌های نوفالو (Nofollow backlinks)
             </h4>
-            <p class="text-body1 no-margin text-weight-400 line-height-sm text-dark ">
+            <p class="text-body1 no-margin text-weight-400 no-letter-spacing  line-height-sm text-dark ">
                ربات‌های گوگل از کنار لینک‌های نوفالو به سادگی می‌گذرند و آن‌ها را نادیده می‌گیرند؛ به همین خاطر
                اعتباری هم از سایت مبدا منتقل نمی‌شود و صرفا کاربران می‌توانند به سایت مقصد سر بزنند و باعث افزایش
                ترافیک ورودی شوند و به صورت غیرمستقیم روی سئو سایت شما موثر باشند.

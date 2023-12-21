@@ -1,7 +1,7 @@
 <div class="bg-accent">
     <div class="container link-building-hero row items-center">
         <div style="flex:1">
-            <h2 class="text-h3 no-margin text-weight-900 text-secondary">
+            <h2 class="text-h3 no-margin  no-letter-spacing text-weight-900 text-secondary">
             خرید بک لینک تضمینی
             </h2>
             <p class="no-letter-spacing text-body1 q-mt-lg q-mb-xl text-weight-400 line-height-sm text-dark">
@@ -9,7 +9,7 @@
             </p>
             <div class="row justify-start">
                 <q-btn @click="ConsultantModal = true" unelevated rounded label="خرید بک لینک"
-                    class="webida-primary text-white text-body2 text-weight-regular items-end"
+                    class="webida-primary text-white no-letter-spacing  text-body2 text-weight-regular items-end"
                     padding="10px 24px"></q-btn>
             </div>
         </div>

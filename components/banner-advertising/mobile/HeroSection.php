@@ -4,16 +4,16 @@
         <h2 class="text-h4 text-center no-letter-spacing no-margin text-weight-900 text-secondary">
             با تبلیغات بنری؛ برجسته بودن را تجربه خواهید کرد.
         </h2>
-        <p class="no-letter-spacing text-center text-body1 q-mt-md q-mb-lg text-weight-400 line-height-sm text-dark">
+        <p class="no-letter-spacing text-center  no-letter-spacing text-body1 q-mt-md q-mb-lg text-weight-400 line-height-sm text-dark">
             همیشه جلوی چشم مخاطب هدفتان باشید.
         </p>
         <div class="row justify-center q-pt-lg q-gutter-md ">
             <q-btn @click="" unelevated rounded label="سفارش تبلیغات بنری"
-                class="webida-primary text-white text-body2 text-weight-regular" padding="10px 24px">
+                class="webida-primary text-white text-body2  no-letter-spacing text-weight-regular" padding="10px 24px">
 
             </q-btn>
             <q-btn flat @click="ConsultantModal = true" unelevated rounded label="مشاوره تخصصی رایگان"
-                class="text-primary text-body2 text-weight-regular white-btn" padding="10px 24px">
+                class="text-primary text-body2 text-weight-regular  no-letter-spacing white-btn" padding="10px 24px">
             </q-btn>
         </div>
 

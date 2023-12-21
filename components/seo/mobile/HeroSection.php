@@ -2,11 +2,11 @@
     <div class="container seo-hero-section items-center">
         <div class="column  items-center">
             <!-- تایتل تبلت  -->
-            <h2 class="text-h3 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
+            <h2 class="text-h3 no-margin  no-letter-spacing text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
                 سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
             </h2>
             <!-- تایتل موبایل -->
-            <h2 class="text-h4 no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.xs">
+            <h2 class="text-h4 no-margin text-center no-letter-spacing  text-weight-900 text-secondary" v-if="$q.screen.xs">
                 سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
             </h2>
             <p class="no-letter-spacing q-mt-md q-mb-lg text-body1 text-weight-400 line-height-sm text-dark">
@@ -17,11 +17,11 @@
 
             <div class="row justify-center q-pt-lg q-gutter-sm ">
                 <q-btn @click="" unelevated rounded label="مشاوره سئو"
-                    class="webida-primary text-white text-body2 text-weight-regular " padding="10px 24px">
+                    class="webida-primary no-letter-spacing  text-white text-body2 text-weight-regular " padding="10px 24px">
 
                 </q-btn>
                 <q-btn flat @click="ConsultantModal = true" unelevated rounded label="خرید بک لینک"
-                    class="text-primary text-body2 text-weight-regular white-btn "
+                    class="text-primary  no-letter-spacing text-body2 text-weight-regular white-btn "
                     padding="10px 24px">
                 </q-btn>
             </div>

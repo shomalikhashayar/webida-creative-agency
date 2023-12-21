@@ -8,7 +8,7 @@
         <div class="q-gutter-y-lg q-pb-xl self-center" style="max-width:650px ; width:100%;">
 
             <div class="column q-gutter-y-md">
-                <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+                <h3 class="text-h4 no-margin text-weight-900 no-letter-spacing  text-secondary">
                     بهبود رتبه در نتایج جستجوی گوگل
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Improve-ranking-in-Google-search-results.svg"
@@ -20,7 +20,7 @@
             </div>
 
             <div class="column q-gutter-y-md">
-                <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+                <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">
                     افزایش ترافیک ورودی
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Increase-in-incoming-traffic.svg"
@@ -32,7 +32,7 @@
             </div>
 
             <div class="column q-gutter-y-md">
-                <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+                <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">
                     افزایش اعتبار سایت
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Increase-the-credibility-of-the-site.svg"

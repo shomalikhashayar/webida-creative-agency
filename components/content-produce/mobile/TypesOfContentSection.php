@@ -14,7 +14,7 @@
                         محتوای خبری
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm no-letter-spacing  text-dark text-body1 text-justify text-weight-400">
                     محتوا سازی برای ارتقاء روابط عمومی و ایجاد برند، تا برندتان به آغوش رسانه‌ها بیفتد.
                 </p>
             </div>
@@ -27,7 +27,7 @@
                         محتوای بلاگ
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     با استفاده از اصول سئو و رسانه‌ای که بازنمایی کسب‌وکارتان است، به دنبال تسخیر رتبه‌های برتر گوگل
                     هستیم.
                 </p>
@@ -41,7 +41,7 @@
                         محتوای رپرتاژ آگهی
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     تولید محتوا با رعایت اصول بهینه‌سازی برای موتورهای جستجو و استفاده از سبکی جذاب و متناسب با
                     رسانه‌ها،
                     با هدف بهبود سئوی خارجی و جذب توجه مخاطبان به سوی کسب‌وکار شما تخصص ماست.
@@ -56,7 +56,7 @@
                         محتوای توضیح محصول
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     تهیه محتوا به منظور ارتقاء شناخت مخاطبان نسبت به محصولات و خدمات شما، از طریق تبیین جوانب مختلف
                     آن‌ها،
                     به منظور تسهیل در فهم و درک عمقی، و در نتیجه ایجاد افزایش در فروش و بهبود بهینه‌سازی صفحات

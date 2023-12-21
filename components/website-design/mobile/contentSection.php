@@ -8,7 +8,7 @@
       <div class="q-gutter-y-lg q-pb-xl self-center" style="max-width:650px ; width:100%;">
 
          <div class="column q-gutter-y-md">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                تضمین پایین ترین قیمت طراحی سایت </h3>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-dollar.svg" alt=""
                style="width:100%;">
@@ -19,7 +19,7 @@
          </div>
 
          <div class="column q-gutter-y-md">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                رابط کاربری ایده‌آل برای تجربه کاربری بی‌نظیر </h3>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-ux.svg" alt=""
                style="width:100%;">
@@ -29,7 +29,7 @@
          </div>
 
          <div class="column q-gutter-y-md">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                حریم خصوصی و امنیت اطلاعات </h3>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-privecy.svg" alt=""
                style="width:100%;">

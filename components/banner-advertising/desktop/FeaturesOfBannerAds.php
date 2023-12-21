@@ -15,7 +15,7 @@
             </div>
 
             <div class="whywebida-card-content-Section">
-               <p class="no-margin text-dark text-body1  text-weight-400">
+               <p class="no-margin text-dark text-body1  no-letter-spacing  text-weight-400">
                   تبلیغات بنری اغلب با استفاده از تصاویر گرافیکی جذاب و آیکونیک توجه مخاطبان را جلب می‌کنند.
                </p>
             </div>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="whywebida-card-content-Section">
-               <p class="no-margin text-dark text-body1  text-weight-400">
+               <p class="no-margin text-dark text-body1  no-letter-spacing  text-weight-400">
                   تبلیغات بنری می‌توانند بر اساس مشخصات دقیق مخاطبان هدف تنظیم شوند تا به افرادی که احتمال تبدیل شدن به
                   مشتری را دارند نمایش داده شوند.
 
@@ -49,7 +49,7 @@
             </div>
 
             <div class="whywebida-card-content-Section">
-               <p class="no-margin text-dark text-body1  text-weight-400">
+               <p class="no-margin text-dark text-body1  no-letter-spacing  text-weight-400">
                   علاوه بر تصاویر، متن‌های تبلیغاتی نیز در بنرها معمولاً وجود دارند و اطلاعاتی درباره محصول یا خدمات
                   ارائه شده را منتقل می‌کنند.
 
@@ -67,7 +67,7 @@
             </div>
 
             <div class="whywebida-card-content-Section">
-               <p class="no-margin text-dark text-body1  text-weight-400">
+               <p class="no-margin text-dark text-body1  no-letter-spacing  text-weight-400">
                   بنرهای تبلیغاتی دارای لینک‌هایی هستند که کاربران می‌توانند بر روی آنها کلیک کرده و به صفحات مقصد منتقل
                   شوند.
                </p>
