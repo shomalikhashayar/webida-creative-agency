@@ -1,0 +1,21 @@
+.read-more-block {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #ce1340;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 16px !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  background-image: url(https://webida.ir/wp-content/uploads/2023/08/webida-bg-overlay.png);
+  background-size: contain;
+  background-blend-mode: overlay;
+}
+
+.read-more-block a {
+  color: white;
+  font-weight: bold;
+}
