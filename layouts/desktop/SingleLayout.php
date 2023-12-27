@@ -5,7 +5,7 @@
       <span class="text-body2 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان
         به ارمغان
         می‌آوریم.</span>
-      <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
+        <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
         class="webida-primary-lighten text-weight-regular" padding="6px 12px"></q-btn>
 
       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
