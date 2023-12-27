@@ -1,7 +1,7 @@
 .read-more-block {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: white !important;
   background-color: #ce1340;
   font-size: 14px;
   justify-content: center;
@@ -16,6 +16,6 @@
 }
 
 .read-more-block a {
-  color: white;
+  color: white !important;
   font-weight: bold;
 }

@@ -1,7 +1,7 @@
 .quote-block {
   background-color: #053751;
   border-radius: 12px;
-  color: white;
+  color: white !important;
   padding: 16px 24px;
   margin: 24px 0;
   display: flex;
@@ -15,10 +15,10 @@
 }
 
 .quote-block a {
-  color: white;
+  color: white !important;
   font-weight: bold;
 }
 
 .quote-block p {
-  color: white;
+  color: white !important;
 }
