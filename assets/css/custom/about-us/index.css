@@ -22,18 +22,18 @@
   .about-us-hero {
     background-image: url("../../../images/about-us-background.png") !important;
     height: 500px !important;
-    background-size: 800px !important;
+    background-size: 600px !important;
     background-position: left bottom !important;
     background-repeat: no-repeat !important;
   }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
   .about-us-hero {
-    background-image: url("../../../images/about-us-hero-background.png");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding: 48px 32px;
+    background-image: url("../../../images/about-us-background.png");
+    background-size: 700px !important;
+    background-position: left bottom !important;
+    background-repeat: no-repeat !important;
+    padding: 48px 32px !important;
   }
 }
