@@ -12,7 +12,7 @@
             <q-card-section>
                <div class="column q-gutter-y-sm items-start">
                   <img class="card-logo" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Traffic.svg"
-                     alt="">
+                     alt="Improve ranking by increasing traffic to your site">
 
                   <h4 class="text-body1 no-margin text-center no-letter-spacing q-pt-md text-weight-900 text-secondary">
                      رتبه‌بندی بهتر، ترافیک فوق‌العاده
@@ -28,7 +28,7 @@
             <q-card-section>
                <div class="column q-gutter-y-sm items-start">
                   <img class="card-logo" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Guarantee.svg"
-                     alt="">
+                     alt="Get credits from high-ranking and reputable sites">
 
                   <h4 class="text-body1 no-margin text-center no-letter-spacing q-pt-md text-weight-900 text-secondary">
                      اعتبار و اعتماد ایجاد می‌کنید
@@ -44,7 +44,7 @@
             <q-card-section>
                <div class="column q-gutter-y-sm items-start">
                   <img class="card-logo" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Get-Cash.svg"
-                     alt="">
+                     alt="Return on investment by investing in SEO">
 
                   <h4 class="text-body1 no-margin text-center no-letter-spacing q-pt-md text-weight-900 text-secondary">
                      بازگشت سرمایه را به همراه دارد
@@ -61,7 +61,7 @@
             <q-card-section>
                <div class="column q-gutter-y-sm items-start">
                   <img class="card-logo"
-                     src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Strategy.svg" alt="">
+                     src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Strategy.svg" alt="SEO is a sustainable marketing strategy">
 
                   <h4 class="text-body1 no-margin text-center no-letter-spacing q-pt-md text-weight-900 text-secondary">
                      تجربه بازاریابی پایدار

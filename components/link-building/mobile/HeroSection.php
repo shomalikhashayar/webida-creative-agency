@@ -15,7 +15,7 @@
             با حداقل هزینه رتبه های برتر گوکل را از آن خود کنید.
             </p>
             <img class=" q-pt-xl q-pb-lg"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/link-building-hero-mobile.svg" alt=""
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/link-building-hero-mobile.svg" alt="link building"
                 style="width:41%;">
            
             <q-btn @click="" unelevated rounded label="خرید بک لینک"

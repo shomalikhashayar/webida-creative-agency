@@ -10,7 +10,7 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic1.svg"
-               alt="" style="width:100%;">
+               alt="Improve user experience with a convenient user interface" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
             <h3 class="text-h4 no-margin no-letter-spacing  text-weight-900 text-secondary">
@@ -37,7 +37,7 @@
             </p>
          </div>
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic2.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic2.svg" alt="Build credibility with a professional user interface"
                style="width:100%;">
          </div>
       </div>
@@ -46,7 +46,7 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic3.svg"
-               alt="" style="width:100%;">
+               alt="Differentiate from competitors with professional user interface" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
             <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">

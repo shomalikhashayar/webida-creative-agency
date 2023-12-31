@@ -3,7 +3,7 @@
         <h2 class="text-h3 q-mb-none q-mt-xl text-weight-900  text-secondary">وبیدا را بهتر بشناسید
         </h2>
         <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg"
-            alt="">
+            alt="Creating better and more complementary services for users">
         <p class="no-letter-spacing text-body1 text-center text-weight-400 line-height-sm text-dark">ما در
             وبیدا، تضمین می‌کنیم که
             با

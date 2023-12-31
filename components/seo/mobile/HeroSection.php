@@ -12,7 +12,7 @@
             <p class="no-letter-spacing q-mt-md q-mb-lg text-body1 text-weight-400 line-height-sm text-dark">
                 کسب‌وکارتان را در صدر نتایج گوگل ببینید.
             </p>
-            <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-hero.png" alt=""
+            <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-hero.png" alt="See the business at the top of Google results"
                 style="max-width:550px;">
 
             <div class="row justify-center q-pt-lg q-gutter-sm ">

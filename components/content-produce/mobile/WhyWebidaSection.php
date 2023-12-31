@@ -8,7 +8,7 @@
 
          <div class="column items-center q-mb-xl">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Guarantee2.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Guarantee2.svg" alt="Producing quality content for customers">
             <h4 class="text-h6 no-margin q-pt-lg q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                کنترل کیفیت دو‌مرحله‌ای رایگان
             </h4>
@@ -20,7 +20,7 @@
 
          <div class="column items-center q-mb-xl">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Building.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Building.svg" alt="Appropriate content for your brand">
             <h4 class="text-h6 no-margin q-pt-lg q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                طبق لحن رسانه و برند شما
             </h4>
@@ -32,7 +32,7 @@
 
          <div class="column items-center q-mb-xl">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Sand-Watch.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Sand-Watch.svg" alt="Completing content writing orders in the shortest possible time">
             <h4 class="text-h6 no-margin q-pt-lg q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                تحویل فوری
             </h4>
@@ -44,7 +44,7 @@
 
          <div class="column items-center q-mb-xl">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Helping-Hand.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Helping-Hand.svg" alt="Guaranteed to provide appropriate content">
             <h4 class="text-h6 no-margin q-pt-lg q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                ضمانت بازگشت وجه
             </h4>

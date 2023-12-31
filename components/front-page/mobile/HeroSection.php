@@ -5,7 +5,7 @@
     <div class="row justify-center text-center q-gutter-y-md">
       <p class="text-h4 text-weight-900 text-secondary">در وبیدا به شما خلاقیت هدیه می‌دهیم.</p>
     </div>
-    <img class="q-mt-md" src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt=""
+    <img class="q-mt-md" src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="a gravestone for Traditional business"
       style="width:200px">
   </div>
 </div>

@@ -3,7 +3,8 @@
         the_post(); ?>
 
         <?php if (has_post_thumbnail()): ?>
-            <q-img class="q-mx-none q-radius-xs" src="<?php the_post_thumbnail_url() ?>" alt="<?php the_title() ?>"></q-img>
+            <q-img spinner-color="primary" class="q-mx-none q-radius-xs" src="<?php the_post_thumbnail_url() ?>"
+                alt="<?php the_title() ?>"></q-img>
         <?php endif; ?>
 
     <?php endwhile; endif; ?>

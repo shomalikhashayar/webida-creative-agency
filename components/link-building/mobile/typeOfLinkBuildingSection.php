@@ -10,7 +10,7 @@
 
          <div class=" bg-white q-mb-lg column no-wrap type-link-building-card ">
             <img class="full-width" src="<?php echo get_template_directory_uri(); ?>/assets/images/dofollowimage.svg"
-               alt="">
+               alt="Dofollow backlinks">
             <h4 class="text-h6 no-margin q-pt-md q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                بک لینک‌های فالو (Dofollow backlinks)
             </h4>
@@ -22,7 +22,7 @@
 
          <div class="bg-white q-mt-sm column no-wrap type-link-building-card ">
             <img class="full-width" src="<?php echo get_template_directory_uri(); ?>/assets/images/nofollowimage.svg"
-               alt="">
+               alt="Nofollow backlinks">
             <h4 class="text-h6 no-margin q-pt-md q-pb-sm no-letter-spacing text-weight-900 text-secondary">
                بک لینک‌های نوفالو (Nofollow backlinks)
             </h4>

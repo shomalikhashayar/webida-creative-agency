@@ -3,8 +3,8 @@
     <div class="row">
 
         <div class="col-4 border-radius-inherit">
-            <q-img class="border-radius-inherit fit"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png" alt="">
+            <q-img spinner-color="primary" class="border-radius-inherit fit"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png" alt="webida blog" >
                 <div class="absolute-top q-my-md text-center transparent text-secondary no-letter-spacing">
                     اینجا <span class="text-h5 text-primary text-weight-900 no-letter-spacing">رایگان</span> کلی چیز یاد
                     بگیر!

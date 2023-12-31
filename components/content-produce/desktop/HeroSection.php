@@ -17,7 +17,7 @@
             </div>
             <div class="col-7">
                 <img class="fit q-pl-lg"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/content-produce-hero.png" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/content-produce-hero.png" alt="Content that always remains in the minds of readers" >
             </div>
         </div>
     </div>

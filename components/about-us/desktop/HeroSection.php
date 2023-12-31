@@ -15,7 +15,7 @@
             <div class="col">
 
                 <img class="fit"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/about-us-hero-elements.svg" alt="Creating better and more complementary services for users">
             </div>
         </div>
     </div>

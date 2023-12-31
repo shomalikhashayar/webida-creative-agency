@@ -22,6 +22,6 @@
             </div>
         </q-card-section>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-blog.png" alt="webida blog" >
     </q-card>
 </div>

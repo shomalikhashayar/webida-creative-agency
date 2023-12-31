@@ -7,7 +7,7 @@
 
       <div class="row items-center" style="column-gap: 90px; margin-top:100px;">
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-dollar.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-dollar.svg" alt="A custom designed dollar"
                style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
@@ -28,14 +28,14 @@
             </p>
          </div>
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-ux.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-ux.svg" alt="ui ux"
                style="width:100%;">
          </div>
       </div>
 
       <div class="row items-center" style="column-gap: 90px; margin-top:17px; margin-bottom: 80px;">
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-privecy.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-privecy.svg" alt="Website privacy"
                style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm q-mt-xl">

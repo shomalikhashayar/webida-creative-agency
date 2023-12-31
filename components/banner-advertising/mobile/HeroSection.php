@@ -18,7 +18,7 @@
         </div>
 
         <img class="full-width col q-px-md q-pt-xl self-center"
-            src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-hero.png" alt=""
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-hero.png" alt="Banner ads"
             style="max-width:350px;">
 
     </div>

@@ -8,7 +8,7 @@
         <div class=" q-gutter-y-xl">
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/News.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/News.svg" alt="Production of news content"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای خبری
@@ -21,7 +21,7 @@
 
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Content.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Content.svg" alt="Content writing for your blog"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای بلاگ
@@ -35,7 +35,7 @@
 
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Commercial.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Commercial.svg" alt="Audience attraction with Ads reportage"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای رپرتاژ آگهی
@@ -51,7 +51,7 @@
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
                     <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Shipping Product.svg"
-                        alt="" style="width:42px; height:42px">
+                        alt="Content writing to introduce your product" style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای توضیح محصول
                     </h3>

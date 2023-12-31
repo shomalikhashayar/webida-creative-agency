@@ -10,7 +10,7 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/Improve-ranking-in-Google-search-results.svg"
-               alt="" style="width:100%;">
+               alt="Improve ranking in Google search results" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
             <h3 class="text-h4 no-margin no-letter-spacing  text-weight-900 text-secondary">
@@ -35,7 +35,7 @@
             </p>
          </div>
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Increase-in-incoming-traffic.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Increase-in-incoming-traffic.svg" alt="Increase in incoming traffic"
                style="width:100%;">
          </div>
       </div>
@@ -44,7 +44,7 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/Increase-the-credibility-of-the-site.svg"
-               alt="" style="width:100%;">
+               alt="Increase the credibility of the site" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
             <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">

@@ -13,7 +13,7 @@
 
             <div class="col-5 bg-white q-py-xl q-px-lg column items-center">
                 <img class="q-mb-md" src="<?php echo get_template_directory_uri(); ?>/assets/icons/consultation.svg"
-                    alt="" style="width:81px">
+                    alt="SEO consulting" style="width:81px">
                 <h3 class="q-my-md text-center text-primary text-h4 no-letter-spacing text-weight-900">
                     تیم سئو و بازاریابی دیجیتال
                 </h3>
@@ -24,7 +24,7 @@
                     <p class="q-mb-none text-center text-primary text-h1 no-letter-spacing text-weight-700">
                         ۰۹۳۳۸۶۰۳۱۹۶
                     </p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Headset.png" alt=""
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Headset.png" alt="A headset logo"
                         style="width:40px; height:40px;">
                 </div>
             </div>

@@ -21,7 +21,7 @@
 
             </div>
             <div class="col-7">
-                <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-hero.png" alt="">
+                <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-hero.png" alt="See the business at the top of Google results" >
             </div>
         </div>
     </div>

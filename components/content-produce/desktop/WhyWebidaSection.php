@@ -8,7 +8,7 @@
 
          <div class="row no-wrap whyWebida-card items-center">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Guarantee2.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Guarantee2.svg" alt="Producing quality content for customers">
             <div class="q-pl-lg">
                <h4 class="text-h6 no-margin  no-letter-spacing text-weight-900 text-secondary">
                   کنترل کیفیت دو‌مرحله‌ای رایگان
@@ -22,7 +22,7 @@
 
          <div class="row no-wrap whyWebida-card items-center">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Building.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Business-Building.svg" alt="Appropriate content for your brand">
             <div class="q-pl-lg ">
                <h4 class="text-h6 no-margin  no-letter-spacing text-weight-900 text-secondary">
                   طبق لحن رسانه و برند شما
@@ -36,7 +36,7 @@
 
          <div class="row no-wrap whyWebida-card items-center">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Sand-Watch.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Sand-Watch.svg" alt="Completing content writing orders in the shortest possible time">
             <div class="q-pl-lg">
                <h4 class="text-h6 no-margin no-letter-spacing text-weight-900 text-secondary">
                   تحویل فوری
@@ -50,7 +50,7 @@
 
          <div class="row no-wrap whyWebida-card items-center">
             <img class="whyWebida-card-logo"
-               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Helping-Hand.svg" alt="">
+               src="<?php echo get_template_directory_uri(); ?>/assets/icons/Helping-Hand.svg" alt="Guaranteed to provide appropriate content">
             <div class="q-pl-lg ">
                <h4 class="text-h6 no-margin  no-letter-spacing text-weight-900 text-secondary">
                   ضمانت بازگشت وجه

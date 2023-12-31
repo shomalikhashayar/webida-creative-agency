@@ -10,7 +10,7 @@
          <div class="column q-gutter-y-md">
             <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                تضمین پایین ترین قیمت طراحی سایت </h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-dollar.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-dollar.svg" alt="A custom designed dollar"
                style="width:100%;">
             <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                طراحی وب‌سایت را با ما آغاز کنید و از تضمین پایین‌ترین قیمت بهره‌مند شوید! خلق یک حضور آنلاین و
@@ -21,7 +21,7 @@
          <div class="column q-gutter-y-md">
             <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                رابط کاربری ایده‌آل برای تجربه کاربری بی‌نظیر </h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-ux.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-ux.svg" alt="ui ux"
                style="width:100%;">
             <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                نه تنها از لحاظ عملکردی بلکه از نظر ظاهری هم شگفت‌آور باشید.
@@ -31,7 +31,7 @@
          <div class="column q-gutter-y-md">
             <h3 class="text-h4 no-margin no-letter-spacing text-weight-900 text-secondary">
                حریم خصوصی و امنیت اطلاعات </h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-privecy.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-privecy.svg" alt="Website privacy"
                style="width:100%;">
             <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                با استفاده از رمزنگاری قوی و فناوری‌های امنیتی پیشرفته، اطلاعات محرمانه و مهم وب‌سایت شما تا حد

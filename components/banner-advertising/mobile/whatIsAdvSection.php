@@ -5,7 +5,7 @@
       </h2>
       <div class=" column q-gutter-y-md items-center">
          <img class="full-width"
-            src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-pic.svg" alt=""
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-advertising-pic.svg" alt="An advertising banner"
             style="max-width:300px">
          <p class="no-letter-spacing q-mb-xl  no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark text-justify">
             تبلیغات بنری یک روش تبلیغاتی آنلاین است که در آن از تصاویر یا بنرهای تبلیغاتی برای جلب توجه مخاطبان استفاده

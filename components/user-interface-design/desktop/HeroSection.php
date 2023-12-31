@@ -16,7 +16,7 @@
             </div>
             <div class="col-7">
                 <img class="fit q-pl-lg"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Hero-desktop.svg" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Hero-desktop.svg" alt="Explanations about the user interface and user experience" >
             </div>
         </div>
     </div>

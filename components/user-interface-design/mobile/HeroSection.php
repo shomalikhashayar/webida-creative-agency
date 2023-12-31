@@ -14,7 +14,7 @@
 
             </p>
             <img class="fit q-pb-md"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Hero-mobile.svg" alt=""
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Hero-mobile.svg" alt="Explanations about the user interface and user experience"
                 style="max-width:250px;">
         
             <q-btn @click="" unelevated rounded label="به خلاقیت نیاز دارم"

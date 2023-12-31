@@ -12,7 +12,7 @@
                 انتقال حس بهتر به کاربر
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic1.svg"
-                    alt="" style="width:100%;">
+                    alt="Improve user experience with a convenient user interface" style="width:100%;">
                 <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                 یک رابط کاربری خوب باعث بهبود تجربه کاربری می‌شود. وقتی کاربران به سهولت و بدون مشکلات در یک نرم‌افزار یا وبسایت حرکت می‌کنند، احتمال استفاده مکرر و راضی‌تر از آن محصول بالا می‌رود.
 
@@ -24,7 +24,7 @@
                   اعتماد و اعتبار
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic2.svg"
-                    alt="" style="width:100%;">
+                    alt="Build credibility with a professional user interface" style="width:100%;">
                 <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                 یک رابط کاربری حرفه‌ای و محبوب به افزایش اعتماد کاربران نسبت به محصول کمک می‌کند. اعتماد کاربران به محصول باعث می‌شود که احتمال خرید مجدد و پیشنهاد به دیگران افزایش یابد.
                 
@@ -36,7 +36,7 @@
                 تمایز از رقبا
                 </h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic3.svg"
-                    alt="" style="width:100%;">
+                    alt="Differentiate from competitors with professional user interface" style="width:100%;">
                 <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
                 در محیط رقابتی فعلی، رابط کاربری به عنوان یک عامل تمایز‌دهنده مهم عمل می‌کند. یک طراحی منحصربه‌فرد و منطبق با نیازهای هدف‌گروه می‌تواند به محصول یا خدمت شما کمک کند تا از رقبا متمایز شود.
 

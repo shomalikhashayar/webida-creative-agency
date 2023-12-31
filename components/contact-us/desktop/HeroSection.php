@@ -1,6 +1,6 @@
 <div class="bg-accent">
     <div class="container contact-us-hero row items-center">
-        <img style="width:220px" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio.png" alt="">
+        <img style="width:220px" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio.png" alt="A soldier with a radio telephone">
         <div class="q-ml-xl" style="width: 600px">
             <h1 class="q-pb-lg no-line-height no-letter-spacing text-h3 text-weight-900 text-secondary">تماس با وبیدا
             </h1>

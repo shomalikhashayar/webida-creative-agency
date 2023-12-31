@@ -5,19 +5,19 @@
     <div class="row q-gutter-x-xl justify-center q-mb-xl">
 
       <div style="width:178px;">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt="fatemeh nilchi"
           style="width:178px;">
         <h2 class="text-white text-weight-700 text-body3 text-center ">فاطمه نیلچی</h2>
       </div>
 
       <div style="width:178px;">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt="khashayar shomali"
           style="width:178px;">
         <h2 class="text-white text-weight-700 text-body3 text-center ">خشایار شمالی</h2>
       </div>
 
       <div style="width:178px;">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt="mohammadhosein khanmohammadi"
           style="width:178px;">
         <h2 class="text-white text-weight-700 text-body3 text-center ">محمد حسین خان‌محمدی</h2>
       </div>
@@ -26,7 +26,7 @@
 
     <div class="row q-gutter-y-xl q-mb-xl q-pb-xl">
       <div class="row q-gutter-x-xl  q-pt-xl">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt="khashayar shomali"
           style="width:250px;">
         <div class="row content-center q-gutter-md" style="width:650px;">
           <h4 class="text-h4 q-ma-none text-weight-900 text-white"> وبیدا، جایی است که ایده‌های
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="row q-gutter-x-xl q-pt-xl">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt="mohammadhosein khanmohammadi"
           style="width:250px;">
         <div class="row content-center q-gutter-md" style="width:650px;">
           <h4 class="text-h4 q-ma-none text-weight-900 text-white"> با ما تماس بگیرید، مشتاق شنیدن
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="row q-gutter-x-xl q-pt-xl">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt="fatemeh nilchi"
           style="width:250px;">
         <div class="row content-center q-gutter-md" style="width:650px;">
           <h4 class="text-h4 q-ma-none text-weight-900 text-white">صرفا فقط خدمات نیست!
