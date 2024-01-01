@@ -1,5 +1,5 @@
 <div v-if="$q.screen.xs">
-    <q-form action="/webida" method="get">
+    <q-form action="/" method="get">
         <q-input dark oninvalid="this.setCustomValidity('خالی خالی؟')" hide-bottom-space id="search" v-model="searchBox"
             name="s" type="search" color="white" dense outlined placeholder="جستجو در بلاگ" required>
             <template v-slot:prepend>
@@ -11,7 +11,7 @@
 </div>
 
 <div v-if="$q.screen.sm">
-    <q-form action="/webida" method="get">
+    <q-form action="/" method="get">
         <q-input class="text-body1" dark oninvalid="this.setCustomValidity('خالی خالی؟')" hide-bottom-space id="search"
             v-model="searchBox" name="s" type="search" color="white" dense outlined placeholder="جستجو در بلاگ"
             required>
@@ -24,7 +24,7 @@
 </div>
 
 <div v-if="$q.screen.md">
-<q-form action="/webida" method="get">
+<q-form action="/" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
@@ -35,7 +35,7 @@
 </div>
 
 <div v-if="$q.screen.lg">
-    <q-form action="/webida" method="get">
+    <q-form action="/" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
@@ -46,7 +46,7 @@
 </div>
 
 <div v-if="$q.screen.gt.lg">
-    <q-form action="/webida" method="get">
+    <q-form action="/" method="get">
         <q-input style="width:250px;" v-model="searchBox" name="s" type="search" clearable clear-icon="close"
             color="primary" dense outlined placeholder="جستجو در بلاگ">
             <template #prepend>
