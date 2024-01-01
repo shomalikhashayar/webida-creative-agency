@@ -9,7 +9,7 @@
       <div class="container row">
         <div class="col row justify-between">
           <div class="row">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="" style="width:200px">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="a gravestone for Traditional business" style="width:200px">
             <h1 style="width:350px; line-height: 99px;"
               class="animate-characters q-pl-md text-weight-900 text-secondary">
               آژانس خلاقیت وبیدا</h1>
@@ -29,7 +29,7 @@
       <div class="container row">
         <div class="col row justify-between">
           <div class="row">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="" style="width:150px">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="a gravestone for Traditional business" style="width:150px">
             <h1 style="width:250px; line-height: 72px; font-size:64px;"
               class="animate-characters q-pl-md text-weight-900 text-secondary">
               آژانس خلاقیت وبیدا</h1>

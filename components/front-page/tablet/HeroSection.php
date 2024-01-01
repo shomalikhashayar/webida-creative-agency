@@ -9,7 +9,7 @@
         را رشد دهید!</h2>
       <p class="text-h1 text-weight-900 text-secondary no-margin q-py-md">در وبیدا به شما خلاقیت هدیه می‌دهیم.</p>
     </div>
-    <img class="q-mt-xl" src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt=""
+    <img class="q-mt-xl" src="<?php echo get_template_directory_uri(); ?>/assets/images/R.I.P.svg" alt="a gravestone for Traditional business"
       style="width:250px">
   </div>
 </div>

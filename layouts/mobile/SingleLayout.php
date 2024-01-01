@@ -8,8 +8,9 @@
     </div>
 
     <div class="col row items-center justify-end q-gutter-sm">
-      <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
-        class="webida-primary-lighten text-weight-regular" padding="6px 12px"></q-btn>
+
+      <q-btn @click="ConsultantModal = true" size="12px" unelevated rounded label="مشاوره رایگان"
+        class="webida-primary-lighten text-weight-regular" padding="6px 12px" /></q-btn>
 
       <?php get_template_part('/components/consultant-modal/ConsultantModal'); ?>
 
@@ -198,7 +199,7 @@
         <a class="text-white no-decoration" href="tel:09215848578">09215848578</a>
       </div>
 
-      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-blue-grey-8">
+      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-secondary-lighter">
 
         <q-card-section>
           <p class="text-center">با ما در شبکه‌های اجتماعی در ارتباط باشید</p>

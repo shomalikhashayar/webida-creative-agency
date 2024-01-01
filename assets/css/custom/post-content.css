@@ -81,7 +81,14 @@
 .post-content ol li {
   margin-bottom: 16px;
 }
+.post-content a {
+  color: var(--q-webida-primary);
+  text-decoration: none;
+}
 
+.post-content a:hover {
+  text-decoration: underline;
+}
 @media only screen and (min-width: 1024px) {
   .post-content p img {
     padding: 18px 0 0 0 !important;
@@ -106,4 +113,51 @@
   .post-content p img {
     padding: 12px 0 0 0 !important;
   }
+}
+
+.read-more-block {
+  display: flex;
+  flex-direction: column;
+  color: white !important;
+  background-color: #ce1340;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 16px !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  background-image: url(https://webida.ir/wp-content/uploads/2023/08/webida-bg-overlay.png);
+  background-size: contain;
+  background-blend-mode: overlay;
+}
+
+.read-more-block a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.quote-block {
+  background-color: #053751;
+  border-radius: 12px;
+  color: white !important;
+  padding: 16px 24px;
+  margin: 24px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://webida.ir/wp-content/uploads/2023/08/quote-bg-overlay.png);
+  background-size: contain;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}
+
+.quote-block a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.quote-block p {
+  color: white !important;
 }

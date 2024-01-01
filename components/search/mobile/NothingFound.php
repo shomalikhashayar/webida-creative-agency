@@ -1,5 +1,5 @@
 <div class="column items-center">
-    <img style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/images/nothing-found.svg" alt="">
+    <img style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/images/nothing-found.svg" alt="Drawing of a sad man">
     <div class="column q-gutter-y-md q-px-xl q-mt-md text-center">
         <span class="text-h6 text-secondary text-weight-900 no-letter-spacing">من خیلی متاسفم ولی چیزی که دنبالشی اینجا
             نیست</span>

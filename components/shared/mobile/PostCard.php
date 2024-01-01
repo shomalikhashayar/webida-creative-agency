@@ -4,8 +4,11 @@
 
     <q-card-section class="q-pa-none">
       <?php if (has_post_thumbnail()): ?>
-        <q-img fit="cover" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>" :ratio="1" alt=""
-          height="150px"></q-img>
+        <?php
+        $alt_text = get_the_title($post->ID);
+        ?>
+        <q-img spinner-color="primary" fit="cover" class="q-radius-xs q-mb-md" src="<?php the_post_thumbnail_url(); ?>"
+          :ratio="1" alt="<?php echo esc_attr($alt_text); ?>" height="150px"></q-img>
       <?php endif ?>
       <div class="row justify-between">
         <div style="margin-top:5px;" class="col text-weight-600 text-dark no-letter-spacing text-caption">

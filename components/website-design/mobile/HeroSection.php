@@ -12,7 +12,7 @@
         </div>
 
         <img class="col q-px-md q-pt-xl self-center"
-            src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-hero.png" alt=""
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/web-design-hero.png" alt="Web design"
             style="max-width:350px ; width:100%;">
 
     </div>

@@ -16,7 +16,7 @@
          </div>
 
          <div class="col">
-            <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-pic.svg" alt="">
+            <img class="fit" src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-pic.svg" alt="Improve ranking in Google">
          </div>
       </div>
 

@@ -6,13 +6,13 @@
         <div class="column q-gutter-y-lg items-center">
 
             <img class="full-width q-pb-sm "
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/temp-1.gif" alt=""
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/temp-1.gif" alt="An animated photo to explain the effectiveness of banner ads"
                 style="max-width:350px;">
 
             <img class="full-width  q-pb-sm" src="<?php echo get_template_directory_uri(); ?>/assets/images/temp-2.gif"
-                alt="" style="max-width:350px;">
+                alt="An animated photo to explain the simplicity of banner ads" style="max-width:350px;">
 
-            <img class="full-width" src="<?php echo get_template_directory_uri(); ?>/assets/images/temp-3.gif" alt=""
+            <img class="full-width" src="<?php echo get_template_directory_uri(); ?>/assets/images/temp-3.gif" alt="An animated photo to explain how fast banner ads are"
                 style="max-width:350px;">
 
         </div>

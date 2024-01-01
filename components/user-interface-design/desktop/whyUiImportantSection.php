@@ -10,10 +10,10 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic1.svg"
-               alt="" style="width:100%;">
+               alt="Improve user experience with a convenient user interface" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin no-letter-spacing  text-weight-900 text-secondary">
                انتقال حس بهتر به کاربر
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-400 line-height-sm text-dark">
@@ -27,7 +27,7 @@
 
       <div class="row items-center" style="column-gap: 90px; margin-top:48px;">
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin text-weight-900  no-letter-spacing text-secondary">
                اعتماد و اعتبار
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">
@@ -37,7 +37,7 @@
             </p>
          </div>
          <div class="col ">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic2.svg" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic2.svg" alt="Build credibility with a professional user interface"
                style="width:100%;">
          </div>
       </div>
@@ -46,10 +46,10 @@
          <div class="col ">
             <img
                src="<?php echo get_template_directory_uri(); ?>/assets/images/UI-UX-Pic3.svg"
-               alt="" style="width:100%;">
+               alt="Differentiate from competitors with professional user interface" style="width:100%;">
          </div>
          <div class="col q-gutter-y-sm">
-            <h3 class="text-h4 no-margin text-weight-900 text-secondary">
+            <h3 class="text-h4 no-margin  no-letter-spacing text-weight-900 text-secondary">
                تمایز از رقبا
             </h3>
             <p class="no-letter-spacing text-body1 text-weight-500 line-height-sm text-dark">

@@ -4,7 +4,7 @@
       <div class="row justify-center items-center q-mb-xl">
          <div class="col column item-center">
             <div class="text-center">
-               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt="fatemeh nilchi"
                   style="width:120px;">
             </div>
             <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">فاطمه نیلچی
@@ -12,7 +12,7 @@
          </div>
          <div class="col column item-center">
             <div class="text-center">
-               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
+               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt="khashayar shomali"
                   style="width:120px;">
             </div>
             <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">خشایار شمالی
@@ -21,7 +21,7 @@
          <div class="col column item-center">
             <div class="text-center">
                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png"
-                  alt="" style="width:120px;">
+                  alt="mohammadhosein khanmohammadi" style="width:120px;">
             </div>
             <h2 class="text-h4 no-margin text-white text-weight-400 text-caption-sm text-center">محمد خان محمدی
             </h2>
@@ -30,7 +30,7 @@
 
       <div class="row q-gutter-y-xl q-mb-xl">
          <div class="column items-center  q-gutter-y-md q-px-sm">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/khashayarshomali.png" alt="khashayar shomali"
                style="width:200px;">
             <h4 class="text-h1 line-height-lg q-ma-none text-weight-900 text-center text-white q-mt-lg">
                وبیدا، جایی
@@ -44,7 +44,7 @@
                کرده‌اند، اینجا هستیم.
          </div>
          <div class="column items-center q-gutter-y-md q-px-sm">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fatemehnilchi.png" alt="fatemeh nilchi"
                style="width:200px;">
             <h4 class="text-h1 line-height-lg q-ma-none text-weight-900 text-center text-white q-mt-lg">
                با ما تماس بگیرید، مشتاق شنیدن صدایتان هستیم.
@@ -54,7 +54,7 @@
                ما کمک بخواهید. مسیر ارتباطی با ما همواره باز است.
          </div>
          <div class="column items-center q-gutter-y-md q-px-sm">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt=""
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mohammadhoseinkhanmohammadi.png" alt="mohammadhosein khanmohammadi"
                style="width:200px;">
             <h4 class="text-h1 q-ma-none line-height-lg text-weight-900 text-center text-white q-mt-lg">
                صرفا فقط خدمات نیست!

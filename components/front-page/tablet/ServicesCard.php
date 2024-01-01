@@ -18,7 +18,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-website-design.svg" alt="" />
+          <q-img spinner-color="primary"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-website-design.svg" alt="Web design" />
         </q-card-section>
 
       </q-card>
@@ -35,7 +36,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-seo.svg" alt="" />
+          <q-img spinner-color="primary" src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-seo.svg"
+            alt="SEO" />
         </q-card-section>
 
       </q-card>
@@ -52,7 +54,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-link-building.svg" alt="" />
+          <q-img spinner-color="primary"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-content-produce.svg" alt="Content production" />
         </q-card-section>
 
       </q-card>
@@ -69,7 +72,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-link-building.svg" alt="" />
+          <q-img spinner-color="primary"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-link-building.svg" alt="Building links and buying backlinks" />
         </q-card-section>
 
       </q-card>
@@ -87,8 +91,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-user-interface-design.svg"
-            alt="" />
+          <q-img spinner-color="primary"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-user-interface-design.svg" alt="UIUX design" />
         </q-card-section>
 
       </q-card>
@@ -105,7 +109,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <q-img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-banner-advertising.svg" alt="" />
+          <q-img spinner-color="primary"
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-banner-advertising.svg" alt="Banner advertising" />
         </q-card-section>
 
       </q-card>

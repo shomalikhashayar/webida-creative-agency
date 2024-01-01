@@ -5,6 +5,7 @@
       <span class="text-body1 webiba-text no-letter-spacing">با استفاده از تکنولوژی و خلاقیت بهترین نتیجه را برایتان
         به ارمغان
         می‌آوریم.</span>
+
       <q-btn @click="ConsultantModal = true" unelevated rounded label="مشاوره رایگان"
         class="webida-primary-lighten text-weight-regular text-body1" padding="6px 12px"></q-btn>
 
@@ -211,7 +212,7 @@
         <a class="text-h6 text-weight-400 text-white no-decoration" href="tel:09215848578">09215848578</a>
       </div>
 
-      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-blue-grey-8">
+      <q-card class="no-shadow no-border q-mt-md q-pb-md q-radius-sm bg-secondary-lighter">
 
         <q-card-section>
           <p class="text-center text-h6 text-weight-400">با ما در شبکه‌های اجتماعی در ارتباط باشید</p>

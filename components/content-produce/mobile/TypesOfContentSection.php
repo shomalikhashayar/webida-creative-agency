@@ -8,26 +8,26 @@
         <div class=" q-gutter-y-xl">
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/News.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/News.svg" alt="Production of news content"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای خبری
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm no-letter-spacing  text-dark text-body1 text-justify text-weight-400">
                     محتوا سازی برای ارتقاء روابط عمومی و ایجاد برند، تا برندتان به آغوش رسانه‌ها بیفتد.
                 </p>
             </div>
 
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Content.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Content.svg" alt="Content writing for your blog"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای بلاگ
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     با استفاده از اصول سئو و رسانه‌ای که بازنمایی کسب‌وکارتان است، به دنبال تسخیر رتبه‌های برتر گوگل
                     هستیم.
                 </p>
@@ -35,13 +35,13 @@
 
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Commercial.svg" alt=""
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Commercial.svg" alt="Audience attraction with Ads reportage"
                         style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای رپرتاژ آگهی
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     تولید محتوا با رعایت اصول بهینه‌سازی برای موتورهای جستجو و استفاده از سبکی جذاب و متناسب با
                     رسانه‌ها،
                     با هدف بهبود سئوی خارجی و جذب توجه مخاطبان به سوی کسب‌وکار شما تخصص ماست.
@@ -51,12 +51,12 @@
             <div class="column">
                 <div class="row bg-primary content-center whywebida-card-title-Section">
                     <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/Shipping Product.svg"
-                        alt="" style="width:42px; height:42px">
+                        alt="Content writing to introduce your product" style="width:42px; height:42px">
                     <h3 class="no-margin text-white text-body1 line-height-md no-letter-spacing text-weight-900">
                         محتوای توضیح محصول
                     </h3>
                 </div>
-                <p class="no-margin line-height-sm text-dark text-body1 text-justify text-weight-400">
+                <p class="no-margin line-height-sm text-dark text-body1 no-letter-spacing  text-justify text-weight-400">
                     تهیه محتوا به منظور ارتقاء شناخت مخاطبان نسبت به محصولات و خدمات شما، از طریق تبیین جوانب مختلف
                     آن‌ها،
                     به منظور تسهیل در فهم و درک عمقی، و در نتیجه ایجاد افزایش در فروش و بهبود بهینه‌سازی صفحات

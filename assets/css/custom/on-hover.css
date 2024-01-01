@@ -1,0 +1,36 @@
+
+.on-hover-primary-1:hover {
+    border: 1px solid var(--q-webida-primary) !important;
+    box-shadow: 0 0 8px 0 #ce134024 !important;
+    transition: 0.3s;
+  }
+  
+  .on-hover-primary-2:hover {
+    border: 2px solid var(--q-webida-primary) !important;
+    box-shadow: 0 0 8px 0 #ce134024 !important;
+    transition: 0.3s;
+  }
+  
+  .on-hover-secondary-1:hover {
+    border: 1px solid var(--q-webida-secondary) !important;
+    box-shadow: 0 0 8px 0 #053751 !important;
+    transition: 0.3s;
+  }
+  .on-hover-secondary-2:hover {
+    border: 2px solid var(--q-webida-secondary) !important;
+    box-shadow: 0 0 8px 0 #053751 !important;
+    transition: 0.3s;
+  }
+  
+  .text-primary-hover:hover {
+    color: var(--q-webida-primary) !important;
+  }
+  
+  
+  .link-on-hover a:hover {
+    text-decoration: underline !important;
+  }
+  
+  .no-link-on-hover a:hover {
+    text-decoration: none !important;
+  }
