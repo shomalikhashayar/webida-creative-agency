@@ -4,7 +4,7 @@
       <h2 class="text-h3 text-secondary text-weight-900">خدمات <span class="text-primary text-weight-900">وبیدا</span>
       </h2>
     </div>
-    <!-- کارت های خدمات در حالت دسکتاپ -->
+  
     <div class="services-card-container" v-if="$q.screen.gt.md">
       <q-card class="full-width services-card q-pa-md no-shadow q-radius-sm on-hover-primary-1">
 
@@ -114,8 +114,6 @@
 
       </q-card>
     </div>
-
-    <!-- کارت های خدمات در حالت لپتاپ -->
     <div class="services-card-container" v-if="$q.screen.md">
       <?php get_template_part('/components/front-page/laptop/ServicesCard') ?>
     </div>

@@ -22,7 +22,6 @@
           <q-avatar class="q-mr-sm">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/webida-logo.svg">
           </q-avatar>
-          <!-- نمایش نام سایت فقط در دسکتاپ -->
           <span v-if="$q.screen.gt.md" class="text-weight-900">آژانس خلاقیت وبیدا</span>
         </a>
       </div>
@@ -50,7 +49,6 @@
       </div>
       <div class="row items-center">
         <?php get_search_form(); ?>
-        <!-- دکمه پشتیبانی فقط در حالت لپتاپ -->
         <q-btn color="secondary" class="q-ml-sm" flat label="" icon="o_perm_phone_msg" v-if="$q.screen.md">
           <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
             <q-list padding>
@@ -90,7 +88,6 @@
             </q-list>
           </q-menu>
         </q-btn>
-        <!-- دکمه پشتیبانی فقط در حالت دسکتاپ -->
         <q-btn color="secondary" class="q-ml-sm" flat label="پشتیبانی" icon="o_perm_phone_msg" v-if="$q.screen.gt.md">
           <q-menu fit transition-show="jump-down" transition-hide="jump-up" style="width:240px" :offset="[0, 10]">
             <q-list padding>

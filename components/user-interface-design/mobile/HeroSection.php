@@ -1,11 +1,9 @@
 <div class="bg-accent">
     <div class="container q-py-xl items-center">
         <div class="column items-center">
-            <!-- تایتل تبلت  -->
             <h2 class="text-h3 no-letter-spacing  no-margin text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
             طراحی رابط کاربری به گونه ای که همیشه خواسته اید!
             </h2>
-            <!-- تایتل موبایل -->
             <h2 class="text-h4 no-margin  no-letter-spacing text-center text-weight-900 text-secondary" v-if="$q.screen.xs">
             طراحی رابط کاربری به گونه ای که همیشه خواسته اید!
             </h2>

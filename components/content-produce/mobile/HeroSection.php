@@ -1,11 +1,9 @@
 <div class="bg-accent">
     <div class="container q-py-xl items-center">
         <div class="column items-center">
-            <!-- تایتل تبلت  -->
             <h2 class="text-h3 no-margin text-center no-letter-spacing  text-weight-900 text-secondary" v-if="$q.screen.sm">
             محتوایی که همیشه در خانهٔ ذهن خوانندگان می‌ماند
             </h2>
-            <!-- تایتل موبایل -->
             <h2 class="text-h4 no-margin text-center no-letter-spacing  text-weight-900 text-secondary" v-if="$q.screen.xs">
                 محتوایی که همیشه در خانهٔ ذهن خوانندگان می‌ماند
             </h2>

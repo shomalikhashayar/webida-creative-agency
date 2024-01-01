@@ -1,12 +1,10 @@
 <div class="bg-accent">
     <div class="link-building-hero items-center">
         <div class="column items-center">
-            <!-- تایتل تبلت  -->
             <h2 class="text-h3 no-margin no-letter-spacing  text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
             خرید بک لینک تضمینی
 
             </h2>
-            <!-- تایتل موبایل -->
             <h2 class="text-h4 no-margin  no-letter-spacing text-center text-weight-900 text-secondary" v-if="$q.screen.xs">
             خرید بک لینک تضمینی
 

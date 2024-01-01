@@ -13,11 +13,11 @@
 
 
   <q-layout :view="rightLayout" v-if="$q.screen.gt.xs">
-    <!-- هدر و فوتر تبلت -->
+
     <div v-if="$q.screen.sm">
       <?php get_template_part('/layouts/tablet/MainLayout'); ?>
     </div>
-    <!-- هدر و فوتر دسکتاپ -->
+
     <div v-if="$q.screen.gt.sm">
       <?php get_template_part('/layouts/desktop/MainLayout'); ?>
     </div>

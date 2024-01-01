@@ -1,11 +1,9 @@
 <div class="bg-accent">
     <div class="container seo-hero-section items-center">
         <div class="column  items-center">
-            <!-- تایتل تبلت  -->
             <h2 class="text-h3 no-margin  no-letter-spacing text-center text-weight-900 text-secondary" v-if="$q.screen.sm">
                 سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
             </h2>
-            <!-- تایتل موبایل -->
             <h2 class="text-h4 no-margin text-center no-letter-spacing  text-weight-900 text-secondary" v-if="$q.screen.xs">
                 سئو: جادویی که وبسایتتان را به بالاترین اوج‌ها سوق می‌دهد!
             </h2>
