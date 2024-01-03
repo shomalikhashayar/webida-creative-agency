@@ -17,6 +17,7 @@
     ?>
   </title>
 
+  <meta property="og:site_name" content="آژانس خلاقیت وبیدا"/>
   <meta name="description" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="msapplication-tap-highlight" content="no" />
@@ -31,6 +32,16 @@
   <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+
+  <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "آژانس خلاقیت وبیدا",
+      "url" : "https://webida.ir/"
+    }
+  </script>
+  
 </head>
 
 <div id="q-app">
