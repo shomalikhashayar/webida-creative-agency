@@ -5,18 +5,7 @@
 <head>
   <?php wp_head(); ?>
   <meta charset="UTF-8">
-
-  <title>
-    <?php
-    if (is_front_page()) {
-      echo 'آژانس خلاقیت وبیدا | طراحی و سئو سایت با خلاقیت بی‌پایان';
-    } else {
-      wp_title('|', true, 'right');
-      echo bloginfo('name');
-    }
-    ?>
-  </title>
-
+  <title><?php wp_title('|', true, 'right'); ?></title>
   <meta property="og:site_name" content="آژانس خلاقیت وبیدا"/>
   <meta name="description" />
   <meta name="format-detection" content="telephone=no" />
